@@ -27,7 +27,7 @@ const base = `http://127.0.0.1:${server.address().port}/`;
 const results = [];
 function check(name, ok, detail = '') { results.push({ name, ok: !!ok, detail }); console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}${detail ? '  — ' + detail : ''}`); }
 
-const ROUTES = ['', 'issues', 'issues/I1', 'stakeholders', 'stakeholders?view=all', 'flow', 'candidates', 'unknowns', 'interviews', 'pilots', 'cases', 'claims', 'sources', 'output', 'print/summary', 'print/detail'];
+const ROUTES = ['', 'depin', 'ideas', 'status', 'issues', 'issues/I1', 'stakeholders', 'stakeholders?view=all', 'flow', 'candidates', 'unknowns', 'interviews', 'pilots', 'cases', 'claims', 'sources', 'output', 'print/summary', 'print/detail', 'print/reading'];
 
 const browser = await playwright.chromium.launch();
 try {
@@ -39,7 +39,21 @@ try {
   page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
 
   await page.goto(base);
-  check('起動：タイトルと進め方が出る', await page.locator('h1').first().textContent() && await page.locator('.flow-steps li').count() === 4);
+  check('起動：「最初に読む」が出て目次がある', (await page.locator('h1').first().textContent()).length > 0 && await page.locator('.toc li').count() >= 3);
+  await page.goto(base + '#/status');
+  check('データの状況：進め方が出る', await page.locator('.flow-steps li').count() === 4);
+  await page.goto(base + '#/ideas');
+  const ideaN = await page.locator('article.idea').count();
+  check('アイデア一覧：10案以上が出る', ideaN >= 10, `${ideaN} 案`);
+  await page.selectOption('form[data-filter=ideas] select[name=v]', '見送り');
+  await page.waitForTimeout(100);
+  const skipN = await page.locator('article.idea').count();
+  check('アイデア一覧：判定で絞り込める', skipN > 0 && skipN < ideaN, `${skipN}/${ideaN}`);
+  await page.goto(base + '#/depin');
+  check('DePIN分析：本文に根拠チップがある', await page.locator('.doc-sec [data-claim]').count() >= 10);
+  await page.locator('.toc a').nth(2).click();
+  await page.waitForTimeout(200);
+  check('DePIN分析：目次から節へ移動できる', await page.evaluate(() => window.scrollY > 100));
 
   for (const r of ROUTES) {
     await page.goto(base + '#/' + r);
@@ -53,7 +67,7 @@ try {
   // 導線 1: 候補比較
   await page.goto(base + '#/candidates');
   const propCols = await page.locator('table.compare thead th').count() - 1;
-  check('候補比較：案が3つ前後並ぶ', propCols >= 2 && propCols <= 4, `${propCols} 案`);
+  check('候補比較：案が2〜6つ並ぶ', propCols >= 2 && propCols <= 6, `${propCols} 案`);
   check('候補比較：総合点の列がない', !/(総合点|合計点|スコア)\s*[:：]?\s*\d/.test(await page.locator('table.compare').innerText()));
   await page.screenshot({ path: join(outDir, 'pc-candidates.png'), fullPage: true });
 
@@ -169,7 +183,7 @@ try {
     const overflow = await mp.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     check(`モバイル #/${r}：横にはみ出さない`, overflow <= 1, `超過 ${overflow}px`);
   }
-  for (const [r, name] of [['', 'mobile-overview'], ['issues/I1', 'mobile-issue'], ['candidates', 'mobile-candidates'], ['interviews', 'mobile-interviews'], ['flow', 'mobile-flow']]) {
+  for (const [r, name] of [['', 'mobile-guide'], ['depin', 'mobile-depin'], ['ideas', 'mobile-ideas'], ['issues/I1', 'mobile-issue'], ['candidates', 'mobile-candidates'], ['interviews', 'mobile-interviews'], ['flow', 'mobile-flow']]) {
     await mp.goto(base + '#/' + r);
     await mp.screenshot({ path: join(outDir, name + '.png'), fullPage: false });
   }

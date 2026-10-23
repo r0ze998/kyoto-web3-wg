@@ -1,0 +1,2245 @@
+{
+  "topic": "日本のDePINと参加型センシング",
+  "sources": [
+    {
+      "id": "J-S01",
+      "title": "DMM CryptoがHivemapperと提携 AI活用の地図データ収集で実証実験へ",
+      "publisher": "CoinPost",
+      "url": "https://coinpost.jp/?p=552421",
+      "published": "2024-08-19",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "本文を取得して確認。JETRO「対内直接投資促進事業費補助金事業」採択の記載あり。JETRO側の一次発表は未確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "curlで取得。タイトル・本文一致。CoinPost記事で一次（DMM/JETRO）ではない"
+    },
+    {
+      "id": "J-S02",
+      "title": "DMMグループのWeb3事業「Seamoon Protocol」が撤退を発表、独自トークンも発行中止へ",
+      "publisher": "CoinPost",
+      "url": "https://coinpost.jp/?p=572885",
+      "published": "2024-11-15",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "本文を取得して確認。「その他のサービスやパートナーシップについては、今後の方針を引き続き検討」との記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "curlで取得。公開 2024/11/15 15:52（更新 11/16）"
+    },
+    {
+      "id": "J-S03",
+      "title": "東電が「稼げるゲーム」仕掛けたワケ。電柱撮影で「数十万円」ゲットも",
+      "publisher": "Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/298271/",
+      "published": "2024-12-11",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "WebFetchで本文を確認。C.json の C-S40 と同じ記事。ここでは費用の流れ（東電PGが画像の対価を支払う）の確認に使う。数値は東電PG・運営側への取材にもとづく",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "curlで取得。datePublished 2024-12-11T06:40+09:00。対価の記述は記者の地の文"
+    },
+    {
+      "id": "J-S04",
+      "title": "鈴木直道北海道知事を表敬訪問 北海道で初開催した参加型社会貢献ゲーム「PicTree(ピクトレ)」成果を報告",
+      "publisher": "Digital Entertainment Asset Pte.Ltd.（さんたつ by 散歩の達人 掲載のプレスリリース）",
+      "url": "https://san-tatsu.jp/pressrelease/488465/",
+      "published": "2025-12-11",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "DEAのプレスリリース転載ページ。表敬訪問日は2025年12月5日。73万本などの数値は運営側の発言",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "さんたつ転載ページ。更新日2025.12.11。PR TIMESの原リリースURLは未確認"
+    },
+    {
+      "id": "J-S05",
+      "title": "今年も北海道で電力・通信インフラを対象とした撮影イベントを開催「ピクトレまちバトル in 北海道 2026夏」を8月8日(土)より開始",
+      "publisher": "株式会社Digital Entertainment Asset（PR TIMES）。DEA・GRG・北海道電力ネットワーク・NTT MEの連名発表",
+      "url": "https://prtimes.jp/main/html/rd/p/000000328.000047612.html",
+      "published": "2026-08-05",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "本文を取得して確認。正確な配信日はページから取得できず（転載先 resemom.jp のURLは2026-08-05）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PR TIMES 2026年8月5日 14時00分配信（datePublished 2026-08-05 14:00:02）。配信元は日本法人 株式会社Digital Entertainment Asset、DEA・GRG・北海道電力ネットワーク・NTT MEの連名"
+    },
+    {
+      "id": "J-S06",
+      "title": "別紙1 ピクトレおよびイベントの詳細（NTT西日本×沖縄電力「ピクトレ ぼくとわたしの電柱合戦 in 沖縄」）",
+      "publisher": "西日本電信電話株式会社",
+      "url": "https://www.ntt-west.co.jp/news/2512/pdf/251215b_1.pdf",
+      "published": "2025-12-15",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "PDFを取得し本文を確認。ファイル名から2025年12月15日付の報道発表の別紙と判断",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDFを取得。親リリース（https://www.ntt-west.co.jp/news/2512/251215b.html、2025年12月15日、NTT西日本・NTTフィールドテクノ・沖縄電力ほか）の別紙1であることを確認"
+    },
+    {
+      "id": "J-S07",
+      "title": "参加型社会貢献コンテンツ「PicTree（ピクトレ）」の実証実験結果を市長へ報告します",
+      "publisher": "沼津市 産業振興部 観光戦略課",
+      "url": "https://city.numazu.shizuoka.jp/shisei/pr/press/pdf/2025/20250516_3.pdf",
+      "published": "2025-05-16",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFを取得し本文を確認。市は表敬訪問を受ける立場で、費用負担の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。令和7年5月16日発表。表敬訪問（5月20日）の事前告知"
+    },
+    {
+      "id": "J-S08",
+      "title": "博報堂キースリー、米国発の世界的DePINプロジェクト「DIMO」と日本法人「DIMO Japan」を設立",
+      "publisher": "株式会社博報堂キースリー（ASCII.jp 掲載のPR TIMESリリース）",
+      "url": "https://ascii.jp/elem/000/004/281/4281434/",
+      "published": "2025-06-13",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "WebFetchで確認。設立日・出資比率・提携メーカー名の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ASCII datePublished 2025-06-13 10:00"
+    },
+    {
+      "id": "J-S09",
+      "title": "KDDIとMawari、分散型インフラ事業のパートナーシップへ向けて基本合意書を締結",
+      "publisher": "KDDI株式会社・株式会社Mawari（ASCII STARTUP 掲載のリリース）",
+      "url": "https://ascii.jp/elem/000/004/236/4236398/",
+      "published": "2024-11-22",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "本文を取得して確認。基本合意の段階",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ASCII datePublished 2024-11-22 10:00"
+    },
+    {
+      "id": "J-S10",
+      "title": "課題241 高信頼データ流通のための非集中型ネットワーク内ストレージ及びアプリケーションの研究開発（採択番号24101 概要）",
+      "publisher": "国立研究開発法人情報通信研究機構（NICT）",
+      "url": "https://www.nict.go.jp/collabo/commission/keikaku/r07/24101_overview.pdf",
+      "published": "2025",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。NICTは総務省所管。研究開発期間は令和7年度から令和8年9月30日まで。委託額の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得、本文一致"
+    },
+    {
+      "id": "J-S11",
+      "title": "web3ホワイトペーパー2024 ～新たなテクノロジーが社会基盤となる時代へ～（要旨）",
+      "publisher": "自由民主党デジタル社会推進本部 web3プロジェクトチーム（平将明議員サイト掲載）",
+      "url": "https://www.taira-m.jp/web3ホワイトペーパー2024要旨.pdf",
+      "published": "2024-04",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "PDFを取得し全文を検索。DePIN・分散型物理インフラの語は見当たらなかった（要旨版のみ確認、本文版は未確認）。政党の提言で政府資料ではない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得、表紙「2024年4月」。DePIN等0件"
+    },
+    {
+      "id": "J-S12",
+      "title": "Web3.0研究会報告書 ～Web3.0の健全な発展に向けて～",
+      "publisher": "デジタル庁",
+      "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/a31d04f1-d74a-45cf-8a4d-5f76e0f1b6eb/a53d5e03/20221227_meeting_web3_report_00.pdf",
+      "published": "2022-12-27",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し全文を検索。DePIN・分散型物理インフラの語は見当たらなかった",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得（テキスト抽出可）、2022年12月。DePIN等0件"
+    },
+    {
+      "id": "J-S13",
+      "title": "危機管理型水位計の概要／関東地方整備局管内 危機管理型水位計 設置予定数",
+      "publisher": "国土交通省 関東地方整備局",
+      "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000699141.pdf",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。日付の記載なし。「国管理河川においては、平成30年度中に水位計の設置を進める」とあり、2018年頃の資料と推定",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。日付記載なし（平成30年度中の設置を進めるとの記載から2018年頃）"
+    },
+    {
+      "id": "J-S14",
+      "title": "危機管理に対応した水位観測検討会 第1回 資料2 開発中の水位計について",
+      "publisher": "国土交通省 水管理・国土保全局",
+      "url": "https://www.mlit.go.jp/river/shinngikai_blog/suiikansoku/dai01kai/pdf/doc_2.pdf",
+      "published": "2017-09-21",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。日付の記載を本文から確認できず（2017年頃の第1回検討会資料と推定）。資料名は本文から要約",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。国交省の資料一覧ページで、危機管理に対応した水位観測検討会 第1回（平成29年9月21日）資料2「開発中の水位計について」と確認"
+    },
+    {
+      "id": "J-S15",
+      "title": "新規水位計（危機管理型水位計）の設置について（鹿児島県 資料5）",
+      "publisher": "鹿児島県",
+      "url": "https://www.pref.kagoshima.jp/ah06/event/documents/64796_20191202180059-1.pdf",
+      "published": "2019-12",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFを取得し本文を確認。日付はファイル名から推定。全国約5,800箇所は国の中小河川緊急治水対策プロジェクトの計画値の引用",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得（資料5「新規水位計（危機管理型水位計）の設置について」）。日付はファイル名からの推定のまま"
+    },
+    {
+      "id": "J-S16",
+      "title": "危機管理型水位計について",
+      "publisher": "千葉県 県土整備部 河川環境課",
+      "url": "https://www.pref.chiba.lg.jp/kakan/h20-suibou/kikikanrisuii.html",
+      "published": "2026-03-24",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "ページを取得し本文を確認。令和8年3月24日運用開始分の記載あり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "更新日 令和8(2026)年3月24日"
+    },
+    {
+      "id": "J-S17",
+      "title": "簡易型河川監視カメラ設置の手引き（案）",
+      "publisher": "国土交通省 水管理・国土保全局",
+      "url": "https://www.mlit.go.jp/river/shishin_guideline/kasen/pdf/kanigata_tebiki.pdf",
+      "published": "2026-03",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。カメラ本体価格の記載は見つからず、通信費の例（令和8年1月のインターネット調査）が記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得（約10MB）、令和8年3月、河川計画課河川情報企画室・河川環境課河川保全企画室"
+    },
+    {
+      "id": "J-S18",
+      "title": "配信を停止している簡易型河川監視カメラの再開について",
+      "publisher": "国土交通省 水管理・国土保全局",
+      "url": "https://www.mlit.go.jp/report/press/content/001598899.pdf",
+      "published": "2023-03-31",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得、令和5年3月31日"
+    },
+    {
+      "id": "J-S19",
+      "title": "簡易型河川監視カメラ画像のウェブ提供を4月1日より開始します ～近畿管内の国管理河川において225箇所の河川画像を追加配信～",
+      "publisher": "国土交通省 近畿地方整備局",
+      "url": "https://www.kkr.mlit.go.jp/news/top/press/2019/20200327-3.html",
+      "published": "2020-03-27",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "ページを取得し本文を確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ページ取得"
+    },
+    {
+      "id": "J-S20",
+      "title": "管理施設、区域指定等の概要（河川）",
+      "publisher": "京都府 建設交通部 京都土木事務所",
+      "url": "https://www.pref.kyoto.jp/kyotodoboku/b_kasen.html",
+      "published": "2026-08-26",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "ページを取得し本文を確認。京都市域の府管理河川が対象。設置年・費用の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "更新日：2026年8月26日。件数を再カウントし一致"
+    },
+    {
+      "id": "J-S21",
+      "title": "取組事例：道路巡回業務におけるAI道路損傷検知システムの導入（愛媛県今治市）",
+      "publisher": "愛媛県（今治市 建設部建設政策局道路課 作成の事例シート）",
+      "url": "https://www.pref.ehime.jp/uploaded/attachment/133080.pdf",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFを取得し本文を確認。取組期間は令和6年4月～。実績値の収集期間は令和6年4月1日～30日。作成日の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。作成日・掲載ページは未確認"
+    },
+    {
+      "id": "J-S22",
+      "title": "令和6年度民間提案型官民連携モデリング事業 シーズ提案書「ドラレコ・ロードマネージャーによる道路維持管理の効率化」",
+      "publisher": "国土交通省（提案者：三井住友海上火災保険株式会社）",
+      "url": "https://www1.mlit.go.jp/sogoseisaku/kanminrenkei/content/001737097.pdf",
+      "published": "2024",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。国交省サイト掲載だが内容は事業者の提案（自己申告）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。提案書に担当者の個人連絡先が載っているため、引用時に転記しないこと"
+    },
+    {
+      "id": "J-S23",
+      "title": "第6回インフラメンテナンス大賞 優秀賞「ドライブレコーダーデータによる道路損傷検知サービス」",
+      "publisher": "国土交通省",
+      "url": "https://www.mlit.go.jp/sogoseisaku/maintenance/03activity/pdf/06_32.pdf",
+      "published": "2022-12-05",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。発行年の記載なし（第6回の表彰資料）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。第6回の受賞者決定は令和4年12月5日（国交省報道発表）"
+    },
+    {
+      "id": "J-S24",
+      "title": "NEC、ドライブレコーダーの映像からAIで道路の劣化状況を診断する「くるみえ for Cities」",
+      "publisher": "クラウド Watch（インプレス）",
+      "url": "https://cloud.watch.impress.co.jp/docs/news/1288635.html",
+      "published": "2020-11-12",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "本文を取得して確認。価格は提供開始時点。導入自治体数は本記事では未確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "datePublished 2020-11-12T12:03"
+    },
+    {
+      "id": "J-S25",
+      "title": "AIを活用した道路点検システム（My City Report for road managers）",
+      "publisher": "東京大学",
+      "url": "https://www.u-tokyo.ac.jp/adm/uci/ja/projects/dp/project_00005.html",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "ページを取得し本文を確認。13自治体の時点の記載なし。市民投稿版（MCR for citizens）は C.json で扱い済み",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ページ取得。日付記載なし"
+    },
+    {
+      "id": "J-S26",
+      "title": "（株）富士通交通・道路データサービスの分析サービス（MCPCアワード2017 応募資料）",
+      "publisher": "株式会社富士通交通・道路データサービス",
+      "url": "https://www.mcpc-jp.org/award2017/pdf/2017_07.pdf",
+      "published": "2017",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "PDFを取得し本文を確認。料金・導入自治体数の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。Copyright 2017"
+    },
+    {
+      "id": "J-S27",
+      "title": "わなの捕獲監視センサー（SMS通知）導入（徳島県勝浦町）",
+      "publisher": "農林水産省（鳥獣被害対策 優良事例）",
+      "url": "https://www.maff.go.jp/j/seisan/tyozyu/higai/hyousyou_zirei/yuuryou_jirei/attach/pdf/47zirei-1-44.pdf",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。実績はR2.10.25～R3.3.31。作成日の記載なし（2021年頃と推定）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得"
+    },
+    {
+      "id": "J-S28",
+      "title": "センサーネットワークによる鳥獣被害対策（長野県塩尻市）",
+      "publisher": "総務省 地域社会DXのトビラ（事例）",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/local_support/ict/jirei/2017_034.html",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "ページを取得し本文を確認。導入費271,000千円、運用費は「-」（記載なし）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "現在は総務省「地域社会DXのトビラ」内の事例ページ。「2017」はサイトフッターの著作権表示で公表日ではない"
+    },
+    {
+      "id": "J-S29",
+      "title": "「鳥獣被害対策に関する実態調査－ICTを活用した対策の条件整備を中心として－」の結果に基づく通知に対する改善措置状況",
+      "publisher": "総務省 行政評価局",
+      "url": "https://www.soumu.go.jp/main_content/000615759.pdf",
+      "published": "2019-04-24",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。調査実施は平成29年8月～30年5月",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "平成31年4月24日。改善措置（総務省の分析 平成30年12月、農水省の事例集）も同資料に記載"
+    },
+    {
+      "id": "J-S30",
+      "title": "2022年度農林水産省行政事業レビュー（公開プロセス）の結果 鳥獣被害防止総合対策交付金",
+      "publisher": "農林水産省",
+      "url": "https://www.maff.go.jp/j/budget/review/r4/koupro/pdf/jigyo04_comment.pdf",
+      "published": "2022",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。外部有識者の取りまとめコメント",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得"
+    },
+    {
+      "id": "J-S31",
+      "title": "お天気カメラ「ソラカメ」の設置台数が全国3,300台突破",
+      "publisher": "株式会社ウェザーニューズ",
+      "url": "https://jp.weathernews.com/wp-content/uploads/2026/08/20260821_sorakame3300.pdf",
+      "published": "2026-08-21",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "PDFを取得し本文を確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026年8月21日付"
+    },
+    {
+      "id": "J-S32",
+      "title": "「ウェザーリポート」の投稿数が累計1億通を突破",
+      "publisher": "株式会社ウェザーニューズ",
+      "url": "https://jp.weathernews.com/wp-content/uploads/2025/07/20250801-report.pdf",
+      "published": "2025-08-01",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "PDFを取得し本文を確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2025年8月1日付"
+    },
+    {
+      "id": "J-S33",
+      "title": "テレビ局のお天気コーナーを包括支援する新サービスを提供開始（放送業務支援サービス）",
+      "publisher": "株式会社ウェザーニューズ",
+      "url": "https://jp.weathernews.com/wp-content/uploads/2026/03/20260312.pdf",
+      "published": "2026-03-12",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "PDFを取得し本文を確認。料金の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026年3月12日付"
+    },
+    {
+      "id": "J-S34",
+      "title": "カーナビデータを活用した交通安全対策",
+      "publisher": "埼玉県",
+      "url": "https://www.pref.saitama.lg.jp/a1001/dousei1006/dousei068.html",
+      "published": "2018-03-26",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "ページを取得し本文を確認。ホンダからの提供が有償か無償かの記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "掲載日：2018年3月26日"
+    },
+    {
+      "id": "J-S35",
+      "title": "大規模災害時に通行実績情報を迅速に公開する仕組みを構築",
+      "publisher": "特定非営利活動法人 ITS Japan",
+      "url": "https://www.its-jp.org/document/20140605/e3a916cca89198c1847970ed5513c4db.pdf",
+      "published": "2014-06-05",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "PDFを取得し本文を確認。2026年時点の運用状況は未確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2014年6月5日"
+    },
+    {
+      "id": "J-S36",
+      "title": "Google マップ ローカルガイド",
+      "publisher": "Google",
+      "url": "https://maps.google.com/localguides/",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "WebFetchで確認。ポイント・レベル・特典の説明のみで、金銭の支払いについての記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "英語ページで取得。プログラム規約ページ（/rules/）は404"
+    },
+    {
+      "id": "J-S37",
+      "title": "【富山県富山市】IoTやデータ連携による住民の安全な暮らしの質の向上",
+      "publisher": "内閣官房 国土強靱化推進室（地域計画の事例）",
+      "url": "https://www.cas.go.jp/jp/seisaku/kokudo_kyoujinka/tiiki/pdf/ex-r4_19_toyama_toyama.pdf",
+      "published": "2022",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。ファイル名の r4 から令和4年度の事例集と推定。整備費・運用費の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得"
+    },
+    {
+      "id": "J-S38",
+      "title": "街路樹点検の実施促進のためのガイドラインに関する検討会 第1回 資料4 ガイドライン（骨子案）",
+      "publisher": "国土交通省 道路局",
+      "url": "https://www.mlit.go.jp/road/ir/ir-council/gairoju/pdf01/05.pdf",
+      "published": "2025-09-04",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFを取得し本文を確認。令和7年の調査に言及しており2025年度の検討会資料と推定",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "pdf01＝街路樹点検の実施促進のためのガイドラインに関する検討会 第1回（2025年9月4日）の資料4。最終版ガイドライン（令和8年3月、/road/ir/ir-council/gairoju/pdf/r8guideline.pdf）あり"
+    },
+    {
+      "id": "J-S39",
+      "title": "街路樹点検技術の有効性等の検証に向けた提案を募集",
+      "publisher": "国土交通省 道路局",
+      "url": "https://www.mlit.go.jp/report/press/road01_hh_002140.html",
+      "published": "2026-09-08",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "ページを取得し本文を確認。令和8年3月にガイドライン策定済みとの記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "令和8年9月8日"
+    },
+    {
+      "id": "J-S101",
+      "title": "沖縄電力×NTT西日本グループが市民参加型ゲームで電柱点検 ～「PicTrée（ピクトレ）」×「共同点検」の実証実験を実施～",
+      "publisher": "西日本電信電話株式会社・株式会社NTTフィールドテクノ・沖縄電力株式会社・Growth Ring Grid・Digital Entertainment Asset",
+      "url": "https://www.ntt-west.co.jp/news/2512/251215b.html",
+      "published": "2025-12-15",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "J-S06（別紙1）の親リリース。報酬コインは開発元DEAが付与（※5）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S102",
+      "title": "参加型社会貢献ゲーム「PicTrée(ピクトレ)」初 広域かつ常設でゲームを楽しめるレギュラーシーズン開催決定！",
+      "publisher": "株式会社Digital Entertainment Asset（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000317.000047612.html",
+      "published": "2026-05-28",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "2026年6月6日から東日本でNTT-ME設備約80万基、1本15円相当。自治体・事業者を撮影パートナーとして募集",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S103",
+      "title": "「さいたま市みんなのフォトハント〜商店街の街路灯を撮影せよ！〜」開催のお知らせ",
+      "publisher": "ピクトレ公式サイト（Growth Ring Grid／DEA）",
+      "url": "https://pictree.greenwaygrid.global/news/7965",
+      "published": "2026-10-02",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "2026/10/9〜11/4、地域商社「株式会社つなぐ」の市民アプリと連携、商店街街路灯1基10円相当＋同額のたまポン。費用負担の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S104",
+      "title": "「ピクトレまちバトル in 北海道 2026夏」道東開拓チャレンジ 2026 in 釧路・根室",
+      "publisher": "ピクトレ公式サイト（Growth Ring Grid／DEA）",
+      "url": "https://pictree.greenwaygrid.global/news/8122",
+      "published": "2026-10-16",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "北海道2026シーズンが10月中旬時点で継続中であることの確認に使用（キャンペーン 10/17〜11/3）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S105",
+      "title": "全国の野生鳥獣による農作物被害状況について（令和7年度）",
+      "publisher": "農林水産省 農村振興局",
+      "url": "https://www.maff.go.jp/j/seisan/tyozyu/higai/hogai_zyoukyou/index.html",
+      "published": "2026（ページに公表日の記載なし）",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "令和7年度 被害金額183億円（対前年度±0.0億円）。令和6年度分は2026年2月・10月に訂正あり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S106",
+      "title": "令和6年能登半島地震への支援について",
+      "publisher": "本田技研工業株式会社",
+      "url": "https://global.honda/content/dam/site/global-jp/news/cq_img/2024-new/01/c240112_link.pdf",
+      "published": "2024-01-12",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "ITS Japan「乗用車・トラック通行実績情報」に各社データを束ねて掲載と記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S107",
+      "title": "インフラメンテナンスの優れた取組や技術開発を表彰！～第６回「インフラメンテナンス大賞」受賞者（大臣賞等）を決定～",
+      "publisher": "国土交通省",
+      "url": "https://www.mlit.go.jp/report/press/sogo03_hh_000286.html",
+      "published": "2022-12-05",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "計37件（大臣賞9・特別賞7・優秀賞21）、表彰式 令和5年1月13日",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S108",
+      "title": "危機管理に対応した水位観測検討会 第1回 配布資料一覧",
+      "publisher": "国土交通省 水管理・国土保全局",
+      "url": "https://www.mlit.go.jp/river/shinngikai_blog/suiikansoku/dai01kai/index.html",
+      "published": "2017-09-21",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "J-S14の会議日・資料名の確認に使用",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S109",
+      "title": "街路樹点検の実施促進のためのガイドラインに関する検討会",
+      "publisher": "国土交通省 道路局",
+      "url": "https://www.mlit.go.jp/road/ir/ir-council/gairoju/index.html",
+      "published": "2026-03",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "ガイドライン（令和8年3月）と第1〜3回（2025-09-04、2025-12-10、2026-03-06）の資料。令和7年4月に倒木事故調査を公表",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "J-S110",
+      "title": "電柱点検、市民参加のスマホゲームで 沖電とNTT西が2月から実験",
+      "publisher": "琉球新報",
+      "url": "https://ryukyushimpo.jp/news/economics/entry-4874781.html",
+      "published": "2025-12-16",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "県内の電柱は沖電24万本・NTT16万本、沖電は台風前3か月に100人規模で全電柱を巡回点検と報道",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "claims": [
+    {
+      "id": "J-C01",
+      "text": "DMM Cryptoは2024年8月19日、Hivemapperと提携し、ダッシュカムの販売代理店とFleet事業の運営を担い、一般ドライバー参加型のDrive to Earn等の実証を始めると発表した。実証はJETROの「対内直接投資促進事業費補助金事業」に採択されたと報じられた。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S01"
+      ],
+      "as_of": "2024-08",
+      "tags": [
+        "DePIN",
+        "地図",
+        "補助金",
+        "announced"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "CoinPost本文で確認：19日に提携発表、Dash Cam販売代理店契約・Fleet事業運営、一般ドライバー参加型Drive to Earn事業等の実証を「開始する予定」、JETRO「対内直接投資促進事業費補助金事業」に採択と記載。JETRO側一次資料は未確認のまま（本文は「報じられた」としており適切）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C02",
+      "text": "同発表でHivemapperは、サービス開始から20か月で1,500万km以上の地図データを生成し、主要地図メーカー2社が採用していると説明した。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S01"
+      ],
+      "as_of": "2024-08",
+      "tags": [
+        "DePIN",
+        "地図",
+        "買い手"
+      ],
+      "number": "1,500万km以上／20か月",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "CoinPost本文「サービス開始から20ヶ月で1500万km以上」「主要な地図メーカーのうち2社が…採用」を確認。Hivemapper側の説明の紹介で party_claim は妥当",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C03",
+      "text": "DMM Crypto（旧DM2C Studio）は2024年11月15日にWeb3プロジェクト「Seamoon Protocol」の中止（独自トークン$SMPの発行中止、プラットフォームの新規受付停止など）を発表し、その他のサービスやパートナーシップについては今後の方針を引き続き検討するとしたと報じられた（CoinPost）。",
+      "type": "fact",
+      "source_ids": [
+        "J-S02"
+      ],
+      "as_of": "2024-11-15",
+      "tags": [
+        "DePIN",
+        "ended",
+        "撤退"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "CoinPost（2024-11-15 15:52）で確認。内容は一致するが出典は報道で、DMM Crypto自身の発表文は未確認。ブリーフに従い出典が報道であることを本文に明記",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C04",
+      "text": "DMM×Hivemapperの日本での実証について、成果報告・継続・終了の公表は今回の調査では見つからなかった。発表3か月後に親会社のWeb3事業縮小が発表されているため、継続していない可能性があるが確認できない。",
+      "type": "inference",
+      "source_ids": [
+        "J-S01",
+        "J-S02"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "DePIN",
+        "現況未確認"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "2026-10-23時点でもDMM Crypto×Hivemapper日本実証の成果・継続・終了の公表をWeb検索で見つけられなかった。推測の書き方は控えめで妥当",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C05",
+      "text": "東京電力パワーグリッド（東電PG）は、ピクトレでレビューを経た電柱画像を保守管理に使い、その対価として一定の金額を支払っており、それがユーザー報酬の原資になっていると報じられた。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S03"
+      ],
+      "as_of": "2024-12",
+      "tags": [
+        "ピクトレ",
+        "誰が払うか",
+        "H1"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "Business Insider Japan（2024-12-11）本文の地の文に「東電PGは、レビューを経た画像を保守管理に活用しており、その対価として一定の金額を支払っている。その費用が、ユーザーに支払われる報酬の原資にもなっている。」と記載（話者の直接引用ではなく記者の地の文）。東電PGの一次資料（同社プレスPDF）は403で取得できず、一次での確認はできていない。なお沖縄のNTT西日本リリースでは報酬コインは開発元DEAから付与されると明記（J-S101）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C06",
+      "text": "同記事によれば、東電PGでは電柱点検の外部委託だけで年間20〜30億円ほどかかり、点検頻度は電柱1本あたり5年に1度程度だった。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S03"
+      ],
+      "as_of": "2024-12",
+      "tags": [
+        "ピクトレ",
+        "電柱",
+        "点検費用"
+      ],
+      "number": "年間20〜30億円／5年に1度",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同記事で、GGGマネージャー（東電PGからの出向）鬼頭和希氏の発言として「点検を外部委託する分だけでも年間20〜30億円ほど」、地の文で「点検頻度も電柱1本あたり5年に1度程度」を確認。東電PG管内の電柱は約600万本",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C07",
+      "text": "前橋市での最初の実証（2024年4〜6月）では、対象区域ほぼ全域の約2万本が撮影され、参加者は約300名、電柱1本の撮影で約30円相当のコインが得られた（報道）。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S03"
+      ],
+      "as_of": "2024-12",
+      "tags": [
+        "ピクトレ",
+        "pilot",
+        "報酬単価"
+      ],
+      "number": "約2万本／約300名／1本約30円相当",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同記事で前橋市（2024年4〜6月）約30円相当、約2万本（対象区域ほぼ全域分）、参加者約300名を確認。なお同記事では2024年9月からの東京3区シーズンは1本5円相当で、単価はシーズンで異なる",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C08",
+      "text": "沼津市では2025年2月1日〜4月27日に市全域（5エリア）でピクトレの実証実験が行われ（県内初・全国3例目、『ラブライブ！サンシャイン!!』とコラボ）、市は2025年5月16日、東電PG静岡総支社、Greenway Grid Global、DEA、テプコ・ソリューション・アドバンスが5月20日に市長を表敬訪問して結果を報告すると発表した。市の資料に費用負担の記載はない。",
+      "type": "fact",
+      "source_ids": [
+        "J-S07"
+      ],
+      "as_of": "2025-05-16",
+      "tags": [
+        "ピクトレ",
+        "自治体",
+        "pilot"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "沼津市の報道取材情報（令和7年5月16日発表）は、5月20日に主催者が市長を表敬訪問して結果を報告する「予定」の告知。報告が行われたこと自体は本資料からは確認できない。実施期間2025-02-01〜04-27、沼津市全域（5エリア）、県内初・全国3例目、『ラブライブ！サンシャイン!!』とのコラボ、出席者4社を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C09",
+      "text": "DEAは、北海道電力ネットワーク・NTT-MEと実施した「ピクトレまちバトル in 北海道 2025夏」で、3か月間に電柱約73万本が撮影されたと発表した。運営側は、全国に電柱が約3,600万本あり、電力会社は1日に数百本程度しか点検できないと述べている。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S04"
+      ],
+      "as_of": "2025-12",
+      "tags": [
+        "ピクトレ",
+        "北海道",
+        "電柱"
+      ],
+      "number": "約73万本／3か月",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "さんたつ転載のDEAリリース（更新日2025-12-11）で確認：2025年7月12日〜10月12日、北海道電力ネットワーク・NTT-MEとともに開催、「3ヶ月間で電柱約73万本」（DEA吉田氏）、「全国に約3600万本」「1日に数百本程度しか点検できない」（GRG鬼頭氏）。運営側発言で party_claim は妥当",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C10",
+      "text": "2026年は北海道全域で2026年8月8日〜11月3日に、北海道電力ネットワークの電柱約90万本（全体約150万本のうち）と、NTT MEのマンホール・ハンドホール約3.5万基を対象に開催中（撮影の進捗により期間変更・途中終了の場合ありと注記）。撮影報酬は1本・1基ごとに付与され、市街地は安く郊外は高く設定。併催のグループ対抗戦「ほくでんNW＆NTT ME杯！」の1位グループには100万円相当の報酬コインが出る。",
+      "type": "fact",
+      "source_ids": [
+        "J-S05",
+        "J-S104"
+      ],
+      "as_of": "2026-10-16",
+      "tags": [
+        "ピクトレ",
+        "北海道",
+        "通信インフラ",
+        "ongoing"
+      ],
+      "number": "約90万本／約3.5万基／2026-08-08〜11-03",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "PR TIMES（2026-08-05 14:00配信）で期間・対象（約150万本中約90万本、NTT MEのマンホール/ハンドホール約3.5万基）を確認。ただし「1位グループに100万円相当」は本イベント全体の報酬ではなく、併催のグループ対抗戦「ほくでんNW＆NTT ME杯！」の賞。ピクトレ公式ニュース（2026-10-16）で道東キャンペーンが11/3まで続くことを確認し、2026-10-23時点で開催中と判断。進捗により途中終了の可能性ありとの注記がある",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C11",
+      "text": "ピクトレはDEAが開発し、2025年4月設立のGrowth Ring Grid Pte. Ltd.（GRG、事業内容：市民参加型インフラ点検サービスの開発・運営等）が運営している（2025年北海道・2026年沖縄の発表）。2026年の北海道開催はDEA（2026年1月設立の日本法人 株式会社Digital Entertainment Asset）・GRG・北海道電力ネットワーク・NTT MEの4社連名で発表された。",
+      "type": "fact",
+      "source_ids": [
+        "J-S04",
+        "J-S05",
+        "J-S101"
+      ],
+      "as_of": "2026-08",
+      "tags": [
+        "ピクトレ",
+        "事業化"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "GRG設立2025年4月・事業内容は PR TIMES（J-S05）とNTT西日本別紙（J-S06）で確認。ただしGRGは2026年に初めて加わったのではなく、2025年北海道（J-S04「DEA、GRGが開発・運営」）や沖縄（J-S101「DEAが開発し、GRGが運営」）でも運営者。2026年北海道は DEA（2026年1月設立の日本法人 株式会社DEA）・GRG・北海道電力ネットワーク・NTT MEの4社連名発表",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C12",
+      "text": "NTT西日本・NTTフィールドテクノ・沖縄電力は2025年12月15日、2026年2月1日〜3月22日に沖縄県内約5万本の電柱を対象にピクトレのイベント「ぼくとわたしの電柱合戦in沖縄」を開き、通信・電力の共同点検に向けた実証実験を行うと発表した。報酬は電柱1本あたり30円相当のポイント（開発元DEAが報酬コインとして付与）で、撮影画像は設備の保守・保安に使うとされ、那覇市が後援した。実施結果の公表は今回見つからなかった。",
+      "type": "fact",
+      "source_ids": [
+        "J-S06",
+        "J-S101"
+      ],
+      "as_of": "2025-12-15",
+      "tags": [
+        "ピクトレ",
+        "沖縄",
+        "通信インフラ",
+        "報酬単価"
+      ],
+      "number": "約5万本／1本30円相当",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "別紙1（J-S06）とNTT西日本本体リリース（2025-12-15、J-S101）で確認。実施主体はNTT西日本・NTTフィールドテクノ・沖縄電力の3社で、電力・通信の「共同点検」に向けた実証実験。報酬は開発元DEAから報酬コインで付与（※5）。資料は事前告知で、実施結果の公表は見つからなかったため「実施した」は「実施すると発表」に弱める",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C13",
+      "text": "ピクトレのユーザー報酬は開発元DEAが報酬コインとして付与しており（沖縄の発表）、その原資を設備事業者が出していると報じられたのは東電PGのみである。北海道電力ネットワーク、NTT ME、NTT西日本、沖縄電力などがDEA/GRGに対価を払っているか、画像1件あたりいくらかは公表資料で確認できない。今回確認できた自治体の関わりは後援（那覇市）や表敬訪問の受け手で、費用負担の記載は見つからなかったが、2026年にはさいたま市の商店街街路灯を対象とするシーズンもあり、運営側は自治体を撮影パートナーとして募集している。",
+      "type": "inference",
+      "source_ids": [
+        "J-S03",
+        "J-S05",
+        "J-S06",
+        "J-S07",
+        "J-S101",
+        "J-S102",
+        "J-S103"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "ピクトレ",
+        "誰が払うか",
+        "自治体"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "沖縄のリリースではユーザー報酬は開発元DEAが付与と明記され、設備事業者からDEA/GRGへの支払いの有無・額は非公表。2026年には、さいたま市の商店街街路灯（地域商社「株式会社つなぐ」の市民アプリと連携、J-S103）や防災設備を対象とするシーズンもあり、2026年5月のDEAリリースは自治体を「インフラ撮影パートナー」として募集している（J-S102）。「費用を出しているのは電力・通信事業者」「自治体は後援等にとどまる」は東電PG（報道）以外について根拠がなく言い過ぎ",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C14",
+      "text": "博報堂キースリーは2025年6月、車両データのDePIN「DIMO」の日本法人「DIMO Japan」の設立を発表した。日本の自動車メーカーとの具体的な契約や実証の記載はなく、DIMOの接続実績は米国・カナダ・欧州で18万台以上とされる。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S08"
+      ],
+      "as_of": "2025-06-13",
+      "tags": [
+        "DePIN",
+        "車両データ",
+        "announced"
+      ],
+      "number": "18万台以上（米加欧、2025年6月）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "ASCII掲載リリース（2025-06-13 10:00）で確認。「DIMO Japanを設立しました」、日系企業と連携していくとあるが具体的な契約・実証の記載なし、「米国、カナダ、ヨーロッパ市場では…18万台以上（25年6月現在）」",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C15",
+      "text": "KDDIは2024年11月、分散型GPUネットワークを構築するMawariとDePINのインフラ運営パートナーに就く基本合意を結び、ノード運営者にホスティング環境を提供すると発表した。",
+      "type": "fact",
+      "source_ids": [
+        "J-S09"
+      ],
+      "as_of": "2024-11-22",
+      "tags": [
+        "DePIN",
+        "通信事業者",
+        "announced"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "ASCII掲載リリース（2024-11-22）で確認。Mawariが構築する分散型インフラ（DePIN）のインフラ運営パートナーにKDDIが就任する基本合意、ガーディアンノード運営者（ノードランナー）にホスティング環境を提供",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C16",
+      "text": "NICT（総務省所管）は、DePINの社会実装に向けたデジタルツイン流通サービスの研究開発を委託しており、期間は令和7年度〜令和8年9月30日、受託者は早稲田大学・東京科学大学・ガイアックス・Casley Deep Innovationsである。",
+      "type": "fact",
+      "source_ids": [
+        "J-S10"
+      ],
+      "as_of": "2025",
+      "tags": [
+        "DePIN",
+        "政府資料",
+        "研究開発"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "NICT概要PDFで確認（DePINの社会実装に向けた共創型デジタルツイン流通サービス、期間 令和7年度〜令和8年9月30日、受託者4者）。研究期間は2026-09-30で終了したが成果公表は見つからなかった",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C17",
+      "text": "自民党web3ホワイトペーパー2024の要旨と、デジタル庁「Web3.0研究会報告書」（2022年12月）を全文検索した範囲では、DePIN・分散型物理インフラの語は見当たらなかった。総務省・経産省・デジタル庁でDePINを主題にした報告書は今回見つけられなかった。",
+      "type": "fact",
+      "source_ids": [
+        "J-S11",
+        "J-S12"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "DePIN",
+        "政府資料",
+        "gap"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "両PDFをpdftotextで全文化（S12は「Web3」108件ヒットで抽出成功を確認）し、DePIN・分散型物理・物理インフラの語は0件。省庁のDePIN主題報告書はWeb検索でも見つからず（NICT委託研究のみ）。後半は「今回の検索で見つからなかった」という調査結果の記述であり、その書き方は維持すべき",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C18",
+      "text": "危機管理型水位計は洪水時の観測に特化した低コストの水位計で、水位計本体は100万円/台以下、無給電で5年以上稼働、データ量を減らして通信費を抑える設計とされる。",
+      "type": "fact",
+      "source_ids": [
+        "J-S13"
+      ],
+      "as_of": "2018頃",
+      "tags": [
+        "河川",
+        "低コストセンサー",
+        "単価"
+      ],
+      "number": "本体100万円/台以下",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "関東地整PDF p1「無給電で５年以上稼働」「水位計本体費用は、１００万円/台以下」「データ量を低減し、IoT技術とあわせ通信コストを縮減」を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C19",
+      "text": "関東地方整備局管内では国管理河川に危機管理型水位計を合計435か所設置する予定とされた（自治体・地権者等との調整で増減あり）。",
+      "type": "fact",
+      "source_ids": [
+        "J-S13"
+      ],
+      "as_of": "2018頃",
+      "tags": [
+        "河川",
+        "設置数"
+      ],
+      "number": "435か所（計画）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同PDF p3 表「整備局管内合計 435」、注記「設置数は、自治体や地権者・橋梁管理者等との調整の結果、増減することがあります」を確認（水系別合計も435に一致）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C20",
+      "text": "国交省の水位観測検討会資料では、低コスト水位計の目標を本体100万円/台以下、通信費1,000円/月程度とし、各社の開発中の製品は概ね30万〜100万円の価格帯で示された。",
+      "type": "fact",
+      "source_ids": [
+        "J-S14",
+        "J-S108"
+      ],
+      "as_of": "2017-09-21",
+      "tags": [
+        "河川",
+        "単価",
+        "通信費"
+      ],
+      "number": "目標 本体100万円/台・通信1,000円/月",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "内容は一致：資料2に「通信コスト等が安価（1000円／月を目標）」「低価格（100万円／台を目標）」、各社製品の価格は30〜84万円、40〜100万円、50万円、54万円、70万円、89万円～、100万円等。資料は「危機管理に対応した水位観測検討会」第1回（平成29年9月21日）の資料2「開発中の水位計について」と国交省の資料一覧ページで確認したため as_of を確定",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C21",
+      "text": "鹿児島県の資料は、国の方針として全国の道府県で概ね3年間（平成32年度めど）に約5,800か所の水位計を新設すること、危機管理型水位計の設置費用は約200万円/か所で従来型の約2,000万円/か所より大幅に低いことを示している。",
+      "type": "fact",
+      "source_ids": [
+        "J-S15"
+      ],
+      "as_of": "2019",
+      "tags": [
+        "河川",
+        "単価",
+        "設置数"
+      ],
+      "number": "約5,800か所（計画）／約200万円/か所 vs 約2,000万円/か所",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "鹿児島県資料5で確認：「今後概ね3年間（平成32年度目処）で、全国の道府県において、約5,800箇所の新規水位計を設置すると発表された」、設置費用 約2百万円／箇所（従来 約2千万円／箇所）、通信費1千円／月程度。県内は144河川150箇所を選定",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C22",
+      "text": "千葉県は79河川122か所に危機管理型水位計を設置しており、2026年3月24日から8河川8か所で新たに運用を始めた。",
+      "type": "fact",
+      "source_ids": [
+        "J-S16"
+      ],
+      "as_of": "2026-03",
+      "tags": [
+        "河川",
+        "設置数",
+        "ongoing"
+      ],
+      "number": "79河川122か所",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "千葉県ページ（更新日 令和8年3月24日）で「令和8年3月24日から、新たに8河川8箇所で運用を開始」「79河川122箇所に危機管理型水位計を設置」を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C23",
+      "text": "簡易型河川監視カメラは2018年開始の革新的河川技術プロジェクトで開発され、2025年9月時点で国内に約9,000基ある。初期の機器は設置から5年以上たち当初の耐用期間を超え、故障率が上がる時期に入っているため、国交省は2026年3月に更新用の仕様と手引き（案）を作った。",
+      "type": "fact",
+      "source_ids": [
+        "J-S17"
+      ],
+      "as_of": "2026-03",
+      "tags": [
+        "河川",
+        "更新",
+        "維持管理",
+        "H1"
+      ],
+      "number": "約9,000基（2025年9月）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "手引き（案）（令和8年3月）1.総説で確認：「平成30年に開始された革新的河川技術プロジェクト第3弾」で開発、「令和7年9月時点において、国内に約9,000基」、「初期の機器の設置から5年以上が経過し、当初のリクワイヤメントで示された耐用期間を超過」「摩耗故障期」、令和7年度に機器仕様書（標準案）を策定し手引き（案）を策定",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C24",
+      "text": "同手引き（案）では、カメラ回線の月額費用の一例（2026年1月のインターネット調査による市販プラン）として、固定IP付きLTE回線は月1,200〜3,980円（通信量1〜3GB程度、1社は別途管理コンソール費月500円）、固定IP込みの光回線は月6,490〜6,498円を示している。",
+      "type": "fact",
+      "source_ids": [
+        "J-S17"
+      ],
+      "as_of": "2026-01",
+      "tags": [
+        "河川",
+        "通信費",
+        "単価"
+      ],
+      "number": "LTE 月1,200〜3,980円／光 月6,490〜6,498円（市販プランの例）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "手引き（案）p4-22 表4-8（LTE、通信量1GB/3GB程度）A社2,720/3,980円、B社1,200/1,200円（別途コンソール費 月500円）、C社1,485/1,760円。表4-9（光）A社6,498円、B社6,490円。いずれも「インターネット調査（令和8年1月実施）による」一例。光は「約6,490円」より「6,490〜6,498円」が正確。また実際の調達価格ではなく市販プランの例である点を明記",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C25",
+      "text": "2023年3月、国交省は不正アクセスの疑いで簡易型河川監視カメラ337台（うち近畿261台）の画像配信を止め、機器交換やパスワード再設定をして再開するとした。同資料では河川監視カメラは全国で約10,000台、うち携帯回線の簡易型は約5,000台とされた。",
+      "type": "fact",
+      "source_ids": [
+        "J-S18"
+      ],
+      "as_of": "2023-03-31",
+      "tags": [
+        "河川",
+        "セキュリティ",
+        "失敗"
+      ],
+      "number": "停止337台／全国約10,000台・簡易型約5,000台",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "国交省PDF（令和5年3月31日）で確認：3月1日から配信停止、不正アクセスの疑い、337台（近畿261台）、機器交換・通信ポート閉塞・パスワード再設定、5月までを目標に再開、全国約10,000台・簡易型約5,000台。なお2025年9月の約9,000基（J-S17）との差は対象範囲・時点の違いによる可能性があり、直接比較には注意",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C26",
+      "text": "近畿地方整備局は2020年4月1日から国管理河川の簡易型河川監視カメラ225か所の画像を公開し、さらに36か所を増設して、既存の河川監視カメラ531か所と合わせ令和2年度中に約800か所の画像を見られるようにするとした。",
+      "type": "fact",
+      "source_ids": [
+        "J-S19"
+      ],
+      "as_of": "2020-03-27",
+      "tags": [
+        "河川",
+        "近畿",
+        "設置数"
+      ],
+      "number": "225か所追加／約800か所",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "近畿地整（2020-03-27）で確認。ただし531箇所は既存の「河川監視カメラ」（簡易型に限らない）で、約800箇所は225箇所に加え令和2年出水期までの25箇所、年度末までの11箇所の増設予定を含む",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C27",
+      "text": "京都府京都土木事務所の管内（京都市域の府管理河川）には、危機管理型水位計6か所と簡易型河川監視カメラ14か所が掲載されている。",
+      "type": "fact",
+      "source_ids": [
+        "J-S20"
+      ],
+      "as_of": "2026-08-26",
+      "tags": [
+        "河川",
+        "京都",
+        "設置数"
+      ],
+      "number": "水位計6か所／簡易型カメラ14か所",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "京都土木事務所ページ（更新日2026年8月26日）で、危機管理型水位計6観測所（桂川・岩倉川・鞍馬川・清滝川・久多川・貴船川）、簡易型河川監視カメラ14観測所（高野川2、天神川2、桂川、弓削川、岩倉川、旧安祥寺川、長代川、御室川、四宮川、安祥寺川、久多川、宇治川派流）を数えて一致。他に通常の河川防災カメラ8台あり。ページは「京都市域を流れる一級河川のうち国交省の管理区間を除いた河川」が対象で、国管理区間（桂川・宇治川等）の国の機器や京都市管理の河川は含まない点を本文に補うとよい",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C28",
+      "text": "低コストの水位計・カメラは2018〜2020年度ごろ国の緊急対策でまとめて設置されたため、更新時期もまとめて来る。初期費用は国の対策で出せても、通信費・電池・故障交換・更新はその後ずっと河川管理者が負担することになる。",
+      "type": "inference",
+      "source_ids": [
+        "J-S15",
+        "J-S17",
+        "J-S18"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "河川",
+        "維持管理",
+        "H1",
+        "H2"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "推測の根拠（S15の3年間・平成32年度目処の一斉設置、S17の初期機器5年超で摩耗故障期、S18のセキュリティ対応）と論理は通る。危機管理型水位計も「5年間メンテナンスフリー」（S15）で同様に更新期を迎える点を補える",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C29",
+      "text": "今治市は2024年4月から、市内を走る民間事業者の車両にAIアプリ入りのスマートフォンを載せて道路損傷を自動で検知している（アーバンエックステクノロジーズのシステム）。それまではシルバー人材センターへの委託で原付バイクで巡回し、検出は1日10件程度だったが、導入後は1日130件になった。",
+      "type": "fact",
+      "source_ids": [
+        "J-S21"
+      ],
+      "as_of": "2024-04",
+      "tags": [
+        "道路",
+        "自治体",
+        "今治市",
+        "ongoing"
+      ],
+      "number": "10件/日→130件/日",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "愛媛県掲載の今治市事例シートで確認：取組期間 令和6年4月～、シルバー人材センター委託・原付で10件/日程度、導入後130件/日、市内を網羅的に走行する民間事業者の車両に機器を搭載。システムは「㈱アーバンエックステクノロジーズ サービス紹介出展」の図の出典記載から判断",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C30",
+      "text": "今治市の費用はシステム導入費1,921千円、ランニングコスト2,200千円とされる（ランニングコストの期間単位は資料に記載なし）。2024年4月の1か月で損傷3,833件を検知し、補修済みは164件、市道走行率は32.5%（市道総延長1,632km）だった。",
+      "type": "fact",
+      "source_ids": [
+        "J-S21"
+      ],
+      "as_of": "2024-04",
+      "tags": [
+        "道路",
+        "単価",
+        "H3"
+      ],
+      "number": "導入1,921千円／運用2,200千円／検知3,833件・補修164件",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同シート7で確認：システム導入費用1,921千円、ランニングコスト2,200千円（期間単位の記載なし）、損傷検知数3,833件、補修済件数164件、市道走行率32.5%（市道総延長L=1,632km）、実績収集期間 令和6年4月1日～4月30日。単位（千円）も一致",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C31",
+      "text": "今治市の事例シートは、修繕を外部の民間業者に発注する自治体では、損傷情報を紙の帳票で渡す必要があり、データで連携するには追加のシステム開発等が要ると注意している。",
+      "type": "fact",
+      "source_ids": [
+        "J-S21"
+      ],
+      "as_of": "2024",
+      "tags": [
+        "道路",
+        "H3",
+        "対応につながらない"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同シート8・10で確認：直営修繕なのでデータ活用できているが、外部の民間業者に修繕発注する場合は紙ベース・紙帳票での情報連携となり、データ連携には事業者との調整や追加のシステム開発が必要",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C32",
+      "text": "今治市では導入初月（2024年4月）の検知3,833件に対し補修は164件（約4%）だった。検知には直ちに補修の要らない損傷も含まれ、導入前の補修件数との比較もないため一概には言えないが、検知が増えても補修の予算・人手が増えなければ、未対応の損傷の一覧が増え続けるおそれがある。",
+      "type": "inference",
+      "source_ids": [
+        "J-S21"
+      ],
+      "as_of": "2024-04",
+      "tags": [
+        "道路",
+        "H3"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "数値は正しいが、164件は導入初月（4月）に補修した件数で、検知3,833件には直ちに補修不要な亀甲ひび割れ等も含む。導入前の補修件数との比較もない。市は補修の効率化を効果として挙げており、「見つける力が直す力を大きく上回る」は1か月のデータからは言い過ぎ",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C33",
+      "text": "三井住友海上は、自動車保険に付帯する法人向けの通信型ドライブレコーダー約5万台（物流・小売等の一般車両）の画像から、アーバンエックスのAIで道路損傷を検出し自治体に提供している。料金は自治体の人口規模・道路延長・期間で異なるとし、関東のH市で年約400万円に相当する業務効率化を実現したと主張している。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S22",
+        "J-S23"
+      ],
+      "as_of": "2024",
+      "tags": [
+        "道路",
+        "保険会社",
+        "買い手",
+        "単価"
+      ],
+      "number": "約5万台／H市で年約400万円相当",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "シーズ提案書（R6）で「全国5万台の一般車両」「導入される自治体さまの人口規模や道路延長、およびデータ収集・閲覧期間によって費用が異なります」「関東地方のH市様では、年間約400万円に相当する業務効率化」、インフラメンテナンス大賞資料で「約5万台の法人向けドライブレコーダー」「物流事業者や大手小売業者等の一般車両」「アーバンエックス社のAI」を確認。事業者の主張として party_claim は妥当。サービスページ（ms-ins.com/business/dr-roadmanager/）は2026-10-23時点で公開中",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C34",
+      "text": "三井住友海上とアーバンエックスのドラレコによる道路損傷検知サービスは、国交省の第6回インフラメンテナンス大賞で優秀賞を受けた。",
+      "type": "fact",
+      "source_ids": [
+        "J-S23",
+        "J-S107"
+      ],
+      "as_of": "2022-12-05",
+      "tags": [
+        "道路",
+        "表彰"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "受賞は確認（国交省の第6回受賞概要ページに三井住友海上掲載、06_32.pdf）。第6回の受賞者決定は令和4年12月5日の国交省報道発表（表彰式 令和5年1月13日）で確認できたので as_of を確定",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C35",
+      "text": "NECは2020年11月12日、ドラレコの映像と加速度データをAIで分析して路面の劣化を診断する「くるみえ for Cities」を月額50万円（税別）からで提供開始した。",
+      "type": "fact",
+      "source_ids": [
+        "J-S24"
+      ],
+      "as_of": "2020-11-12",
+      "tags": [
+        "道路",
+        "単価"
+      ],
+      "number": "月額50万円（税別）から",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "クラウドWatch（2020-11-12 12:03）で「12日…提供を開始」「月額50万円（税別）から」、ドラレコ映像と加速度でひび割れ・平坦性を診断を確認。NEC一次リリースは未確認、2026年時点の提供状況・導入自治体も検索で見つからず",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C36",
+      "text": "東京大学のMy City Report for road managersは一般車両のスマホ・ドラレコ画像をAIで解析する道路点検システムで、市民投稿版と合わせて千葉市など13自治体に提供されているとされる。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S25"
+      ],
+      "as_of": "不明",
+      "tags": [
+        "道路",
+        "自治体"
+      ],
+      "number": "13自治体",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "東京大学ページで「市民協働型の投稿サービスMCR for citizensと合わせてMy City Reportコンソーシアムとして，千葉市など13自治体でサービス提供」を確認。時点の記載なし（参考の特許は2019年8月）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C37",
+      "text": "富士通交通・道路データサービスは、商用車のプローブデータ（トランストロンの運行管理支援サービス由来）の分析や、汎用スマートフォンを使ってパトロールのついでに路面の凸凹を集める「道路パトロール支援サービス」を、国道事務所・自治体などの道路管理者向けに提供していた（2017年の応募資料）。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S26"
+      ],
+      "as_of": "2017",
+      "tags": [
+        "道路",
+        "プローブ情報",
+        "買い手"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "MCPCアワード2017資料で「商用車プローブデータ」（運行管理支援サービス（トランストロン）由来）と、汎用スマートフォンで日常パトロールのついでに路面凸凹を収集する「道路パトロール支援サービス」（受賞対象）、利用者に国道事務所・地方整備局・自治体等を確認。「デジタコ」の語は資料にない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C38",
+      "text": "徳島県勝浦町は2020年度、携帯基地局のLPWAを使ったわなの捕獲監視センサーを76台導入した。センサーは1台38,115円（税込）、通信費は1台月50円で、通信費は町の猟友会が負担し、利用者の負担は電池交換代のみとされる。",
+      "type": "fact",
+      "source_ids": [
+        "J-S27"
+      ],
+      "as_of": "2021頃",
+      "tags": [
+        "獣害",
+        "単価",
+        "誰が払うか"
+      ],
+      "number": "76台／38,115円/台／通信50円/月/台",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "農水省事例PDFで確認：令和2年度にLPWA捕獲監視センサー76台、価格38,115円（税込）、通信費50円（税込）／月／台、とくしまIoTプラットフォーム活用、「通信費は町猟友会が負担し…利用者負担は電池交換代のみ」。機器を町が購入したとの明記はない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C39",
+      "text": "勝浦町ではセンサー通知による捕獲が39頭（2020年10月25日〜2021年3月31日）で、シカの捕獲頭数が1年で20%増えたとされる（同資料のグラフでは452頭→552頭で「22%増加」と表示）。捕獲従事者は見回りの省力化を挙げた。",
+      "type": "fact",
+      "source_ids": [
+        "J-S27"
+      ],
+      "as_of": "2021-03",
+      "tags": [
+        "獣害",
+        "効果",
+        "見回り負担"
+      ],
+      "number": "通知捕獲39頭／シカ捕獲 約20%増",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同PDFで「センサー通知による捕獲数39頭（R2.10.25～R3.3.31）」「シカの捕獲頭数が１年間で20％増加」、グラフはH30 453・R1 452・R2 552頭で「シカは22%増加！」、アンケートで見回り確認の省力化を確認。年は年度（R1→R2）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C40",
+      "text": "塩尻市（北小野地区、稲作約27ha）のセンサーネットワークによる鳥獣対策では、被害面積が85%（2011年度）から0%（2013年度）に、稲作収入が354万円から2,362万円に増えたとされる。導入費は271,000千円、運用費は記載がない。",
+      "type": "fact",
+      "source_ids": [
+        "J-S28"
+      ],
+      "as_of": "2013",
+      "tags": [
+        "獣害",
+        "単価",
+        "効果"
+      ],
+      "number": "導入費271,000千円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "総務省「地域社会DXのトビラ」事例ページで確認：北小野地区（稲作面積約27h［ha］）、被害面積85％（23年度）→0％（25年度）、稲作収入354万円→2,362万円、導入費271,000千円、運用費は空欄。罠捕獲センサーで平成24～25年度計6匹",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C41",
+      "text": "塩尻市の導入費2.7億円が北小野地区だけの費用か、市内のセンサーネットワーク全体の費用を含むかは資料に書かれていない。全体を含むなら、27haの地区の効果と並べて費用対効果を判断することはできない。被害・収入の数値は市が実施した実証の結果として総務省ページに載っているもので、算定方法は示されていない。",
+      "type": "inference",
+      "source_ids": [
+        "J-S28"
+      ],
+      "as_of": "2017",
+      "tags": [
+        "獣害",
+        "注意"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "「被害・収入の数値も事業者の推計」は出典にない。総務省ページでは事業実施団体は塩尻市で、数値は「北小野地区…における実証の結果」と記載。導入費が地区単独か市全体のネットワーク費を含むかは記載がない。推測の前半は維持し、後半を差し替え",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C42",
+      "text": "総務省の実態調査（2017年8月〜2018年5月）では、鳥獣被害額は年200億円程度で推移し、ICTを入れたいのに入れていない市町村は予算の制約に加え、機器の価格・性能・効果・他市町村の実績の情報不足を理由に挙げた。調査時点では農水省（2014年度〜交付金）と総務省（2015年度〜補助、採択13市町村）のどちらも事業効果の分析をしていなかったが、通知を受けて総務省は2018年12月に13市町村の結果を分析・取りまとめ、農水省も2018年9月と2019年1月に事例集をまとめた（2019年4月の改善措置状況）。なお最新の全国被害額は2025年度で183億円（農水省）。",
+      "type": "fact",
+      "source_ids": [
+        "J-S29",
+        "J-S105"
+      ],
+      "as_of": "2019-04-24",
+      "tags": [
+        "獣害",
+        "失敗",
+        "効果検証なし"
+      ],
+      "number": "被害額 年約200億円",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "同PDFで確認：被害額「近年200億円程度で推移」、導入しない理由（予算面の制約が多く、加えて価格・性能・効果・他市町村実績の情報不足）、農水省（平成26年度～交付金）・総務省（27年度～補助、採択 27年度6・28年度7市町村）とも効果分析未実施。ただし同じ資料（平成31年4月24日）で、総務省は13市町村の結果分析を平成30年12月に取りまとめ、農水省は事例集を平成30年9月・31年1月に取りまとめたと改善措置が報告されている。さらに最新の全国被害額は令和7年度183億円（農水省）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C43",
+      "text": "2022年度の行政事業レビューでは、鳥獣被害防止総合対策交付金（年間100億円超）について、外部有識者が「ICT本来の機能を活用しているとは言い難い」とし、個別の点の導入でなくデータを統合して全体を把握する使い方が必要だと指摘した。",
+      "type": "fact",
+      "source_ids": [
+        "J-S30"
+      ],
+      "as_of": "2022",
+      "tags": [
+        "獣害",
+        "失敗",
+        "H3"
+      ],
+      "number": "年間100億円超",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "行政事業レビュー取りまとめコメントで「ICT本来の機能を活用しているとは言い難い。個々の点レベルの導入にとどまらず、データを統合して全体把握ができる、より効果的な活用が必須」「年間100億円超の事業」を確認。評価結果は「事業内容の一部改善」（6名）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C44",
+      "text": "ウェザーニューズの「ウェザーリポート」（利用者が空・天気の写真を投稿する仕組み）は2005年11月に始まり、2025年7月31日に累計1億通を超えた。同社は予報センターが投稿を24時間見て予報に反映していると説明している。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S32"
+      ],
+      "as_of": "2025-07-31",
+      "tags": [
+        "気象",
+        "参加型",
+        "financially_sustained"
+      ],
+      "number": "累計1億通",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同社リリース（2025-08-01）で「2005年11月からスタート」「2025年7月31日にウェザーリポートの累計投稿数が1億通を突破」「予報センターが24時間監視し…反映」を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C45",
+      "text": "ウェザーニューズはソラコムのクラウドカメラ「ソラカメ」をアプリ利用者に特典で渡すか販売し、自宅に設置してもらっている。2024年3月の開始から設置は3,300台を超え、既存のライブカメラ約400台と合わせ約8倍に増えたとしている。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S31"
+      ],
+      "as_of": "2026-08-21",
+      "tags": [
+        "気象",
+        "参加型",
+        "カメラ"
+      ],
+      "number": "3,300台超",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同社リリース（2026-08-21）で、ソラコムと連携し2024年3月から、ウェザーリポーター向け特典としてプレゼント／SORASHOPで販売、設置3,300台突破、既存ライブカメラ約400台と合わせ約8倍、を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C46",
+      "text": "ウェザーニューズは2026年3月、テレビ局向けの放送業務支援サービスを始め、利用者から1日約3〜4万通届くウェザーリポートを放送局が個別に権利確認せずに使えるようにした。40局が先行導入したとしている。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S33"
+      ],
+      "as_of": "2026-03-12",
+      "tags": [
+        "気象",
+        "買い手",
+        "データ販売"
+      ],
+      "number": "1日約3〜4万通／先行40局",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "同社リリース（2026-03-12）で「1日約3〜4万通のウェザーリポート（写真・動画）などを放送局側での個別の権利確認なく」「全国40局の先行導入」を確認。料金の記載なし",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C47",
+      "text": "ウェザーニューズの仕組みでは、参加者は特典や機器の提供・アプリ機能と引き換えに写真や映像を出し、同社がそれを予報精度や法人向けサービスの価値に変えて、放送局などの法人から料金を得ている。データを出す人と払う人が別という点はH1と同じ形である。",
+      "type": "inference",
+      "source_ids": [
+        "J-S31",
+        "J-S33"
+      ],
+      "as_of": "2026",
+      "tags": [
+        "気象",
+        "H1",
+        "誰が払うか"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "根拠（S31の特典・販売、S33の法人向け有償サービス「ウェザーニュース for business」）と論理は通る。料金額は非公表である点は既に事例側に記載あり",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C48",
+      "text": "埼玉県はホンダのカーナビ（インターナビ）データから急ブレーキ発生箇所を特定して対策し、2011年度までに県内160か所で、急ブレーキが約7割、人身事故が約2割減ったとしている。2012年度からは通学路対策にも使っている。",
+      "type": "fact",
+      "source_ids": [
+        "J-S34"
+      ],
+      "as_of": "2018-03-26",
+      "tags": [
+        "プローブ情報",
+        "自治体",
+        "効果"
+      ],
+      "number": "160か所／急ブレーキ約7割減・人身事故約2割減",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "埼玉県ページ（掲載日2018年3月26日）で、ホンダのカーナビから急ブレーキ発生箇所データ、平成20年度朝霞から全県拡大、平成23年度までに160箇所で急ブレーキ約7割・人身事故約2割減、平成24年度から通学路、を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C49",
+      "text": "ITS Japanは2014年、ホンダ・パイオニア・トヨタ・日産・富士通・いすゞ・UDトラックス・日野の協力で、大規模災害時に車の通行実績情報を集めて公開する仕組みを作ったと発表した。東日本大震災では乗用車系プローブ情報を統合して公開した実績がある。",
+      "type": "fact",
+      "source_ids": [
+        "J-S35"
+      ],
+      "as_of": "2014-06-05",
+      "tags": [
+        "プローブ情報",
+        "災害",
+        "共同"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "ITS Japan（2014-06-05）で協力8社（UDトラックスはボルボグループ）と、東日本大震災時にマイカー系プローブ情報を統合して公開したことを確認。2024年能登半島地震でも公開されたことを新規主張 J-C105 で追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C50",
+      "text": "Googleマップのローカルガイドは、投稿に応じてポイントとレベル、特典（新機能の早期利用など）を与える仕組みで、金銭の支払いは説明されていない。",
+      "type": "fact",
+      "source_ids": [
+        "J-S36"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "地図",
+        "参加型",
+        "無償"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "Google Local Guides ページ（2026-10-23取得）で「Every contribution you make earns you points…unlock special benefits like early access to new Google features」を確認、金銭支払いの記載なし",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C51",
+      "text": "富山市は2018年に市全域をカバーするLoRaWANとIoTプラットフォーム（富山市センサーネットワーク）を整備し、市が管理する小規模河川のIoT水位計データを配信している。国の事例集に載った庁内職員の声によれば、大雨警報時には水位ページに通常の10倍程度のアクセスがあり、センサーネットワークは民間事業者にも実証実験の環境として無償で提供している。",
+      "type": "fact",
+      "source_ids": [
+        "J-S37"
+      ],
+      "as_of": "2022",
+      "tags": [
+        "自治体",
+        "通信基盤",
+        "河川"
+      ],
+      "number": "大雨警報時 約10倍のアクセス",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "内閣官房事例PDFで、平成30年に市全域のLoRaWAN＋IoTプラットフォーム整備、市管理の小規模河川のIoT水位計データ配信を確認。ただし「大雨警報時に通常の10倍程度のアクセス」と「民間事業者に実証実験環境として無償提供する公募事業」は「４．周囲の声」欄の（庁内職員）の発言",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C52",
+      "text": "国交省の全国調査（2023年公表）では、街路樹の倒木は年平均5,200本、点検による伐採は年平均26,700本。2025年の調査では、市町村が管理する道路で定期巡回などの点検をしていないところが多かった。",
+      "type": "fact",
+      "source_ids": [
+        "J-S38"
+      ],
+      "as_of": "2025",
+      "tags": [
+        "街路樹",
+        "点検",
+        "自治体"
+      ],
+      "number": "倒木 年平均5,200本",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "骨子案（第1回検討会 2025-09-04 資料4）で、令和5年公表の全国調査で倒木 年平均5,200本・点検による伐採 年平均26,700本、令和7年の調査で市町村管理道路の定期巡回等の未実施が多い、を確認。令和7年調査の公表は令和7年4月（検討会ページ）。2026年3月に最終版ガイドラインが出ているので、可能なら最終版で数値を引き直すとよい",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C53",
+      "text": "国交省は2026年3月に「街路樹点検の実施促進のためのガイドライン」を策定し、2026年9月8日には東京国道事務所の街路樹台帳データを使って、画像・映像による異状候補の抽出などの技術提案を募った。",
+      "type": "fact",
+      "source_ids": [
+        "J-S39"
+      ],
+      "as_of": "2026-09-08",
+      "tags": [
+        "街路樹",
+        "新技術",
+        "pilot"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "国交省報道発表（令和8年9月8日）で、令和8年3月にガイドライン策定、東京国道事務所管内の道路空間と街路樹台帳データを提供、画像・映像による異状候補の抽出などの技術を募集（応募 9月8日〜29日）を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C101",
+      "text": "DEAとGRGは2026年6月6日から、NTT-MEと連携して東日本16都県でNTT-MEの設備約80万基を対象に、ピクトレ初の常設シーズン（レギュラーシーズン）を始めると発表した。初回撮影の報酬は電柱1本あたり15円相当で、日程は2027年3月まで示されている。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S102"
+      ],
+      "as_of": "2026-05-28",
+      "tags": [
+        "ピクトレ",
+        "通信インフラ",
+        "ongoing",
+        "報酬単価"
+      ],
+      "number": "約80万基／1本15円相当",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C102",
+      "text": "沖縄のピクトレ実証では、ユーザー報酬は開発元のDEAが「報酬コイン」として付与すると明記されている。設備事業者からDEA/GRGへの支払いの有無や額は書かれていない。",
+      "type": "fact",
+      "source_ids": [
+        "J-S101"
+      ],
+      "as_of": "2025-12-15",
+      "tags": [
+        "ピクトレ",
+        "誰が払うか",
+        "H1"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C103",
+      "text": "ピクトレは2026年10月9日〜11月4日、さいたま市で商店街の街路灯を対象とするシーズンを開き、地域商社「株式会社つなぐ」が運営する市民アプリと連携して、報酬コイン（初回1基10円相当）と同額の地域ポイントを出すとしている。費用負担の記載はない。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S103"
+      ],
+      "as_of": "2026-10-02",
+      "tags": [
+        "ピクトレ",
+        "自治体",
+        "街路灯",
+        "報酬単価"
+      ],
+      "number": "1基10円相当＋同額ポイント",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C104",
+      "text": "農水省のまとめでは、2025年度の野生鳥獣による全国の農作物被害額は183億円で、前年度と横ばいだった（2024年度分は2026年2月・10月に訂正あり）。",
+      "type": "fact",
+      "source_ids": [
+        "J-S105"
+      ],
+      "as_of": "2026",
+      "tags": [
+        "獣害",
+        "被害額"
+      ],
+      "number": "183億円（2025年度）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C105",
+      "text": "ITS Japanの「乗用車・トラック通行実績情報」は2024年1月の能登半島地震でも公開され、ホンダは自社を含む各社のデータを束ねた通行実績情報が同サイトに掲載されていると案内した。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S106"
+      ],
+      "as_of": "2024-01-12",
+      "tags": [
+        "プローブ情報",
+        "災害",
+        "共同",
+        "ongoing"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-C106",
+      "text": "報道によれば、沖縄県内の電柱は沖縄電力24万本・NTT16万本の計約40万本で、沖縄電力は定期点検に加え、台風シーズン前の3か月は100人規模で全電柱を巡回点検している。",
+      "type": "party_claim",
+      "source_ids": [
+        "J-S110"
+      ],
+      "as_of": "2025-12-16",
+      "tags": [
+        "ピクトレ",
+        "沖縄",
+        "点検費用"
+      ],
+      "number": "約40万本／100人規模",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "J-X01",
+      "name": "ピクトレの他地域・他事業者への広がり（北海道・沖縄・沼津）",
+      "region": "北海道全域、沖縄県、静岡県沼津市ほか",
+      "operator": "Digital Entertainment Asset（DEA）、Growth Ring Grid（GRG）、Greenway Grid Global（GGG）。設備側は東電PG、北海道電力ネットワーク、NTT ME、NTT西日本、沖縄電力",
+      "web3": true,
+      "summary": "スマホで電柱・マンホールを撮影すると1本ごとにポイント（1本約30円相当）がもらえるゲーム。撮影画像を設備事業者が保守・保安に使う。東電PG管内の実証から、北海道（電力＋通信）や沖縄（通信＋電力）へ広がった。",
+      "stage": "pilot",
+      "stage_evidence": "東電PG（報道）・沼津市・沖縄（NTT西日本ほか）の資料はいずれも「実証試験／実証実験」。北海道は2025年・2026年と2年続けてイベントとして開催。2026年6月からNTT-MEと東日本で常設のレギュラーシーズンを始めたが、設備事業者との委託契約や料金体系の公表は見つからない",
+      "status_2026": "2026年6月6日から東日本（16都県）でNTT-MEの設備約80万基を対象に常設のレギュラーシーズン（1本15円相当、2027年3月まで日程公表）。北海道は2026年8月8日〜11月3日に開催中（10月16日時点）。沖縄は2026年2〜3月に実証実験として開催（結果は未公表）。さいたま市の商店街街路灯（10/9〜11/4）など電柱以外の対象にも広がっている",
+      "who_pays": "ユーザー報酬は開発元DEAが報酬コインとして付与（沖縄の発表）。その原資として東電PGが審査済み画像に対価を払っていると報じられた（2024年）。北海道電力ネットワーク、NTT ME、NTT西日本、沖縄電力などがDEA/GRGにいくら払っているかは非公表。確認できた範囲では自治体は後援（那覇市）や表敬訪問の受け手で、費用負担の記載は見つからない",
+      "results": "前橋 約2万本・参加約300名（2024年）、北海道 約73万本／3か月（2025年、運営発表）",
+      "lessons": "（推測）設備を持つ事業者が「点検データの買い手」としてお金を払う形なので、費用と効果が同じ組織内で完結し、H1（維持者と受益者が違う）の問題が起きにくい。自治体が同じ形を道路・公園でまねるには、画像1件あたりの対価を払う予算科目と、審査の手間をどう吸収するかが課題になる",
+      "source_ids": [
+        "J-S03",
+        "J-S04",
+        "J-S05",
+        "J-S06",
+        "J-S07"
+      ],
+      "verification": {
+        "note": "summaryの「1本約30円相当」は前橋・沖縄の値で、東京3区は5円、2026年常設シーズンは15円、さいたま市街路灯は10円とシーズンで異なる。2026年6月6日から東日本でNTT-MEの設備を対象とする常設のレギュラーシーズンが始まり（約80万基）、北海道2026は10/16時点で開催中、沖縄は「共同点検」の実証実験。報酬コインは開発元DEAが付与。自治体の関わりは後援・表敬訪問の受け手のほか、さいたま市の商店街街路灯シーズン（地域商社の市民アプリと連携）がある",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X02",
+      "name": "DMM Crypto × Hivemapper 日本での実証",
+      "region": "日本（地域の特定なし）",
+      "operator": "株式会社DMM Crypto、Hivemapper",
+      "web3": true,
+      "summary": "ダッシュカムで走行中に地図画像を集め、ドライバーにトークン（HONEY）で報酬を出すHivemapperの日本展開。DMM Cryptoが代理店とフリート事業を担い、タクシー・物流のドライバー不足対策としてDrive to Earn等を実証するとした。",
+      "stage": "announced",
+      "stage_evidence": "2024年8月の提携・実証開始の発表のみ。実証の結果や規模の公表は見つからない",
+      "status_2026": "現況未確認。2024年11月にDMM CryptoはSeamoon Protocolを中止し、他のパートナーシップは方針検討中とした",
+      "who_pays": "実証はJETROの対内直接投資促進事業費補助金に採択（報道）。地図データの買い手は地図メーカー等（Hivemapperの説明）。日本の自治体の支払いは確認できない",
+      "results": "日本での実績の公表なし",
+      "lessons": "（推測）補助金で始めた実証は、親会社の方針変更で続かなくなるおそれがある。日本で自治体の道路点検に使うなら、今治市のような既存の国内サービスと比べて何が良いかを示す必要がある",
+      "source_ids": [
+        "J-S01",
+        "J-S02"
+      ],
+      "verification": {
+        "note": "出典どおり。2026-10時点でも実証の結果・継続の公表は検索で見つからない。who_paysの補助金採択は報道（CoinPost）である旨を維持",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X03",
+      "name": "DIMO Japan（博報堂キースリー）",
+      "region": "日本",
+      "operator": "株式会社博報堂キースリー／DIMO Japan",
+      "web3": true,
+      "summary": "ドライバーが自分の車両データを管理・共有できるDePIN「DIMO」の日本法人。日本の自動車メーカーと連携して車両データの基盤を提供することを目指す。",
+      "stage": "announced",
+      "stage_evidence": "2025年6月に法人設立を発表。具体的な提携先・実証の記載なし",
+      "status_2026": "現況未確認",
+      "who_pays": "不明（発表時点で収益モデルや支払い主体の記載なし）",
+      "results": "日本での接続台数の公表なし（米加欧で18万台以上と主張）",
+      "lessons": "（推測）車両データは自治体の道路管理にも使えるが、日本では保険会社やカーナビ会社がすでに同種のデータを自治体に提供しているため、それとの違いが問われる",
+      "source_ids": [
+        "J-S08"
+      ],
+      "verification": {
+        "note": "出典どおり（2025年6月の設立発表）。その後の国内実証は今回未確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X04",
+      "name": "KDDI × Mawari 分散型インフラの基本合意",
+      "region": "日本",
+      "operator": "KDDI株式会社、株式会社Mawari",
+      "web3": true,
+      "summary": "XR・3D配信向けの分散型GPUネットワーク（DePIN）で、KDDIがノード運営者にホスティング環境を提供する。",
+      "stage": "announced",
+      "stage_evidence": "2024年11月の基本合意の発表",
+      "status_2026": "現況未確認",
+      "who_pays": "不明",
+      "results": "公表なし",
+      "lessons": "日本の大手通信事業者がDePINに関わった数少ない例だが、環境やインフラのデータを集めるものではなく、計算資源の提供である",
+      "source_ids": [
+        "J-S09"
+      ],
+      "verification": {
+        "note": "出典どおり（基本合意）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X05",
+      "name": "NICT委託研究：DePIN社会実装に向けたデジタルツイン流通",
+      "region": "日本",
+      "operator": "早稲田大学（代表）、東京科学大学、ガイアックス、Casley Deep Innovations（受託）／NICT（委託元）",
+      "web3": true,
+      "summary": "非集中型ストレージを使い、第三者機関なしにデータ提供者と利用者がデータをやり取りできる共創型デジタルツイン流通サービスを研究開発する。",
+      "stage": "pilot",
+      "stage_evidence": "国の委託研究（研究開発期間 令和7年度〜令和8年9月30日）",
+      "status_2026": "研究開発期間は2026年9月30日で終了。成果の公表は2026年10月23日時点で見つからない",
+      "who_pays": "NICT（国の研究開発予算）。委託額は未確認",
+      "results": "未公表",
+      "lessons": "政府側でDePINを名前に掲げた数少ない事業。実際のインフラ管理者が費用を払う形になるかは別問題",
+      "source_ids": [
+        "J-S10"
+      ],
+      "verification": {
+        "note": "研究開発期間は2026年9月30日で終了済み（2026-10-23時点）。成果公表は見つからない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X06",
+      "name": "危機管理型水位計（国・都道府県）",
+      "region": "全国（例：関東地整管内435か所計画、千葉県79河川122か所、京都土木事務所管内＝京都市域の府管理区間6か所。国管理区間・市管理河川は含まない）",
+      "operator": "国土交通省、都道府県",
+      "web3": false,
+      "summary": "洪水時だけ観測する低コストの水位計。電源不要・小型で橋などに付けられ、水位が上がると10分以内ごとにデータを送る。",
+      "stage": "ongoing",
+      "stage_evidence": "千葉県が2026年3月にも新規箇所の運用を開始。京都府も2026年8月更新のページで設置箇所を掲載",
+      "status_2026": "運用中（千葉県・京都府のページで確認）。全国の総設置数は未確認",
+      "who_pays": "国（国管理河川）と道府県（道府県管理河川）。国の中小河川緊急治水対策プロジェクトで一斉整備",
+      "results": "本体100万円/台以下（国交省）、設置費約200万円/か所 vs 従来約2,000万円（鹿児島県資料）。全国約5,800か所新設の計画（2019年頃）",
+      "lessons": "（推測）機能を絞って単価を1/10にし、数を増やした例。ただし同時期に入れた機器は同時期に電池切れや更新を迎えるので、更新費を計画しておく必要がある",
+      "source_ids": [
+        "J-S13",
+        "J-S14",
+        "J-S15",
+        "J-S16",
+        "J-S20"
+      ],
+      "verification": {
+        "note": "数値は各出典と一致。京都の6か所は京都土木事務所管内（京都市域の一級河川のうち国交省管理区間を除く府管理区間）の掲載分で、国管理区間の国の水位計や京都市管理河川は含まない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X07",
+      "name": "簡易型河川監視カメラ",
+      "region": "全国（約9,000基、2025年9月）。近畿の国管理河川で2020年4月に225か所を追加公開、京都土木事務所管内（京都市域の府管理区間）14か所など",
+      "operator": "国土交通省、都道府県",
+      "web3": false,
+      "summary": "電源・通信ケーブル不要で、ズームや首振りをなくした安いカメラ。携帯回線で静止画を送り、「川の防災情報」等で一般に公開する。",
+      "stage": "ongoing",
+      "stage_evidence": "2026年3月に更新用の手引き（案）が出され、京都府も2026年8月更新のページに掲載",
+      "status_2026": "運用中。初期設置分が耐用期間を超え、更新期に入っている（国交省）",
+      "who_pays": "国・都道府県。通信費は国の手引き（案）に市販プランの例としてLTE月1,200〜3,980円、光月6,490〜6,498円が載っている（実際の支払額は未公表）",
+      "results": "約9,000基（2025年9月）。2023年3月に不正アクセスの疑いで337台の配信を停止し、機器交換で対応",
+      "lessons": "安い機器を大量に入れると、セキュリティ対策と更新の手間も大量に発生する。H2（数が増えるほど管理者が疲れる）の機器版といえる（推測）",
+      "source_ids": [
+        "J-S17",
+        "J-S18",
+        "J-S19",
+        "J-S20"
+      ],
+      "verification": {
+        "note": "who_paysのLTE月額はインターネット調査による市販プランの例で、実際の支払額ではない。531か所は簡易型以外を含む既存の河川監視カメラ",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X08",
+      "name": "今治市 AI道路損傷検知（民間車両にスマホ搭載）",
+      "region": "愛媛県今治市",
+      "operator": "今治市道路課（システムはアーバンエックステクノロジーズ）",
+      "web3": false,
+      "summary": "市内を走る民間事業者の車両にAIアプリ入りスマホを載せ、走るだけで舗装の損傷を自動検知してクラウドに集める。職員はタブレットで地図と写真を見て現場に直行する。",
+      "stage": "ongoing",
+      "stage_evidence": "2024年4月から導入し、導入費とランニングコストを市が計上",
+      "status_2026": "現況未確認（事例シートは2024年度の内容）",
+      "who_pays": "今治市（システム導入費1,921千円、ランニングコスト2,200千円。ランニングコストが年額かどうかは資料に記載なし）。以前の巡回はシルバー人材センターへの委託",
+      "results": "検出 1日10件程度→130件。導入初月（2024年4月）に検知3,833件、補修164件、市道走行率32.5%（市道総延長1,632km）",
+      "lessons": "検知は13倍になったが、補修は検知の約4%にとどまる。修繕を外注する自治体では紙の帳票に戻る問題もあり、H3（情報は集まるが対応につながらない）がはっきり出ている",
+      "source_ids": [
+        "J-S21"
+      ],
+      "verification": {
+        "note": "数値は事例シートと一致。補修164件は導入初月の値で、検知には直ちに補修の要らない損傷も含むため「約4%にとどまる」は表現を弱める。ランニングコストの期間単位は不明",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X09",
+      "name": "三井住友海上「ドラレコ・ロードマネージャー」",
+      "region": "全国の自治体（関東のH市など）",
+      "operator": "三井住友海上火災保険、アーバンエックステクノロジーズ",
+      "web3": false,
+      "summary": "保険付帯の法人向け通信型ドラレコ約5万台（物流・小売等の車両）の画像から、AIで道路損傷を見つけて自治体に地図で提供する。",
+      "stage": "ongoing",
+      "stage_evidence": "2022年12月に国交省の第6回インフラメンテナンス大賞で優秀賞、2024年度の官民連携モデリング事業にシーズ提案、2026年10月時点でサービスページ公開中",
+      "status_2026": "サービスページは2026年10月時点で公開中（導入自治体数・契約額は非公表）",
+      "who_pays": "導入する自治体（料金は人口・道路延長・期間で異なり非公表）。データを出す車両の所有企業は「地域貢献」とされ、対価の記載はない",
+      "results": "H市で年約400万円相当の業務効率化（事業者の主張）",
+      "lessons": "（推測）保険の付帯サービスとして既に走っている車のカメラを使うので、データ収集の追加費用がほぼかからない。参加者に払わずに済む形はDePINより安いが、参加者が増える動機も弱い",
+      "source_ids": [
+        "J-S22",
+        "J-S23"
+      ],
+      "verification": {
+        "note": "stage ongoing は、2022年12月の受賞、2024年度の提案、2026-10-23時点でサービスページ（ms-ins.com/business/dr-roadmanager/）公開中であることから妥当。導入自治体数・契約額は非公表",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X10",
+      "name": "NEC「くるみえ for Cities」",
+      "region": "全国の自治体・空港等",
+      "operator": "日本電気（NEC）",
+      "web3": false,
+      "summary": "道路パトロール車等のドラレコ映像と加速度をAIで分析し、ひび割れや平坦性を地図上に示す道路劣化診断サービス。",
+      "stage": "ongoing",
+      "stage_evidence": "2020年11月に有償提供開始（報道）。2026年時点の提供状況・導入自治体は未確認",
+      "status_2026": "現況未確認（導入自治体の一覧は未確認）",
+      "who_pays": "導入する自治体・管理者（月額50万円（税別）から、2020年時点）",
+      "results": "導入自治体数は今回確認できず",
+      "lessons": "月額50万円は年600万円で、今治市のスマホ方式（導入約192万円）と比べると規模の大きい管理者向けと考えられる（推測）",
+      "source_ids": [
+        "J-S24"
+      ],
+      "verification": {
+        "note": "lessonsの比較は、NECの年額（600万円）と今治市の導入費（一時費用192万円）を比べており不適切。今治市のランニングコストは2,200千円（期間不明）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X11",
+      "name": "勝浦町 わなの捕獲監視センサー",
+      "region": "徳島県勝浦町",
+      "operator": "勝浦町、町猟友会（とくしまIoTプラットフォームを利用）",
+      "web3": false,
+      "summary": "くくりわなにセンサーを付け、獣がかかるとSMSで捕獲従事者に知らせる。町がダッシュボードで電波と電池残量を見ている。",
+      "stage": "ongoing",
+      "stage_evidence": "2020年度に76台を導入し、半年分の実績を公表",
+      "status_2026": "現況未確認",
+      "who_pays": "機器（1台38,115円）の負担者は資料に明記なし（町が導入・管理している事業として掲載）。通信費（1台月50円）は町猟友会が負担、利用者は電池交換代のみ",
+      "results": "通知による捕獲39頭（2020年10月〜2021年3月）、シカ捕獲 約20%増",
+      "lessons": "通信費を月50円まで下げ、それを使う側（猟友会）が払う形にして続けられるようにしている。機器の価格を下げるため地元のICT業者と協議したことも書かれている",
+      "source_ids": [
+        "J-S27"
+      ],
+      "verification": {
+        "note": "出典どおり。機器を町が購入したとの明記はない（「町が講習会」「町がダッシュボードで監視」は明記）。who_paysの「機器は町が導入」は「機器の負担者は資料に明記なし」とするのが安全",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X12",
+      "name": "塩尻市 センサーネットワークによる鳥獣被害対策",
+      "region": "長野県塩尻市 北小野地区",
+      "operator": "塩尻市",
+      "web3": false,
+      "summary": "水田のまわりに獣検知センサーとわなセンサーを置き、検知するとサイレン・光で追い払い、農家と猟友会に地図付きメールを送る。",
+      "stage": "pilot",
+      "stage_evidence": "2012〜2013年度のモデル事業。総務省がこれを他市町村に広げる補助（2015〜2017年度）を行った",
+      "status_2026": "現況未確認",
+      "who_pays": "塩尻市（導入費271,000千円）。国のモデル事業・補助との関係は資料で詳しく確認できず",
+      "results": "被害面積 85%→0%、稲作収入 354万円→2,362万円（2011→2013年度、市の実証結果として総務省ページに掲載。算定方法は不明）。わなセンサーでの捕獲は2年で計6匹",
+      "lessons": "（推測）効果の数値は大きいが、導入費が非常に大きく、運用費の記載もない。広げた先の13市町村の効果分析は2018年まで行われていなかった（総務省）",
+      "source_ids": [
+        "J-S28",
+        "J-S29"
+      ],
+      "verification": {
+        "note": "resultsの「事業者推計」は出典にない（市の実証結果として総務省ページに掲載）。総務省の13市町村分析は2018年12月に取りまとめ済み（J-S29）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X13",
+      "name": "ウェザーニューズ ウェザーリポート／ソラカメ",
+      "region": "全国",
+      "operator": "株式会社ウェザーニューズ",
+      "web3": false,
+      "summary": "アプリ利用者が空の写真や動画を投稿し、ソラカメ（家庭に置くライブカメラ）からも映像を集める。予報に使うほか、放送局など法人向けのサービスにも使う。",
+      "stage": "financially_sustained",
+      "stage_evidence": "2005年から20年続き、上場企業の予報・法人サービスの一部として運用。放送局向けに有償サービス化（先行40局）。ただし参加型部分だけの収支は非公表",
+      "status_2026": "継続中（2026年8月にソラカメ3,300台超を発表）",
+      "who_pays": "法人顧客（放送局など）が気象サービスの料金を払う。参加者は特典（ソラカメ）や無料のアプリ機能を受け取り、投稿への金銭報酬の記載はない",
+      "results": "ウェザーリポート累計1億通（2025年7月）、1日約3〜4万通（2026年3月）、ソラカメ3,300台超（2026年8月）",
+      "lessons": "（推測）参加者に現金を払わず、役に立つアプリと「みんなで作る天気予報」という参加意識で続いている。データを売る先（放送局など）がはっきりしていることが長続きの条件になっている",
+      "source_ids": [
+        "J-S31",
+        "J-S32",
+        "J-S33"
+      ],
+      "verification": {
+        "note": "出典どおり。2026年3月時点でライブカメラは全国2,700か所以上（J-S33）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X14",
+      "name": "富山市センサーネットワーク",
+      "region": "富山県富山市",
+      "operator": "富山市",
+      "web3": false,
+      "summary": "市が市内全域をカバーするLoRaWAN網とIoTプラットフォームを持ち、市のIoT水位計などのデータを集めて公開する。民間には実証実験の場として無償で提供する。",
+      "stage": "ongoing",
+      "stage_evidence": "2018年に整備し、2022年度の国の事例集で水位配信や民間実証を紹介",
+      "status_2026": "現況未確認",
+      "who_pays": "通信網とプラットフォームは市。民間の実証で使うセンサー等の費用負担は、今回開いた一次資料では確認できなかった（公募要項PDFは文字を抽出できず）",
+      "results": "大雨警報時に水位ページへ通常の約10倍のアクセス（国の事例集に載った庁内職員の声）",
+      "lessons": "（推測）センサーごとに回線を契約するのでなく、自治体が通信の土台を持つことで、民間や他部署のセンサーを安く載せられる。土台の維持費は市が払い続けることになる",
+      "source_ids": [
+        "J-S37"
+      ],
+      "verification": {
+        "note": "10倍のアクセスと無償提供は「庁内職員の声」として掲載",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "J-X15",
+      "name": "埼玉県 カーナビデータによる急ブレーキ多発箇所の対策",
+      "region": "埼玉県",
+      "operator": "埼玉県（データ提供：本田技研工業）",
+      "web3": false,
+      "summary": "ホンダのカーナビ利用車の走行データから急ブレーキが多い場所を見つけ、原因を調べて道路の安全対策をする。",
+      "stage": "ongoing",
+      "stage_evidence": "2008年度に始め、全県へ拡大、2012年度から通学路にも使っている（2018年3月掲載）",
+      "status_2026": "現況未確認",
+      "who_pays": "対策工事は県。ホンダからのデータ提供が有償か無償かは資料に記載がない",
+      "results": "2011年度までに160か所を対策し、急ブレーキ約7割減、人身事故約2割減",
+      "lessons": "データを出しているドライバーは自分が提供していると意識していない。運転者には対価がなく、自動車会社と県の間で価値がやり取りされる形（推測）",
+      "source_ids": [
+        "J-S34"
+      ],
+      "verification": {
+        "note": "出典どおり。2013年度からはホンダの公開「セーフティマップ」も活用",
+        "checked_on": "2026-10-23"
+      }
+    }
+  ],
+  "gaps": [
+    "DMM Crypto×Hivemapperの日本での実証の結果（参加台数・走行距離・JETRO補助額・終了の有無）。DMM CryptoまたはJETROの対内直接投資促進事業の担当に確認が必要",
+    "ピクトレで東電PG以外の事業者（北海道電力ネットワーク、NTT ME、NTT西日本、沖縄電力）が画像1件あたりいくら払っているか、また東電PGの支払い単価。各社やDEA/GRGは公表していない",
+    "ピクトレの画像で実際に見つかった不具合の件数と、それによる点検費用の削減額。運営側の『2桁違う効率』は発言のみで、検証データは見つからなかった",
+    "危機管理型水位計の全国の実際の設置総数（2019年頃の計画値5,800か所のみ確認）と、1台あたりの年間の通信費・電池交換費の実績。国交省水管理・国土保全局河川計画課に確認が必要",
+    "簡易型河川監視カメラの1台あたりの本体・設置費（手引き（案）では見つからなかった）",
+    "京都府・京都市が危機管理型水位計・簡易型カメラに使った費用と設置年度。京都府建設交通部河川課・各土木事務所に確認が必要",
+    "今治市のランニングコスト2,200千円が年額か、また2025年度以降も続いているか。今治市道路課に確認が必要",
+    "三井住友海上ドラレコ・ロードマネージャーとNECくるみえ for Citiesの導入自治体数・契約額（自治体の入札・契約情報で個別に確認する必要がある）",
+    "京都市で公用車・ごみ収集車・民間車両のカメラによる路面点検をしているか。今回の検索では見つからなかった。京都市建設局土木管理部に確認が必要",
+    "勝浦町のセンサーが2026年時点でも使われているか、電池交換・故障の実績",
+    "わなセンサーの全国の導入台数と、鳥獣被害防止総合対策交付金のうちICT機器に使われた額",
+    "補助終了後にセンサーが放置・撤去された具体例を一次資料で見つけられなかった。会計検査院の決算検査報告や自治体の事業評価で探す必要がある",
+    "ウェザーニューズの法人向け売上のうち参加型データに由来する分。有価証券報告書のPDFは文字抽出できず、統合報告書2024も日本語本文を抽出できなかったため未確認",
+    "ゼンリンの調査員方式とユーザー投稿の関係、Wazeの日本での状況は今回調べきれなかった",
+    "ドローンによるインフラ点検で自治体が払っている委託額の例は今回集められなかった",
+    "総務省・経産省・デジタル庁でDePINを主題にした報告書。今回の検索では見つからず、NICTの委託研究のみ確認",
+    "富山市センサーネットワークの整備費・年間運用費と、将来有料化するかどうか。富山市の担当課に確認が必要"
+  ]
+}

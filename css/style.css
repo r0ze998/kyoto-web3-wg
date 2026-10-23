@@ -187,3 +187,17 @@ ul.plain { padding-left: 1rem; }
 .tag-v-unsupported { color: var(--warn); border-color: var(--warn); }
 td .tag + select { display: block; margin-top: .25rem; }
 .tbl td .small .chip { margin-right: .15rem; }
+/* 文章で読む画面 */
+.lead { font-weight: 600; font-size: 1.04rem; border-left: 4px solid var(--accent); padding: .1rem 0 .1rem .7rem; margin: .4rem 0 .8rem; }
+.doc-sec p { max-width: 46em; }
+.doc-points li { margin: .25rem 0; max-width: 46em; }
+.toc ol { margin: .3rem 0 0; padding-left: 1.4rem; columns: 2; column-gap: 2rem; }
+.toc li { break-inside: avoid; margin: .15rem 0; }
+.refs-inline { white-space: normal; }
+.refs-inline .chip { font-size: .66rem; }
+.doc-tbl td, .doc-tbl th { min-width: 8rem; }
+.idea { border: 1px solid var(--line); border-radius: var(--radius); padding: .8rem 1rem; margin: 0 0 12px; }
+.idea h3 { margin: .4rem 0 .2rem; }
+.idea .kv { grid-template-columns: 11rem 1fr; }
+@media (max-width: 720px) { .toc ol { columns: 1; } .idea .kv { grid-template-columns: 1fr; } }
+.toc ol { list-style: none; padding-left: .2rem; }

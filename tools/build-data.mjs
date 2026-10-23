@@ -17,7 +17,10 @@ for (const f of readdirSync(join(dataDir, 'research')).filter((f) => f.endsWith(
   for (const g of j.gaps || []) gaps.push({ topic: j.topic, text: g });
 }
 const analysis = JSON.parse(readFileSync(join(dataDir, 'analysis.json'), 'utf8'));
-const seed = { ...analysis, ...research, gaps };
+const readOpt = (f, dflt) => { try { return JSON.parse(readFileSync(join(dataDir, f), 'utf8')); } catch (e) { if (e.code === 'ENOENT') return dflt; throw e; } };
+const docs = readOpt('docs.json', { docs: [] }).docs;
+const ideas = readOpt('ideas.json', { criteria: [], ideas: [] });
+const seed = { ...analysis, ...research, gaps, docs, ideas };
 
 const errors = [];
 const warnings = [];
@@ -44,6 +47,10 @@ for (const c of seed.claims) {
   if (c.type !== 'inference' && !(c.source_ids || []).length) errors.push(`claim ${c.id}: 出典なし`);
   needAll('sources', c.source_ids, `claim ${c.id}`);
 }
+// 内容と一致しなかった出典（AI生成の要約など）を根拠にしない
+const badSources = new Set(seed.sources.filter((x) => x.status === '内容と不一致').map((x) => x.id));
+for (const c of seed.claims) for (const sid of c.source_ids || []) if (badSources.has(sid)) errors.push(`claim ${c.id}: 内容と不一致の出典 ${sid} を参照`);
+for (const x of seed.cases) for (const sid of x.source_ids || []) if (badSources.has(sid)) errors.push(`case ${x.id}: 内容と不一致の出典 ${sid} を参照`);
 for (const x of seed.cases) {
   if (!STAGES.includes(x.stage)) errors.push(`case ${x.id}: stage 不正 ${x.stage}`);
   needAll('sources', x.source_ids, `case ${x.id}`);
@@ -95,10 +102,23 @@ for (const u of seed.unknowns) { needAll('issues', u.issue_ids, `unknown ${u.id}
 // 問いがひとつも付いていない未確認事項は、確認の手段が決まっていない
 for (const u of seed.unknowns) if (!seed.questions.some((q) => (q.unknown_ids || []).includes(u.id))) warnings.push(`unknown ${u.id}: 対応する問いがない`);
 
+// 文章（docs・ideas）の中の [[X-Cnn]] も実在する主張か確かめる
+const MARK = /\[\[([A-Z]-C\d+(?:\s*,\s*[A-Z]-C\d+)*)\]\]/g;
+const textRefs = (text, where) => { for (const m of String(text || '').matchAll(MARK)) m[1].split(',').map((x) => x.trim()).forEach((id) => need('claims', id, where)); };
+const walk = (v, where) => { if (typeof v === 'string') textRefs(v, where); else if (Array.isArray(v)) v.forEach((x) => walk(x, where)); else if (v && typeof v === 'object') Object.values(v).forEach((x) => walk(x, where)); };
+for (const d of docs) walk(d, `doc ${d.id}`);
+const ideaIds = new Set();
+for (const x of ideas.ideas || []) {
+  if (ideaIds.has(x.id)) errors.push(`idea id 重複 ${x.id}`); ideaIds.add(x.id);
+  for (const k of ['title', 'one_liner', 'whose_burden', 'mechanism', 'buyer', 'why_pay', 'verdict', 'verdict_reason', 'next_check']) if (!x[k]) errors.push(`idea ${x.id}: ${k} がない`);
+  if (!['採用（候補比較へ）', '検討を続ける', '保留（条件待ち）', '見送り'].includes(x.verdict)) errors.push(`idea ${x.id}: verdict 不正`);
+  walk(x, `idea ${x.id}`);
+}
 const usedClaims = new Set();
 const collect = (a) => (a || []).forEach((c) => usedClaims.add(c));
 seed.issues.forEach((i) => collect(i.claims)); seed.proposals.forEach((p) => { collect(p.claims); Object.values(p.dims || {}).forEach((c) => collect(c.claims)); });
 seed.matrix.forEach((m) => collect(m.claims));
+for (const m of JSON.stringify([docs, ideas]).matchAll(MARK)) m[1].split(',').map((x) => x.trim()).forEach((c) => usedClaims.add(c));
 const unusedClaims = seed.claims.filter((c) => !usedClaims.has(c.id)).length;
 
 for (const w of warnings) console.warn('warn:', w);

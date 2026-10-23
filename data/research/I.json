@@ -1,0 +1,2113 @@
+{
+  "topic": "DePINの経済性（海外）",
+  "sources": [
+    {
+      "id": "I-S01",
+      "title": "Helium Tokenholder Report — Q2 2026",
+      "publisher": "Blockworks Advisory",
+      "url": "https://blockworks.com/api/investor-report/helium-token-holder-report-q2-2026/pdf",
+      "published": "2026-07-21",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "PDF（25ページ）をダウンロードしてテキスト化して確認。HeliumのCEO（Mario Di Dio）の「Management Commentary」が含まれる。Blockworksは発行体向けIRサービスを販売しており、本レポートが有償受託かは開示ページ（p.25）を抽出できず未確認。数値はオンチェーンのDC焼却の集計だが、独立性には注意",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23にPDF（25ページ、PDFメタデータ作成 2026-07-21、Author Blockworks Advisory）を再取得。目次に「25 Disclosures」とあるが、PDFは表紙＋24ページで、開示ページは含まれていない（注記の「抽出できず」は不正確）。Blockworksは発行体（token issuers）向けのIR商品を販売しており、四半期レポートがその一部（Advisoryが作成するオプション）と案内している（I-S109）。本レポートもHeliumのCEOのコメントを含み、独立した第三者の分析としては扱えない"
+    },
+    {
+      "id": "I-S02",
+      "title": "Helium Token Holder Report Q4 2025",
+      "publisher": "Blockworks Advisory",
+      "url": "https://blockworks.com/api/investor-report/helium-token-holder-report-q4-2025/pdf",
+      "published": "2026-02-05",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "PDFを取得して確認。cms.blockworks.co の同名PDFは403で開けなかった。I-S01と同じく独立性に注意",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF（26ページ、作成日 2026-02-05）を再取得。管理者コメントは「Helium Team」名義。Q3の比率が17%と33%の2通り書かれている（p.6とp.7など）。独立性はI-S01と同じく注意"
+    },
+    {
+      "id": "I-S03",
+      "title": "Token Transparency Filing: Helium (HNT) B1 v1.1",
+      "publisher": "Blockworks（Token Transparency Framework）",
+      "url": "https://blockworks.com/token-transparency/filing/helium",
+      "published": "2026-10-12",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "事業者側が提出する開示。Blockworksは「完全性のみ確認し、内容の正確さは検証しない」と明記。状態は「Partial - 6 gaps」",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "内容は確認（B1 v1.1、Filed 12 Oct 2026、Partial - 6 gaps）。ただし注記が誤り：このページは事業者の提出ではなく「compiled by Blockworks using publicly available information ... possibly together with information supplied directly by the project」で、Blockworksは事業者提供の情報の正確さを検証しない。T-Mobile/Ameribandと47%の出典はHeliumGeek（I-S102）、Noble Mobileの売却はHeliumGeekの9月2日のコール記録（I-S103）。2026-10-06のオンチェーン供給 194,024,144 HNT、HIP-150の内容も載っている"
+    },
+    {
+      "id": "I-S04",
+      "title": "HIP 139: Phase out CBRS",
+      "publisher": "Helium（GitHub helium/HIP）",
+      "url": "https://raw.githubusercontent.com/helium/HIP/main/0139-phase-out-cbrs.md",
+      "published": "2024-11-14",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "提案本文。投票結果（賛成85.20%）はRedditの投稿でのみ見たため未確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "本文を再取得（Start Date 2024-11-14）。helium/HIPのREADMEで状態は「Deployed」。投票率は未確認のまま"
+    },
+    {
+      "id": "I-S05",
+      "title": "Helium, Xnet pivot from CBRS to Wi-Fi",
+      "publisher": "Light Reading",
+      "url": "https://www.lightreading.com/network-automation/helium-xnet-pivot-from-cbrs-to-wi-fi",
+      "published": "2024-11-06",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "Mike Dano。XNETの5G事業者顧客がAT&Tであることは「関係者によると」で、AT&Tはコメントを拒否",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "Mike Dano、2024-11-06。XNETの運営者は1GBあたり約4ドル相当のXNETトークンを得ている（Beirith氏）、Heliumは約0.50ドル、という記載もある"
+    },
+    {
+      "id": "I-S06",
+      "title": "Helium teases offload from T-Mobile, but there's no formal deal",
+      "publisher": "Light Reading",
+      "url": "https://www.lightreading.com/oss-bss-cx/helium-teases-offload-from-t-mobile-but-there-s-no-formal-deal",
+      "published": "2025-06-09",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "T-Mobileは「Heliumとのオフロード契約はない」、Heliumは「第三者の無線事業者との別の提携契約による」と回答",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "Mike Dano、2025-06-09。T-Mobileの「does not have a carrier offload agreement with Helium Network」、Heliumの「separate partnership agreement with a third-party wireless company」を確認"
+    },
+    {
+      "id": "I-S07",
+      "title": "T-Mobile Cuts Ties with Helium Network: New Update",
+      "publisher": "BlockScopeX",
+      "url": "https://blockscopex.com/news/t-mobile-temporarily-leaves-helium-network/",
+      "published": "2026-08-30",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "暗号資産系ニュースサイト。公式声明の引用はなく、信頼度は低い。I-S03の記載（2026-08-31にAmeriband経由のT-Mobileのオフロードが終了）の補強としてのみ使う",
+      "status": "内容と不一致",
+      "checked_on": "2026-10-23",
+      "verification_note": "James Chen、2026-08-30。「On August 29, 2026, T-Mobile announced it is severing its connection」とあるが、T-Mobileの発表は確認できず、Heliumの公式ブログ（I-S101）もHeliumGeek（I-S102）もT-Mobileや仲介事業者が説明していないと書いている。本文の大半はRedditのコメントの要約で、「60%の確率」など根拠のない記述もある。出典から外し、I-S101・I-S102に差し替える"
+    },
+    {
+      "id": "I-S08",
+      "title": "Geodnet fees/revenue summary（DefiLlama API）",
+      "publisher": "DefiLlama",
+      "url": "https://api.llama.fi/summary/fees/geodnet?dataType=dailyFees",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "日次データを四半期に集計した。方法論：局アクセス料の80%でGEODを買い戻し・焼却、20%は財団の運営費。DefiLlamaの分類は「Oracle」",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23に再取得。methodologyに加え、breakdownMethodologyに「Total station access fees inferred from GEOD burns (burns represent 80% of total fees, so total = burns / 0.8)」とあり、料金は焼却からの推計。カテゴリは「Oracle」。total1y 9,593,053ドル"
+    },
+    {
+      "id": "I-S09",
+      "title": "Hivemapper fees summary（DefiLlama API）",
+      "publisher": "DefiLlama",
+      "url": "https://api.llama.fi/summary/fees/hivemapper?dataType=dailyFees",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "地図利用者がオンチェーンで焼却したHONEYだけを数える。オフチェーンの契約収入（Bee Mapsの法人販売）は含まれない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23に再取得。methodology「Honey token consumed burnt by map developers」。データは2025-07-13から、2026-10-16以降は0。カテゴリ「DePIN」"
+    },
+    {
+      "id": "I-S10",
+      "title": "XNET fees summary（DefiLlama API）",
+      "publisher": "DefiLlama",
+      "url": "https://api.llama.fi/summary/fees/xnet?dataType=dailyFees",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "方法論に、通信事業者の支払いは約2か月遅れで精算され、未精算分はXNET公式の月次見込みなどで暫定計上すると書かれている。XIP-12・XIP-13.1は「passed」と記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23に再取得。発生主義の暫定計上、XNETの公式月次見込み、約2か月後の精算、XIP-12（買い戻し80%→60%、20%はプロトコル所有の流動性）・XIP-13.1（運営者の現金取り分75%）の記載を確認。XIPの一次資料は見つからない"
+    },
+    {
+      "id": "I-S11",
+      "title": "GEOD Tokenomics",
+      "publisher": "GEODNET（docs）",
+      "url": "https://docs.geodnet.com/geod-token/tokenomics",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "総供給10億GEOD。基地局1台あたりの基本報酬の上限が毎年6月30日に半減する表がある。焼却の仕組みはこのページにはない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "表（96→48→24→12→6 GEOD/日）を確認。ページの最終更新は約3か月前。同ページから報酬倍率のルール（SuperHex、Performance-Based Reward Rules など）にリンクしており、実際の報酬は基本報酬を上回りうる（I-S107、I-S108）"
+    },
+    {
+      "id": "I-S12",
+      "title": "Token Transparency Filing: GEODNET（GEOD B2 v1.0）",
+      "publisher": "Blockworks（Token Transparency Framework）",
+      "url": "https://blockworks.com/token-transparency/filing/geodnet",
+      "published": "2025-08-19",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "事業者提出の開示（Partial - 2 gaps）。Blockworksは内容を検証しない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "GEOD B2 v1.0、Filed 19 Aug 2025、Partial - 2 gaps。「Blockworks reviews completeness only and does not verify or warrant the accuracy of individual answers」を確認。顧客の文言は「sold by more than 50 enterprise clients」"
+    },
+    {
+      "id": "I-S13",
+      "title": "GEODNET builds a positioning layer for physical AI with 22,000 base stations",
+      "publisher": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/geodnet-positioning-layer-physical-ai-base-stations/",
+      "published": "2026-10-02",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "John Chen。顧客数と第3四半期の売上の出所（事業者発表か独自取材か）は書かれていない。個人の発言の引用はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "datePublished 2026-10-02、著者 John Chen。数値は「The decentralized project says」「According to the project」と事業者の説明として書かれている（注記の「出所は書かれていない」は誤り）"
+    },
+    {
+      "id": "I-S14",
+      "title": "GEODNET 公式サイト",
+      "publisher": "GEODNET",
+      "url": "https://www.geodnet.com/",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "基地局数・売上のカウンターは取得時0表示（JavaScript描画）で数値は読めない。互換ハードのロゴ（DJI、DroneDeploy、Septentrio、Quectel など）は画像のファイル名からの推定",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。カウンターはJavaScript描画で0表示のまま。DJI・Septentrio・Quectelのロゴは画像ファイル名で確認。DroneDeployはロゴではなく、2025-04-08の提携発表のニュースとして掲載"
+    },
+    {
+      "id": "I-S15",
+      "title": "GEODNET: The $8M ARR Robotics Token On Track for $50M ARR by 2027",
+      "publisher": "Crescendo（Substack）",
+      "url": "https://roboticalpha.substack.com/p/geodnet-the-8m-arr-robotics-token",
+      "published": "2026-01-15",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "筆者はCrescendoがGEODNETチームに成長面で助言していると開示している。利害関係者の分析なので、当事者側の主張として扱う",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "datePublished 2026-01-15。「we advise the Geodnet team on growth」の開示を確認"
+    },
+    {
+      "id": "I-S16",
+      "title": "USDC Rewards Become the Default in August 2026",
+      "publisher": "Bee Maps, Inc.（公式ブログ）",
+      "url": "https://beemaps.com/blog/get-paid-in-usdc-to-map-your-city",
+      "published": "2026-07-16",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "HONEY報酬をアプリで扱わなくなること、Hivemapper Foundationとのサービス契約を解除したこと、USDC報酬はBee Mapsが自社資金で裁量的に払うこと",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-07-16。サイトの著作権表示は「Bee Maps, Inc.」"
+    },
+    {
+      "id": "I-S17",
+      "title": "Bee Maps Transitions to USDC for Payment Rewards（プレスリリース転載）",
+      "publisher": "Bee Maps（01net.it 掲載のBusiness Wireリリース）",
+      "url": "https://www.01net.it/bee-maps-transitions-to-usdc-for-payment-rewards/",
+      "published": "2026-07-20",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "Business Wireの原本（businesswire.com）は403で開けず、転載ページで確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "01net.itはcurlで403、WebFetchでは閲覧できた。Business Wire、2026-07-20（サンフランシスコ発）。HONEYとHivemapper Foundationには触れていない。Business Wireの原本URLは https://www.businesswire.com/news/home/20260720630630/en/ （未開封）"
+    },
+    {
+      "id": "I-S18",
+      "title": "Bee Maps Raises $32M to Scale Solana-Powered Decentralized Mapping Network",
+      "publisher": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2025/10/06/bee-maps-raises-usd32m-to-scale-solana-powered-decentralized-mapping-network",
+      "published": "2025-10-06",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "Pantera、LDA、Borderless、Ajnaの共同リード。売上の開示はない。Homebrewのブログ（同件）はページ上の日付が2026-06-26と表示され食い違うため使わない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "datePublished 2025-10-06"
+    },
+    {
+      "id": "I-S19",
+      "title": "Lyft Taps Solana-Powered Hivemapper for Decentralized Mapping Data",
+      "publisher": "Decrypt",
+      "url": "https://decrypt.co/320127/rideshare-company-lyft-taps-bee-maps-decentralized-mapping-data",
+      "published": "2025-05-15",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "LyftはDecryptに提携を認めたが、Lyftの発言の直接引用はない。契約条件は非公開",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "datePublished 2025-05-15。タイトルが違う"
+    },
+    {
+      "id": "I-S20",
+      "title": "Bee Maps 公式サイト",
+      "publisher": "Bee Maps, Inc.",
+      "url": "https://beemaps.com/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "ロゴ（Lyft、TomTom、HERE、Mapbox、Trimble、Volkswagen など）は顧客か提携先かの区別が書かれていない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。754M Total KM、37%、22M Unique KM。ロゴはLyft、NBC Universal、Mapbox、TomTom、HERE、Trimble、Fortex Design、Graylark、Volkswagen。著作権表示は「Bee Maps, Inc.」"
+    },
+    {
+      "id": "I-S21",
+      "title": "NATIX Network 公式サイト",
+      "publisher": "NATIX",
+      "url": "https://www.natix.network/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "ロゴ（Google、Nvidia、Valeo、Grab など）は役割の説明なし。売上の開示なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。Registered drivers 2,890,321、33か国、VX360 $379"
+    },
+    {
+      "id": "I-S22",
+      "title": "Silencio 公式サイト",
+      "publisher": "Silencio Network",
+      "url": "https://www.silencio.network/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "現在は音声（スピーチ）データのライセンス販売を前面に出している。顧客名なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。音声データ販売が前面、「paid in stablecoin」。騒音マップ（Silencio Sound）はトップページには出てこない"
+    },
+    {
+      "id": "I-S23",
+      "title": "Token Transparency Filing: Silencio（SLC）v1.1",
+      "publisher": "Blockworks（Token Transparency Framework）",
+      "url": "https://blockworks.com/token-transparency/filing/silencio",
+      "published": "2026-06-16",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "事業者提出の開示。Blockworksは内容を検証しない。as_ofは2026年4月とする箇所もあり、時点はあいまい",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "SLC B1 v1.1、Filed 16 Jun 2026、Partial - 1 gap。本文に「as of the date of this filing (April 2026)」とあり、時点はあいまい（注記どおり）"
+    },
+    {
+      "id": "I-S24",
+      "title": "Solana DePIN Ambient raises funds ahead of token launch, acquires PlanetWatch's network",
+      "publisher": "The Block",
+      "url": "https://www.theblock.co/post/292971/solana-depin-ambient-funding-token-acquires-planetwatch",
+      "published": "2024-05-07",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "curlでは403、WebFetchで閲覧。2024-05-07、Yogita Khatri。センサー数は「Ambient claims」とAmbientの主張"
+    },
+    {
+      "id": "I-S25",
+      "title": "WeatherXM 公式サイト（2026-10-23取得）",
+      "publisher": "WeatherXM",
+      "url": "https://www.weatherxm.com/",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "C-S37と同じURL。今回は製品・価格と顧客名の表示を確認した。データ販売の価格と収益は非公開",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。「Selected customers」の欄で顧客名を確認。「from $189」"
+    },
+    {
+      "id": "I-S26",
+      "title": "WeatherXM（Made on Sol のツールページ。X投稿の転載）",
+      "publisher": "Made on Sol",
+      "url": "https://madeonsol.com/tools/weatherxm",
+      "published": "2026-05-20（転載されたX投稿の日付）",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "WeatherXMのX投稿「We are redesigning WXM tokenomics and the WeatherXM reward mechanism.」の転載。X本体（x.com）は402で開けず、原文は未確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "転載されたX投稿の日付 May 20, 2026 を確認"
+    },
+    {
+      "id": "I-S27",
+      "title": "Token Transparency Filing: DIMO B1 v1.4",
+      "publisher": "Blockworks（Token Transparency Framework）",
+      "url": "https://blockworks.com/token-transparency/filing/dimo",
+      "published": "2026-10-16",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "事業者提出の開示（Complete）。Blockworksは内容を検証しない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "DIMO B1 v1.4、Filed 16 Oct 2026、Complete。事業者提出（Blockworksは正確さを検証しない）。焼却はEIP-1で実行、ロールと残高は2026-10-05時点"
+    },
+    {
+      "id": "I-S28",
+      "title": "Daylight Energy raises $75 million to fund decentralized U.S. residential solar + storage network",
+      "publisher": "Solar Builder",
+      "url": "https://solarbuildermag.com/news/daylight-energy-raises-75-million-to-fund-decentralized-u-s-residential-solar-storage-network/",
+      "published": "2025-10-30",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "資金調達の発表は2025-10-16（Business Wire）。原本のリリースは開いていない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "datePublished 2025-10-30"
+    },
+    {
+      "id": "I-S29",
+      "title": "Daylight 公式サイト",
+      "publisher": "Daylight",
+      "url": "https://godaylight.com/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "月額の価格、顧客数、トークン・DayFiの記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得"
+    },
+    {
+      "id": "I-S30",
+      "title": "Glow 公式サイト",
+      "publisher": "Glow",
+      "url": "https://glow.org/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "プロトコル手数料、発電収入、カーボンクレジットの金額の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。「Why Glow Has a Token」の節がある"
+    },
+    {
+      "id": "I-S31",
+      "title": "Sourceful 公式サイト",
+      "publisher": "Sourceful Energy",
+      "url": "https://www.sourceful.energy/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "旧称Srcful。トップページにトークン・暗号資産の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。参照事例「LW Fastigheter, Kalmar. In operation since autumn 2026」"
+    },
+    {
+      "id": "I-S32",
+      "title": "Anode Labs（React Network）企業プロフィール",
+      "publisher": "CB Insights",
+      "url": "https://www.cbinsights.com/company/anode-labs",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "第三者の企業データベース。ステージを「Dead」と表示。事業者の公式発表は確認できず、React Networkの公式サイト（reactnetwork.io）はTLS証明書の不一致で開けなかった",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。Stage「Dead」"
+    },
+    {
+      "id": "I-S33",
+      "title": "XNET 公式サイト",
+      "publisher": "XNET Inc.",
+      "url": "https://xnetmobile.com/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "xnet.company からリダイレクト。顧客名・売上の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。価格：$749、$995（定価$1,195）、$1,295（定価$1,695）"
+    },
+    {
+      "id": "I-S34",
+      "title": "DePINscan トップページ",
+      "publisher": "DePINscan（IoTeX）",
+      "url": "https://depinscan.io/",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "数値の時点は明記なし。収益の指標はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23取得。数値は本文と一致"
+    },
+    {
+      "id": "I-S35",
+      "title": "CoinGecko API（simple/price と coins/{id}/market_chart、365日）",
+      "publisher": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/coins/helium/market_chart?vs_currency=usd&days=365&interval=daily",
+      "published": "2026-10-23取得",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "helium、hivemapper、geodnet、weatherxm-network、dimo、natix-network、silencio の各IDで同じAPIを取得。URLは代表としてheliumを記載。xnet-mobileは最終更新が2024-12-17で価格が古く、使わない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "7つのIDで2026-10-23に再取得し、各値を再計算して一致を確認。各系列の起点は2025-10-24 00:00 UTC"
+    },
+    {
+      "id": "I-S101",
+      "title": "Industrial Shifts Aren't Linear: A Metrics Update",
+      "publisher": "Helium（Nova Labs、公式ブログ、Mario Di Dio CEO）",
+      "url": "https://www.helium.com/blog/industrial-shifts-aren%E2%80%99t-linear-a-metrics-update",
+      "published": "2026-08-28",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "「On Monday, a pilot with a third-party integrator that routes traffic from a US carrier will disconnect, and our daily active user count will drop」。社名は出していない。AT&T、Telefónicaとの関係は変わらないとする",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S102",
+      "title": "T-Mobile Offload via Ameriband Is Ending - August 28, 2026（Event Notes）",
+      "publisher": "HeliumGeek（コミュニティのデータサイト）",
+      "url": "https://heliumgeek.com/event-notes/2026-08-28-t-mobile-offload-via-ameriband-ending/",
+      "published": "2026-08-28（コールの日付）",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "DiscordのコミュニティコールのAI補助による記録と自前の集計。社名はコミュニティによる特定。2026-07-30〜08-28の報酬対象バイトはT-Mobile 47.29%・AT&T 52.43%。8月31日にT-Mobileの選択を全網で解除、9月1日以降T-Mobileのオフロードはゼロ。CEOは日次利用者 約30%減（約100万人）と見積もり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S103",
+      "title": "Helium Community Call - September 2, 2026（Event Notes）",
+      "publisher": "HeliumGeek",
+      "url": "https://heliumgeek.com/event-notes/2026-09-02-helium-community-call/",
+      "published": "2026-09-02",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "Helium Mobileの売却（Affiniti Ventures）は「essentially complete」、追加発行は稼働中、T-Mobileとの直接接続は協議中で合意なし、約3万APの署名済み案件は未稼働、米国の稼働中の通信事業者は1社。AI補助の記録",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S104",
+      "title": "HIP 149: Helium Utility and Emissions Realignment",
+      "publisher": "Helium（GitHub helium/HIP）",
+      "url": "https://github.com/helium/HIP/blob/main/0149-helium-utility-and-emissions-realignment.md",
+      "published": "2026-06-02（start-date）／2026年7月初めに可決",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "status: Approved。追加発行 約1.41億HNT、定額期間 約19.6万HNT/日、供給上限 約2.06億→約3.47億、用途、諮問評議会。可決要件は67%・定足数1億veHNT（投票集計のgist）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S105",
+      "title": "HIP 150: Mobile Deployer Prioritization",
+      "publisher": "Helium（GitHub helium/HIP）",
+      "url": "https://github.com/helium/HIP/blob/main/0150-mobile-deployer-prioritization.md",
+      "published": "2026-08-18（start-date）／2026-08-31に投票終了",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "status: Approved。目標最低額を支払単価の50%→80%（1年、もう1年は事前承認）、Novaのサービス提供者報酬（24%）を2027-07-31まで設置者に回す（70%→94%）、拠点ごとの倍率1〜5",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S106",
+      "title": "Bee Maps Transitions to USDC for Payment Rewards",
+      "publisher": "Bee Maps（Business Wire）",
+      "url": "https://www.businesswire.com/news/home/20260720630630/en/",
+      "published": "2026-07-20",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "I-S17の原本。原本ページは開いておらず、URLは検索結果による。内容はI-S17（転載）で確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S107",
+      "title": "SuperHex",
+      "publisher": "GEODNET（docs）",
+      "url": "https://docs.geodnet.com/geod-console-advanced/superhex",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "Phase I（2023年11月）は最大14倍、Phase II（2024年4月）は2倍か4倍の報酬倍率。Performance-Based Reward Rules（GIP6、2025-07-02施行）はボーナスプールを設ける",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S108",
+      "title": "StableHex",
+      "publisher": "GEODNET（docs）",
+      "url": "https://docs.geodnet.com/geod-console-advanced/stablehex",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "6倍・4倍・2倍の3段階の倍率、目標3,200局。基本報酬（1倍）は日次、上乗せ分は30日ごと",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "I-S109",
+      "title": "Investor Relations for token issuers",
+      "publisher": "Blockworks",
+      "url": "https://blockworks.com/products/investor-relations",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "発行体（Token issuers, protocols & DAOs）向けの商品で、四半期レポートの公開を含む。検索結果では、Advisoryの専門家による四半期レポートはオプションの追加サービスとされる（ページ本文はJavaScript描画で一部のみ取得）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    }
+  ],
+  "claims": [
+    {
+      "id": "I-C01",
+      "text": "Blockworks Advisoryのレポート（発行体向けのIR商品とみられ、HeliumのCEOのコメントを含む。独立の監査ではない）によると、Heliumの2026年第2四半期のプロトコル収益（Data Creditの焼却をドル換算したもの）は335万ドルで、その98.4%（329万ドル）が通信事業者のデータオフロードだった。IoTは2.31万ドル（0.7%）にとどまる。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S01"
+      ],
+      "as_of": "2026-Q2",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "収益",
+        "買い手"
+      ],
+      "number": "335万ドル／うちオフロード329万ドル／IoT 2.31万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S01 p.6（Financials）で確認：DC焼却の収益$3.35M、うちMobile $3.32M（99.3%）、IoT $23.1K（0.7%）、キャリアオフロード$3.29M（全体の98.4%）。数値は一致。ただしI-S01はBlockworksが発行体向けに販売するIR商品（Advisoryによる四半期レポート）とみられ、HeliumのCEOの「Management Commentary」を含む。目次に「25 Disclosures」とあるが、PDFは表紙を含め25ページで、最終ページはp.24の「Closing Summary」。開示ページ自体がPDFに存在しない（「抽出できず」ではない）。DC焼却は原理的にはオンチェーンで検証できるが、本件では独立に再集計していないため、出所の性格を本文に明記し type を party_claim に下げる",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C02",
+      "text": "Blockworks Advisoryのレポート（発行体向けとみられる）によると、Nova Labsは2026年6月4〜5日、HIP-143の権限で、通信事業者向けの支払単価を1GBあたり0.50ドルから約0.10ドルに下げた。DC焼却の日次の額は4〜5月の約4.7万ドルから、6月の最終週には約9,500ドルへ約80%減った。同レポートは、データ量は横ばいだったとしている。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S01"
+      ],
+      "as_of": "2026-06",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "収益の定義"
+      ],
+      "number": "0.50→約0.10ドル/GB、日次 約4.7万→約0.95万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S01 p.7で確認：HIP-143の権限で、HIP-149とは別に、Novaが6月4〜5日に支払単価を$0.50/GB→約$0.10/GBに変更。DC焼却の収益は4〜5月に約$47K/日、四半期最終週は約$9.5K/日（約80%減）、モバイルのデータ量は横ばい。数値は一致。出所の性格（I-C01と同じ）を明記し type を party_claim に",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C03",
+      "text": "HeliumのCEOは、0.50ドル/GBの単価は「実質的な補助」で、立ち上げのための仕組みだったと述べている。つまり2026年5月までの「収益」には、通信事業者が実際に払った額を上回る部分が含まれていた（DefiLlamaもこの理由でDC焼却を収益に数えていない。C-C37参照）。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S01"
+      ],
+      "as_of": "2026-07",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "収益の定義"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S01 p.4（Management Commentary、署名 Mario Di Dio, CEO）で確認：「a correction to remove an effective subsidy」「Protocol-subsidized DC burn above carrier rates was a bootstrapping mechanism that's no longer necessary」。C-C37（DefiLlamaが$0.50/GBの評価を理由にDC焼却を収益から除外）とも整合する",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C04",
+      "text": "Blockworks Advisoryのレポート（発行体向けとみられる）によると、2026年第2四半期のHNT発行（トークン報酬）は、ドル換算で150万ドル（約202万HNT）。DC焼却の収益÷発行のドル換算の比率は約2.2倍だが、同レポート自身が、改善は暗号資産市場の下落で発行額のドル換算が39%減ったためで、6月の値下げ後の実勢（exit rate）では約1.7倍だとしている。分子のDC焼却には5月までの0.50ドル/GBの単価（CEOが「実質的な補助」と呼ぶ部分）が含まれる。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S01"
+      ],
+      "as_of": "2026-Q2",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン報酬との比較"
+      ],
+      "number": "発行 150万ドル、比率 約2.2倍（実勢 約1.7倍）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S01 p.8〜9で確認：HNT発行は$1.50M（前期$2.45Mから39%減）、発行量は約2.02M HNTでほぼ横ばい。カバレッジ比率（DC焼却収益÷HNT発行のドル換算）は約2.2x（Q1 約1.6x、2025年Q4 1.24x）、改善は「emissions-led」で、6月の値下げ後の実勢は約1.7x。ドル換算の減少の理由は「broader systemic crypto market downturn」と半減後の発行の評価、とされる。数値は一致。比率の定義（分母は発行HNTのドル換算で、通信事業者が払った額ではなく単価補助を含むDC焼却が分子）を本文に補い、type を party_claim に",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C05",
+      "text": "Blockworks Advisoryのレポート（発行体向けとみられ、「Helium Team」のコメントを含む）によると、2025年第4四半期のHeliumは、DC焼却の合計520万ドルのうち290万ドルが、Helium Mobileの加入者収入でHNTを買って焼いた「裁量的な焼却」（すでに終了）だった。残る230万ドルは通信事業者のオフロード（219万ドル）とHelium Mobileのデータ転送（9.4万ドル）。HNTの発行は420万ドル（第3四半期は870万ドル）で、この230万ドルだけで見た比率は54.8%。第3四半期の比率は同レポート内で17%と33%の2通りの記載がある。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S02"
+      ],
+      "as_of": "2025-Q4",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン報酬との比較"
+      ],
+      "number": "オフロード等 230万ドル（うちオフロード219万ドル）vs 発行 420万ドル（54.8%）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S02（PDF作成日 2026-02-05）p.5〜6・p.9で確認：総収益$5.2M、うち裁量的焼却$2.9M（Helium Mobileが加入者収入の100%でHNTを買い焼却。2025年8月開始、終了済み）。「$2.3M」は「Carrier Offload and network usage」の合計で、内訳はキャリアオフロード$2.19M＋Helium Mobileのデータ転送$94K（p.9）。本文の「通信事業者のオフロード分は230万ドル」は不正確。発行$4.2M（Q3 $8.7M）、比率54.8%は一致。ただし同レポートはQ3の比率を、p.6で「33% in Q3」、p.7・p.21・p.23で「17% in Q3」と書いており、内部で食い違う。出所の性格を明記し type を party_claim に",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C06",
+      "text": "Blockworks Advisoryのレポート（発行体向けとみられる）によると、2026年第2四半期にオフロードで支払った事業体は3社で、オフロードのデータ量（バイト）は主要2社でほぼすべて（約53%と約47%、その他は合計1%未満）を占める。顧客の集中度が非常に高い（社名は同レポートに書かれていないが、コミュニティの集計ではAT&TとT-Mobile。I-C103参照）。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S01"
+      ],
+      "as_of": "2026-Q2",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "買い手",
+        "集中リスク"
+      ],
+      "number": "支払い事業体 3、上位2社 約53%・約47%",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S01 p.12・p.15で確認：「three paying entities this quarter, with two carriers accounting for essentially all offload volume」「of carried offload bytes this quarter, they split roughly 53% and 47%, with all other carriers contributing well under 1% combined」。53%・47%は支払額ではなくデータ量（バイト）の比率。社名は書かれていないが、同レポートp.19は最大の通信事業者が約200万人、T-Mobileが約100万人を接続とし、HeliumGeek（I-S102）の集計では2026年7〜8月の報酬対象バイトはAT&T 約52%、T-Mobile 47.29%。本文を「データ量」に直し、type を party_claim に",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C07",
+      "text": "Heliumの公式ブログ（2026年8月28日、CEO Mario Di Dio）は、米国の通信事業者のトラフィックを流していた第三者の仲介事業者との「パイロット」が8月31日に切断され、日次利用者が減ると発表した（社名は出していない）。コミュニティの集計サイトHeliumGeekは、これをAmeriband経由のT-Mobileのオフロードと特定し、切断前30日間（7月30日〜8月28日）の報酬対象データの47.29%を占めていたとしている。T-Mobileは2025年6月の時点で「Heliumとのオフロード契約はない」と述べ、Heliumは第三者の無線事業者との契約によると説明していた。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S101",
+        "I-S102",
+        "I-S03",
+        "I-S06"
+      ],
+      "as_of": "2026-08-31",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "買い手",
+        "集中リスク"
+      ],
+      "number": "報酬対象データの約47%（HeliumGeekの集計）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S03（TTF Helium B1 v1.1、Filed 2026-10-12）で文言は確認できたが、このページは事業者が提出した開示ではなく、冒頭に「This page was compiled by Blockworks using publicly available information ... possibly together with information supplied directly by the project」とある（I-S03の注記の誤り）。T-Mobile/Ameribandと47%の出典はHeliumGeek（I-S102）。Heliumの公式ブログ（I-S101、2026-08-28、CEO Mario Di Dio）は「a pilot with a third-party integrator that routes traffic from a US carrier will disconnect」（月曜＝8月31日）と書くだけで、T-MobileやAmeribandの名前は出していない。HeliumGeekは、名前は契約上の制約で出されず、コミュニティがT-Mobile/Ameribandと特定したと説明し、47.29%は自前で集計した2026-07-30〜08-28の報酬対象バイトの比率。I-S07（BlockScopeX）は「T-Mobileが8月29日に発表した」と書くが、そのような発表は確認できず、内容はRedditのコメントの要約。出典から外す。I-S06（Light Reading 2025-06-09）の部分は一致",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C08",
+      "text": "I-C06とI-C07から、2026年第3四半期以降のHeliumのオフロード収益は、主要顧客の1社を失い、単価も約5分の1になったことで、第2四半期より大きく減っている可能性が高い（推測。第3四半期の数値はまだ確認できない）。",
+      "type": "inference",
+      "source_ids": [
+        "I-S01",
+        "I-S03",
+        "I-S101",
+        "I-S102"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "採算"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "推測として論理は通る。I-S01（主要2社で約53%・47%、単価約1/5）とI-S101/I-S102（T-Mobile系の終了）から導ける。2026年Q3のBlockworksレポートは、2026-10-23時点で blockworks.com/api/investor-report/helium-token-holder-report-q3-2026/pdf が404で未公表。なお8月末以降はHIP-150で設置者への配分が増え（I-C102）、HNT価格も一時急騰した（I-C104）ため、収益（DC焼却）と設置者の受取額は別の動きをする点に注意。source_idsにI-S101を加えるとよい",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C09",
+      "text": "HIP-149で、Nova Labsが管理する口座（Squadsのマルチシグ）に約1.41億HNTを36か月で追加発行する。最初の約12か月（HIP-150によると2027年7月31日まで）は1日約19.6万HNT、計約7,060万HNTで、通常の発行（約2.05万HNT/日）の約9.5倍。追加発行は2026年8〜9月に始まり、HNTの供給はQ2末の約1.82億から2026年10月6日には約1.94億に増えた（焼却が発行を上回る純減の状態は終わった）。",
+      "type": "fact",
+      "source_ids": [
+        "I-S01",
+        "I-S104",
+        "I-S105",
+        "I-S103",
+        "I-S03"
+      ],
+      "as_of": "2026-10-06",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン報酬との比較",
+        "方針転換"
+      ],
+      "number": "初年度 約7,060万HNT、供給 約1.94億HNT（2026-10-06）",
+      "status": "有効",
+      "verification": {
+        "verdict": "outdated",
+        "note": "I-S01 p.22とHIP-149本文（I-S104）で確認：約1.41億HNT／36か月、最初の約12か月は1日約19.6万HNTで計約7,060万HNT、HIP-20の通常発行 約20,548 HNT/日の約9.5倍、供給上限は約2.06億→約3.47億。数値は一致。ただし「分配が始まれば純増に転じる」は古い：HeliumGeekの2026-09-02コミュニティコールの記録（I-S103）でNovaの技術者が「36か月の追加発行は稼働中」と述べ、I-S03は2026-10-06のオンチェーン供給を194,024,144 HNTとする（Q2末の流通供給182.2M、提案時の約182.5Mから約1,150万HNT増）。HIP-150（I-S105）は定額期間の終了を2027-07-31としている。追加発行は投票権のあるHNT保有者が過半数で縮小・停止できる",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C10",
+      "text": "初年度の追加発行約7,060万HNTを2026年10月23日のHNT価格（約0.41ドル）で換算すると約2,900万ドルになる（8月の平均価格 約0.18ドルなら約1,300万ドルで、価格しだいで大きく変わる）。6月末の実勢収益（約9,500ドル/日、年換算 約350万ドル。T-Mobile系の終了前の値）の約4〜8倍で、Heliumは当面、利用料ではなく、Nova Labsが追加発行のHNTを売って運営費を賄う構造に戻ったとみられる（推測）。",
+      "type": "inference",
+      "source_ids": [
+        "I-S01",
+        "I-S35",
+        "I-S104",
+        "I-S03"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン報酬との比較",
+        "採算"
+      ],
+      "number": "約1,300万〜2,900万ドル vs 約350万ドル/年",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "検算：7,060万×0.41144ドル（CoinGecko 2026-10-23）＝約2,905万ドル。9,500ドル×365＝約347万ドル。比は約8.3倍。計算は正しい。ただし(1)HNT価格は8月中旬に約0.17〜0.19ドル、8月30日終値約0.77ドルと大きく動いており（I-C104）、8月の平均（約0.18ドル）なら約1,300万ドルで、換算額は価格しだいで2倍以上変わる、(2)約9,500ドル/日は6月最終週の値で、8月31日のT-Mobile系の終了で実勢はさらに下がっている可能性が高い、(3)追加発行のHNTはNovaの口座に入り、運営費に使うには売却が必要（I-S03はNovaが売却を予定と記載）、の前提を本文に書く",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C11",
+      "text": "HIP-149の本文と、Blockworksがそれをまとめたページによると、追加発行の資金は、国際的な通信事業者の開拓、設置者向けプログラム、エンジニアリング、エコシステムへの助成、規制対応、中核の運営費に使われ、7人の諮問評議会が監督する。Nova Labs自身の売上・損益は開示されていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S104",
+        "I-S03"
+      ],
+      "as_of": "2026-10-12",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "費用負担"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "用途の列挙（international carrier expansion, deployer programs, engineering, ecosystem grants, regulatory work and core operating costs）はI-S03で確認。ただしI-S03は事業者の開示ではなくBlockworksが公開情報から作成したページで、元はHIP-149本文（I-S104）。「生態系への助成（ecosystem grants）」が抜けている。Nova Labsの売上・損益の開示はない（I-S03はSECの訴状がNovaによるHNT売却に触れると記載）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C12",
+      "text": "Blockworks Advisoryのレポート（発行体向けとみられる）によると、2026年第2四半期のHeliumの設置者（deployer）は約11,939で前期比0.2%増、データを流している拠点は1日平均約14,500で横ばい。一方、オフロードのデータ量は9,851TBで前期比20%増。HIP-149でカバレッジへの報酬が廃止され、トラフィックの多い設置者に報酬が集中する。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S01"
+      ],
+      "as_of": "2026-Q2",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "設置者の採算",
+        "H2"
+      ],
+      "number": "設置者 約11,939、拠点 約14,500/日、9,851TB",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S01 p.14〜15で確認：設置者 約11,939（Q1 11,910から0.2%増）、データを流す拠点 1日平均約14,500（Q1 約14,600）、オフロード 9,851TB（Q1 約8,200TBから20%増）。HIP-149でPoC廃止・報酬が高トラフィックの設置者に集中（p.22）。数値は一致。出所の性格を明記し type を party_claim に",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C13",
+      "text": "HIP-139（2024年11月提案）は、HeliumのCBRS（5G）無線機への報酬を2025年3月1日で終えるとした。理由は、約4,000台のCBRS機がデータの約2%しか運んでいないのに報酬の10〜15%を受け取り、保守費も高いこと。所有者には無償のWi-Fi機器との交換が示された。",
+      "type": "fact",
+      "source_ids": [
+        "I-S04"
+      ],
+      "as_of": "2024-11-14",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "失敗・撤退",
+        "設置者の採算"
+      ],
+      "number": "約4,000台、データ約2%、報酬10〜15%",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S04（HIP 139本文、Start Date 2024-11-14）で確認：約4,000台、データ約2%、報酬の10〜15%、保守費が高い、2025年3月1日までに全CBRS機をオフラインにし報酬終了、無償Wi-Fi機器（対象は2024-08-01〜11-01に報酬を得た機器、米本土の住所のみ、HIP-138の130万HNT MOBILE Growth Fundから助成）。helium/HIPのREADMEでHIP 139の状態は「Deployed」。投票率は未確認のまま",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C14",
+      "text": "Light Reading（2024年11月）によると、CBRS無線機は1台数千ドル、Wi-Fiホットスポットは数百ドル。HeliumとXNETはCBRSからWi-Fiオフロードに軸足を移した。理由は、CBRSは利用者体験が悪く、Passpoint Wi-Fiの方が成熟していて設置も簡単だから。",
+      "type": "fact",
+      "source_ids": [
+        "I-S05"
+      ],
+      "as_of": "2024-11-06",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "XNET",
+        "失敗・撤退"
+      ],
+      "number": "CBRS 数千ドル／Wi-Fi 数百ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S05（Light Reading、Mike Dano、2024-11-06）で確認：CBRS無線機は「several thousand dollars each」、Wi-Fiホットスポットは「typically cost just a few hundred dollars」。Di Dio氏はCBRSは利用者体験が悪く、Passpointの方が成熟し展開が容易と説明。両社ともCBRSを完全には捨てていない（XNETは地方で検討継続）との記載もある",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C15",
+      "text": "Helium Mobileの消費者事業のNoble Mobile（運営会社 Affiniti Ventures）への売却について、HeliumのCEOは2026年9月2日のコミュニティコールで「ほぼ完了」と説明した（コミュニティサイトHeliumGeekの記録）。2026年9月9日更新のHelium Mobileの約款は、提供者をAffiniti Venturesとしている。Blockworks Advisoryのレポートは「6月2日に買収された」、同レポート内のCEOコメントは「5月に売却」と書いており、完了時期の説明はそろっていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S103",
+        "I-S03",
+        "I-S01"
+      ],
+      "as_of": "2026-09-02",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "事業売却"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S03の記述（「the September 2, 2026 community call described the sale as essentially complete」）は確認したが、出典はHeliumGeekのコール記録（I-S103）で、買い手はNoble Mobileの運営会社Affiniti Ventures。I-S03は、2026-09-09更新のHelium Mobileの約款が提供者をAffiniti Venturesとしていると記載。なおI-S01はp.12で「acquired ... on June 2」、CEOコメント（p.4）は「in May」と書き、完了時期の説明が資料ごとに違う",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C16",
+      "text": "CoinGeckoのデータでは、HNTの価格は2025年10月24日の約2.03ドルから2026年10月23日の約0.41ドルへ約80%下がり、時価総額は約3.78億ドルから約0.82億ドルになった。",
+      "type": "fact",
+      "source_ids": [
+        "I-S35"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン価格"
+      ],
+      "number": "-約80%、時価総額 約0.82億ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S35（CoinGecko market_chart 365日、2026-10-23取得）で再取得して確認：2025-10-24 00:00 UTC $2.0277（時価総額 $377.9M）→2026-10-23 $0.4114（$81.3M）、-79.7%。ただし途中で大きく動いている（8月中旬 約$0.17、8月30日終値 約$0.77、I-C104）。比較の起点が1日違うだけで結果が変わる点に注意",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C17",
+      "text": "DefiLlamaの集計（2026年10月23日取得）では、GEODNETの局アクセス料（RTK補正データの利用料）は、2025年第1四半期の約81万ドルから、2026年第3四半期の約278万ドルへ、10四半期続けて増えた。ただしこの値は料金を直接数えたものではなく、オンチェーンのGEOD焼却額を「料金の80%が焼却される」という前提で割り戻した推計（焼却÷0.8）。GEODNETの開示は「購読収入の50%を財団と分け、その80%で焼却」としており、その場合の料金総額はこの約2倍になる（I-C19）。",
+      "type": "fact",
+      "source_ids": [
+        "I-S08"
+      ],
+      "as_of": "2026-Q3",
+      "tags": [
+        "DePIN",
+        "GEODNET",
+        "収益",
+        "買い手"
+      ],
+      "number": "2026年Q3 約278万ドル、直近1年 約959万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S08（DefiLlama API、2026-10-23取得）を日次で再集計：2025Q1 $809,093、2026Q3 $2,777,571、total1y $9,593,053。数値は一致。ただしbreakdownMethodologyによると、DefiLlamaの「Fees」は料金を直接見たものではなく「GEODの焼却から推計した額（焼却は料金の80%なので、合計＝焼却÷0.8）」。一方、GEODNET自身の開示（I-S12）は「購読収入の50%を財団と分け、その80%で買い戻し・焼却」としており、こちらが正しければ焼却は料金総額の40%で、DefiLlamaの値は料金総額の約半分（財団の取り分）にあたる可能性がある。取得日と定義を本文に明記する",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C18",
+      "text": "Crypto Briefing（2026年10月2日）は、GEODNET側の説明として、基地局は2026年9月30日時点で2.2万台を超え（174か国）、法人顧客は150社超、第3四半期の売上は280万ドルとしている。顧客名はない。売上280万ドルはDefiLlamaの推計（I-C17）とほぼ同じ額で、同じ焼却ベースの数字か、売上総額かは判別できない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S13"
+      ],
+      "as_of": "2026-09-30",
+      "tags": [
+        "DePIN",
+        "GEODNET",
+        "買い手"
+      ],
+      "number": "基地局 2.2万超、顧客 150社超、Q3 280万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S13（Crypto Briefing、John Chen、datePublished 2026-10-02）で数値は確認：2.2万台超（2026-09-30時点）、174か国、法人顧客150社超、Q3売上$2.8M。ただし記事は「The decentralized project says ... It serves over 150 enterprise customers and booked revenue of $2.8 million in Q3」「According to the project ... had passed 22,000 base stations as of September 30, 2026」と、事業者の発表として書いている。「出所は書かれていない」は誤り。なおQ3売上$2.8MはDefiLlamaの推計（I-C17、約278万ドル）とほぼ同じで、焼却からの推計か売上総額かは記事から判別できない。Crescendo（I-S15、2026年1月）も既に「22,000+ stations」としており、基地局数は2026年に入ってほぼ横ばいの可能性がある",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C19",
+      "text": "GEODNETがBlockworksに提出した開示（2025年8月）は、補正データと購読は「50社超の法人（enterprise clients）」によって販売され（顧客か再販パートナーかは原文からはっきりしない）、名前はない。収益配分は「購読収入の50%を財団と分け、その80%で買い戻し・焼却」と書かれていて、DefiLlamaの「料金の80%で焼却」と食い違う。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S12",
+        "I-S08"
+      ],
+      "as_of": "2025-08-19",
+      "tags": [
+        "DePIN",
+        "GEODNET",
+        "収益の定義",
+        "数字の食い違い"
+      ],
+      "number": "顧客 50社超（2025-08）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S12（TTF GEOD B2 v1.0、Filed 2025-08-19、Partial - 2 gaps、Blockworksは「completeness only」を確認）で確認。原文は「Precise localization Data Streams and Subscriptions are sold by more than 50 enterprise clients. 50% of the subscription revenue is shared with the GEODNET Foundation. 80% of this revenue is used for buy-back and burning」。「sold by」は「〜に販売」ではなく「〜を通じて販売」（販売パートナー）とも読める。Crescendo（I-S15）も、Quectelなどの提携先が補正データを自社製品に組み込み、通常50/50で収益を分けると書いており、50%は再販パートナーとの分配を指す可能性がある。DefiLlamaの「料金の80%」との食い違いの指摘は妥当",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C20",
+      "text": "GEODNETの基本報酬は、三周波の基地局1台あたり1日96 GEOD（2022年7月〜）から毎年半減し、2026年7月1日からは1日6 GEODになった。実際の報酬は、データの品質や同じ区画（ヘックス）の局数で基本報酬より少なくなる一方、需要の高い区画への倍率（SuperHex・StableHexで2〜14倍）や品質ボーナスで多くなることもある。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S11",
+        "I-S107",
+        "I-S108"
+      ],
+      "as_of": "2026-07-01",
+      "tags": [
+        "DePIN",
+        "GEODNET",
+        "トークン報酬",
+        "設置者の採算"
+      ],
+      "number": "基本報酬 6 GEOD/日",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S11（docs.geodnet.com、最終更新は約3か月前）で表を確認：三周波の基本報酬の上限 96（2022-07〜）→48→24→12→6 GEOD/日（2026-07-01〜2027-06-30）、毎年6月30日に半減。ただし「実際の報酬はデータの品質などで上限より少ない」は不正確：同じページが参照する報酬ルールには、SuperHex（Phase Iは最大14倍、Phase IIは2倍か4倍）、StableHex（6倍・4倍・2倍）、性能ベースのボーナスプール（I-S107・I-S108、2025年7月施行のGIP6）があり、条件しだいで基本報酬を上回る。逆に同じヘックス内の非NFT局は報酬を分け合うので下回ることも多い",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C21",
+      "text": "基本報酬の6 GEOD/日を2026年10月23日の価格（約0.259ドル）で換算すると、基地局1台あたり年約570ドル。GEODNETに助言するCrescendoが示す機器代（600〜800ドル）を基本報酬だけで回収するには1年以上かかる計算になる。事業者が示す2.2万台がすべて基本報酬を満額得たとすると、発行は四半期で約260万〜310万ドル相当（第3四半期の平均価格〜10月23日の価格）で、DefiLlamaの焼却ベースの料金推計（約278万ドル）と同程度。ただし需要の高い区画への倍率報酬や品質ボーナスは含まず、実際の発行額は確認していない。GEODNETは、利用料とトークン発行が近い規模にある数少ない例とみられる（推測）。",
+      "type": "inference",
+      "source_ids": [
+        "I-S11",
+        "I-S08",
+        "I-S15",
+        "I-S35"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "GEODNET",
+        "設置者の採算",
+        "トークン報酬との比較"
+      ],
+      "number": "年 約570ドル/台（基本報酬）、発行 約260万〜310万ドル/四半期（基本報酬のみの試算）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "検算：6 GEOD×0.2587ドル×365＝約567ドル/年（約570ドル、一致）。22,000台×6 GEOD×92日×0.2587ドル＝約314万ドル（約310万ドル、一致）。ただし(1)「上限」ではない：SuperHex・StableHex（最大6〜14倍）やボーナスプールがあり（I-C20）、1台が6 GEOD/日を超えることも、ネットワーク全体の発行が台数×6を超えることもありうる、(2)価格は2026-10-23の値で、第3四半期の平均（約0.218ドル）なら約264万ドル、(3)2.2万台は事業者の発表（I-C18）、(4)機器代600〜800ドルは助言者Crescendoの数字（I-S15）、(5)比較相手の「料金収入 約278万ドル」はDefiLlamaの焼却からの推計で、料金総額は約2倍の可能性（I-C17）。前提を本文に書き、「上限」の語を外す",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C22",
+      "text": "GEODNETに助言しているCrescendoの分析（2026年1月）は、ARRを830万ドル、基地局の価格を600〜800ドル、サービス料を年約400ドル（既存のTrimble・Hexagonは年1,000〜2,000ドル）とし、Quectel や Propeller Aero を顧客・統合先に挙げている。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S15"
+      ],
+      "as_of": "2026-01-15",
+      "tags": [
+        "DePIN",
+        "GEODNET",
+        "買い手"
+      ],
+      "number": "ARR 830万ドル、年約400ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S15（Crescendo、datePublished 2026-01-15）で確認：「$8.3M ARR」「GEODNET: $600-800 stations」「~$400/year」「legacy providers (Trimble, Hexagon) charging $1,000-2,000/year」「Paying enterprise customers: Quectel ..., Propeller Aero」、免責に「we advise the Geodnet team on growth」。party_claimの扱いは妥当。同記事はQuectelなどが50/50で収益を分ける再販モデルとも書く（I-C19に関係）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C23",
+      "text": "GEODの価格は1年で約95%上がった（2025年10月24日 約0.133ドル→2026年10月23日 約0.259ドル、時価総額 約1.2億ドル）。今回調べたDePINのトークンで、上昇したのはGEODだけだった。",
+      "type": "fact",
+      "source_ids": [
+        "I-S35"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "GEODNET",
+        "トークン価格"
+      ],
+      "number": "+約95%",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S35で再取得：GEOD 2025-10-24 $0.1328→2026-10-23 $0.2587（+94.8%）、時価総額 $119.7M。調べた7トークン（HNT、HONEY、GEOD、WXM、DIMO、NATIX、SLC）で上昇はGEODのみ",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C24",
+      "text": "Bee Maps（旧Hivemapper Inc.）は2026年7月、運転者への報酬を2026年8月からUSDC（ドル建てのステーブルコイン）を標準にし、アプリでHONEYトークンの報酬を扱わなくなると発表した。USDCの報酬はBee Mapsが自社の資金で、裁量で払う。Hivemapper Foundationとのサービス契約も解除した。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S16",
+        "I-S17"
+      ],
+      "as_of": "2026-07-16",
+      "tags": [
+        "DePIN",
+        "Hivemapper",
+        "方針転換",
+        "トークン離れ"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S16（Bee Mapsブログ、2026-07-16）で確認：2026年8月からUSDCが標準、PhantomとBreezeの接続を外しアプリでHONEY報酬を扱わない、「we have terminated our services agreement with the Hivemapper Foundation」、「USDC rewards are funded directly by Bee Maps and offered at our sole discretion」。I-S17（Business Wire 2026-07-20、01net.it転載。curlは403だがWebFetchで閲覧可）はUSDCの標準化と自社資金・裁量を述べるが、HONEYとHivemapper Foundationには触れていない。Hivemapper Foundation側の発表は見つからなかった",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C25",
+      "text": "DefiLlamaが数えるHivemapperのオンチェーン手数料（地図の利用者が焼却したHONEYのドル換算。2026年10月23日取得）は、2025年第4四半期の約29万ドルから、2026年第3四半期には約7.6万ドルに減った（月ごとの変動が大きく、2026年8月は約400ドル、9月は約5.1万ドル）。C-C41のDePIN Pulseの数字（2025年12月時点の30日ベースARR 130万ドル超）は、DefiLlamaの2025年12月の値を年換算した額（約131万ドル）とほぼ同じで、同じオンチェーンの焼却を数えている可能性がある。Bee Mapsのオフチェーンの契約収入の総額は公表されていない。報酬がUSDCに移った後は、オンチェーンの数字から事業規模を判断しにくくなる（推測）。",
+      "type": "fact",
+      "source_ids": [
+        "I-S09"
+      ],
+      "as_of": "2026-Q3",
+      "tags": [
+        "DePIN",
+        "Hivemapper",
+        "収益の定義",
+        "数字の食い違い"
+      ],
+      "number": "2026年Q3 約7.6万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S09（DefiLlama API、2026-10-23取得）を再集計：2025Q4 $294,234、2026Q3 $76,136で一致。ただし月次は大きくぶれる（2026-04 $6.2K、06 $3.7K、08 $0.4K、09 $51.1K）。2026-10-16以降は0。データは2025-07-13から。C-C41のDePIN Pulseの「12月29日時点の30日ベースARR 130万ドル超」は、DefiLlamaの2025年12月の値（$109.6K）を年換算した約131万ドルとほぼ同じで、定義が違うとは言い切れない（DePIN Pulseは開けず、定義は未確認）。取得日・定義・月次のぶれを本文に書く",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C26",
+      "text": "Bee Mapsは2025年10月に3,200万ドルを調達した。共同創業者のAriel Seidman氏はプレスリリースで「需要ではなく供給が問題だ」と述べた。CoinDeskは、Bee MapsがLyftやVolkswagenのロボタクシー事業と提携していると書いている。同時に、端末代（約600ドル）を月19ドルの購読に置き換えるプランを始めた。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S18"
+      ],
+      "as_of": "2025-10-06",
+      "tags": [
+        "DePIN",
+        "Hivemapper",
+        "買い手",
+        "設置者の採算"
+      ],
+      "number": "3,200万ドル、月19ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S18（CoinDesk、2025-10-06）で確認：$32M、Pantera・LDA・Borderless・Ajnaの共同リード、Seidman氏（記事の肩書は「co-founder of Hivemapper」）の「Demand is not the problem — supply is」（プレスリリースからの引用）、Bee Membershipで初期費用 約$600→月$19。ただしLyftとVolkswagenのロボタクシー事業は、Seidman氏の発言ではなくCoinDeskの地の文（「In recent months, Bee Maps has teamed up with major players including Lyft ... Volkswagen's robotaxi program」）で、「顧客」ではなく「提携」と書かれている",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C27",
+      "text": "Decrypt（2025年5月）によると、LyftはBee Mapsの地図データを2024年から使っていることを認めた。Decryptは、取引はデータのライセンスだけで、Lyftの運転者や車両がデータを集めるのではないと理解しているとする。契約条件は非公開。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S19"
+      ],
+      "as_of": "2025-05-15",
+      "tags": [
+        "DePIN",
+        "Hivemapper",
+        "買い手"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S19（Decrypt、datePublished 2025-05-15。記事タイトルは「Lyft Taps Solana-Powered Hivemapper for Decentralized Mapping Data」）で確認：Lyftは提携とデータの調達（2024年開始）をDecryptに認めた。「データのライセンスのみで、Lyftの運転者・車両は収集に関わらない」は「Decrypt understands」とあるDecryptの理解で、Lyftの確認ではない。契約条件は非公開。報道の伝聞なので type を party_claim に",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C28",
+      "text": "HONEYの価格は1年で約81%下がった（約0.0108ドル→約0.0021ドル、時価総額 約0.14億ドル）。",
+      "type": "fact",
+      "source_ids": [
+        "I-S35"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Hivemapper",
+        "トークン価格"
+      ],
+      "number": "-約81%",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S35で再取得：HONEY $0.01077→$0.00207（-80.8%）、時価総額 $13.6M",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C29",
+      "text": "DefiLlamaの集計（2026年10月23日取得）では、XNET（Wi-Fiオフロード）の通信事業者からの料金は、2026年第3四半期で約9.6万ドル。オンチェーンの数字ではなく、精算（約2か月遅れ）前の月はXNET公式の月次見込みなどで暫定計上した値。DefiLlamaによると、可決済みのXIP-13.1で、指定された運営者はトークンではなく法定通貨で報酬を受け取れる（運営者の取り分は75%）。XIPの原文は確認できていない。",
+      "type": "fact",
+      "source_ids": [
+        "I-S10"
+      ],
+      "as_of": "2026-Q3",
+      "tags": [
+        "DePIN",
+        "XNET",
+        "収益",
+        "トークン離れ"
+      ],
+      "number": "2026年Q3 約9.6万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S10（DefiLlama API、2026-10-23取得）を再集計：2026Q3 $95,605で一致。方法論で、DefiLlamaの値はオンチェーンではなく、通信事業者の支払い（通常約2か月後に精算）を発生主義で計上し、未精算の月はXNETの公式の月次見込み、直近は保守的な単価で暫定計上すると確認。2026年4〜6月は各月ちょうど$15,000で、見込み値とみられる。XIP-12（買い戻し 80%→60%）・XIP-13.1（指定運営者は法定通貨を選べ、運営者の取り分75%）は「passed」とDefiLlamaが記載するが、XNET側の一次資料は見つからなかった。取得日と定義を本文に書く",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C30",
+      "text": "XNETの機器は1台749〜1,295ドル（セール価格。定価は最大1,695ドル）で販売されている（公式サイト）。2024年11月に同社CEOが示した約1,000拠点を前提にすると、四半期約9.6万ドルの料金総額は1拠点あたり年約380ドルにとどまり、運営者の取り分はさらに小さい。料金だけで機器代を回収するには年単位がかかる（推測。2026年の拠点数は未確認）。",
+      "type": "inference",
+      "source_ids": [
+        "I-S33",
+        "I-S10",
+        "I-S05"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "XNET",
+        "設置者の採算"
+      ],
+      "number": "機器 749〜1,295ドル（セール価格）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S33で価格を確認：X7-35X $749、XR670 $995（定価$1,195）、XT670 $1,295（定価$1,695）。「749〜1,295ドル」はセール価格で、定価では最大1,695ドル。約1,000拠点はXNETのDeVaul CEOの2024年11月の発言（I-S05、目標は翌年1.5万拠点）。検算：9.6万ドル×4÷1,000＝約380ドル/拠点・年で「年数百ドル」は通る。ただしこれは料金の総額で、運営者が受け取る額ではない（運営者への報酬は主にトークン。2024年は1GBあたり約4ドル相当のXNETトークン、I-C106）。前提を本文に書く",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C31",
+      "text": "Silencioの開示（2026年6月）によると、2026年第1四半期の音声データの売上は約10万ドルで、月の支出（バーン）は約7.5万ドル。4,000万ドル超の「パイプライン」は顧客からのデータ仕様の依頼で、契約済みの売上ではない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S23"
+      ],
+      "as_of": "2026-Q1",
+      "tags": [
+        "DePIN",
+        "Silencio",
+        "収益"
+      ],
+      "number": "Q1 約10万ドル、月支出 約7.5万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S23（TTF Silencio SLC B1 v1.1、Filed 2026-06-16、Partial - 1 gap）で確認：「Q1 2026 revenue: ~USD 100,000 in voice data sales — on track to double in May 2026」「Current monthly burn is approximately USD 75,000 across a 14-person in-house team」「USD 40,000,000+ in requested data sits in the active pipeline」「over USD 40,000,000 in data has been specified and requested by 50+ active enterprise leads」。事業者提出（Blockworksは正確さを検証しない）。I-S23の「6 gaps」等の記載はないが、ギャップ数は1",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C32",
+      "text": "同じ開示によると、Silencioが参加者に配ったSLCトークンはローンチ以来の累計で320万ドル超（配布時の価値）。データが売れた参加者へのUSDCの支払いは2026年分で7.1万ドル超。期間が違うので単純には比べられないが、トークン報酬が利用料に連動する支払いを大きく上回る構造とみられる（推測を含む）。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S23"
+      ],
+      "as_of": "2026",
+      "tags": [
+        "DePIN",
+        "Silencio",
+        "トークン報酬との比較"
+      ],
+      "number": "SLC 320万ドル超 vs USDC 7.1万ドル超",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S23で確認：「USD 3,200,000+ in SLC value distributed to contributors since token launch · USD 71,000+ in USDC paid out for sold datasets in 2026」。本文の「300万ドル超」はnumberの「320万ドル超」と食い違い、原文は320万ドル超。また、比べている期間が違う（SLCはローンチ以来の累計、USDCは2026年分）ので「数十倍」は同じ期間の比較ではない。推測であることを明記する",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C33",
+      "text": "Silencioは騒音マップの「Silencio Sound」も別のデータセットとして残しているが、公式サイトの前面は音声AI向けの音声データ販売で、参加者への支払いはステーブルコインと書いている。騒音データの売上額は開示されていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S22",
+        "I-S23"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Silencio",
+        "方針転換"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S22（公式サイト）：「Silencio AI is the data infrastructure behind the world's best voice AI」「paid in stablecoin」「180+ countries」で確認。Silencio Sound（騒音データ）はサイトのトップには見当たらず、I-S23の「Silencio Sound — world's largest noise pollution dataset: 60 billion unique data points」で確認。騒音データの売上額の開示はない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C34",
+      "text": "PlanetWatch（Algorand上の大気質センサー網）は2024年3月、Ambient（Solana）にネットワークを買収された。The Block（2024年5月）によると、Ambientは利用者が設置したセンサーを2万5,000台超（20か国超）としており、機器は1台約400〜2,100ドル、PLANETSトークンの完全希薄化評価額は約74.7万ドル。報酬は新トークンに移行する予定だった。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S24"
+      ],
+      "as_of": "2024-05-07",
+      "tags": [
+        "DePIN",
+        "PlanetWatch",
+        "失敗・撤退",
+        "設置者の採算"
+      ],
+      "number": "2.5万台超、FDV 約74.7万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S24（The Block、Yogita Khatri、2024-05-07）はcurlでは403だがWebFetchで確認：「In March, it acquired PlanetWatch's network」、PLANETSのFDV「$747,000」、センサー「$400 to $2,100」、新しいSolanaトークンへの移行予定。ただしセンサー数は「Ambient claims its users have deployed over 25,000 environmental sensors across over 20 countries」で、Ambientの主張であり、PlanetWatch単独の台数かは書かれていない。type を party_claim に",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C35",
+      "text": "WeatherXMの公式サイトは、Google DeepMind、PG&E、ギリシャの送電会社IPTO/ADMIE、Synoptic Data などをデータの利用者として挙げているが、データ販売の価格と収益は開示していない。観測局は189ドルから販売。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S25"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "WeatherXM",
+        "買い手"
+      ],
+      "number": "観測局 189ドル〜",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S25で確認：「Buy a station · from $189」、「Selected customers」としてSynoptic Data、Google DeepMind、PG&E、IPTO / ADMIE などを列挙。価格・収益の記載なし。自己申告",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C36",
+      "text": "WeatherXMは2026年5月20日、X上で「WXMのトークノミクスと報酬の仕組みを作り直している」と投稿した（転載で確認、原文は未確認）。WXMの時価総額は2026年10月23日で約24万ドル、価格は1年で約88%下がった。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S26",
+        "I-S35"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "WeatherXM",
+        "方針転換",
+        "トークン価格"
+      ],
+      "number": "時価総額 約24万ドル、-約88%",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S26（Made on Sol）でWeatherXMのX投稿（May 20, 2026）「We are redesigning WXM tokenomics and the WeatherXM reward mechanism.」の転載を確認。I-S35：WXM $0.07389→$0.00855（-88.4%）、時価総額 $0.24M。作り直しの中身の公式発表は検索でも見つからなかった",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C37",
+      "text": "DIMOの開示（2026年10月16日）によると、運転者へのトークン発行（Baseline Issuance）はDIP-12により2026年8月28日付で終わり、割り当て3.82億DIMOのうち未配布の約2.11億DIMOは凍結された（追加の投票なしには使えない）。財団の保有分の1.5億DIMOはEIP-1で焼却され、総供給は約8.49億DIMO（2026年10月5日時点）。Phemex（C-S114）が9月30日の時点で未実行としていたのと合わせると、焼却は9月30日〜10月5日の間に実行されたとみられる。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S27"
+      ],
+      "as_of": "2026-10-16",
+      "tags": [
+        "DePIN",
+        "DIMO",
+        "方針転換",
+        "数字の食い違い"
+      ],
+      "number": "凍結 約2.11億DIMO、焼却 1.5億DIMO、総供給 約8.49億DIMO",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S27（TTF DIMO B1 v1.4、Filed 2026-10-16、Complete）で確認：Baseline Issuanceは「discontinued under DIP-12 effective 2026-08-28」、割り当て382,491,185 DIMOのうち配布済み171,155,017、未配布の211,336,168は「Frozen」（追加の投票なしに使えない）、「EIP-1 also burned 150,000,000 DIMO from the treasury under DIP-12」「Total supply is 848,893,318.64 DIMO」、ロールと残高は「as of 5 October 2026, after EIP-1 executed」。C-S114（Phemex）は2026-09-30 13:16 UTCの供給を998,893,318.64 DIMOと読み「未実行」とした。848,893,318.64＝998,893,318.64−150,000,000で数字はぴったり合い、焼却は9月30日〜10月5日の間にEIP-1で実行されたと読める。「食い違う」は誤りで、時点の違い。実行日そのものは未確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C38",
+      "text": "DIMOの開発者向け料金は、車1台につき月1,250 DCX（1 DCX＝0.0001ドルなので月0.125ドル）。収入は財団の財源60%、ノード運営者40%で分ける。顧客名と収益の合計は開示されていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S27"
+      ],
+      "as_of": "2026-10-16",
+      "tags": [
+        "DePIN",
+        "DIMO",
+        "収益"
+      ],
+      "number": "0.125ドル/台・月",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S27で確認：「DCX is non-transferable, fixed at $0.0001」「Developers pay 1,250 DCX per vehicle per month for data access, with historical lookback at 1,250 DCX per prior month up to 12,500 DCX」「Sixty percent of DCX revenue goes to the protocol treasury and forty percent to node operators」。顧客名・収益合計の開示なし。過去データの取得料（最大12,500 DCX）もある点を補うとよい",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C39",
+      "text": "仮に接続車両20万台超（DIP-12の自己申告、C-C109）がすべて毎月1つの開発者から有料でアクセスされても、I-C38の料金では年約30万ドル（過去データの取得料は別）。打ち切った運転者への発行（年約3,500万DIMO、2026年10月23日の価格で約64万ドル）の半分程度にとどまり、DIMOのトークン以外の収益は、運転者への報酬をトークン発行なしで払える規模ではないとみられる（推測）。",
+      "type": "inference",
+      "source_ids": [
+        "I-S27"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "DIMO",
+        "採算"
+      ],
+      "number": "上限の試算 約30万ドル/年",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "検算：200,000台×1,250 DCX×0.0001ドル×12か月＝30万ドル（一致）。ただし前提として(1)1台に1つの開発者だけが払う、(2)過去データの取得料（1台最大12,500 DCX＝1.25ドル）は含まない、(3)20万台はDIP-12の自己申告、を本文に書く必要がある。比較として、DIP-12（C-S113、C-S114）は打ち切った運転者への発行を年約3,529万DIMOとしており、2026-10-23の価格（0.0181ドル）で約64万ドル。I-S27は「Network operations are funded by DCX revenue rather than by new token issuance」としている（自己申告）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C40",
+      "text": "Daylightは2025年10月に7,500万ドル（株式1,500万ドル、プロジェクトファイナンス6,000万ドル）を調達した。住宅に初期費用0で太陽光と蓄電池を設置し、定額の月額で電気を売る。束ねた蓄電池をピーク時に系統へ提供して収入を得る。イリノイ州とマサチューセッツ州で始めている。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S28",
+        "I-S29"
+      ],
+      "as_of": "2025-10-30",
+      "tags": [
+        "DePIN",
+        "Daylight",
+        "エネルギー",
+        "費用負担"
+      ],
+      "number": "7,500万ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S28（Solar Builder、2025-10-30）で確認：$75M＝株式$15M（Framework Ventures主導）＋Turtle Hill Capitalの$60M（記事は「development facility」「project funding」）、初期費用0の購読、定額の月額、蓄電池を束ねて系統サービス収入、イリノイ州とマサチューセッツ州（「subscriptions are already live in both states」は会社の説明）、DayFiの記載あり",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C41",
+      "text": "Daylightの公式サイト（2026年10月）は、太陽光・蓄電池の「エネルギー購読」と初期費用0を前面に出し、トークン・ポイント・DayFiには触れていない。顧客数、系統サービスの収入、月額の価格は公表されていない。",
+      "type": "fact",
+      "source_ids": [
+        "I-S29"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Daylight",
+        "エネルギー"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S29で確認：「Solar + battery, $0 upfront」、25年の予測可能な料金、トークン・DayFi・ポイントの記載なし（tokenやcryptoの語は0件）。顧客数・系統サービス収入・月額の記載なし",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C42",
+      "text": "Sourceful（旧Srcful、スウェーデン）の公式サイトは、事業所向けに蓄電池を設置・運用し、ピークカット、スポット価格の最適化、需給調整市場で収益を上げ、余剰を所有者と折半する事業を示している。トークンの記載はない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S31"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Sourceful",
+        "エネルギー",
+        "トークン離れ"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S31で確認：ピークカット、スポット価格最適化、需給調整市場の3つ、「We finance the battery. We share the surplus ... the surplus is split equally」（Sourcefulが資金を出す方式の場合）。トークンの記載はない（tokenの語は1件のみで文脈は無関係）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C43",
+      "text": "家庭用蓄電池をつないで電力市場に売る構想だったReact Network（Anode Labs、2022年に420万ドル調達）は、第三者のデータベースCB Insightsで「Dead」とされている。公式の終了発表は見つからない。",
+      "type": "fact",
+      "source_ids": [
+        "I-S32"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "React",
+        "エネルギー",
+        "失敗・撤退"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S32（CB Insights）で確認：React（reactnetwork.io）のStageは「Dead」、Anode Labsの420万ドルのシード調達の報道へのリンクあり。公式の終了発表は見つからない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C44",
+      "text": "Glowは公式サイトで、3大陸で5,000万ドル超を太陽光に投じたとし、一般の小口資金（1件で90人超）と機関投資家の資金で発電所を建てている。プロトコル手数料・売電収入・カーボンクレジットの金額は示されていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S30"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Glow",
+        "エネルギー"
+      ],
+      "number": "5,000万ドル超",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S30で確認：「Glow has deployed more than $50 million across 3 continents」、Radiant Planeは「the combined efforts of more than 90 people」。手数料・売電収入・カーボンクレジットの金額は記載なし（「Why Glow Has a Token」の節はある）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C45",
+      "text": "DePINscanは、DePIN全体の時価総額を約87.7億ドル、プロジェクト数を440、デバイス数を約3,678万台と表示している（時点の明記なし、2026年10月23日取得）。収益の指標はなく、時価総額は収益の代わりにならない。",
+      "type": "fact",
+      "source_ids": [
+        "I-S34"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "第三者集計",
+        "限界"
+      ],
+      "number": "約87.7億ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S34で確認：「440 DePIN Projects with a combined DePIN market cap of $8,766,246,487 and total DePIN devices of 36,781,322」。時点の明記なし。収益指標なし",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C46",
+      "text": "第三者の集計にはそれぞれ限界がある。DefiLlamaは事業ごとに数え方が違う（GEODNETは焼却額からの割り戻し推計、XNETは通信事業者の精算と事業者の月次見込み、Heliumは2026年に0、Hivemapperはオンチェーンの焼却のみ）。BlockworksのTTFは、多くが事業者の自己申告でBlockworksは正確さを検証しない（Heliumのページは例外で、Blockworksが公開情報からまとめたもの）。Blockworks Advisoryの四半期レポートは発行体向けとみられる。DePINscanは時価総額だけ。同じ事業でも数字が数倍違うのはこのため（推測を含む整理）。",
+      "type": "inference",
+      "source_ids": [
+        "I-S08",
+        "I-S09",
+        "I-S10",
+        "I-S03",
+        "I-S12",
+        "I-S34",
+        "I-S109"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "第三者集計",
+        "限界"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "整理の一部が不正確：(1)DefiLlamaは「オンチェーンの焼却・支払いしか見ない」わけではない。XNETの値はオフチェーンの通信事業者の支払いとXNETの月次見込み（I-C29）、GEODNETの値は焼却からの割り戻し推計（I-C17）、Heliumは2026年は0（Helium Mobileの裁量的焼却が2026-01-02に停止し、DC焼却は除外、C-C37）。(2)BlockworksのTTFは、GEODNET・Silencio・DIMOのページは事業者提出（Blockworksは完全性のみ確認）だが、Heliumのページ（I-S03）はBlockworksが公開情報から作成したもので種類が違う。(3)Blockworks Advisoryの四半期レポートは発行体向けIR商品の一部とみられる",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C47",
+      "text": "今回調べたDePINトークンは、GEODを除いて1年で大きく下がった（2025年10月24日→2026年10月23日、CoinGecko）：HNT −80%、HONEY −81%、WXM −88%、NATIX −71%、DIMO −56%、SLC −22%。",
+      "type": "fact",
+      "source_ids": [
+        "I-S35"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "トークン価格"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "I-S35で再取得：HNT -79.7%、HONEY -80.8%、WXM -88.4%、NATIX -70.6%、DIMO -56.0%、SLC -21.9%。SLCは四捨五入で-22%",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C48",
+      "text": "2025〜2026年に、Bee Maps（USDCへ）、XNET（法定通貨での支払いを選べる）、Silencio（データ売上分はステーブルコイン）、DIMO（運転者への発行終了）、Helium（カバレッジ報酬の廃止）と、参加者への報酬をトークンの発行から切り離す、または利用量に連動させる動きが相次いだ。トークン価格の下落で、トークン報酬では参加者をつなぎとめられなくなったことが背景にあるとみられる（推測）。",
+      "type": "inference",
+      "source_ids": [
+        "I-S16",
+        "I-S10",
+        "I-S23",
+        "I-S27",
+        "I-S01"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "方針転換",
+        "トークン離れ",
+        "H2"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "根拠の各主張と整合する（I-C24、I-C29、I-C33、I-C37、I-C12）。HeliumはHIP-150（I-C102）で設置者の報酬をさらに利用量に寄せた。背景（トークン価格の下落）は推測と明記されており、言い過ぎではない。DIMOのDIP-12は、発行が「低価値のデータと報酬目当ての接続を招き、保有者を毎週希薄化した」と理由を書いている（C-S113）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C49",
+      "text": "NATIXは公式サイトで、登録運転者約289万人、Tesla向けのVX360（379ドル）を販売し、自動運転・フィジカルAI企業に複数カメラの映像データを売るとしている。Valeo、Grab、Autowareとの協力を掲げ、名前を伏せた「世界モデルの研究所」に3,000時間分のデータを売ったとするが、売上は開示していない。NATIXトークンは1年で約70%下がった。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S21",
+        "I-S35"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "NATIX",
+        "買い手"
+      ],
+      "number": "登録運転者 約289万、VX360 379ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "I-S21で確認：Registered drivers 2,890,321、countries 33、VX360「Order for $379」、記事見出し「NATIX Signs 3,000 Hours Data Sale for a World Model Lab」、Valeo・Grab・Autowareとの協力の記事、Google・Nvidiaのロゴ（役割の説明なし）。売上の記載なし。I-S35：NATIX -70.6%",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C101",
+      "text": "HIP-149の追加発行は2026年8〜9月に始まった。Novaの技術者は9月2日のコミュニティコールで「36か月の追加発行は稼働中」と述べ、HNTのオンチェーン供給は2026年10月6日に約1.94億（194,024,144）HNTと、第2四半期末の約1.82億から約1,150万HNT（約6%）増えた。",
+      "type": "fact",
+      "source_ids": [
+        "I-S103",
+        "I-S03",
+        "I-S01"
+      ],
+      "as_of": "2026-10-06",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン報酬との比較",
+        "方針転換"
+      ],
+      "number": "供給 約1.94億HNT（+約1,150万）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C102",
+      "text": "Heliumは2026年8月31日に投票を終えたHIP-150で、設置者の報酬の目標最低額を支払単価の50%から80%（0.10ドル/GBなら0.08ドル/GB）に1年間引き上げ、Nova Labsが受け取っていたサービス提供者分（Mobileの報酬の24%）を2027年7月31日まで設置者に回した。拠点ごとに1〜5倍の報酬倍率を付けられるようにした。",
+      "type": "fact",
+      "source_ids": [
+        "I-S105",
+        "I-S102"
+      ],
+      "as_of": "2026-08-31",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "設置者の採算",
+        "方針転換"
+      ],
+      "number": "目標最低額 単価の80%、データ報酬枠 70%→94%",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C103",
+      "text": "HeliumGeekの集計では、切断前30日間（2026年7月30日〜8月28日）のHelium Mobileの報酬対象データは、AT&Tが約52%、T-Mobileが約47%で、その他は1%未満だった。HeliumのCEOは、切断で日次利用者が約30%（約100万人）減ると見積もった。9月2日の時点で、米国で稼働中の通信事業者は1社とNovaは説明している。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S102",
+        "I-S103"
+      ],
+      "as_of": "2026-09-02",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "買い手",
+        "集中リスク"
+      ],
+      "number": "AT&T 約52%、T-Mobile 約47%",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C104",
+      "text": "HNTの価格は2026年8月中旬に約0.17〜0.19ドルまで下がった後、8月30日の終値で約0.77ドルまで約4倍に急騰し、10月23日には約0.41ドルだった（CoinGecko）。HNT建ての発行や報酬をドルに換算した数字は、時点によって大きく変わる。",
+      "type": "fact",
+      "source_ids": [
+        "I-S35",
+        "I-S102"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン価格"
+      ],
+      "number": "約0.17→約0.77→約0.41ドル",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-C105",
+      "text": "Light Reading（2024年11月）によると、XNETの運営者はオフロードされた1GBあたり約4ドル相当のXNETトークンを得ていた（XNET幹部の説明）。同じ時期、Heliumの単価は1GBあたり約0.50ドルだった。トークン報酬は、通信事業者が払う額とは別に決まっていた。",
+      "type": "party_claim",
+      "source_ids": [
+        "I-S05"
+      ],
+      "as_of": "2024-11-06",
+      "tags": [
+        "DePIN",
+        "XNET",
+        "Helium",
+        "トークン報酬との比較"
+      ],
+      "number": "約4ドル/GB（XNETトークン）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "I-X01",
+      "name": "Helium Mobile（キャリア向けWi-Fiオフロード）",
+      "region": "米国・メキシコ（ブラジルは試験）",
+      "operator": "Nova Labs／Helium DAO",
+      "web3": true,
+      "summary": "個人・店舗・ISPが設置したWi-Fiホットスポットに、通信事業者の加入者のデータを流し（オフロード）、通信事業者がデータ量に応じて払う。設置者にはHNTで報酬を払う",
+      "stage": "ongoing",
+      "stage_evidence": "通信事業者からの支払いはオンチェーンのDC焼却として確認できる（Blockworks Advisoryの集計）。ただし2026年6月まで単価に補助が含まれ、その後も収益はトークン発行を下回る見込みで、自走は確認できない",
+      "status_2026": "運用中。2026年6月に単価を0.50→約0.10ドル/GBに引き下げ、7月にHIP-149（カバレッジ報酬の廃止、Nova Labs管理の約1.41億HNTの追加発行）を可決し、追加発行は8〜9月に開始。8月31日に、米国の通信事業者のトラフィックを流していた仲介事業者とのパイロット（コミュニティの特定ではAmeriband経由のT-Mobile、報酬対象データの約47%）が終了し、米国の通信事業者はAT&Tの1社になった（Novaの説明）。同日HIP-150を可決（設置者の目標最低額を単価の80%に）。Helium Mobileの消費者事業はAffiniti Ventures（Noble Mobile）への売却がほぼ完了",
+      "who_pays": "通信事業者（AT&T、Telefónica Movistar メキシコ など）がデータ量に応じて払う。運営費の多くはトークンの追加発行（HNT保有者の希薄化）で賄う",
+      "results": "2026年Q2（Blockworks Advisory、発行体向けとみられる）：DC焼却335万ドル（オフロード98%）、HNT発行150万ドル、オフロード9,851TB、支払い事業体3社（データ量の上位2社で約100%）。2025年Q4：オフロード等230万ドル vs 発行420万ドル",
+      "lessons": "「買い手がいて利用料が発生している」数少ないDePINだが、(1)単価の補助を外すと収益は約5分の1になった、(2)顧客が2社に集中し、1社を失った、(3)運営費は再びトークン発行に頼る。買い手の存在と自走は別の問題（推測を含む）",
+      "source_ids": [
+        "I-S01",
+        "I-S02",
+        "I-S03",
+        "I-S06",
+        "I-S101",
+        "I-S102",
+        "I-S103",
+        "I-S104",
+        "I-S105"
+      ],
+      "verification": {
+        "note": "段階 ongoing は妥当。2026年の状況を更新：8月31日に終わったのは、公式には「米国の通信事業者のトラフィックを流す第三者の仲介事業者とのパイロット」（社名なし）で、T-Mobile/Ameribandはコミュニティによる特定。HIP-150（8月31日投票終了）で設置者の目標最低額を支払単価の80%に上げ、Novaのサービス提供者分を設置者に回した。追加発行は9月2日の時点で稼働中。米国で稼働中の通信事業者は1社（AT&T）とNovaが説明。resultsのQ2の数値はBlockworks Advisory（発行体向け）による",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X02",
+      "name": "Helium CBRS（5G無線機）の報酬打ち切り",
+      "region": "米国",
+      "operator": "Helium（MOBILE サブDAO）／Nova Labs",
+      "web3": true,
+      "summary": "個人が数千ドルのCBRS無線機を設置し、トークン報酬を得ていた。HIP-139で報酬を打ち切り、Wi-Fi機器との交換を提案",
+      "stage": "ended",
+      "stage_evidence": "HIP-139の本文で、2025年3月1日までにすべてのCBRS機をオフラインにし、報酬を止めると定めた",
+      "status_2026": "終了（HIP-139はhelium/HIPのREADMEで「Deployed」。CBRS機への報酬は2025年3月1日で終了）",
+      "who_pays": "報酬はトークン発行。交換用のWi-Fi機器はHelium Foundationの助成（130万HNTの成長基金）",
+      "results": "約4,000台がデータの約2%しか運ばず、報酬の10〜15%を受け取っていた（2024年11月）",
+      "lessons": "通信事業者が実際に使わない設備に、トークンで報酬を払い続けた例。高額な機器を買った設置者は、機器代の回収前に報酬を失った可能性が高い（推測）",
+      "source_ids": [
+        "I-S04",
+        "I-S05"
+      ],
+      "verification": {
+        "note": "段階 ended は妥当。helium/HIPのREADMEでHIP 139の状態は「Deployed」で、実施済みと確認できる",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X03",
+      "name": "XNET（キャリアグレードWi-Fiオフロード）",
+      "region": "米国",
+      "operator": "XNET Inc.／XNET Foundation",
+      "web3": true,
+      "summary": "Passpoint対応のWi-Fiアクセスポイントを運営者が設置し、通信事業者が流したデータ量に応じて払う。売上の一部でXNETトークンを買い戻す",
+      "stage": "ongoing",
+      "stage_evidence": "DefiLlamaで通信事業者からの料金が四半期ごとに計上されている（精算は約2か月遅れ）",
+      "status_2026": "運用中。XIP-12（買い戻しの割合を80%→60%）と、法定通貨での報酬を選べるXIP-13.1が可決（DefiLlamaの記載）",
+      "who_pays": "通信事業者（2024年の報道では大手5G事業者1社とMVNO 1社。5G事業者はAT&Tとされるが本人は未確認）",
+      "results": "料金 2026年Q3 約9.6万ドル（DefiLlama、XNETの月次見込みによる暫定計上を含む）。2024年11月時点で約1,000拠点（CEOの発言）",
+      "lessons": "買い手（通信事業者）はいるが規模は小さく、機器（749〜1,295ドル）の回収には時間がかかるとみられる（推測）。ISPや企業がトークンより法定通貨を好むため、法定通貨の選択肢を加えた",
+      "source_ids": [
+        "I-S05",
+        "I-S10",
+        "I-S33"
+      ],
+      "verification": {
+        "note": "段階 ongoing は妥当。料金の値はDefiLlamaの暫定計上で、XNETの月次見込みを含む。約1,000拠点は2024年11月のCEOの発言。機器価格はセール価格",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X04",
+      "name": "GEODNET（RTK基地局網）",
+      "region": "世界（170か国以上）",
+      "operator": "GEODNET Foundation",
+      "web3": true,
+      "summary": "個人が屋根などにGNSS基地局を設置し、センチメートル級の位置補正データ（RTK）を、測量・農機・ドローン・ロボット向けに販売する。料金の80%でGEODを買い戻して焼却",
+      "stage": "ongoing",
+      "stage_evidence": "DefiLlamaの焼却ベースの推計で、利用料が10四半期連続で増えている。料金と、基本報酬だけで試算したトークン発行が同程度で、トークン以外の収益で回っていると言える候補だが、倍率報酬を含む実際の発行額と財団の損益は未確認",
+      "status_2026": "運用中。2026年7月に基本報酬の上限が半減（6 GEOD/日）。2026年Q3の利用料 約278万ドル",
+      "who_pays": "RTKデータの利用企業（測量、農業、ドローン、ロボット）。顧客名の公表はほとんどない",
+      "results": "利用料（DefiLlama、GEOD焼却÷0.8の推計）：2025年Q1 約81万ドル→2026年Q3 約278万ドル。基地局2.2万台超・顧客150社超・Q3売上280万ドル（事業者の説明を報じた記事）",
+      "lessons": "既存の高額な測位サービス（年1,000〜2,000ドルとされる）より安い代替という、はっきりした買い手と用途がある。設置者側は、報酬の上限でも機器代の回収に1年以上かかる計算（推測）",
+      "source_ids": [
+        "I-S08",
+        "I-S11",
+        "I-S12",
+        "I-S13",
+        "I-S14",
+        "I-S15",
+        "I-S35"
+      ],
+      "verification": {
+        "note": "段階 ongoing は妥当。stage_evidenceの「上限ベース」は不正確（倍率報酬があり上限ではない）。DefiLlamaの利用料は焼却からの割り戻し推計で、GEODNETの開示どおりなら料金総額は約2倍の可能性",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X05",
+      "name": "Bee Maps（旧Hivemapper）",
+      "region": "世界",
+      "operator": "Hivemapper Inc.（Bee Maps）／Hivemapper Foundation",
+      "web3": true,
+      "summary": "ドライブレコーダーで道路を撮影し、地図・映像データを地図会社や自動運転企業に販売する。2026年8月から、運転者への報酬をHONEYトークンから、Bee Mapsが自社の資金で払うUSDCに切り替えた",
+      "stage": "ongoing",
+      "stage_evidence": "Lyftへのデータのライセンス（2024年〜）が報道で確認でき、2025年10月に3,200万ドルを調達。事業者の売上は非公開",
+      "status_2026": "運用中。2026年8月から報酬はUSDCが標準、アプリでHONEYは扱わない。Hivemapper Foundationとのサービス契約を解除",
+      "who_pays": "データの購入企業（Lyftは2024年から利用を認めた。Volkswagenのロボタクシー事業は報道で提携先）と、投資家の資金（USDC報酬はBee Mapsの自社負担）",
+      "results": "総走行 7.54億km、ユニーク 2,200万km、道路カバー率37%（公式サイト、自己申告）。オンチェーンの手数料は2026年Q3 約7.6万ドル（DefiLlama）",
+      "lessons": "買い手がいる事業ほど、トークンを外して普通のデータ会社に近づいている。トークン保有者・財団と運営会社の利害が分かれた例でもある（推測）",
+      "source_ids": [
+        "I-S09",
+        "I-S16",
+        "I-S17",
+        "I-S18",
+        "I-S19",
+        "I-S20",
+        "I-S35"
+      ],
+      "verification": {
+        "note": "段階 ongoing は妥当。CoinDeskはLyft・Volkswagenを「提携」と書く。DefiLlamaのHivemapperの値は2026-10-16以降0",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X06",
+      "name": "NATIX（車載カメラ映像）",
+      "region": "世界（33か国）",
+      "operator": "NATIX",
+      "web3": true,
+      "summary": "スマホアプリやTesla向け機器（VX360）で走行映像を集め、自動運転・フィジカルAI企業に販売する。参加者にNATIXトークンで報酬",
+      "stage": "unknown",
+      "stage_evidence": "データ販売の発表はあるが、買い手の名前と売上は非公開",
+      "status_2026": "運用中（公式サイトで機器を販売）。収益は現況未確認",
+      "who_pays": "データの購入企業（名前を伏せた研究所など）とトークン発行",
+      "results": "登録運転者 約289万（自己申告）。トークンは1年で約70%下落",
+      "lessons": "登録者数は多いが、収益は確認できない。登録者数と採算は別",
+      "source_ids": [
+        "I-S21",
+        "I-S35"
+      ],
+      "verification": {
+        "note": "内容は出典と一致。段階 unknown は妥当",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X07",
+      "name": "WeatherXM（気象観測網）",
+      "region": "世界（85か国以上）",
+      "operator": "WeatherXM AG／WeatherXM Network Association",
+      "web3": true,
+      "summary": "個人が観測局を購入・設置し、データの品質に応じてWXMで報酬。会社は観測データ・予報を企業に販売",
+      "stage": "ongoing",
+      "stage_evidence": "観測局の販売と、企業名を挙げたデータ提供を続けている。収益は非公開",
+      "status_2026": "運用中。2026年5月にトークノミクスと報酬の作り直しを表明（転載で確認）。WXMの時価総額は約24万ドル（2026-10-23）",
+      "who_pays": "観測局の購入者、データの購入企業（DeepMind、PG&E、IPTO など、自己申告）、トークン発行",
+      "results": "稼働 約5,900台/設置 約9,500台（C-C42）。WXMは1年で約88%下落",
+      "lessons": "トークンの価値がほぼなくなると、報酬としての意味が失われ、仕組みの作り直しが必要になる（推測）",
+      "source_ids": [
+        "I-S25",
+        "I-S26",
+        "I-S35"
+      ],
+      "verification": {
+        "note": "内容は出典と一致。稼働5,900台超・設置9,500台超はI-S25でも確認（2026年8月のスナップショット）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X08",
+      "name": "Silencio（騒音マップ→音声データ）",
+      "region": "世界（180か国以上）",
+      "operator": "Silencio Network",
+      "web3": true,
+      "summary": "スマホで騒音を測る参加型ネットワークとして始まり、現在は音声AI向けの音声データ販売が中心。データが売れた分はステーブルコインで払い、参加にはSLCトークンを配る",
+      "stage": "pilot",
+      "stage_evidence": "データ売上は四半期約10万ドル（自己申告）で、月の支出約7.5万ドルと同程度。自走は確認できない",
+      "status_2026": "運用中。2026年6月の開示では、現金準備100万ドル到達を条件に2026年Q3の買い戻し開始を目標としていた（開始したかは未確認）",
+      "who_pays": "AIラボなどのデータ購入者（名前は非公開）とトークン発行",
+      "results": "SLC配布 ローンチ以来の累計320万ドル超 vs USDC支払い 2026年分7.1万ドル超（自己申告）",
+      "lessons": "騒音データだけでは買い手が少なく、AI向け音声データに軸足を移した例とみられる（推測）。トークン報酬は利用料の数十倍",
+      "source_ids": [
+        "I-S22",
+        "I-S23",
+        "I-S35"
+      ],
+      "verification": {
+        "note": "段階 pilot は妥当。「2026年Q3に買い戻し開始の目標」は2026年6月の開示時点の目標で、10月時点で実際に始まったかは未確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X09",
+      "name": "PlanetWatch（大気質センサー）→Ambient",
+      "region": "欧州・米国など20か国超",
+      "operator": "PlanetWatch SAS → Ambient（後にAmbiosに改称とされる、未確認）",
+      "web3": true,
+      "summary": "市民が大気質センサーを設置し、PLANETSトークンで報酬を得る仕組み。2024年3月にAmbientがネットワークを買収し、Solanaに移行",
+      "stage": "ended",
+      "stage_evidence": "PlanetWatchとしての運営は、2024年の買収・移行で終わった（The Block）",
+      "status_2026": "PlanetWatchとしては終了。後継（Ambient/Ambios）の2026年の状況は現況未確認",
+      "who_pays": "センサーの購入者（1台約400〜2,100ドル）とトークン発行",
+      "results": "センサー2.5万台超（Ambientの主張、2024年5月）、PLANETSのFDV 約74.7万ドル",
+      "lessons": "トークン価値が小さくなり、単独で続けられず他社に引き継がれた例。数百〜数千ドルの機器を買った参加者の回収は難しかったとみられる（推測）",
+      "source_ids": [
+        "I-S24"
+      ],
+      "verification": {
+        "note": "段階 ended は妥当。センサー2.5万台超はAmbientの主張（PlanetWatch単独の数かは不明）。Ambios Networkへの改称は第三者のプロジェクト一覧（DePIN Hub、Solana Compass）にあるが一次資料は未確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X10",
+      "name": "DIMO（車両データ）",
+      "region": "米国中心",
+      "operator": "DIMO Foundation",
+      "web3": true,
+      "summary": "車の所有者の同意を得て車両データを開発者にAPIで提供する。開発者は車1台あたり月0.125ドル相当を払う",
+      "stage": "unknown",
+      "stage_evidence": "料金体系はあるが、収益の合計と顧客名は開示されていない",
+      "status_2026": "運用中。DIP-12により2026年8月28日に運転者へのトークン発行を終了し、未配布の約2.11億DIMOを凍結。財団保有の1.5億DIMOは9月30日〜10月5日の間にEIP-1で焼却され、総供給は約8.49億DIMO（事業者の開示）",
+      "who_pays": "API利用の開発者（料金は財団60%、ノード40%）",
+      "results": "接続 20万台超（DIP-12、自己申告）。料金からの収益は、1台1開発者の前提で年約30万ドルと試算できる（推測）",
+      "lessons": "利用料の単価が小さく、運転者への報酬を利用料では払えないため、発行を止めたとみられる（推測）",
+      "source_ids": [
+        "I-S27"
+      ],
+      "verification": {
+        "note": "status_2026を更新：焼却はEIP-1で9月30日〜10月5日の間に実行（I-C37）。C-S114との食い違いはない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X11",
+      "name": "Daylight（住宅の太陽光・蓄電池）",
+      "region": "米国（イリノイ州、マサチューセッツ州）",
+      "operator": "Daylight",
+      "web3": true,
+      "summary": "住宅に初期費用0で太陽光と蓄電池を設置し、月額の購読で電気を売る。束ねた蓄電池を系統に提供して収入を得る。投資家向けに電力収入に連動する利回り（DayFi）を構想",
+      "stage": "pilot",
+      "stage_evidence": "2州で購読を始めたと報道。顧客数と収益は非公開",
+      "status_2026": "公式サイトは電力の購読事業を前面に出し、トークン・ポイントの記載はない。全国展開の状況は現況未確認",
+      "who_pays": "住宅の顧客（月額）、電力系統（需給調整の対価）、債務の出し手（6,000万ドルのプロジェクトファイナンス）",
+      "results": "資金調達 7,500万ドル（2025年10月）。顧客数は非公開",
+      "lessons": "収益の中身は電力の販売という既存の事業で、トークンは資金調達の手段に近い（推測）",
+      "source_ids": [
+        "I-S28",
+        "I-S29"
+      ],
+      "verification": {
+        "note": "内容は出典と一致。6,000万ドルは記事では「development facility」",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X12",
+      "name": "Glow（太陽光発電所）",
+      "region": "米国・インドなど3大陸",
+      "operator": "Glow",
+      "web3": true,
+      "summary": "太陽光発電所の建設資金を集め、発電実績に応じてGLWトークンを配る。小口の投資者と機関投資家から資金を集める",
+      "stage": "unknown",
+      "stage_evidence": "資金の投入額（5,000万ドル超）は示すが、手数料・売電収入は開示していない",
+      "status_2026": "公式サイトで発電所の資金募集を継続",
+      "who_pays": "発電所への投資者、電力の購入者",
+      "results": "投入資金 5,000万ドル超（自己申告）",
+      "lessons": "電力の売上は実在しうるが、トークンの役割と収益の内訳は外から確認できない",
+      "source_ids": [
+        "I-S30"
+      ],
+      "verification": {
+        "note": "内容は出典と一致",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X13",
+      "name": "Sourceful（旧Srcful）",
+      "region": "スウェーデン・欧州",
+      "operator": "Sourceful Energy",
+      "web3": true,
+      "summary": "太陽光などの発電データでトークンを配るDePINとして始まり、現在は事業所向けの蓄電池サービス（ピークカット、需給調整市場）を売る",
+      "stage": "pilot",
+      "stage_evidence": "参照事例（カルマルのLW Fastigheter）は「2026年秋から運用」とされる。規模と収益は非公開",
+      "status_2026": "公式サイトにトークンの記載がなく、事業所向けの蓄電池サービスを販売",
+      "who_pays": "事業所の顧客（余剰の折半）、電力の需給調整市場",
+      "results": "数値の開示なし",
+      "lessons": "トークン報酬から、売り先のはっきりした普通のエネルギーサービスに移った例とみられる（推測）",
+      "source_ids": [
+        "I-S31"
+      ],
+      "verification": {
+        "note": "内容は出典と一致（「In operation since autumn 2026」）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "I-X14",
+      "name": "React Network（家庭用蓄電池の仮想発電所）",
+      "region": "米国",
+      "operator": "Anode Labs",
+      "web3": true,
+      "summary": "家庭用蓄電池を束ねて電力市場に売り、参加者に現金とトークンを払う構想",
+      "stage": "ended",
+      "stage_evidence": "第三者のデータベース（CB Insights）がステージを「Dead」と表示。公式サイトは開けなかった",
+      "status_2026": "終了とみられる（公式の発表は未確認）",
+      "who_pays": "投資家（2022年に420万ドルのシード）",
+      "results": "運用実績は確認できない",
+      "lessons": "実際の電力販売の収益が確認できないまま消えた例とみられる（推測）",
+      "source_ids": [
+        "I-S32"
+      ],
+      "verification": {
+        "note": "内容は出典と一致",
+        "checked_on": "2026-10-23"
+      }
+    }
+  ],
+  "gaps": [
+    "「買い手がいて、トークン以外の収益で回っている（financially_sustained）」と確認できる海外DePINは見つからなかった。最も近いのはGEODNET（料金収入と上限ベースの発行が同程度）だが、実際の発行額と事業体の損益は未確認。GEODNET Foundationの開示、またはオンチェーンの発行・焼却の集計（Dune）で確認できる",
+    "Heliumの2026年Q3（T-Mobile系の終了後、単価引き下げ後の通期）のオフロード収益：Blockworks AdvisoryのQ3レポート（未公表とみられる）、またはHeliumのダッシュボード",
+    "HIP-149の追加発行（約1.41億HNT）の実際の分配開始日と使い道：Helium Advisory Council、Nova Labs",
+    "Blockworks Advisoryのトークンホルダーレポートが事業者からの有償受託か：PDFの開示ページ（p.25）は文字を抽出できなかった。Blockworksに確認",
+    "GEODNETの顧客名、基地局の現在の販売価格、設置者1台あたりの実際の報酬：GEODNETの公式ストアとエクスプローラー",
+    "Bee Mapsの売上と、USDC報酬の単価・総額。HONEYとHivemapper Foundationの今後：Bee Maps、Hivemapper Foundation",
+    "XNETの2026年の拠点数と、運営者1拠点あたりの収入：XNETのDuneダッシュボード",
+    "WeatherXMのトークノミクス作り直しの中身（X投稿の原文を開けなかった）とデータ販売の収益：WeatherXM Network Association",
+    "Daylight・Glowの顧客数、電力販売・需給調整の収益：各社の開示",
+    "PlanetWatchの後継（Ambient／Ambios）の2026年の状況と、Algorand時代のセンサー所有者の扱い",
+    "Messari『State of DePIN 2025』の一次資料（messari.ioは429で開けず）、DePIN Pulse（depinpulse.comは436・TLSエラーで開けず）の最新の集計",
+    "Pollen Mobile（CBRSの分散型通信）の終了の経緯：一次資料は見つからなかった"
+  ]
+}

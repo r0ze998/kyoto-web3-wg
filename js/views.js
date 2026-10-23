@@ -367,8 +367,8 @@
     var st = Store.stats(), saved = Store.savedAt();
     return '<section class="panel"><h1>保存・出力</h1>' +
       '<h2>印刷・PDF</h2><p>ブラウザの印刷から PDF にできます。</p><p class="btns">' +
-      '<a class="btn" href="#/print/summary">打ち合わせ用の短い要約</a> <a class="btn" href="#/print/detail">出典付きの詳細</a></p>' +
-      '<h2>Markdown で書き出す</h2><p class="btns"><button type="button" class="btn" data-action="mdSummary">要約 .md</button> <button type="button" class="btn" data-action="mdDetail">詳細 .md</button></p>' +
+      '<a class="btn" href="#/print/reading">読みもの（まとめ・DePIN分析・アイデア一覧）</a> <a class="btn" href="#/print/summary">打ち合わせ用の短い要約</a> <a class="btn" href="#/print/detail">出典付きの詳細</a></p>' +
+      '<h2>Markdown で書き出す</h2><p class="btns"><button type="button" class="btn" data-action="mdReading">読みもの .md</button> <button type="button" class="btn" data-action="mdSummary">要約 .md</button> <button type="button" class="btn" data-action="mdDetail">詳細 .md</button></p>' +
       '<h2>JSON で保存・復元</h2><p class="small">保存されるのは、あなたの変更（回答・メモ・検証状態・追加した出典や問い・費用の変更）です。初期データはアプリに含まれます。変更の数：' + st.changes + '、メモ：' + st.notes +
       (saved ? '、最終保存 ' + esc(new Date(saved).toLocaleString('ja-JP')) : '') + (Store.storageOk() ? '' : '<br><b class="danger">このブラウザではローカル保存が使えません。JSON に書き出して保存してください。</b>') + '</p>' +
       '<p class="btns"><button type="button" class="btn" data-action="exportLayer">変更を JSON で保存</button> <button type="button" class="btn" data-action="exportFull">全データを JSON で書き出す</button></p>' +

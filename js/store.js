@@ -43,7 +43,7 @@
   function merged() {
     if (cache) return cache;
     var seed = window.SEED || {};
-    var out = { meta: seed.meta || {}, dims: seed.dims || [], hypotheses: seed.hypotheses || [], gaps: seed.gaps || [] };
+    var out = { meta: seed.meta || {}, dims: seed.dims || [], hypotheses: seed.hypotheses || [], gaps: seed.gaps || [], docs: seed.docs || [], ideas: seed.ideas || { ideas: [] } };
     COLLECTIONS.forEach(function (c) {
       var del = layer.deleted[c];
       var ov = layer.overrides[c];

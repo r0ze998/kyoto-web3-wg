@@ -3,7 +3,7 @@
   'use strict';
 
   var NAV = [
-    ['', '概要'], ['issues', '課題カード'], ['stakeholders', '関係者'], ['flow', '現状⇔提案'],
+    ['', '最初に読む'], ['depin', 'DePIN分析'], ['ideas', 'アイデア一覧'], ['status', 'データの状況'], ['issues', '課題カード'], ['stakeholders', '関係者'], ['flow', '現状⇔提案'],
     ['candidates', '候補比較'], ['unknowns', '未確認事項'], ['interviews', 'ヒアリング'], ['pilots', '実証案'],
     ['cases', '事例'], ['claims', '主張'], ['sources', '出典'], ['output', '保存・出力']
   ];
@@ -29,7 +29,10 @@
     document.body.classList.toggle('print-mode', root === 'print');
     renderNav(root === 'print' ? 'output' : root);
     switch (root) {
-      case '': html = Views.overview(); break;
+      case '': html = Narrative.docHtml('guide'); break;
+      case 'depin': html = Narrative.docHtml('depin'); break;
+      case 'ideas': html = Narrative.ideasHtml(r.params); break;
+      case 'status': html = Views.overview(); break;
       case 'issues': html = r.parts[1] ? Views.issueDetail(r.parts[1]) : Views.issues(r.params); break;
       case 'stakeholders': html = Views.stakeholders(r.params); break;
       case 'flow': html = Views.flow(r.params); break;
@@ -43,14 +46,20 @@
       case 'output': html = Views.output(); break;
       case 'print':
         html = '<div class="print-bar no-print"><a href="#/output">← 戻る</a> <button type="button" class="btn" data-action="print">印刷 / PDF</button></div>' +
-          '<article class="report">' + (r.parts[1] === 'detail' ? Report.detailHtml() : Report.summaryHtml()) + '</article>';
+          '<article class="report">' + (r.parts[1] === 'detail' ? Report.detailHtml() : r.parts[1] === 'reading' ? Report.readingHtml() : Report.summaryHtml()) + '</article>';
         break;
       default: html = '<section class="panel"><p>ページが見つかりません。</p></section>';
     }
     var y = window.scrollY;
     app.innerHTML = html;
     if (keepScroll) window.scrollTo(0, y);
+    else if (r.params.get('s')) jumpTo(r.params.get('s'));
     updateSaveState();
+  }
+
+  function jumpTo(id) {
+    var el = document.getElementById(id);
+    if (el) setTimeout(function () { el.scrollIntoView({ block: 'start' }); }, 0);
   }
 
   function updateSaveState() {
@@ -162,6 +171,8 @@
   });
 
   document.addEventListener('click', function (e) {
+    var j = e.target.closest('[data-jump]');
+    if (j) { e.preventDefault(); return jumpTo(j.getAttribute('data-jump')); }
     var t = e.target.closest('[data-claim],[data-action],[data-close]');
     if (!t) return;
     if (t.hasAttribute('data-claim')) { e.preventDefault(); return UI.openModal(UI.claimDetailHtml(t.getAttribute('data-claim'))); }
@@ -171,6 +182,7 @@
       case 'print': window.print(); break;
       case 'mdSummary': UI.download('kyoto-wg-summary-' + stamp + '.md', Report.summaryMd(), 'text/markdown'); break;
       case 'mdDetail': UI.download('kyoto-wg-detail-' + stamp + '.md', Report.detailMd(), 'text/markdown'); break;
+      case 'mdReading': UI.download('kyoto-wg-reading-' + stamp + '.md', Report.readingMd(), 'text/markdown'); break;
       case 'exportLayer': flushPending(); UI.download('kyoto-wg-notes-' + stamp + '.json', JSON.stringify(Store.exportLayer(), null, 2)); break;
       case 'exportFull': flushPending(); UI.download('kyoto-wg-full-' + stamp + '.json', JSON.stringify(Store.exportFull(), null, 2)); break;
       case 'clearAll': if (confirm('回答・メモ・検証状態などの変更をすべて消します。先に JSON で保存しましたか？')) { discardPending(); Store.clearAll(); render(); } break;

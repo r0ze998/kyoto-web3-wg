@@ -128,7 +128,20 @@
     }).join('\n');
   }
 
+  function readingBlocks() {
+    var d = Store.data(), used = {}, B = [];
+    ['guide', 'depin', 'ideas'].forEach(function (id) { B = B.concat(Narrative.docBlocks(id, used)); });
+    var claimIds = Object.keys(used).sort();
+    B.push({ h: 1, t: '根拠の主張と出典' });
+    B.push({ table: { head: ['ID', '種類', '内容', '照合'], rows: claimIds.map(function (id) { var c = d.index.claims[id]; return c ? [id, L.claimType[c.type], c.text, c.verification ? L.verdict[c.verification.verdict] : '未照合'] : [id, '', '（見つからない）', '']; }) } });
+    var srcUsed = {}; claimIds.forEach(function (id) { var c = d.index.claims[id]; if (c) (c.source_ids || []).forEach(function (s) { srcUsed[s] = true; }); });
+    B.push({ ul: Object.keys(srcUsed).sort().map(function (sid) { var s = d.index.sources[sid]; return s ? sid + ' ' + s.title + '（' + s.publisher + '、公表 ' + s.published + '） ' + s.url : sid; }) });
+    return B;
+  }
+
   window.Report = {
+    readingHtml: function () { return toHtml(readingBlocks()); },
+    readingMd: function () { return toMd(readingBlocks()); },
     summaryHtml: function () { return toHtml(summaryBlocks()); },
     detailHtml: function () { return toHtml(detailBlocks()); },
     summaryMd: function () { return toMd(summaryBlocks()); },
