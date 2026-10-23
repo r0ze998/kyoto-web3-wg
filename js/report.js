@@ -94,7 +94,7 @@
     B.push({ table: { head: ['ID', '相手', '問い', '状態', '回答', '根拠', '判断の変化'], rows: d.questions.map(function (x) { return [x.id, x.to_role, x.question, x.status, x.answer || '', x.evidence || '', x.decision_change || '']; }) } });
     B.push({ h: 2, t: '主張一覧' });
     var claimIds = Object.keys(used).sort();
-    B.push({ table: { head: ['ID', '種類', '内容', '時点', '出典ID'], rows: claimIds.map(function (id) { var c = d.index.claims[id]; return c ? [id, L.claimType[c.type], c.text, c.as_of || '', (c.source_ids || []).join(', ')] : [id, '', '（見つからない）', '', '']; }) } });
+    B.push({ table: { head: ['ID', '種類', '内容', '時点', '出典ID', '照合'], rows: claimIds.map(function (id) { var c = d.index.claims[id]; return c ? [id, L.claimType[c.type], c.text, c.as_of || '', (c.source_ids || []).join(', '), c.verification ? L.verdict[c.verification.verdict] + '（' + c.verification.checked_on + '）' : '未照合'] : [id, '', '（見つからない）', '', '', '']; }) } });
     var srcUsed = {}; claimIds.forEach(function (id) { var c = d.index.claims[id]; if (c) (c.source_ids || []).forEach(function (s) { srcUsed[s] = true; }); });
     B.push({ h: 2, t: '出典一覧' });
     B.push({ ul: Object.keys(srcUsed).sort().map(function (sid) { var s = d.index.sources[sid]; return s ? sid + ' ' + s.title + '（' + s.publisher + '、公表 ' + s.published + '、取得 ' + s.accessed + '、' + (s.status || '取得時に確認') + '） ' + s.url : sid; }) });

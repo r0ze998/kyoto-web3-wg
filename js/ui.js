@@ -18,7 +18,11 @@
     claimStatus: ['有効', '要更新', '反証あり', '撤回'],
     costKind: { estimate_calc: '試算', quote: '見積', unknown: '未確認' },
     qStatus: ['未確認', '回答あり', '一部回答', '確認不可'],
-    strength: { strong: '強', medium: '中', weak: '弱', none: '根拠なし', unknown: '未確認' }
+    strength: { strong: '強', medium: '中', weak: '弱', none: '根拠なし', unknown: '未確認' },
+    verdict: {
+      verified: '照合済み', corrected: '訂正済み', outdated: '古い情報', unsupported: '裏付けなし',
+      source_unavailable: '出典を開けず', added: '検証時に追加', none: '未照合'
+    }
   };
 
   function claimChip(id) {
@@ -52,9 +56,16 @@
       '<p class="claim-text">' + esc(c.text) + '</p>' +
       '<dl class="kv"><dt>時点</dt><dd>' + esc(c.as_of || '不明') + '</dd>' +
       (c.number ? '<dt>数値</dt><dd>' + esc(c.number) + '</dd>' : '') +
-      '<dt>状態</dt><dd>' + esc(c.status || '有効') + '</dd></dl>' +
+      '<dt>状態</dt><dd>' + esc(c.status || '有効') + '</dd>' +
+      '<dt>出典との照合</dt><dd>' + verdictTag(c) + (c.verification ? ' <span class="small muted">' + esc(c.verification.checked_on) + '</span>' +
+        (c.verification.note ? '<div class="small">' + esc(c.verification.note) + '</div>' : '') : '') + '</dd></dl>' +
       '<h3>出典</h3><ul class="plain">' + (srcs || '<li class="muted">なし</li>') + '</ul>' +
       '<p><a href="#/claims?q=' + encodeURIComponent(c.id) + '" data-close>主張一覧で開く</a></p>';
+  }
+
+  function verdictTag(c) {
+    var v = (c.verification && c.verification.verdict) || 'none';
+    return '<span class="tag tag-v-' + esc(v) + '">' + esc(LABELS.verdict[v] || v) + '</span>';
   }
 
   function openModal(html) {
@@ -97,7 +108,7 @@
 
   window.UI = {
     esc: esc, LABELS: LABELS, claimChip: claimChip, claimChips: claimChips, sourceLink: sourceLink,
-    claimDetailHtml: claimDetailHtml, openModal: openModal, closeModal: closeModal, download: download,
+    claimDetailHtml: claimDetailHtml, verdictTag: verdictTag, openModal: openModal, closeModal: closeModal, download: download,
     select: select, list: list, matchText: matchText, today: today
   };
 })();

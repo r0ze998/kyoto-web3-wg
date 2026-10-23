@@ -1,116 +1,2285 @@
 {
   "topic": "D 関係人口・ふるさと納税・地域DAO/NFT（国内中心、京都優先）",
   "sources": [
-    {"id":"D-S01","title":"全国の「関係人口」は18歳以上の２割強！～「地域との関わりについてのアンケート」調査結果の公表～","publisher":"国土交通省 国土政策局地方政策課","url":"https://www.mlit.go.jp/report/press/content/001897744.pdf","published":"2025-06-27","accessed":"2026-10-23","kind":"政府資料","notes":"調査は令和5年9〜10月のインターネットアンケート（有効回答118,963人）。母数は令和2年国勢調査の18歳以上人口"},
-    {"id":"D-S02","title":"関係人口の実態把握（令和3年3月17日 報道発表）","publisher":"国土交通省","url":"https://www.mlit.go.jp/report/press/kokudoseisaku03_hh_000223.html","published":"2021-03-17","accessed":"2026-10-23","kind":"政府資料","notes":"旧調査（令和2年9月実施）。比較用。最新値はD-S01"},
-    {"id":"D-S03","title":"ふるさと住民登録制度ナビ","publisher":"総務省","url":"https://www.soumu.go.jp/furusatojuumin/","published":"不明","accessed":"2026-10-23","kind":"政府資料","notes":"2026年度中の制度開始を目指すと記載。アプリは年度末リリース予定。モデル事業進捗の最終追加は2026-09-30（第2回全国説明会）"},
-    {"id":"D-S04","title":"総務省「ふるさと住民登録制度」ガイドライン公表に関する記事","publisher":"トラベルボイス","url":"https://www.travelvoice.jp/20260327-159498","published":"2026-03-27","accessed":"2026-10-23","kind":"報道","notes":"ガイドラインPDF本体は未読。ベーシック／プレミアム登録、2027年度までのシステム運用経費の国費負担、特別交付税措置の創設を報道"},
-    {"id":"D-S05","title":"ふるさと住民登録制度モデル事業採択団体一覧","publisher":"総務省","url":"https://www.soumu.go.jp/main_content/001063854.pdf","published":"2026-03","accessed":"2026-10-23","kind":"政府資料","notes":"報道資料（2026-03-27）の添付。京都府および京都府内市町村は一覧に見当たらない"},
-    {"id":"D-S06","title":"令和6年度 京都市決算実績報告書","publisher":"京都市 行財政局","url":"https://www.city.kyoto.lg.jp/gyozai/cmsfiles/contents/0000344/344356/26.pdf","published":"2025","accessed":"2026-10-23","kind":"自治体資料","notes":"p.3 決算概要、p.146-147『ふるさと納税等の民間資金の状況』に個人版の受入額・経費・控除額・交付税措置の推移表"},
-    {"id":"D-S07","title":"ふるさと納税に関する現況調査結果（令和8年度実施）","publisher":"総務省 自治税務局市町村税課","url":"https://www.soumu.go.jp/main_content/001084951.pdf","published":"2026-07-31","accessed":"2026-10-23","kind":"調査・統計","notes":"令和7年度受入額は決算見込。控除額は道府県民税と市町村民税の合計"},
-    {"id":"D-S08","title":"京都ならではの関係人口の創出・拡大に向けた体験プログラム・交流イベントの実施及び「共創人口パートナーシップ事業」の開始について","publisher":"京都市 総合企画局人口戦略室","url":"https://www.city.kyoto.lg.jp/sogo/cmsfiles/contents/0000358/358289/20260909.pdf","published":"2026-09-09","accessed":"2026-10-23","kind":"自治体資料","notes":"報道発表資料（府同時）"},
-    {"id":"D-S09","title":"京都ならではの関係人口の創出・拡大及びＵＩＪターンの促進に向けた受入体制構築業務 仕様書","publisher":"京都市","url":"https://www.city.kyoto.lg.jp/sogo/cmsfiles/contents/0000350/350959/02_shiyousho_R8UIJ.pdf","published":"2026","accessed":"2026-10-23","kind":"自治体資料","notes":"令和8年度委託業務"},
-    {"id":"D-S10","title":"同業務 公募型プロポーザル募集要項","publisher":"京都市","url":"https://www.city.kyoto.lg.jp/sogo/cmsfiles/contents/0000350/350959/01_boshuyoukou_R8UIJ.pdf","published":"2026","accessed":"2026-10-23","kind":"自治体資料","notes":"上限額3,675,000円（税込）。募集は終了（提出期限2026-04-08、期限は報道 travelvoice で確認）"},
-    {"id":"D-S11","title":"楽天グループと6自治体、「ふるさと住民登録制度」の社会実装に向けた連携を開始","publisher":"楽天グループ株式会社","url":"https://corp.rakuten.co.jp/news/press/2026/0701_03.html","published":"2026-07-01","accessed":"2026-10-23","kind":"事業者公式","notes":"京丹後市を含む。京丹後市は総務省モデル事業の採択自治体ではないと読める記載"},
-    {"id":"D-S12","title":"京都市の文化財保護のための寄付のお願い","publisher":"京都市 文化財保護課","url":"https://www.city.kyoto.lg.jp/bunshi/page/0000304001.html","published":"不明","accessed":"2026-10-23","kind":"自治体資料","notes":"個人はふるさと納税、法人は企業版ふるさと納税として扱える旨を記載"},
-    {"id":"D-S13","title":"京都府ふるさと納税「文化財を守り伝える京都府基金」","publisher":"京都府","url":"https://www.pref.kyoto.jp/furusatokifu/index.html","published":"不明（最終更新2026-10-22）","accessed":"2026-10-23","kind":"自治体資料","notes":"ふるさとチョイスでの不正アクセスに関するお知らせも掲載"},
-    {"id":"D-S14","title":"文化財通信 第16号","publisher":"京都府","url":"https://www.pref.kyoto.jp/furusatokifu/documents/full.pdf","published":"2025-03","accessed":"2026-10-23","kind":"自治体資料","notes":"基金の累計寄附額・支出額、令和5年度の寄附状況"},
-    {"id":"D-S15","title":"あなたの定期預金が文化財を守り伝える～京都銀行と文化財保全のための連携協定を締結～","publisher":"京都府 文化生活部文化政策室","url":"https://www.pref.kyoto.jp/press/documents/2026101301.pdf","published":"2026-10-13","accessed":"2026-10-23","kind":"自治体資料","notes":"京都銀行のプレスリリースを同封"},
-    {"id":"D-S16","title":"新しい地方経済・生活環境創生交付金について（令和7年9月）","publisher":"内閣官房新しい地方経済・生活環境創生本部事務局／内閣府地方創生推進事務局","url":"https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/pdf/shinchihoukouhukin_gaiyou.pdf","published":"2025-09","accessed":"2026-10-23","kind":"政府資料","notes":"curlではHTMLが返り、WebFetchでPDFを取得して読んだ"},
-    {"id":"D-S17","title":"地域未来交付金について（令和8年1月）","publisher":"内閣官房地域未来戦略本部事務局／内閣府地方創生推進事務局","url":"https://www.chisou.go.jp/sousei/meeting/tihousousei_setumeikai/pdf/r08-01-20-shiryou04.pdf","published":"2026-01","accessed":"2026-10-23","kind":"政府資料","notes":"地方創生関係交付金の当初・補正予算の推移グラフあり"},
-    {"id":"D-S18","title":"“web3 × ローカル” ー山古志村が問いかける「ローカルDAO」の未来","publisher":"山古志住民会議（note）","url":"https://note.com/yamakoshi1023/n/neb3e15deda65","published":"2022-12-16","accessed":"2026-10-23","kind":"団体公式","notes":"当事者による1周年の振り返り。数値は自己申告"},
-    {"id":"D-S19","title":"人口800人の限界集落が「NFT」を発行したその後","publisher":"山古志住民会議（note）","url":"https://note.com/yamakoshi1023/n/na8cd78febd92","published":"2022-02-07","accessed":"2026-10-23","kind":"団体公式","notes":"デジタル村民総選挙の告知"},
-    {"id":"D-S20","title":"限界集落「山古志」の現在地と未来","publisher":"Crypto Village（note）","url":"https://note.com/cryptovillage/n/n09c43d787e86","published":"2023-11-14","accessed":"2026-10-23","kind":"事業者公式","notes":"ネオ山古志村への改称と世話人DAO設立の投票告知"},
-    {"id":"D-S21","title":"限界集落「山古志」で生まれたLocal DAOを世界各地に広げるため、Nishikigoi NFTの第3弾セールを開始","publisher":"株式会社クリプトヴィレッジ（PR TIMES）","url":"https://prtimes.jp/main/html/rd/p/000000001.000127001.html","published":"2023-08-09","accessed":"2026-10-23","kind":"事業者公式","notes":""},
-    {"id":"D-S22","title":"新潟県長岡市でのNFT×限界集落～デジタル村民と挑戦する新たな村づくり～（デジ田メニューブック）","publisher":"内閣官房 デジタル田園都市国家構想実現会議事務局","url":"https://www.cas.go.jp/jp/seisaku/digitaldenen/menubook/2022_winter/00023.html","published":"2022-12","accessed":"2026-10-23","kind":"政府資料","notes":"掲載内容は事業主体（山古志住民会議）の申告に基づく事例紹介。デジ田は旧制度"},
-    {"id":"D-S23","title":"「新しいクニをデザインする」限界集落の自律的未来（EMPOWER THE LOCAL 第4回）","publisher":"ソトコトオンライン","url":"https://sotokoto-online.jp/life/25771","published":"2025-02-21","accessed":"2026-10-23","kind":"報道","notes":"当事者インタビュー中心"},
-    {"id":"D-S24","title":"NFTとDAOが地域を変える クリプトヴィレッジのLocal DAO候補地解説","publisher":"HEDGE GUIDE","url":"https://hedge.guide/feature/localdao-bc202406.html","published":"2024-06-27","accessed":"2026-10-23","kind":"報道","notes":"第1弾セールの売上を『約600万円』と記載（D-S18の41.4ETHと基準が異なる）"},
-    {"id":"D-S25","title":"仮想山古志プロジェクト 山古志住民会議（長岡市 イノベーション関連資料）","publisher":"長岡市（山古志住民会議作成資料）","url":"https://www.city.nagaoka.niigata.jp/shisei/cate08/file/inobetiku-06.pdf","published":"不明","accessed":"2026-10-23","kind":"自治体資料","notes":"プロジェクトの目的として継続的な資金調達方法の構築を掲げる"},
-    {"id":"D-S26","title":"e-加賀市民証NFT、新デザインは獅子舞！","publisher":"石川県加賀市（PR TIMES）","url":"https://prtimes.jp/main/html/rd/p/000000073.000071698.html","published":"2025-03-16","accessed":"2026-10-23","kind":"自治体資料","notes":"加賀市公式サイト内の同内容ページは404。e-加賀市民サイト（nft.kaga-e-residency.jp）は2026-10-23時点で503で開けず"},
-    {"id":"D-S27","title":"国家戦略特区～加賀市の挑戦～（PublicWeek2025 発表資料）","publisher":"加賀市（内閣府 スーパーシティ・オープンラボ掲載）","url":"https://www.chisou.go.jp/tiiki/kokusentoc/supercity/openlabo/pdf/PublicWeek2025_KagaPresentation.pdf","published":"2025","accessed":"2026-10-23","kind":"自治体資料","notes":"人口61,231人（2025-06-01）。e-加賀市民証の特典一覧"},
-    {"id":"D-S28","title":"日本初、地方自治体による地方創生ICOの実施を決定","publisher":"岡山県西粟倉村（PR TIMES）","url":"https://prtimes.jp/main/html/rd/p/000000001.000034782.html","published":"2018-06-13","accessed":"2026-10-23","kind":"自治体資料","notes":"計画発表のみ。その後の実施・中止を示す一次資料は見つからず"},
-    {"id":"D-S29","title":"【市長会見】『Local Coop月ヶ瀬』プロジェクト 始動！","publisher":"奈良市","url":"https://www.city.nara.lg.jp/site/press-release/136771.html","published":"2022-02-21","accessed":"2026-10-23","kind":"自治体資料","notes":""},
-    {"id":"D-S30","title":"人口減少・気候変動社会を生き延びるために、地方自治のあり方をリデザインする。林篤志さんがLocal Coopを通してつくりたい世界","publisher":"greenz.jp","url":"https://greenz.jp/2025/02/28/local-coop_hayashi-atsushi/","published":"2025-02-28","accessed":"2026-10-23","kind":"報道","notes":"積水ハウスのマッチングプログラムによる連載記事。代表者の発言が中心"},
-    {"id":"D-S31","title":"石高プロジェクト！令和7年産お米ボード販売開始！！","publisher":"福島県西会津町","url":"https://www.town.nishiaizu.fukushima.jp/soshiki/2/14308.html","published":"2025-08-12","accessed":"2026-10-23","kind":"自治体資料","notes":"販売実績の数値は掲載なし"},
-    {"id":"D-S32","title":"京都タワーでNFTガチャ「開運福引き」【メタバース共創プロジェクト】","publisher":"京都府","url":"https://www.pref.kyoto.jp/sangyo-sien/metaverse_kyototower.html","published":"2022-11-29（更新2023-03-08）","accessed":"2026-10-23","kind":"自治体資料","notes":""},
-    {"id":"D-S33","title":"Chain Up KYOTO ワーキンググループ","publisher":"京都府 総合政策環境部デジタル政策推進課","url":"https://www.pref.kyoto.jp/digital/chain_up_kyoto/chain_up_kyoto.html","published":"不明（最終更新2026-07-03）","accessed":"2026-10-23","kind":"自治体資料","notes":""},
-    {"id":"D-S34","title":"京都市：活動報告（京まふ NFTアート）","publisher":"京都市","url":"https://www.city.kyoto.lg.jp/sogo/page/0000289689.html","published":"2023-01-16","accessed":"2026-10-23","kind":"自治体資料","notes":"販売数・収益の記載なし"},
-    {"id":"D-S35","title":"京都府のWEB3・NFT地方創生事例｜自治体・企業の活用事例を紹介！","publisher":"WEB3地方創生ねっと","url":"https://www.web3-chihou-sousei.net/column/kyoto-fu/","published":"2023-08-09（随時更新）","accessed":"2026-10-23","kind":"その他","notes":"第三者の事例まとめ。19件のうち継続状況の記載はほぼない。一覧作成用で、個別の事実は一次資料で確かめる必要あり"},
-    {"id":"D-S36","title":"Web3時代の檀家制度!?「寺DAO」。NFT購入で寺院と伝統職人を継続的にサポート","publisher":"Digital Shift Times","url":"https://digital-shift.jp/startup_technology/230530","published":"2023-05-30","accessed":"2026-10-23","kind":"報道","notes":"参加寺院の名前・所在地、NFTの価格・販売数の記載なし"},
-    {"id":"D-S37","title":"NFTふるさと納税「ふるさとCNP2022」において、返礼品合計444個全てに対して寄付が集まりました","publisher":"株式会社あるやうむ（PR TIMES）","url":"https://prtimes.jp/main/html/rd/p/000000025.000091165.html","published":"2022-11-28","accessed":"2026-10-23","kind":"事業者公式","notes":"大阪府太子町・京都府長岡京市。寄附額の記載なし"},
-    {"id":"D-S38","title":"デジタル地域通貨の課題と持続可能な仕組みの考察","publisher":"日本総合研究所","url":"https://www.jri.co.jp/page.jsp?id=104580","published":"2023-02-27","accessed":"2026-10-23","kind":"その他","notes":"シンクタンクのレポート"}
+    {
+      "id": "D-S01",
+      "title": "全国の「関係人口」は18歳以上の２割強！～「地域との関わりについてのアンケート」調査結果の公表～",
+      "publisher": "国土交通省 国土政策局地方政策課",
+      "url": "https://www.mlit.go.jp/report/press/content/001897744.pdf",
+      "published": "2025-06-27",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "調査は令和5年9〜10月のインターネットアンケート（有効回答118,963人）。母数は令和2年国勢調査の18歳以上人口",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。p.1に全数値。"
+    },
+    {
+      "id": "D-S02",
+      "title": "全国の「関係人口」は1,800万人超！～「地域との関わりについてのアンケート」調査結果の公表～",
+      "publisher": "国土交通省",
+      "url": "https://www.mlit.go.jp/report/press/kokudoseisaku03_hh_000223.html",
+      "published": "2021-03-17",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "旧調査（令和2年9月実施）。比較用。最新値はD-S01",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "タイトルが実際のページと違う。"
+    },
+    {
+      "id": "D-S03",
+      "title": "ふるさと住民登録制度ナビ",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/furusatojuumin/",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "2026年度中の制度開始を目指すと記載。アプリは年度末リリース予定。モデル事業進捗の最終追加は2026-09-30（第2回全国説明会）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "トップに『2026年度中の制度開始』、お知らせ最終は2026.9.30（第2回全国説明会追加）。『アプリは年度末リリース予定』はトップにはなく、第2回全国説明会資料（D-S103）に『3月末の国民向けサービス開始（アプリリリース）』とある。運営は株式会社カヤック（総務省委託）。"
+    },
+    {
+      "id": "D-S04",
+      "title": "総務省「ふるさと住民登録制度」ガイドライン公表に関する記事",
+      "publisher": "トラベルボイス",
+      "url": "https://www.travelvoice.jp/20260327-159498",
+      "published": "2026-03-27",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "ガイドラインPDF本体は未読。ベーシック／プレミアム登録、2027年度までのシステム運用経費の国費負担、特別交付税措置の創設を報道",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "記事は確認。ただし『2027年度までのシステム運用経費を国費負担』の要約は不正確（ガイドラインは『令和9年度までに参加する団体には一定期間負担を求めない』）。ガイドライン本体D-S102を一次資料として優先する。"
+    },
+    {
+      "id": "D-S05",
+      "title": "ふるさと住民登録制度モデル事業採択団体一覧",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/001063854.pdf",
+      "published": "2026-03-27",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "報道資料（2026-03-27）の添付。京都府および京都府内市町村は一覧に見当たらない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "別紙PDF取得。京都府内の団体なし。公表日は報道資料と同じ2026-03-27。"
+    },
+    {
+      "id": "D-S06",
+      "title": "令和6年度 京都市決算実績報告書",
+      "publisher": "京都市 行財政局",
+      "url": "https://www.city.kyoto.lg.jp/gyozai/cmsfiles/contents/0000344/344356/26.pdf",
+      "published": "2025-09",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "p.3 決算概要、p.146-147『ふるさと納税等の民間資金の状況』に個人版の受入額・経費・控除額・交付税措置の推移表",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "p.3、p.146-147（印刷ページ）で確認。PDF作成日2025-09-11。令和7年度版D-S101が出ている。"
+    },
+    {
+      "id": "D-S07",
+      "title": "ふるさと納税に関する現況調査結果（令和8年度実施）",
+      "publisher": "総務省 自治税務局市町村税課",
+      "url": "https://www.soumu.go.jp/main_content/001084951.pdf",
+      "published": "2026-07-31",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "令和7年度受入額は決算見込。控除額は道府県民税と市町村民税の合計",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得、p.1留意事項・p.2-3・p.11・p.12で確認。"
+    },
+    {
+      "id": "D-S08",
+      "title": "京都ならではの関係人口の創出・拡大に向けた体験プログラム・交流イベントの実施及び「共創人口パートナーシップ事業」の開始について",
+      "publisher": "京都市 総合企画局人口戦略室",
+      "url": "https://www.city.kyoto.lg.jp/sogo/cmsfiles/contents/0000358/358289/20260909.pdf",
+      "published": "2026-09-09",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "報道発表資料（府同時）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。"
+    },
+    {
+      "id": "D-S09",
+      "title": "京都ならではの関係人口の創出・拡大及びＵＩＪターンの促進に向けた受入体制構築業務 仕様書",
+      "publisher": "京都市",
+      "url": "https://www.city.kyoto.lg.jp/sogo/cmsfiles/contents/0000350/350959/02_shiyousho_R8UIJ.pdf",
+      "published": "2026",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "令和8年度委託業務",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。"
+    },
+    {
+      "id": "D-S10",
+      "title": "同業務 公募型プロポーザル募集要項",
+      "publisher": "京都市",
+      "url": "https://www.city.kyoto.lg.jp/sogo/cmsfiles/contents/0000350/350959/01_boshuyoukou_R8UIJ.pdf",
+      "published": "2026-03",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "上限額3,675,000円（税込）。募集は終了（提出期限2026-04-08、期限は報道 travelvoice で確認）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "提出期限『令和8年4月8日（水）午後5時まで』は募集要項本体の8(1)に記載（報道で確認したという注記は不要）。"
+    },
+    {
+      "id": "D-S11",
+      "title": "楽天グループと6自治体、「ふるさと住民登録制度」の社会実装に向けた連携を開始",
+      "publisher": "楽天グループ株式会社",
+      "url": "https://corp.rakuten.co.jp/news/press/2026/0701_03.html",
+      "published": "2026-07-01",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "京丹後市を含む。京丹後市は総務省モデル事業の採択自治体ではないと読める記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "注2で上士幌町と飯綱町がモデル事業採択、京丹後市は記載なし（採択一覧D-S05にもない）。"
+    },
+    {
+      "id": "D-S12",
+      "title": "ご寄付のお願い～京都の文化財を守るために～",
+      "publisher": "京都市 文化市民局 文化芸術都市推進室 文化財保護課",
+      "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000304001.html",
+      "published": "不明（2026-08-07更新）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "個人はふるさと納税、法人は企業版ふるさと納税として扱える旨を記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "実際のタイトルは『ご寄付のお願い～京都の文化財を守るために～』、2026-08-07更新、担当は文化市民局文化芸術都市推進室文化財保護課（Arts Aid KYOTO担当）。"
+    },
+    {
+      "id": "D-S13",
+      "title": "京都府ふるさと納税「文化財を守り伝える京都府基金」",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/furusatokifu/index.html",
+      "published": "不明（最終更新2026-10-22）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "ふるさとチョイスでの不正アクセスに関するお知らせも掲載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "更新日2026-10-22、ふるさとチョイスの不正アクセス告知あり。"
+    },
+    {
+      "id": "D-S14",
+      "title": "文化財通信 第16号",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/furusatokifu/documents/full.pdf",
+      "published": "2025-03",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "基金の累計寄附額・支出額、令和5年度の寄附状況",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "第16号（R7.3）。より新しい第17号（R8.3）がD-S111。令和5年度の件数内訳は府の受入実績ページ（D-S110）と1件ずれる。"
+    },
+    {
+      "id": "D-S15",
+      "title": "あなたの定期預金が文化財を守り伝える～京都銀行と文化財保全のための連携協定を締結～",
+      "publisher": "京都府 文化生活部文化政策室",
+      "url": "https://www.pref.kyoto.jp/press/documents/2026101301.pdf",
+      "published": "2026-10-13",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "京都銀行のプレスリリースを同封",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "京都銀行プレスリリース同封。寄付上限（府市合わせ年最大1,000万円）の記載あり。"
+    },
+    {
+      "id": "D-S16",
+      "title": "新しい地方経済・生活環境創生交付金について（令和7年9月）",
+      "publisher": "内閣官房新しい地方経済・生活環境創生本部事務局／内閣府地方創生推進事務局",
+      "url": "https://www.chisou.go.jp/sousei/about/shinchihoukouhukin/pdf/shinchihoukouhukin_gaiyou.pdf",
+      "published": "2025-09",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "curlではHTMLが返り、WebFetchでPDFを取得して読んだ",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "今回はcurlでPDFが取得できた。"
+    },
+    {
+      "id": "D-S17",
+      "title": "地域未来交付金について（令和8年1月）",
+      "publisher": "内閣官房地域未来戦略本部事務局／内閣府地方創生推進事務局",
+      "url": "https://www.chisou.go.jp/sousei/meeting/tihousousei_setumeikai/pdf/r08-01-20-shiryou04.pdf",
+      "published": "2026-01",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "地方創生関係交付金の当初・補正予算の推移グラフあり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDF取得。"
+    },
+    {
+      "id": "D-S18",
+      "title": "“web3 × ローカル” ー山古志村が問いかける「ローカルDAO」の未来",
+      "publisher": "山古志住民会議（note）",
+      "url": "https://note.com/yamakoshi1023/n/neb3e15deda65",
+      "published": "2022-12-16",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "当事者による1周年の振り返り。数値は自己申告",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2022-12-16のnote。"
+    },
+    {
+      "id": "D-S19",
+      "title": "人口800人の限界集落が「NFT」を発行したその後",
+      "publisher": "山古志住民会議（note）",
+      "url": "https://note.com/yamakoshi1023/n/na8cd78febd92",
+      "published": "2022-02-07",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "デジタル村民総選挙の告知",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2022-02-07のnote。"
+    },
+    {
+      "id": "D-S20",
+      "title": "限界集落「山古志」の現在地と未来",
+      "publisher": "Crypto Village（note）",
+      "url": "https://note.com/cryptovillage/n/n09c43d787e86",
+      "published": "2023-11-14",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "ネオ山古志村への改称と世話人DAO設立の投票告知",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2023-11-14、クリプトヴィレッジのコミュニティマネージャー執筆。"
+    },
+    {
+      "id": "D-S21",
+      "title": "限界集落「山古志」で生まれたLocal DAOを世界各地に広げるため、Nishikigoi NFTの第3弾セールを開始",
+      "publisher": "株式会社クリプトヴィレッジ（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000127001.html",
+      "published": "2023-08-09",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2023-08-09。7,530は販売枠、うち1,000個は同社保管と記載。"
+    },
+    {
+      "id": "D-S22",
+      "title": "新潟県長岡市でのNFT×限界集落～デジタル村民と挑戦する新たな村づくり～（デジ田メニューブック）",
+      "publisher": "内閣官房 デジタル田園都市国家構想実現会議事務局",
+      "url": "https://www.cas.go.jp/jp/seisaku/digitaldenen/menubook/2022_winter/00023.html",
+      "published": "2022-12",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "掲載内容は事業主体（山古志住民会議）の申告に基づく事例紹介。デジ田は旧制度",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "Digi田甲子園2022冬の事例ページ。"
+    },
+    {
+      "id": "D-S23",
+      "title": "「新しいクニをデザインする」限界集落の自律的未来（EMPOWER THE LOCAL 第4回）",
+      "publisher": "ソトコトオンライン（クリプトヴィレッジ執筆の連載）",
+      "url": "https://sotokoto-online.jp/life/25771",
+      "published": "2025-02-21",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "当事者インタビュー中心",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ソトコトの連載『EMPOWER THE LOCAL』第4回だが、筆者はクリプトヴィレッジのryu氏で、聞き手もクリプトヴィレッジ。独立した報道ではなく当事者の発信として扱う。"
+    },
+    {
+      "id": "D-S24",
+      "title": "NFTとDAOが地域を変える クリプトヴィレッジのLocal DAO候補地解説",
+      "publisher": "HEDGE GUIDE",
+      "url": "https://hedge.guide/feature/localdao-bc202406.html",
+      "published": "2024-06-27",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "第1弾セールの売上を『約600万円』と記載（D-S18の41.4ETHと基準が異なる）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ページに『広告・PRが含まれています』と表示。600万円の出典は示されていない。"
+    },
+    {
+      "id": "D-S25",
+      "title": "仮想山古志プロジェクト 山古志住民会議（長岡市 イノベーション関連資料）",
+      "publisher": "長岡市（山古志住民会議作成資料）",
+      "url": "https://www.city.nagaoka.niigata.jp/shisei/cate08/file/inobetiku-06.pdf",
+      "published": "2022-05",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "プロジェクトの目的として継続的な資金調達方法の構築を掲げる",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDFメタデータの作成日は2022-05-24。山古志住民会議作成のスライド。"
+    },
+    {
+      "id": "D-S26",
+      "title": "e-加賀市民証NFT、新デザインは獅子舞！",
+      "publisher": "石川県加賀市（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000073.000071698.html",
+      "published": "2025-03-16",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "加賀市公式サイト内の同内容ページは404。e-加賀市民サイト（nft.kaga-e-residency.jp）は2026-10-23時点で503で開けず",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PR TIMESは開ける。e-加賀市民サイト（www.kaga-e-residency.jp → nft.kaga-e-residency.jp へ308転送）は2026-10-23もcurl・WebFetchとも503。加賀市のスタートアップエコシステムページ（D-S118）は現在もe-加賀市民制度を案内。"
+    },
+    {
+      "id": "D-S27",
+      "title": "国家戦略特区～加賀市の挑戦～（PublicWeek2025 発表資料）",
+      "publisher": "加賀市（内閣府 スーパーシティ・オープンラボ掲載）",
+      "url": "https://www.chisou.go.jp/tiiki/kokusentoc/supercity/openlabo/pdf/PublicWeek2025_KagaPresentation.pdf",
+      "published": "2025",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "人口61,231人（2025-06-01）。e-加賀市民証の特典一覧",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "p.7に人口61,231人（2025-06-01）、p.9に特典一覧。"
+    },
+    {
+      "id": "D-S28",
+      "title": "日本初、地方自治体による地方創生ICOの実施を決定",
+      "publisher": "岡山県西粟倉村（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000001.000034782.html",
+      "published": "2018-06-13",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "計画発表のみ。その後の実施・中止を示す一次資料は見つからず",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S29",
+      "title": "【市長会見】『Local Coop月ヶ瀬』プロジェクト 始動！",
+      "publisher": "奈良市",
+      "url": "https://www.city.nara.lg.jp/site/press-release/136771.html",
+      "published": "2022-02-21",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "施設改修費27,049,000円（税込）、新型コロナ地方創生臨時交付金を活用。"
+    },
+    {
+      "id": "D-S30",
+      "title": "人口減少・気候変動社会を生き延びるために、地方自治のあり方をリデザインする。林篤志さんがLocal Coopを通してつくりたい世界",
+      "publisher": "greenz.jp",
+      "url": "https://greenz.jp/2025/02/28/local-coop_hayashi-atsushi/",
+      "published": "2025-02-28",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "積水ハウスのマッチングプログラムによる連載記事。代表者の発言が中心",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "積水ハウスマッチングプログラムで制作された連載記事。代表者の発言が中心。"
+    },
+    {
+      "id": "D-S31",
+      "title": "石高プロジェクト！令和7年産お米ボード販売開始！！",
+      "publisher": "福島県西会津町",
+      "url": "https://www.town.nishiaizu.fukushima.jp/soshiki/2/14308.html",
+      "published": "2025-08-12",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "販売実績の数値は掲載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2025-08-12更新。令和8年産の募集ページは見つからず。"
+    },
+    {
+      "id": "D-S32",
+      "title": "京都タワーでNFTガチャ「開運福引き」【メタバース共創プロジェクト】",
+      "publisher": "京都府 商工労働観光部 ものづくり振興課",
+      "url": "https://www.pref.kyoto.jp/sangyo-sien/metaverse_kyototower.html",
+      "published": "2022-11-29（更新2023-03-08）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "担当は京都府ものづくり振興課。"
+    },
+    {
+      "id": "D-S33",
+      "title": "Chain Up KYOTO ワーキンググループ",
+      "publisher": "京都府 総合政策環境部デジタル政策推進課",
+      "url": "https://www.pref.kyoto.jp/digital/chain_up_kyoto/chain_up_kyoto.html",
+      "published": "不明（最終更新2026-07-03）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-07-03更新。"
+    },
+    {
+      "id": "D-S34",
+      "title": "活動報告（京都市広報キャラクター『京乃つかさ』）",
+      "publisher": "京都市 総合企画局 市長公室 広報担当",
+      "url": "https://www.city.kyoto.lg.jp/sogo/page/0000289689.html",
+      "published": "2023-01-16",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "販売数・収益の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ページの実際のタイトルは『活動報告』（広報キャラクター『京乃つかさ』）。京まふのNFTは京まふ公式サイトからの引用。"
+    },
+    {
+      "id": "D-S35",
+      "title": "京都府のWEB3・NFT地方創生事例｜自治体・企業の活用事例を紹介！",
+      "publisher": "WEB3地方創生ねっと",
+      "url": "https://www.web3-chihou-sousei.net/column/kyoto-fu/",
+      "published": "2023-08-09（随時更新）",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "第三者の事例まとめ。19件のうち継続状況の記載はほぼない。一覧作成用で、個別の事実は一次資料で確かめる必要あり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "表示は2023-08-09公開・2024-02-22更新だが、2025〜2026年の事例（⑰⑱⑲）も載っており随時追記されている。第三者まとめなので個別事実は一次資料で確かめる必要あり（例：⑰P丸様。スタンプラリーは府ページにNFTの記載なし）。"
+    },
+    {
+      "id": "D-S36",
+      "title": "Web3時代の檀家制度!?「寺DAO」。NFT購入で寺院と伝統職人を継続的にサポート",
+      "publisher": "Digital Shift Times",
+      "url": "https://digital-shift.jp/startup_technology/230530",
+      "published": "2023-05-30",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "参加寺院の名前・所在地、NFTの価格・販売数の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S37",
+      "title": "NFTふるさと納税「ふるさとCNP2022」において、返礼品合計444個全てに対して寄付が集まりました",
+      "publisher": "株式会社あるやうむ（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000025.000091165.html",
+      "published": "2022-11-28",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "大阪府太子町・京都府長岡京市。寄附額の記載なし",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S38",
+      "title": "デジタル地域通貨の課題と持続可能な仕組みの考察",
+      "publisher": "日本総合研究所",
+      "url": "https://www.jri.co.jp/page.jsp?id=104580",
+      "published": "2023-02-27",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "シンクタンクのレポート",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2023-02-27、平川翔一朗・渡部稜。"
+    },
+    {
+      "id": "D-S101",
+      "title": "令和7年度 京都市決算実績報告書",
+      "publisher": "京都市 行財政局",
+      "url": "https://www.city.kyoto.lg.jp/gyozai/cmsfiles/contents/0000356/356936/26ikkatsu.pdf",
+      "published": "2026-09",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "p.3決算概要（個人版133億円、収支56億円）、p.152-153『ふるさと納税等の民間資金の状況』。PDF作成日2026-09-03",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S102",
+      "title": "「ふるさと住民登録制度」ガイドライン【Ver.1.0】",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/furusatojuumin/assets/pdf/document/02.pdf",
+      "published": "2026-03-27",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "3-1システム運用経費、3-2地方財政措置。旧URL main_content/001064201.pdf は2026-10-23時点で『ページが見つかりません』",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S103",
+      "title": "ふるさと住民登録制度創設に向けた取組について（第2回全国説明会）",
+      "publisher": "総務省 ふるさと住民登録制度推進室",
+      "url": "https://www.soumu.go.jp/furusatojuumin/assets/pdf/orientation02/01.pdf",
+      "published": "2026-09-30",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "p.2-3スケジュール（利用申請R8.10末〜R9.1末、3月末に国民向けサービス開始）、p.4財政負担、p.5モニター実証",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S104",
+      "title": "ふるさと住民登録制度ナビ よくある質問",
+      "publisher": "総務省（運営：株式会社カヤック）",
+      "url": "https://www.soumu.go.jp/furusatojuumin/faq.html",
+      "published": "2026-08-19",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "プレミアム登録はマイナンバーカード本人確認必須・3団体まで・1年更新、特別交付税の上限額",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S105",
+      "title": "ふるさと住民登録制度モデル事業に係る対象自治体の決定",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01gyosei07_02000175.html",
+      "published": "2026-03-27",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "161団体応募、7道県（域内応募市町村37団体）と21市町村",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S106",
+      "title": "「ふるさと住民」27年3月開始",
+      "publisher": "京都新聞（共同通信配信とみられる）",
+      "url": "https://www.kyoto-np.co.jp/articles/-/1805900",
+      "published": "2026-10-10",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "総務省調査で全1788自治体の74％（1327団体）が参加に前向き",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S107",
+      "title": "京都府域における「短期就労×観光・地域交流」による関係人口創出に向けた実証事業の実施について",
+      "publisher": "京都府・舞鶴市・南丹市・京丹波町・西日本旅客鉄道・JR西日本キャリア",
+      "url": "https://www.westjr.co.jp/press/article/2026/09/18/items/260918_00_press_kyotojobjobgo.pdf",
+      "published": "2026-09-18",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "共同ニュースリリース（JR西日本サイト掲載）。京都府サイト上の同資料は未確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S108",
+      "title": "京都府亀岡市、国の制度を1年先取りする「ふるさと住民登録」を2026年3月9日より開始！",
+      "publisher": "亀岡市（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000180.000052338.html",
+      "published": "2026-03-10",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "特典はウェルカムクーポン最大1,500円分など。トラベルボイス（2026-03-10）は『かめpay1500円分かPayPay1000円分』、総務省アプリとの連携予定と報道",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S110",
+      "title": "寄附の受入実績（文化財を守り伝える京都府基金）",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/furusatokifu/1355203876831.html",
+      "published": "不明（2026-07-08更新）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "令和4〜6年度と累計（H20〜R6：3,672件・261,990,657円）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S111",
+      "title": "文化財通信 第17号",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/furusatokifu/documents/bunkazaitsushin17_compressed.pdf",
+      "published": "2026-03",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "累計3,805件・2億7,061万円余り（R8.3まで）、支出289件・2億4,354万円余り（H21〜R6）、令和6年度受入90件・7,318,937円",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S112",
+      "title": "令和3年度 過疎地域等集落ネットワーク圏形成支援事業 仮想山古志村プロジェクト",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000854812.pdf",
+      "published": "2022-11（R4.11時点）",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "実施主体 山古志住民会議、R3交付金活用額9,830千円、2回の発行で延べ850人",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S113",
+      "title": "［中越地震22年］デジタル村民が躍動「ネオ山古志」！2拠点移住、闘牛オーナー…ＮＦＴが生む地域おこし",
+      "publisher": "新潟日報",
+      "url": "https://www.niigata-nippo.co.jp/articles/-/929081",
+      "published": "2026-10-22",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "冒頭のみ閲覧（有料部分は未読）。『購入したデジタル村民は1800人を超え』",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S114",
+      "title": "（山古志のNFT第1弾・第2弾に関する記事）",
+      "publisher": "Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/251703/",
+      "published": "2022-03-15",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "WebFetchで確認。第1弾購入者約350人、3月時点で400万円程度、第2弾は2022-03-09発売。正式タイトルは要確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S115",
+      "title": "先進事例調査研究（令和6年度）地域住民×デジタル村民の地域コミュニティ「ローカルDAO」による村おこし",
+      "publisher": "一般財団法人 地方自治研究機構",
+      "url": "https://www.rilg.or.jp/htdocs/uploads/R06-senshin/r06-11-152021-DX.pdf",
+      "published": "不明（令和6年度）",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "2026-10-23もサイト全体が503で本文未読。検索結果の抜粋では『2024年11月末時点で約3,000点』『デジタル総選挙は2024年1月時点で2回』。本文確認まで数値は使わない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S116",
+      "title": "ふるさと納税に関する現況調査結果（令和6年度実施）",
+      "publisher": "総務省 自治税務局市町村税課",
+      "url": "https://www.soumu.go.jp/main_content/000960670.pdf",
+      "published": "2024-08-02",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "p.10上位20団体：京都市の市町村民税控除額8,243百万円（R6年度課税）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S117",
+      "title": "P丸様。とめぐる京都デジタルスタンプラリー",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/furusatokifu/stamprally.html",
+      "published": "2025-10（2026-02-13更新）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "府基金のふるさと納税返礼品。府ページにNFTの語はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "D-S118",
+      "title": "スタートアップエコシステム（国の支援サービス）",
+      "publisher": "加賀市 産業部デジタル推進課",
+      "url": "https://www.city.kaga.ishikawa.jp/senryaku_tokku/original_service/startup_ecosystem/index.html",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "e-加賀市民証保有者が国家戦略特区の特例を使えると案内。2025-09-08のイベント報告あり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    }
   ],
   "claims": [
-    {"id":"D-C01","text":"国土交通省の推計では、全国18歳以上の居住者（約10,275万人）のうち約2,263万人（約22％）が関係人口。内訳は訪問系が約1,884万人（約18％）、非訪問系が約379万人（約4％）。","type":"fact","source_ids":["D-S01"],"as_of":"調査は2023年9〜10月、公表は2025-06-27","tags":["関係人口","統計"],"number":"約2,263万人"},
-    {"id":"D-C02","text":"国交省の関係人口の定義は『移住でも観光でも単なる帰省でもなく、日常生活圏や通勤圏以外の特定の地域と継続的かつ多様な関わりを持つ人』。","type":"fact","source_ids":["D-S01"],"as_of":"2025-06","tags":["関係人口","定義"],"number":""},
-    {"id":"D-C03","text":"訪問系関係人口の年間訪問日数は『2〜7日/年』が約49％で最も多く、『1日以下/年』が約20％、『8日以上/年』が約31％。関わりが薄く、回数の少ない層が大半を占める。","type":"fact","source_ids":["D-S01"],"as_of":"2023年9〜10月調査","tags":["関係人口","H2"],"number":"2〜7日/年 約49％"},
-    {"id":"D-C04","text":"関わりを持ちたい人が挙げる改善点の上位は『時間的な余裕の確保』27.4％、『移動・滞在の金銭的負担の軽減』26.7％、『交通の利便性の改善』26.4％。","type":"fact","source_ids":["D-S01"],"as_of":"2023年9〜10月調査","tags":["関係人口","負担"],"number":"27.4％／26.7％／26.4％"},
-    {"id":"D-C05","text":"前回（2020年9月調査、2021-03公表）の訪問系関係人口の推計は約1,827万人。調査設計と母数が違うため、2025年公表値（約1,884万人）と単純に増減を比べるのは注意が必要。","type":"fact","source_ids":["D-S02","D-S01"],"as_of":"2020-09調査","tags":["関係人口","統計","数字の食い違い"],"number":"約1,827万人"},
-    {"id":"D-C06","text":"総務省は『ふるさと住民登録制度』について、2026年度中の制度開始を目指している。スマホアプリ（仮称）は年度末のリリース予定で、2026年10月時点では制度はまだ始まっていない。","type":"fact","source_ids":["D-S03"],"as_of":"2026-10-23閲覧","tags":["関係人口","国の制度","announced"],"number":""},
-    {"id":"D-C07","text":"報道によると、同制度のガイドライン（Ver.1.0、2026-03-27）は、要件のない『ベーシック登録』と、年3回以上の担い手活動を必須とする『プレミアム登録』を定める。国は2027年度までのシステム運用経費を負担し、特別交付税措置も設ける。","type":"fact","source_ids":["D-S04"],"as_of":"2026-03-27","tags":["関係人口","国の制度","who_pays"],"number":"年3回以上"},
-    {"id":"D-C08","text":"ふるさと住民登録制度のモデル事業（2026-03-27決定：7道県と21市町村）の採択一覧に、京都府と京都府内の市町村は含まれていない。","type":"fact","source_ids":["D-S05"],"as_of":"2026-03-27","tags":["京都","関係人口"],"number":"7道県・21市町村"},
-    {"id":"D-C09","text":"京都市は2026-09-09、京都ならではの共創型関係人口を『共創人口』と位置づけ、1日体験プログラム『京都仕事探訪』（参加費 一般5,000円／学生3,000円、申込は2027-01-29まで）と『共創人口パートナーシップ事業』を始めた。企画運営は京都移住計画（株式会社ツナグム）。","type":"fact","source_ids":["D-S08"],"as_of":"2026-09-09","tags":["京都市","関係人口","pilot"],"number":"参加費5,000円"},
-    {"id":"D-C10","text":"共創人口パートナーシップ事業は、協働する企業・団体を『共創コアパートナー』として登録し（募集は2026-09-09〜10-30）、有効な提案には京都市が費用の一部を負担して連携実施する（KYOTO CITY OPEN LABO を利用）。","type":"fact","source_ids":["D-S08"],"as_of":"2026-09-09","tags":["京都市","関係人口","who_pays","H2"],"number":""},
-    {"id":"D-C11","text":"京都市の関係人口・UIJターンの受入体制構築業務（令和8年度）の委託上限額は3,675,000円（税込）。仕様では受入先を10事業者以上開拓する。仕様書は潜在的な関係人口として約15万人の学生と年間5千万人超の観光客を挙げている。","type":"fact","source_ids":["D-S09","D-S10"],"as_of":"2026年度","tags":["京都市","関係人口","予算"],"number":"3,675,000円"},
-    {"id":"D-C12","text":"京都市の『定住・移住応援団』は2023年3月末に始まり、2026年1月末時点で約190団体が登録している。","type":"fact","source_ids":["D-S09"],"as_of":"2026-01末","tags":["京都市","関係人口"],"number":"約190団体"},
-    {"id":"D-C13","text":"京丹後市は楽天と連携し、ふるさと住民として現地で活動・労働した人に楽天トラベルのクーポン（3,000円オフ以上）を出す取組を2026-07-01に始めた。","type":"party_claim","source_ids":["D-S11"],"as_of":"2026-07-01","tags":["京都府","関係人口","who_pays"],"number":"3,000円オフ以上"},
-    {"id":"D-C14","text":"京都市の個人版ふるさと納税の受入額は令和6年度に115億円（11,500百万円）で過去最高。令和2年度は1,762百万円だった。","type":"fact","source_ids":["D-S06"],"as_of":"令和6年度決算","tags":["京都市","ふるさと納税"],"number":"115億円"},
-    {"id":"D-C15","text":"京都市の令和6年度の個人版ふるさと納税では、受入11,500百万円から事務経費5,623百万円（うち返礼品3,266百万円）と寄付金控除額8,246百万円を引き、地方交付税5,543百万円を足した収支が3,174百万円。市は『32億円を確保』と説明している。","type":"fact","source_ids":["D-S06"],"as_of":"令和6年度決算","tags":["京都市","ふるさと納税","H1"],"number":"収支3,174百万円"},
-    {"id":"D-C16","text":"京都市の令和2年度の個人版ふるさと納税の収支は△180百万円の赤字で、市民の他自治体への寄付による控除（流出）が受入を上回っていた。令和3年度以降は黒字。","type":"fact","source_ids":["D-S06"],"as_of":"令和2〜6年度","tags":["京都市","ふるさと納税","H1"],"number":"△180百万円（R2）"},
-    {"id":"D-C17","text":"控除額の75％が地方交付税で措置されるため、京都市の収支表は交付税を足し戻して計算している。令和7年度見込みは、前年度控除額8,246百万円×伸び率1.0×75％＝6,185百万円。","type":"fact","source_ids":["D-S06"],"as_of":"令和7年度見込","tags":["京都市","ふるさと納税","who_pays"],"number":"6,185百万円"},
-    {"id":"D-C18","text":"総務省の現況調査では、京都市の令和7年度受入額（決算見込）は13,258百万円・339,533件で全国8位。令和8年度課税の住民税控除額は9,791百万円・143,289人で全国10位。","type":"fact","source_ids":["D-S07"],"as_of":"受入はR7年度決算見込、控除はR8年度課税（2026-06-01時点）","tags":["京都市","ふるさと納税"],"number":"受入13,258百万円／控除9,791百万円"},
-    {"id":"D-C19","text":"総務省の控除額は道府県民税と市町村民税の合計なので、京都市の税収減そのものではない。市の決算資料の『控除額』（R6年度8,246百万円）とは集計の範囲と時点が違うとみられる。","type":"inference","source_ids":["D-S07","D-S06"],"as_of":"2026-10","tags":["京都市","ふるさと納税","数字の食い違い"],"number":""},
-    {"id":"D-C20","text":"全国のふるさと納税受入額は令和7年度に約1兆3,314億円・約5,963万件。募集に要した費用は6,382億円（47.9％）で、うち返礼品の調達費用が3,528億円（26.5％）。","type":"fact","source_ids":["D-S07"],"as_of":"令和7年度決算見込","tags":["ふるさと納税","全国","H1"],"number":"1兆3,314億円"},
-    {"id":"D-C21","text":"全国で寄附者に事業の進捗・成果を報告している団体は923（51.8％）、寄附者と継続的なつながりを持つ取組をしている団体は882（49.5％）にとどまる。","type":"fact","source_ids":["D-S07"],"as_of":"令和7年度","tags":["ふるさと納税","関係人口","H3"],"number":"51.8％／49.5％"},
-    {"id":"D-C22","text":"京都市は個人版ふるさと納税の使途を分野別に示している。令和6年度の活用例は市指定文化財等助成事業（39百万円）、伝統的建造物群保存事業（17百万円）、『まぢピンチ 京都の市バス・地下鉄を応援』（ふるさと活用2.8億円）、『日本遺産・琵琶湖疏水』（1.0億円）など。","type":"fact","source_ids":["D-S06"],"as_of":"令和6年度決算","tags":["京都市","ふるさと納税","文化財"],"number":""},
-    {"id":"D-C23","text":"京都市の文化財保護のための寄付は、約7割を所有者が実施する保存事業に、約3割を市の基金（修理助成など）に充てる。個人はふるさと納税、法人は企業版（1回10万円以上）として扱えるが、市内に本社がある企業は企業版の税優遇の対象外。","type":"fact","source_ids":["D-S12"],"as_of":"2026-10閲覧","tags":["京都市","文化財","企業版ふるさと納税"],"number":"7割／3割"},
-    {"id":"D-C24","text":"京都市の令和6年度の民間資金の受入は、企業版ふるさと納税が324百万円、その他寄付等が198百万円で、個人版（11,500百万円）よりずっと小さい。企業版の活用先は美術館運営、京都・文化ファンドレイジング戦略推進事業、ロームシアター京都運営など。","type":"fact","source_ids":["D-S06"],"as_of":"令和6年度決算","tags":["京都市","企業版ふるさと納税"],"number":"324百万円"},
-    {"id":"D-C25","text":"京都府の『文化財を守り伝える京都府基金』（2008年7月設置）は、寄附金の全額を府内の歴史的建造物の保存・修理や防災などに限って使う。累計寄附は2024年12月までに3,665件・2億6,101万円余り、2009〜2023年度の支出は279件・2億3,456万円余り。","type":"fact","source_ids":["D-S14"],"as_of":"2024-12（寄附）／2023年度（支出）","tags":["京都府","文化財","ふるさと納税"],"number":"累計2億6,101万円"},
-    {"id":"D-C26","text":"同基金の令和5年度の寄附は計135件・9,121,968円（個人117件・5,012,694円、法人・団体18件・4,109,274円）。京都市のふるさと納税（年100億円超）とは桁が違う。","type":"fact","source_ids":["D-S14","D-S06"],"as_of":"令和5年度","tags":["京都府","文化財","H1"],"number":"約912万円/年"},
-    {"id":"D-C27","text":"文化財を対象にした寄付は返礼品を目当てにした寄付ほど集まっておらず、文化資産の維持費を賄う規模に届いていない可能性がある（根拠：府基金の年約912万円と京都市個人版115億円の差）。","type":"inference","source_ids":["D-S14","D-S06"],"as_of":"2026-10","tags":["文化財","H1"],"number":""},
-    {"id":"D-C28","text":"京都府・京都市と京都銀行は2026-10-29に連携協定を結ぶ予定。定期預金『京都に寄付する定期預金～京都づくし～』（2026-11-17〜2027-03-31、年1回募集予定）では、預金総額の0.1％相当額を銀行が毎年府市に按分して寄付し、文化財や二条城の保全・修繕の基金に充てる。","type":"fact","source_ids":["D-S15"],"as_of":"2026-10-13発表","tags":["京都","文化財","who_pays","announced"],"number":"預金総額の0.1％"},
-    {"id":"D-C29","text":"国の地方創生交付金は、デジタル田園都市国家構想交付金から、R6補正で創設された『新しい地方経済・生活環境創生交付金』（R7当初2,000億円／R6補正1,000億円）に変わり、さらにR7補正で『地域未来交付金』が創設された（R8当初案1,600億円／R7補正1,000億円）。","type":"fact","source_ids":["D-S16","D-S17"],"as_of":"2026-01","tags":["国の制度","交付金"],"number":"R8当初案1,600億円"},
-    {"id":"D-C30","text":"地域未来交付金は『地域未来推進型』『デジタル実装型』『地域防災緊急整備型』『地域産業構造転換インフラ整備推進型』で構成される。所管は内閣官房地域未来戦略本部事務局と内閣府地方創生推進事務局。デジ田交付金と新地方創生交付金を現行制度として書くのは誤り。","type":"fact","source_ids":["D-S17"],"as_of":"2026-01","tags":["国の制度","交付金","古い情報"],"number":""},
-    {"id":"D-C31","text":"山古志住民会議の申告では、2022-12-16時点でデジタル村民は1,037名、NFT発行量は1,470、初期売上は41.4ETH（1ETH=35万円換算で約1,449万円）、総取引量は82ETH、フロア価格は0.22ETH。","type":"party_claim","source_ids":["D-S18"],"as_of":"2022-12-16","tags":["山古志","NFT","一度きりの収入"],"number":"初期売上41.4ETH"},
-    {"id":"D-C32","text":"山古志住民会議は、二次流通のロイヤリティを収益の柱と見込んでいたが、OpenSeaでの出品率は2％と低く、NFT販売によって山古志DAOの経済的な持続性は確立できていないと自ら述べた。","type":"party_claim","source_ids":["D-S18"],"as_of":"2022-12-16","tags":["山古志","採算","失敗・課題"],"number":"List率2％"},
-    {"id":"D-C33","text":"第1弾セールの売上の約30％（約3ETH）をデジタル村民の投票で使い道を決める予算（総選挙）に充てた。当事者は、予算執行権限を委ねることへの葛藤や、時間感覚の違う現地とデジタル村民をつなぐ難しさを課題に挙げている。","type":"party_claim","source_ids":["D-S19","D-S24"],"as_of":"2022-02","tags":["山古志","DAO","H2"],"number":"約3ETH"},
-    {"id":"D-C34","text":"政府のデジ田メニューブックには、保有者（デジタル村民）1,032名（2022-11-28）、山古志住民は834名（2021-12-01）から794名（2022-12-01）へ、デジタル村民の来訪は延べ約140名超、と載っている。数値は事業主体の申告で、政府による検証ではない。","type":"party_claim","source_ids":["D-S22"],"as_of":"2022-11〜12","tags":["山古志","関係人口"],"number":"1,032名"},
-    {"id":"D-C35","text":"2023年8月の第3弾セールは7,530点（0.01〜0.03ETH）を販売し、デジタル村民を約1,000人から10,000人に増やす目標を掲げた。その後の報道では保有者は約1,600人（2023-11）、約1,800人（2025-02）で、目標には届いていない。","type":"party_claim","source_ids":["D-S21","D-S20","D-S23"],"as_of":"2023-08〜2025-02","tags":["山古志","NFT","失敗・課題"],"number":"目標10,000人／実績約1,800人"},
-    {"id":"D-C36","text":"山古志DAOは投票を経て2024-02-11に『ネオ山古志村』と正式に改称した。2025年2月の記事では、週1回の定例会、運動会の応援、牛の角突きファンクラブ、震災追悼行事への参加、お試し移住などの活動が紹介され、予算と人手の不足が切迫していると述べられている。","type":"party_claim","source_ids":["D-S23","D-S20"],"as_of":"2025-02-21","tags":["山古志","ongoing","H2"],"number":""},
-    {"id":"D-C37","text":"山古志の第1弾セールの売上は資料によって『約600万円（2か月）』と『初期売上41.4ETH（約1,449万円）』に分かれる。集計範囲（第1弾のみか、第2弾までか）と円換算レートが違うとみられ、売上総額を第三者が検証した資料は見つからない。","type":"inference","source_ids":["D-S24","D-S18"],"as_of":"2022〜2024","tags":["山古志","数字の食い違い"],"number":""},
-    {"id":"D-C38","text":"加賀市の発表では、e-加賀市民証NFTは本格実装から1年の時点で1,200枚以上発行された。2025-03-16からは獅子舞の新デザインを無料で取得できる。","type":"party_claim","source_ids":["D-S26"],"as_of":"2025-03-16","tags":["加賀市","デジタル住民票","NFT"],"number":"1,200枚以上"},
-    {"id":"D-C39","text":"e-加賀市民証の特典は、NFTを提示すると5,000円で宿泊、日本酒の試飲1杯無料など店舗の割引・サービスが中心で、市政への参加の仕組みは資料に書かれていない。","type":"fact","source_ids":["D-S27"],"as_of":"2025","tags":["加賀市","デジタル住民票"],"number":""},
-    {"id":"D-C40","text":"西粟倉村は2018年6月に、トークン（NAC）で資金を集める『地方創生ICO』の実施を発表した。保有者がローカルベンチャーに投票できる設計だったが、実際に発行・調達したことを示す一次資料は見つからなかった。","type":"fact","source_ids":["D-S28"],"as_of":"2018-06-13","tags":["西粟倉","トークン","announced"],"number":""},
-    {"id":"D-C41","text":"Next Commons Labの『Local Coop』（奈良市月ヶ瀬・大和高原、三重県尾鷲市など）は、2024年からコミュニティバスの運行（奈良市の定時循環バスを引き継ぎ）、資源ごみの回収、買い物サービスを担う。代表は、財源が確保されないまま事業を引き継いでおり『今が一番しんどい』と述べている。トークンの利用は記事に書かれていない。","type":"party_claim","source_ids":["D-S30","D-S29"],"as_of":"2025-02-28","tags":["Local Coop","採算","H2"],"number":"尾鷲 3年で約1億1,000万円調達"},
-    {"id":"D-C42","text":"京都府の『メタバース共創プロジェクト』の京都タワーNFTガチャ（2022-12-01〜20）では、20日間で5,906名がNFTを受け取った。企画は民間4社、京都府は実証の枠組みを提供した。期間限定の実証。","type":"fact","source_ids":["D-S32"],"as_of":"2022-12","tags":["京都府","NFT","pilot"],"number":"5,906名"},
-    {"id":"D-C43","text":"京都府は『Chain Up KYOTO』ワーキンググループ（京都ビッグデータ活用プラットフォームの一部）でWeb3.0の情報交換を続けており、2025-12-04の会合でステーブルコイン活用事業の検討状況を報告した。2026-07-02にはIVS2026のサイドイベント（50名超）を開いた。検討の中身はページに書かれていない。","type":"fact","source_ids":["D-S33"],"as_of":"2026-07-03更新","tags":["京都府","Web3","ongoing"],"number":"50名超"},
-    {"id":"D-C44","text":"京都市は2022年度から京まふ（京都国際マンガ・アニメフェア）のメインビジュアルをNFT化しており、収益は京まふの運営経費とクリエイター支援に使うとしている。販売数・収益は公表資料に見当たらない。","type":"fact","source_ids":["D-S34"],"as_of":"2023-01-16","tags":["京都市","NFT"],"number":""},
-    {"id":"D-C45","text":"京都府内のNFT関連の取組は、スタンプラリー、NFTチケット、NFTのふるさと納税返礼品など期間限定のものが多く、第三者の事例一覧でも継続状況はほとんど書かれていない。","type":"inference","source_ids":["D-S35","D-S32"],"as_of":"2026-10","tags":["京都","NFT","失敗・課題"],"number":"19件中、継続状況の記載はほぼなし"},
-    {"id":"D-C46","text":"NFTのふるさと納税返礼品『ふるさとCNP2022』（大阪府太子町・京都府長岡京市）は、受付開始から約3〜4分で返礼品444個すべてに寄付が集まった。継続的な収入を示す資料ではない。","type":"party_claim","source_ids":["D-S37"],"as_of":"2022-11-28","tags":["NFTふるさと納税","長岡京市","一度きりの収入"],"number":"444個"},
-    {"id":"D-C47","text":"寺DAOは、会員NFTの購入代金を寺院の定期的な修繕費と伝統職人の支援に充てる仕組みとして紹介された（2022年6月開始）。参加寺院の名前・所在地や販売実績は記事に書かれていない。","type":"party_claim","source_ids":["D-S36"],"as_of":"2023-05-30","tags":["寺社","文化財","NFT"],"number":""},
-    {"id":"D-C48","text":"日本総研は、デジタル地域通貨で『成功』と呼べる事例は一握りで多くは休止・廃止に至っており、主な理由は収益性の低さ（収益の柱は加盟店の決済手数料）だと指摘した。","type":"fact","source_ids":["D-S38"],"as_of":"2023-02-27","tags":["失敗・課題","採算"],"number":"地域通貨 300超（2005）→200未満"},
-    {"id":"D-C49","text":"NFTによる地域施策の収入は初回販売に偏りやすく、二次流通のロイヤリティや追加販売では運営費を継続的に賄えていない例が多い（根拠：山古志のList率2％と販売目標の未達、ふるさとCNPの即日完売のみの報告）。","type":"inference","source_ids":["D-S18","D-S21","D-S37"],"as_of":"2026-10","tags":["一度きりの収入","採算","H2"],"number":""}
+    {
+      "id": "D-C01",
+      "text": "国土交通省の推計では、全国18歳以上の居住者（約10,275万人）のうち約2,263万人（約22％）が関係人口。内訳は訪問系が約1,884万人（約18％）、非訪問系が約379万人（約4％）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S01"
+      ],
+      "as_of": "調査は2023年9〜10月、公表は2025-06-27",
+      "tags": [
+        "関係人口",
+        "統計"
+      ],
+      "number": "約2,263万人",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S01 p.1 本文・(1)で確認。18歳以上約10,275万人（令和2年国勢調査）、関係人口約2,263万人（約22％）、訪問系約18％（約1,884万人）、非訪問系約4％（約379万人）。調査は令和5年9〜10月、公表R7.6.27。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C02",
+      "text": "国交省の関係人口の定義は『移住でも観光でも単なる帰省でもなく、日常生活圏や通勤圏以外の特定の地域と継続的かつ多様な関わりを持つ人』。",
+      "type": "fact",
+      "source_ids": [
+        "D-S01"
+      ],
+      "as_of": "2025-06",
+      "tags": [
+        "関係人口",
+        "定義"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S01 ※1の定義『移住や観光でもなく、単なる帰省でもない、日常生活圏や通勤圏以外の特定の地域と継続的かつ多様な関わりを持つ人』と一致（語順の言い換えのみ）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C03",
+      "text": "訪問系関係人口の年間訪問日数は『2〜7日/年』が約49％で最も多く、『1日以下/年』が約20％、『8日以上/年』が約31％。関わりが薄く、回数の少ない層が大半を占める。",
+      "type": "fact",
+      "source_ids": [
+        "D-S01"
+      ],
+      "as_of": "2023年9〜10月調査",
+      "tags": [
+        "関係人口",
+        "H2"
+      ],
+      "number": "2〜7日/年 約49％",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S01 (3) 『1日以下/年』約20％、『2～7日/年』約49％、『8日以上/年』約31％。後段の『関わりが薄く…大半』は評価的表現で、資料は『8日以上』が約3割と記すのみ。必要なら後段を削るか inference として分ける。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C04",
+      "text": "関わりを持ちたい人が挙げる改善点の上位は『時間的な余裕の確保』27.4％、『移動・滞在の金銭的負担の軽減』26.7％、『交通の利便性の改善』26.4％。",
+      "type": "fact",
+      "source_ids": [
+        "D-S01"
+      ],
+      "as_of": "2023年9〜10月調査",
+      "tags": [
+        "関係人口",
+        "負担"
+      ],
+      "number": "27.4％／26.7％／26.4％",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S01 (4) 27.4％／26.7％／26.4％で一致。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C05",
+      "text": "前回（2020年9月調査、2021-03公表）の訪問系関係人口の推計は約1,827万人。調査設計と母数が違うため、2025年公表値（約1,884万人）と単純に増減を比べるのは注意が必要。",
+      "type": "fact",
+      "source_ids": [
+        "D-S02",
+        "D-S01"
+      ],
+      "as_of": "2020-09調査",
+      "tags": [
+        "関係人口",
+        "統計",
+        "数字の食い違い"
+      ],
+      "number": "約1,827万人",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S02（タイトルは『全国の「関係人口」は1,800万人超！』）で約1,827万人、母数約10,615万人、令和2年9月調査・有効回答148,831人を確認。母数・回答数が異なり単純比較に注意、という記述は妥当。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C06",
+      "text": "総務省は『ふるさと住民登録制度』を2026年度中（2026年度末）に始める予定。第2回全国説明会資料（2026-09-30）によると、自治体のシステム利用申請を2026年10月末〜2027年1月末に受け付け、2027年3月上旬に自治体の利用を始め、3月末に国民向けサービス（アプリ）を始める想定。2026年10月時点では制度は始まっておらず、モデル団体で試用版アプリのモニター実証（10月16日〜12月20日予定）を行っている段階。",
+      "type": "fact",
+      "source_ids": [
+        "D-S103",
+        "D-S03",
+        "D-S106"
+      ],
+      "as_of": "2026-09-30資料／2026-10-23閲覧",
+      "tags": [
+        "関係人口",
+        "国の制度",
+        "announced"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S03トップは『2026年度中の制度開始』のみで、アプリの年度末リリースは同ページに記載なし。一次資料は第2回全国説明会資料（2026-09-30、D-S103 p.2-3）：自治体のシステム利用申請を令和8年10月末〜令和9年1月末に受付、2月下旬に管理者アカウント発行、3月上旬に自治体利用開始、『3月末の国民向けサービス開始（アプリリリース）』。京都新聞（2026-10-10）も2027年3月開始方針と報道。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C07",
+      "text": "ふるさと住民登録制度のガイドライン（Ver.1.0、2026-03-27）は、要件のない『ベーシック登録』と、年3回以上の担い手活動を必須とする『プレミアム登録』（マイナンバーカードでの本人確認が必要、1年ごとに更新）を定める。システム運用経費は『令和9年度（2027年度）までに参加する団体には一定期間負担を求めず国費で対応』し、2028年度以降に参加する団体の負担は未定。特別交付税措置として、ふるさと住民コーディネーターは1人500万円（兼任40万円）を上限に、その他の取組は事業費1,000万円を上限に措置率0.5（財政力補正あり）で措置する。",
+      "type": "fact",
+      "source_ids": [
+        "D-S102",
+        "D-S104",
+        "D-S04"
+      ],
+      "as_of": "2026-03-27",
+      "tags": [
+        "関係人口",
+        "国の制度",
+        "who_pays"
+      ],
+      "number": "年3回以上",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "ガイドライン本体（D-S102）を確認。ベーシック（要件なし）とプレミアム（年3回以上の担い手活動が必須、FAQではマイナンバーカードによる本人確認も必須）は一致。ただし『国は2027年度までのシステム運用経費を負担』は報道（D-S04）の要約が不正確。ガイドライン3-1は『令和9年度までに参加する団体には、一定期間負担を求めないこととし、国費にて対応』『令和10年度以降に参加する団体の負担は今後検討』。特別交付税は3-2：コーディネーター1人500万円（兼任40万円）上限、その他は事業費1,000万円上限×措置率0.5×財政力補正。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C08",
+      "text": "ふるさと住民登録制度のモデル事業（2026-03-27決定：7道県と21市町村）の採択一覧に、京都府と京都府内の市町村は含まれていない。",
+      "type": "fact",
+      "source_ids": [
+        "D-S05"
+      ],
+      "as_of": "2026-03-27",
+      "tags": [
+        "京都",
+        "関係人口"
+      ],
+      "number": "7道県・21市町村",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S05（別紙）とD-S105（報道資料2026-03-27：161団体応募、連携モデル7道県〔域内応募市町村37団体〕、個別市町村モデル21市町村）で確認。京都府・府内市町村は一覧になし。なお京都府内では亀岡市が独自制度を先行開始、府と舞鶴市・南丹市・京丹波町が2026年11月に実証（D-C106、D-C107）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C09",
+      "text": "京都市は2026-09-09、京都ならではの共創型関係人口を『共創人口』と位置づけ、1日体験プログラム『京都仕事探訪』（参加費 一般5,000円／学生3,000円、申込は2027-01-29まで）と『共創人口パートナーシップ事業』を始めた。企画運営は京都移住計画（株式会社ツナグム）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S08"
+      ],
+      "as_of": "2026-09-09",
+      "tags": [
+        "京都市",
+        "関係人口",
+        "pilot"
+      ],
+      "number": "参加費5,000円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S08で確認。参加費は『一般：5,000円／大学生等：3,000円』（本文の『学生』は『大学生等』が正確）、申込期間R8.9.9〜R9.1.29、企画運営は京都移住計画（株式会社ツナグム）。受入先は5事業者。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C10",
+      "text": "共創人口パートナーシップ事業は、協働する企業・団体を『共創コアパートナー』として登録し（募集は2026-09-09〜10-30）、有効な提案には京都市が費用の一部を負担して連携実施する（KYOTO CITY OPEN LABO を利用）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S08"
+      ],
+      "as_of": "2026-09-09",
+      "tags": [
+        "京都市",
+        "関係人口",
+        "who_pays",
+        "H2"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S08 2.で確認。共創コアパートナー募集9/9〜10/30、有効な取組は市が費用の一部を負担、KYOTO CITY OPEN LABO（フリー型）を利用。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C11",
+      "text": "京都市の関係人口・UIJターンの受入体制構築業務（令和8年度）の委託上限額は3,675,000円（税込）。仕様では受入先を10事業者以上開拓する。仕様書は潜在的な関係人口として約15万人の学生と年間5千万人超の観光客を挙げている。",
+      "type": "fact",
+      "source_ids": [
+        "D-S09",
+        "D-S10"
+      ],
+      "as_of": "2026年度",
+      "tags": [
+        "京都市",
+        "関係人口",
+        "予算"
+      ],
+      "number": "3,675,000円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S10 4.『3,675,000円（消費税等含む）』、D-S09『受入先の開拓は、10事業者以上』『約15万人の学生』『年間5千万人超の観光客』を確認。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C12",
+      "text": "京都市の『定住・移住応援団』は2023年3月末に始まり、2026年1月末時点で約190団体が登録している。",
+      "type": "fact",
+      "source_ids": [
+        "D-S09"
+      ],
+      "as_of": "2026-01末",
+      "tags": [
+        "京都市",
+        "関係人口"
+      ],
+      "number": "約190団体",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S09 (2)『令和5年3月末に立ち上げ、約190の団体を応援団として登録（令和8年1月末時点）』で一致。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C13",
+      "text": "京丹後市は楽天と連携し、ふるさと住民として現地で活動・労働した人に楽天トラベルのクーポン（3,000円オフ以上）を出す取組を2026-07-01に始めた。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S11"
+      ],
+      "as_of": "2026-07-01",
+      "tags": [
+        "京都府",
+        "関係人口",
+        "who_pays"
+      ],
+      "number": "3,000円オフ以上",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S11で確認。楽天と6自治体（京丹後市含む）の連携開始2026-07-01、特設ページ『集まれ！未来のふるさと住民2026』、現地で活動・労働した『ふるさと住民』に楽天トラベル3,000円オフ以上のクーポン（上限枚数・条件は自治体ごと）。事業者発表なので party_claim のまま。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C14",
+      "text": "京都市の個人版ふるさと納税の受入額は令和7年度に13,258百万円（約133億円）で過去最高（前年度比＋18億円）。令和6年度は11,500百万円、令和2年度は1,762百万円だった。",
+      "type": "fact",
+      "source_ids": [
+        "D-S101",
+        "D-S06"
+      ],
+      "as_of": "令和7年度決算（2026-09公表）",
+      "tags": [
+        "京都市",
+        "ふるさと納税"
+      ],
+      "number": "13,258百万円（R7）",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "D-S06 p.3・p.146で令和6年度11,500百万円（過去最高）、令和2年度1,762百万円を確認。ただし令和7年度決算実績報告書（D-S101、2026-09公表）で令和7年度13,258百万円（133億円、過去最高、前年度比＋18億円）が出ている。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C15",
+      "text": "京都市の令和7年度の個人版ふるさと納税は、受入13,258百万円から事務経費6,383百万円（うち返礼品3,679百万円）と寄付金控除額9,170百万円を引き、地方交付税措置7,873百万円を足した収支が5,578百万円（市は『56億円を確保』と説明）。令和6年度は受入11,500、事務経費5,623（うち返礼品3,266）、控除8,246、交付税5,543、収支3,174百万円（『32億円』）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S101",
+        "D-S06"
+      ],
+      "as_of": "令和7年度決算（2026-09公表）",
+      "tags": [
+        "京都市",
+        "ふるさと納税",
+        "H1"
+      ],
+      "number": "収支5,578百万円（R7）／3,174百万円（R6）",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "D-S06 p.146表で令和6年度の各数値（受入11,500／事務経費5,623／うち返礼品3,266／控除8,246／交付税5,543／収支3,174、単位百万円）を確認。11,500−5,623−8,246+5,543=3,174で計算も一致。p.3で『32億円を確保』。ただし令和7年度確定値がD-S101 p.152に出ている：受入13,258、事務経費6,383（うち返礼品3,679）、控除9,170、交付税7,873、収支5,578（p.3で『56億円を確保』）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C16",
+      "text": "京都市の令和2年度の個人版ふるさと納税の収支は△180百万円の赤字で、市民の他自治体への寄付による控除（流出）が受入を上回っていた。令和3年度以降は黒字。",
+      "type": "fact",
+      "source_ids": [
+        "D-S06"
+      ],
+      "as_of": "令和2〜6年度",
+      "tags": [
+        "京都市",
+        "ふるさと納税",
+        "H1"
+      ],
+      "number": "△180百万円（R2）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S06 p.146表で令和2年度△180百万円（控除4,059＋経費815が受入1,762と交付税2,932の合計を上回る）、令和3〜6年度は黒字を確認。D-S101の『過去5年の推移』（R3〜R7）でも令和7年度まで黒字（R7は5,578）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C17",
+      "text": "京都市の収支表は、ふるさと納税による寄付金控除の減収分に地方交付税が措置される分を足し戻して計算している。措置額は『前年度の控除額×国が示す伸び率×75％』。令和7年度は当初見込が8,246百万円×1.0×75％＝6,185百万円だったが、実績は伸び率1.273で7,873百万円になった。",
+      "type": "fact",
+      "source_ids": [
+        "D-S101",
+        "D-S06"
+      ],
+      "as_of": "令和7年度決算",
+      "tags": [
+        "京都市",
+        "ふるさと納税",
+        "who_pays"
+      ],
+      "number": "7,873百万円（R7実績）",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "D-S06 p.146注※3の計算式（8,246×1.0×75％＝6,185）は令和6年度報告時点の見込として正しい。ただしD-S101 p.152では令和7年度の実績が『前年度控除額8,246百万円×国が示す伸び率1.273×75％＝地方交付税措置額7,873百万円』となり、見込より約1,688百万円多い。また措置の基礎は『前年の寄付金控除額に国が示す伸び率を乗じた見込額の75％』で、控除額そのものの75％ではない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C18",
+      "text": "総務省の現況調査では、京都市の令和7年度受入額（決算見込）は13,258百万円・339,533件で全国8位。令和8年度課税の住民税控除額は9,791百万円・143,289人で全国10位。",
+      "type": "fact",
+      "source_ids": [
+        "D-S07"
+      ],
+      "as_of": "受入はR7年度決算見込、控除はR8年度課税（2026-06-01時点）",
+      "tags": [
+        "京都市",
+        "ふるさと納税"
+      ],
+      "number": "受入13,258百万円／控除9,791百万円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S07 p.11の上位20団体表で京都市：R7年度受入13,258百万円・339,533件（8位）、R8年度課税の住民税控除額9,791百万円・143,289人（10位）を確認。受入額は京都市の令和7年度決算（D-S101）の13,258百万円と一致。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C19",
+      "text": "京都市の決算資料の『寄付金控除額』（R6年度8,246百万円、R7年度9,170百万円）は市民税分とみられる（総務省のR6年度実施調査で京都市の市町村民税控除額は8,243百万円）。総務省のR8年度実施調査の京都市の住民税控除額9,791百万円はR8年度課税分で、市の資料とは課税年度が1年ずれる。同調査は控除額を『道府県民税と市町村民税の合計』と注記しているが、京都市の数値の連続性からは市町村民税分の可能性もあり、範囲は確認が必要。",
+      "type": "inference",
+      "source_ids": [
+        "D-S07",
+        "D-S116",
+        "D-S06",
+        "D-S101"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "京都市",
+        "ふるさと納税",
+        "数字の食い違い"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S07の留意事項②は『住民税控除額は道府県民税と市町村民税の合計』とする。しかし前年度版の現況調査（R6年度実施、D-S116 p.10）では同種の上位20団体表が『市町村民税控除額』と明記され、京都市は8,243百万円（R6年度課税）で、市決算資料のR6控除額8,246百万円とほぼ一致する。市の資料の控除額は市民税分とみられ、D-S07の9,791（R8年度課税）は市のR7控除額9,170（R7年度課税）からの伸びとして連続的なので、市町村民税分の可能性がある。合計か市町村分かは表から断定できない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C20",
+      "text": "全国のふるさと納税受入額は令和7年度に約1兆3,314億円・約5,963万件。募集に要した費用は6,382億円（47.9％）で、うち返礼品の調達費用が3,528億円（26.5％）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S07"
+      ],
+      "as_of": "令和7年度決算見込",
+      "tags": [
+        "ふるさと納税",
+        "全国",
+        "H1"
+      ],
+      "number": "1兆3,314億円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S07 p.2-3で約1兆3,314億円・約5,963万件、募集費用6,382億円（47.9％）、返礼品調達費用3,528億円（26.5％）を確認。令和7年度は決算見込。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C21",
+      "text": "全国で寄附者に事業の進捗・成果を報告している団体は923（51.8％）、寄附者と継続的なつながりを持つ取組をしている団体は882（49.5％）にとどまる。",
+      "type": "fact",
+      "source_ids": [
+        "D-S07"
+      ],
+      "as_of": "令和7年度",
+      "tags": [
+        "ふるさと納税",
+        "関係人口",
+        "H3"
+      ],
+      "number": "51.8％／49.5％",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S07 p.12『寄附者に対して…報告している』923団体（51.8％）、『継続的なつながりを持つための取組』882団体（49.5％）。％は全指定団体に占める割合。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C22",
+      "text": "京都市は個人版ふるさと納税の使途を分野別に示している。令和7年度は事業費104.5億円のうちふるさと納税31.3億円を充て、主な活用例は美術館運営（192百万円）、ロームシアター京都運営（170百万円）、GIGAスクール構想（380百万円）、『まぢピンチ 京都の市バス・地下鉄を応援』（ふるさと3.2億円）、『日本遺産・琵琶湖疏水』（1.0億円）など。令和6年度は市指定文化財等助成事業（39百万円）、伝統的建造物群保存事業（17百万円）も主な事業に挙がっていた。",
+      "type": "fact",
+      "source_ids": [
+        "D-S101",
+        "D-S06"
+      ],
+      "as_of": "令和7年度決算",
+      "tags": [
+        "京都市",
+        "ふるさと納税",
+        "文化財"
+      ],
+      "number": "",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "D-S06 p.146-147で令和6年度の活用額（市指定文化財等助成39、伝統的建造物群保存17、市バス『まぢピンチ』ふるさと2.8億円〔取組285〕、琵琶湖疏水1.0億円〔99〕、単位百万円）を確認。令和7年度版（D-S101 p.152-153）では、ふるさと活用総額31.3億円、主な事業は美術館運営192、ロームシアター京都運営170、GIGAスクール380、市バス3.2億円（316）、琵琶湖疏水1.0億円（33）など。市指定文化財等助成は主な事業の一覧に出ていない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C23",
+      "text": "京都市の文化財保護への寄付は、個人はふるさと納税、法人は企業版ふるさと納税（1回10万円以上）として扱える。ただし市内に本社がある法人は企業版の対象外（全額損金算入で約3割の税軽減のみ）。Arts Aid KYOTO（文化財保護・事業認定型）では、寄付の7割を所有者が行う保存事業の支援に、3割を市の基金（指定・登録文化財の修理助成など）に充て、一部は事務費にも充てる。",
+      "type": "fact",
+      "source_ids": [
+        "D-S12"
+      ],
+      "as_of": "2026-08-07更新",
+      "tags": [
+        "京都市",
+        "文化財",
+        "企業版ふるさと納税"
+      ],
+      "number": "7割／3割",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S12（ページ番号304001、2026-08-07更新）で確認。『7割を所有者の保存事業、3割を基金』は文化財保護の寄付全般ではなく『Arts Aid KYOTO（文化財保護・事業認定型）』の配分で、寄付の一部は事務費にも充てると記載。個人はふるさと納税、法人は企業版（1回10万円以上）、本社が京都市にある法人は企業版の対象外（全額損金算入で約3割軽減）は一致。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C24",
+      "text": "京都市の令和7年度の民間資金の受入は、個人版ふるさと納税13,258百万円、企業版ふるさと納税789百万円、その他寄付等215百万円（合計14,262百万円）。企業版は前年度（324百万円）から増えたが、個人版よりずっと小さい。企業版の主な活用先は京都・文化ファンドレイジング戦略推進事業（400百万円）など。",
+      "type": "fact",
+      "source_ids": [
+        "D-S101",
+        "D-S06"
+      ],
+      "as_of": "令和7年度決算",
+      "tags": [
+        "京都市",
+        "企業版ふるさと納税"
+      ],
+      "number": "企業版789百万円（R7）",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "D-S06 p.146で令和6年度の企業版324、その他寄付等198、個人版11,500（百万円）、企業版の活用先（美術館運営175、京都・文化ファンドレイジング戦略推進事業173、ロームシアター京都22）を確認。D-S101 p.152では令和7年度：個人版13,258、企業版789、その他215、合計14,262。企業版の活用先は京都・文化ファンドレイジング戦略推進事業（400）、ライフイノベーション創出支援事業（58）など。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C25",
+      "text": "京都府の『文化財を守り伝える京都府基金』（2008年7月設置）は、寄附金の全額を府内の歴史的建造物の保存・修理や防災などに限って使う。累計寄附は2026年3月までに3,805件・2億7,061万円余り、2009〜2024年度の支出は289件・2億4,354万円余り。",
+      "type": "fact",
+      "source_ids": [
+        "D-S111",
+        "D-S14"
+      ],
+      "as_of": "2026-03（寄附）／2024年度（支出）",
+      "tags": [
+        "京都府",
+        "文化財",
+        "ふるさと納税"
+      ],
+      "number": "累計2億7,061万円",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "D-S14（文化財通信第16号、R7.3）で2008年7月設置、全額を文化財保護に限定、累計3,665件・2億6,101万円余り（R6.12まで）、支出279件・2億3,456万円余り（H21〜R5）を確認。より新しい第17号（R8.3、D-S111）では累計3,805件・2億7,061万円余り（R8.3まで）、支出289件・2億4,354万円余り（H21〜R6年度の16年間）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C26",
+      "text": "同基金への寄附は令和6年度に計90件・7,318,937円（個人82件・4,399,354円、法人8件・2,919,583円）で、令和5年度（9,121,968円）から減った。京都市の個人版ふるさと納税（令和7年度133億円）とは桁が違う。なお令和5年度の件数・内訳は府の資料間で135件と134件に分かれる。",
+      "type": "fact",
+      "source_ids": [
+        "D-S110",
+        "D-S111",
+        "D-S14",
+        "D-S101"
+      ],
+      "as_of": "令和6年度",
+      "tags": [
+        "京都府",
+        "文化財",
+        "H1"
+      ],
+      "number": "約732万円（R6）",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "D-S14 p.5で令和5年度135件・9,121,968円（個人117件・5,012,694円、法人・団体18件・4,109,274円）を確認。ただし府の『寄附の受入実績』ページ（D-S110、2026-07-08更新）では令和5年度を134件（個人116件・4,973,094円、法人18件・4,148,874円）と記載しており、合計額は同じだが件数と内訳が資料間で違う。最新は令和6年度90件・7,318,937円（個人82件・4,399,354円、法人8件・2,919,583円）。比較対象の京都市個人版もR7は133億円。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C27",
+      "text": "使途を文化財に限った寄付は、返礼品を目当てにした一般のふるさと納税ほど集まっておらず、文化資産の維持費を賄う規模に届いていない可能性がある（根拠：府基金の令和6年度約732万円と、京都市個人版の令和7年度133億円の差）。",
+      "type": "inference",
+      "source_ids": [
+        "D-S110",
+        "D-S101",
+        "D-S14"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "文化財",
+        "H1"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "推論の構造は妥当だが、根拠数値が古い（府基金は令和6年度約732万円、京都市個人版は令和7年度133億円）。また京都市個人版の使途にも文化財関連が含まれるため、『文化財向け寄付が集まらない』というより『使途を文化財に限定した基金への寄付が小さい』と限定するのが正確。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C28",
+      "text": "京都府・京都市はそれぞれ京都銀行と2026-10-29に連携協定を結ぶ予定。定期預金『京都に寄付する定期預金～京都づくし～』（第1回募集2026-11-17〜2027-03-31、以後も年1回募集予定）では、毎年3月31日の預入残高の0.1％相当額を銀行が府の『文化財を守り伝える京都府基金』と市の『世界遺産・二条城一口城主募金』に按分して寄付する。寄付額は府市合わせて毎年最大1,000万円。",
+      "type": "fact",
+      "source_ids": [
+        "D-S15"
+      ],
+      "as_of": "2026-10-13発表",
+      "tags": [
+        "京都",
+        "文化財",
+        "who_pays",
+        "announced"
+      ],
+      "number": "預入残高の0.1％（年最大1,000万円）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S15で確認。協定締結式2026-10-29（二条城）、京都府と京都銀行の協定（京都市と京都銀行の協定も同時締結）、『京都に寄付する定期預金～京都づくし～』第一回募集2026-11-17〜2027-03-31、今後も年1回募集予定。寄付は『お預入総額（毎年3月31日の残高）の0.1％』を府基金と京都市『世界遺産・二条城一口城主募金』へ按分。重要な上限『双方合わせて毎年最大1,000万円』が本文に抜けている。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C29",
+      "text": "国の地方創生交付金は、デジタル田園都市国家構想交付金から、R6補正で創設された『新しい地方経済・生活環境創生交付金』（R7当初2,000億円／R6補正1,000億円）に変わり、さらにR7補正で『地域未来交付金』が創設された（R8当初案1,600億円／R7補正1,000億円）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S16",
+        "D-S17"
+      ],
+      "as_of": "2026-01",
+      "tags": [
+        "国の制度",
+        "交付金"
+      ],
+      "number": "R8当初案1,600億円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S16 p.1（R6補正で新地方創生交付金創設、R7当初2,000億円／R6補正1,000億円）とD-S17 p.2（R7補正で地域未来交付金創設、R8当初案1,600億円／R7補正1,000億円）で確認。R8当初予算の成立後の確定額は一次資料で未確認（2026-10時点では成立済みのはずだが、本文は『当初案』のままにしておくのが安全）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C30",
+      "text": "地域未来交付金は『地域未来推進型』『デジタル実装型』『地域防災緊急整備型』『地域産業構造転換インフラ整備推進型』で構成される。所管は内閣官房地域未来戦略本部事務局と内閣府地方創生推進事務局。デジ田交付金と新地方創生交付金を現行制度として書くのは誤り。",
+      "type": "fact",
+      "source_ids": [
+        "D-S17"
+      ],
+      "as_of": "2026-01",
+      "tags": [
+        "国の制度",
+        "交付金",
+        "古い情報"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S17 p.1で4類型と所管を確認。最後の文は編集上の注意として妥当だが、新地方創生交付金で採択済みの複数年度事業は継続しうるため、『新規の制度として書くのは誤り』程度に弱めるとより正確。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C31",
+      "text": "山古志住民会議の申告では、2022-12-16時点でデジタル村民は1,037名、NFT発行量は1,470、初期売上は41.4ETH（1ETH=35万円換算で約1,449万円）、総取引量は82ETH、フロア価格は0.22ETH。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S18"
+      ],
+      "as_of": "2022-12-16",
+      "tags": [
+        "山古志",
+        "NFT",
+        "一度きりの収入"
+      ],
+      "number": "初期売上41.4ETH",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S18（2022-12-16）でデジタル村民1,037名、発行量1,470、フロア0.22ETH、総取引量82ETH、初期売上41.4ETH/14,490,000円（1ETH=35万円で計算）を確認。発行量1,470と第1弾売上約30％≒3ETH（D-S19）から見て、41.4ETHは第1弾（2021-12）と第2弾（2022-03）の初回販売の累計とみられる。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C32",
+      "text": "山古志住民会議は、二次流通のロイヤリティを収益の柱と見込んでいたが、OpenSeaでの出品率は2％と低く、NFT販売によって山古志DAOの経済的な持続性は確立できていないと自ら述べた。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S18"
+      ],
+      "as_of": "2022-12-16",
+      "tags": [
+        "山古志",
+        "採算",
+        "失敗・課題"
+      ],
+      "number": "List率2％",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S18『List率（出品されている比率）が2%』『NFTの販売売上によって山古志DAOの経済的な持続性は確立できていない』を確認。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C33",
+      "text": "第1弾セールの売上の約30％（約3ETH）をデジタル村民の投票で使い道を決める予算（総選挙）に充てた。当事者は、予算執行権限を委ねることへの葛藤や、時間感覚の違う現地とデジタル村民をつなぐ難しさを課題に挙げている。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S19",
+        "D-S24"
+      ],
+      "as_of": "2022-02",
+      "tags": [
+        "山古志",
+        "DAO",
+        "H2"
+      ],
+      "number": "約3ETH",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S19（2022-02-07）『第1弾セールの売り上げの約30％（約3ETH）を活動予算』『予算執行権限を委ねること、時間感覚の違う山古志のリアルとデジタル村民コミュニティの接続についての葛藤』を確認。長岡市掲載資料D-S25（2022-05作成）にも同じ記載。source_idsにD-S25を足すとよい。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C34",
+      "text": "政府のデジ田メニューブックには、保有者（デジタル村民）1,032名（2022-11-28）、山古志住民は834名（2021-12-01）から794名（2022-12-01）へ、デジタル村民の来訪は延べ約140名超、と載っている。数値は事業主体の申告で、政府による検証ではない。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S22"
+      ],
+      "as_of": "2022-11〜12",
+      "tags": [
+        "山古志",
+        "関係人口"
+      ],
+      "number": "1,032名",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S22で1,032名（2022-11-28）、山古志住民834名（2021-12-01）→794名（2022-12-01）、帰省延べ約140名超を確認。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C35",
+      "text": "2023年8月の第3弾セールは7,530点の販売枠（0.01〜0.03ETH）を設け、デジタル村民を約1,000人から10,000人に増やす目標を掲げた。当事者の発信では保有者は約1,600人（2023-11）、約1,800人（2025-02）、新潟日報は2026-10-22に『1800人を超え』と報じており、目標には遠く届いていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S21",
+        "D-S20",
+        "D-S23",
+        "D-S113"
+      ],
+      "as_of": "2023-08〜2026-10",
+      "tags": [
+        "山古志",
+        "NFT",
+        "失敗・課題"
+      ],
+      "number": "目標10,000人／実績1,800人超",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S21で第3弾セール販売数量7,530（価格0.01/0.025/0.03ETH）、発行済み1,470、約1,000人→10,000人目標を確認。ただし7,530点は『販売枠』で、売れた数ではない（新規発行のうち1,000個はクリプトヴィレッジが保管）。約1,600人（2023-11）はクリプトヴィレッジのnote（D-S20）、約1,800人（2025-02）はクリプトヴィレッジ社員が執筆しインタビューも同社が行うソトコト連載（D-S23）で、いずれも『報道』ではなく当事者の申告。独立した報道としては新潟日報（2026-10-22、D-S113）が『購入したデジタル村民は1800人を超え』と報じている。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C36",
+      "text": "山古志DAOは投票を経て2024-02-11に『ネオ山古志村』と正式に改称した。2025年2月の記事では、週1回の定例会、運動会の応援、牛の角突きファンクラブ、震災追悼行事への参加、お試し移住などの活動が紹介され、予算と人手の不足が切迫していると述べられている。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S23",
+        "D-S20"
+      ],
+      "as_of": "2025-02-21",
+      "tags": [
+        "山古志",
+        "ongoing",
+        "H2"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S23で2024-02-11の正式改称、週一のミーティング、合同運動会の応援、角突きファンクラブ運営、中越地震メモリアルデイ、お試し移住、『予算やマンパワーなど…切実に必要としている』を確認。D-S20は改称の投票告知（2023-11）。D-S23はクリプトヴィレッジ社員の執筆で当事者の発信（party_claimで妥当）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C37",
+      "text": "山古志のNFT売上は資料によって『第1弾で約600万円（2か月）』（HEDGE GUIDE）、『第1弾は購入者約350人・2022年3月時点で400万円程度』（Business Insider Japan）、『初回販売41.4ETH（1ETH=35万円換算で約1,449万円、2022-12時点）』（住民会議）に分かれる。41.4ETHは第2弾までの累計（発行1,470点）、前二者は第1弾のみで、ETHの円換算レートと時点も違う。第1弾売上の約30％が約3ETHという当事者の説明からは、第1弾は約10ETHと推定できる。売上総額を第三者が検証した資料は見つからない。",
+      "type": "inference",
+      "source_ids": [
+        "D-S24",
+        "D-S114",
+        "D-S18",
+        "D-S19"
+      ],
+      "as_of": "2022〜2024",
+      "tags": [
+        "山古志",
+        "数字の食い違い"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S24は『第一弾セールにおいて1,500点がミントされ、発売からたった二ヶ月で約600万円』（広告・PRを含むメディア、出典の明示なし）。Business Insider Japan（2022-03-15、D-S114）は『第1弾の購入者は約350人、収益はイーサリアム価格で変動し3月時点で400万円程度』。D-S18の41.4ETH（約1,449万円）は1,470点発行時点（第2弾まで）の初回販売累計を1ETH=35万円で換算した値。第1弾売上の約30％が約3ETH（D-S19）なら第1弾は約10ETH。食い違いは主に集計範囲（第1弾のみか第2弾までか）と換算レート・時点の違いで説明できるが、総額を第三者が検証した資料はない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C38",
+      "text": "加賀市の発表では、e-加賀市民証NFTは本格実装から1年の時点で1,200枚以上発行された。2025-03-16からは獅子舞の新デザインを無料で取得できる。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S26"
+      ],
+      "as_of": "2025-03-16",
+      "tags": [
+        "加賀市",
+        "デジタル住民票",
+        "NFT"
+      ],
+      "number": "1,200枚以上",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S26（加賀市、PR TIMES 2025-03-16）『実装から1年、すでに1200枚以上』『令和7年3月16日より…無料で取得』、本格実装はR6.3.16。旧デザインの配布はR7.3.31で終了。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C39",
+      "text": "e-加賀市民証の特典は、NFTを提示すると5,000円で宿泊、日本酒の試飲1杯無料など店舗の割引・サービスが中心で、市政への参加の仕組みは資料に書かれていない。",
+      "type": "fact",
+      "source_ids": [
+        "D-S27"
+      ],
+      "as_of": "2025",
+      "tags": [
+        "加賀市",
+        "デジタル住民票"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S27 p.9の特典一覧（NFT提示で5,000円で宿泊・料理1品、日本酒試飲1杯無料等）を確認、市政参加の記載なし。なお加賀市サイト（D-S118）は、保有者が国家戦略特区の特例（開業ワンストップセンター、スタートアップVISA、近未来技術実証ワンストップセンター等）を使えると案内しており、特典は店舗割引だけではない（D-C117）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C40",
+      "text": "西粟倉村は2018年6月に、トークン（NAC）で資金を集める『地方創生ICO』の実施を発表した。保有者がローカルベンチャーに投票できる設計だったが、実際に発行・調達したことを示す一次資料は見つからなかった。",
+      "type": "fact",
+      "source_ids": [
+        "D-S28"
+      ],
+      "as_of": "2018-06-13",
+      "tags": [
+        "西粟倉",
+        "トークン",
+        "announced"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S28（2018-06-13）でNAC発行予定、保有者がローカルベンチャーに投票、一般社団法人西粟倉村トークンエコノミー協会の設立準備を確認。実施・中止の一次資料は今回も見つからず。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C41",
+      "text": "Next Commons Labの『Local Coop』（奈良市月ヶ瀬・大和高原、三重県尾鷲市など）は、2024年からコミュニティバスの運行（奈良市の定時循環バスを引き継ぎ）、資源ごみの回収、買い物サービスを担う。代表は、財源が確保されないまま事業を引き継いでおり『今が一番しんどい』と述べている。トークンの利用は記事に書かれていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S30",
+        "D-S29"
+      ],
+      "as_of": "2025-02-28",
+      "tags": [
+        "Local Coop",
+        "採算",
+        "H2"
+      ],
+      "number": "尾鷲 3年で約1億1,000万円調達",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S30で2024年からのコミュニティバス・資源ごみ回収・買い物サービス、『これまで奈良市が担っていた定時循環型コミュニティバスの運行をそのまま受け継いでいる』『実は今が一番しんどい』『まだ財源がない中で、インフラのリプレイスから先に進めている』、尾鷲『この3年間で、約1億1000万円』（林氏の発言）を確認。トークンへの言及なし。記事は積水ハウスのマッチングプログラムで制作された連載。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C42",
+      "text": "京都府の『メタバース共創プロジェクト』の京都タワーNFTガチャ（2022-12-01〜20）では、20日間で5,906名がNFTを受け取った。企画は民間4社、京都府は実証の枠組みを提供した。期間限定の実証。",
+      "type": "fact",
+      "source_ids": [
+        "D-S32"
+      ],
+      "as_of": "2022-12",
+      "tags": [
+        "京都府",
+        "NFT",
+        "pilot"
+      ],
+      "number": "5,906名",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S32（京都府ものづくり振興課、2022-11-29作成・2023-03-08更新）で期間R4.12.1〜20、『20日間で5,906名』、主催は京阪ホテルズ＆リゾーツ、ビードリーム、ディレクターズ・ユニブ、SUSHI TOP MARKETINGの4社を確認。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C43",
+      "text": "京都府は『Chain Up KYOTO』ワーキンググループ（京都ビッグデータ活用プラットフォームの一部）でWeb3.0の情報交換を続けており、2025-12-04の会合でステーブルコイン活用事業の検討状況を報告した。2026-07-02にはIVS2026のサイドイベント（50名超）を開いた。検討の中身はページに書かれていない。",
+      "type": "fact",
+      "source_ids": [
+        "D-S33"
+      ],
+      "as_of": "2026-07-03更新",
+      "tags": [
+        "京都府",
+        "Web3",
+        "ongoing"
+      ],
+      "number": "50名超",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S33（2026-07-03更新）で京都ビッグデータ活用プラットフォームから立ち上がったWG、R7.12.4第4回WGで『京都府におけるステーブルコイン活用事業の検討状況を報告』、R8.7.2 IVS2026サイドイベント『50名を超える方々』を確認。検討の中身は記載なし（追加の公表資料も見つからず）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C44",
+      "text": "京都国際マンガ・アニメフェア（京まふ）は2022年度からメインビジュアルをNFT化し、収益を京まふの運営経費とクリエイター支援事業に使うとした（京都市の広報キャラクター活動報告ページが京まふ公式サイトから引用）。販売数・収益と、2023年度以降の継続は公表資料に見当たらない。",
+      "type": "fact",
+      "source_ids": [
+        "D-S34"
+      ],
+      "as_of": "2023-01-16",
+      "tags": [
+        "京都市",
+        "NFT"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S34は京都市の広報キャラクター『京乃つかさ』の活動報告ページ（2023-01-16）で、京まふ公式サイトからの抜粋として『NFT化に2022年度から…』『NFTアートの収益は、京まふの運営経費や…クリエイター支援事業の経費に活用』と記載。主語は京都市単独ではなく京まふ（京都国際マンガ・アニメフェア）。2023年度以降もNFT化を続けたかは同ページから読めない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C45",
+      "text": "京都府内のNFT関連の取組は、スタンプラリー、NFTチケット、NFTのふるさと納税返礼品など期間限定のものが多く、第三者の事例一覧でも継続状況はほとんど書かれていない。",
+      "type": "inference",
+      "source_ids": [
+        "D-S35",
+        "D-S32"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "京都",
+        "NFT",
+        "失敗・課題"
+      ],
+      "number": "19件中、継続状況の記載はほぼなし",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S35（2023-08-09公開、2024-02-22更新表示、ただし2025〜2026年の事例も追記あり）は19件の事例を並べ、FM京都の889アクセス・116件取得など一部を除き継続状況の記載はほぼない。inferenceとして妥当。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C46",
+      "text": "NFTのふるさと納税返礼品『ふるさとCNP2022』（大阪府太子町・京都府長岡京市）は、受付開始から約3〜4分で返礼品444個すべてに寄付が集まった。継続的な収入を示す資料ではない。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S37"
+      ],
+      "as_of": "2022-11-28",
+      "tags": [
+        "NFTふるさと納税",
+        "長岡京市",
+        "一度きりの収入"
+      ],
+      "number": "444個",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S37（あるやうむ、2022-11-28）『11月25日18時・19時より寄付受付を開始。それぞれ3~4分ほどで計444個全ての返礼品』を確認。寄附額の記載なし。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C47",
+      "text": "寺DAOは、会員NFTの購入代金を寺院の定期的な修繕費と伝統職人の支援に充てる仕組みとして紹介された（2022年6月開始）。参加寺院の名前・所在地や販売実績は記事に書かれていない。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S36"
+      ],
+      "as_of": "2023-05-30",
+      "tags": [
+        "寺社",
+        "文化財",
+        "NFT"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "D-S36（2023-05-30）で翠雲堂との提携、『昨年の6月から運営』、寺院の修復課題、NFT購入で参加を確認。寺院名・価格・販売数の記載なし。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C48",
+      "text": "日本総研は、デジタル地域通貨で『成功』と呼べる事例は一握りで、利用が進まず休止・廃止になるものもあり、主な理由は収益性の低さ（収益の柱は加盟店の決済手数料）だと指摘した。紙を含む地域通貨全体の稼働数は2005年の300超から200未満に減っている。",
+      "type": "fact",
+      "source_ids": [
+        "D-S38"
+      ],
+      "as_of": "2023-02-27",
+      "tags": [
+        "失敗・課題",
+        "採算"
+      ],
+      "number": "地域通貨 300超（2005）→200未満",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "D-S38は『成功と言われる活用事例は一握りであり、利用が進まず、休止や廃止になってしまうものもある』と書き、『多くは休止・廃止』とまでは言っていない。稼働数の推移（2005年に300超→現在200未満）は紙を含む地域通貨全体の数字（泉［2021］を基に作成）。収益の柱は加盟店の決済手数料という点は一致。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C49",
+      "text": "NFTによる地域施策の収入は初回販売に偏りやすく、二次流通のロイヤリティや追加販売では運営費を継続的に賄えていない例が多い（根拠：山古志のList率2％と販売目標の未達、ふるさとCNPの即日完売のみの報告）。山古志も立ち上げ年度には国の交付金（約983万円）を使っており、NFT売上だけで回っていたわけではない。",
+      "type": "inference",
+      "source_ids": [
+        "D-S18",
+        "D-S21",
+        "D-S37",
+        "D-S112"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "一度きりの収入",
+        "採算",
+        "H2"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "根拠（山古志のList率2％・目標未達、ふるさとCNPの完売報告のみ）との論理は通る。ただし山古志は立ち上げ年度（令和3年度）に総務省の過疎地域等集落ネットワーク圏形成支援事業の交付金9,830千円を使っており（D-S112）、初期はNFT売上だけでなく公費にも支えられていた点を加えると、収入構造の説明として正確になる。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C101",
+      "text": "京都市の令和7年度決算では、個人版ふるさと納税の寄付受入額13,258百万円に対し、事務経費6,383百万円（うち返礼品3,679百万円）、寄付金控除額9,170百万円、地方交付税措置7,873百万円で、収支は5,578百万円。市は『返礼品などの費用や流出額等を加味しても…56億円を確保』と説明している。",
+      "type": "fact",
+      "source_ids": [
+        "D-S101"
+      ],
+      "as_of": "令和7年度決算（2026-09公表）",
+      "tags": [
+        "京都市",
+        "ふるさと納税",
+        "H1"
+      ],
+      "number": "収支5,578百万円",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C102",
+      "text": "京都市の令和7年度の地方交付税措置は、前年度の控除額8,246百万円に国が示す伸び率1.273を掛けた75％で7,873百万円となり、前年度の決算資料で見込んだ6,185百万円（伸び率1.0）より約17億円多かった。市のふるさと納税収支は国の伸び率の設定で大きく動く。",
+      "type": "fact",
+      "source_ids": [
+        "D-S101",
+        "D-S06"
+      ],
+      "as_of": "令和7年度決算",
+      "tags": [
+        "京都市",
+        "ふるさと納税",
+        "who_pays",
+        "数字の食い違い"
+      ],
+      "number": "7,873百万円",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C104",
+      "text": "総務省の第2回全国説明会資料（2026-09-30）によると、ふるさと住民登録制度の試用版アプリを使うモニター実証を2026年10月16日〜12月20日に行い、モデル団体で計2千〜3千人程度のモニターを確保し、100以上の自治体が参加する予定。システム利用料は2027年度までに参加する団体には一定期間求めない。",
+      "type": "fact",
+      "source_ids": [
+        "D-S103"
+      ],
+      "as_of": "2026-09-30",
+      "tags": [
+        "関係人口",
+        "国の制度",
+        "pilot"
+      ],
+      "number": "モニター2千〜3千人",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C105",
+      "text": "京都新聞（2026-10-10）は、総務省がふるさと住民登録制度を2027年3月に始める方針を決めたと報じた。全1,788自治体を対象にした総務省の調査で、74％にあたる1,327自治体が参加に前向きで、消極的な自治体は事務負担・財政負担を懸念しているという（報道による。総務省の調査結果の一次資料は未確認）。",
+      "type": "party_claim",
+      "source_ids": [
+        "D-S106"
+      ],
+      "as_of": "2026-10-10",
+      "tags": [
+        "関係人口",
+        "国の制度",
+        "announced"
+      ],
+      "number": "1,327自治体（74％）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C106",
+      "text": "京都府亀岡市は2026-03-09から独自の『亀岡市ふるさと住民登録制度』を始め、市外に住む登録者に市内対象店舗で使えるウェルカムクーポン（最大1,500円分）などを出している。国のアプリとも連携する予定と報じられている。",
+      "type": "fact",
+      "source_ids": [
+        "D-S108"
+      ],
+      "as_of": "2026-03-10",
+      "tags": [
+        "京都府",
+        "関係人口",
+        "who_pays"
+      ],
+      "number": "最大1,500円分",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C107",
+      "text": "京都府と舞鶴市・南丹市・京丹波町はJR西日本などと組み、2027年度からの国の制度の本格運用を見据えて、2026年11月に1週間単位の短期就労（農業・観光業など）と観光・地域交流を組み合わせた実証を行う。移動手段・通勤手段・宿泊施設はJR西日本と自治体が無料で用意し、主に京都府外の在住者に参加を呼びかける。",
+      "type": "fact",
+      "source_ids": [
+        "D-S107"
+      ],
+      "as_of": "2026-09-18発表",
+      "tags": [
+        "京都府",
+        "関係人口",
+        "pilot",
+        "who_pays"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C108",
+      "text": "京都府の『文化財を守り伝える京都府基金』の受入実績ページによると、令和4年度は84件・15,052,700円、令和5年度は134件・9,121,968円、令和6年度は90件・7,318,937円で、年度ごとの規模は1,000万円前後かそれ以下にとどまる。",
+      "type": "fact",
+      "source_ids": [
+        "D-S110"
+      ],
+      "as_of": "令和6年度",
+      "tags": [
+        "京都府",
+        "文化財",
+        "ふるさと納税",
+        "H1"
+      ],
+      "number": "7,318,937円（R6）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C109",
+      "text": "総務省の資料によると、山古志住民会議の『仮想山古志村プロジェクト』は令和3年度に総務省の過疎地域等集落ネットワーク圏形成支援事業の交付金9,830千円を使い、2回に分けて電子住民票（NFT）を発行して延べ850人のデジタル住民が生まれた（R4.11時点）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S112"
+      ],
+      "as_of": "2022-11",
+      "tags": [
+        "山古志",
+        "who_pays",
+        "NFT"
+      ],
+      "number": "9,830千円",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C110",
+      "text": "新潟日報（2026-10-22）は、山古志住民会議が2021年から続ける『仮想山古志プロジェクト』で、NFTを購入したデジタル村民が1,800人を超え、移住者や闘牛のオーナーなど地域と密接に関わる人も出てきたと報じた。",
+      "type": "fact",
+      "source_ids": [
+        "D-S113"
+      ],
+      "as_of": "2026-10-22",
+      "tags": [
+        "山古志",
+        "ongoing",
+        "関係人口"
+      ],
+      "number": "1,800人超",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C111",
+      "text": "ふるさと住民登録制度のモデル事業（個別市町村）には、Web3を使う提案も含まれる。西会津町は地域貢献の度合いに応じて米と交換できるNFT等を配る独自アプリとの連携、広島県三原市は民間と構築したDAOシステムの活用、香川県琴平町は民間と連携したDAOなどの施策のアプリへの統合を掲げる。",
+      "type": "fact",
+      "source_ids": [
+        "D-S05"
+      ],
+      "as_of": "2026-03-27",
+      "tags": [
+        "関係人口",
+        "国の制度",
+        "DAO",
+        "NFT"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C112",
+      "text": "京都府は2025-10-24〜2026-03-31、府基金のふるさと納税返礼品として『P丸様。とめぐる京都デジタルスタンプラリー』（7,000円・20,000円・25,000円の3プラン、府内7文化施設）を実施した。府のページはLINEで限定イラスト・音声を受け取る仕組みと説明しており、NFTの語はない（第三者まとめはNFT基盤をキリフダが提供と記載）。",
+      "type": "fact",
+      "source_ids": [
+        "D-S117",
+        "D-S35"
+      ],
+      "as_of": "2026-02-13更新",
+      "tags": [
+        "京都府",
+        "文化財",
+        "ふるさと納税",
+        "pilot"
+      ],
+      "number": "7,000〜25,000円",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-C117",
+      "text": "加賀市は、e-加賀市民証の保有者が国家戦略特区の特例措置として開業ワンストップセンター、スタートアップVISA、近未来技術実証ワンストップセンターなどを利用できると案内している。",
+      "type": "fact",
+      "source_ids": [
+        "D-S118"
+      ],
+      "as_of": "2026-10-23閲覧",
+      "tags": [
+        "加賀市",
+        "デジタル住民票"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    }
   ],
   "cases": [
-    {"id":"D-X01","name":"Nishikigoi NFT／山古志DAO（現 ネオ山古志村）","region":"新潟県長岡市山古志地域","operator":"山古志住民会議、株式会社クリプトヴィレッジ（2023年設立）。連携に株式会社TART","web3":true,"summary":"錦鯉のジェネラティブアートNFTを『電子住民票』として販売し、保有者を『デジタル村民』とする。売上の一部をデジタル村民の投票（総選挙）で使途を決める予算にし、Discordなどで地域の住民と協働する。","stage":"ongoing","stage_evidence":"2025-02の報道（D-S23）で週1回の定例会など活動の継続が確認できる。一方、運営者は2022年に『NFT販売で経済的持続性は確立できていない』と述べており（D-S18）、financially_sustainedではない","status_2026":"現況未確認（2026年の一次資料は見つからず。最後に確認できた活動報道は2025-02）","who_pays":"NFT購入者の一度きりの購入代金（初期売上41.4ETH＝party_claim）。二次流通のロイヤリティは小さい。住民会議の財源だった地域復興支援制度は2021年度末に終了（検索結果の報道による、未確認）。長岡市の費用負担は確認できない","results":"保有者 1,032名（2022-11-28、D-S22）→約1,600人（2023-11、D-S20）→約1,800人（2025-02、D-S23）。発行量1,470（2022-12）、第3弾7,530点を販売（2023-08）、目標は10,000人。総選挙予算は約3ETH（第1弾売上の約30％）。来訪は延べ約140名超（2022）、デジタル村民の約3割が訪問（2023-11、party_claim）","lessons":"(推測) 関係人口の『可視化』と一度きりの資金集めには効いたが、継続収入にはなっていない。住民とデジタル村民の調整、ウォレットの使い方の支援などの運営負荷が課題として当事者から繰り返し出ている（H2）。予算と人手の不足が今も続いている","source_ids":["D-S18","D-S19","D-S20","D-S21","D-S22","D-S23","D-S24","D-S25"]},
-    {"id":"D-X02","name":"e-加賀市民制度（e-加賀市民証NFT）","region":"石川県加賀市","operator":"加賀市","web3":true,"summary":"NFTの電子市民証を発行し、保有者に市内の宿泊や店舗での特典を提供する。関係人口を増やし、産業を集めることを目指す。","stage":"ongoing","stage_evidence":"2025-03-16に新デザインの無料配布を開始（D-S26）。2025年の内閣府資料でも取得を呼びかけている（D-S27）","status_2026":"現況未確認（e-加賀市民サイトは2026-10-23時点で503、市の関連ページは404）","who_pays":"加賀市（取得は2025年以降無料）。特典は協力店舗の負担とみられる（推測）","results":"1,200枚以上（本格実装から1年の時点、2025-03、party_claim）。人口61,231人（2025-06-01）","lessons":"(推測) 無料のデジタル市民証で登録数は伸ばせても、特典は観光割引が中心で、地域の維持管理の負担を減らす仕組みにはなっていない","source_ids":["D-S26","D-S27"]},
-    {"id":"D-X03","name":"西粟倉村 地方創生ICO（Nishi Awakura Coin, NAC）","region":"岡山県西粟倉村","operator":"西粟倉村／一般社団法人西粟倉村トークンエコノミー協会（設立準備中と発表）","web3":true,"summary":"トークンを発行して暗号資産で資金を集め、保有者がローカルベンチャーに投票する構想。","stage":"announced","stage_evidence":"2018-06-13の発表（D-S28）のみ。発行・調達の実績を示す一次資料は見つからない","status_2026":"現況未確認（実施された記録は見つからず）","who_pays":"計画では投資家（トークン購入者）","results":"確認できる実績なし","lessons":"(推測) 規制面（当時、金融庁がICO規制を検討中）と運営主体づくりの難しさで、発表段階から先に進んだ記録がない。発表だけで実績として扱わないよう注意","source_ids":["D-S28"]},
-    {"id":"D-X04","name":"Local Coop（奈良市月ヶ瀬・大和高原ほか）","region":"奈良県奈良市、三重県尾鷲市など","operator":"一般社団法人Next Commons Lab、株式会社paramita","web3":false,"summary":"住民の共助と技術を組み合わせ、行政サービスの一部（コミュニティバス、資源回収、買い物）を地域の組織が担う『第二の自治』の構想。","stage":"ongoing","stage_evidence":"2024年から大和高原でバス運行・資源回収・買い物サービスを開始（D-S30）。奈良市は2022年に拠点施設を改修（D-S29）","status_2026":"現況未確認（最新の確認は2025-02の記事）","who_pays":"奈良市（施設改修27,049,000円、新型コロナ地方創生臨時交付金を活用）、企業（カーボンクレジット購入、企業版ふるさと納税）。委託額は非公開","results":"尾鷲で3年間に約1億1,000万円を調達、資源回収拠点を36か所から6か所に集約（party_claim、2025-02）","lessons":"(推測) 公共サービスを引き継ぐと安全・定時性の要求が重く、財源のないまま先行すると運営者が疲弊する（代表は『今が一番しんどい』）。H1・H2に関わる事例","source_ids":["D-S29","D-S30"]},
-    {"id":"D-X05","name":"石高プロジェクト（お米ボード）","region":"福島県西会津町","operator":"石高プロジェクト（外部事業者）／西会津町 企画情報課が案内","web3":true,"summary":"Web3・ブロックチェーン・NFTを使って米の販路と関係人口を広げる。購入者に米を届ける『米本位制』の構想。","stage":"ongoing","stage_evidence":"令和7年産の販売を2025-08-11に開始（D-S31）","status_2026":"現況未確認（令和8年産の募集は未確認）。なお西会津町は総務省ふるさと住民登録制度のモデル事業（個別市町村）に採択されている（D-S05）","who_pays":"購入者（米の代金。送料込み、カード払い）","results":"販売数・売上の公表なし","lessons":"(推測) 米という実物と交換するので年ごとに繰り返し販売できる。ただし採算は確認できない","source_ids":["D-S31","D-S05"]},
-    {"id":"D-X06","name":"ふるさとCNP2022（NFTふるさと納税）","region":"京都府長岡京市・大阪府太子町","operator":"株式会社あるやうむ、CryptoNinja Partners、各自治体","web3":true,"summary":"人気NFTキャラクターとのコラボNFTをふるさと納税の返礼品にする。来訪で絵柄が変わる、体験の権利などの特典を予定。","stage":"pilot","stage_evidence":"2022-11に限定数を販売（D-S37）。継続や再販の一次資料は確認できない","status_2026":"現況未確認","who_pays":"寄附者（寄附の一部が返礼品と仲介の費用）","results":"返礼品444個に約3〜4分で寄付が集まった（2022-11、party_claim）。寄附額は非公表","lessons":"(推測) NFTのファン層からの一度きりの寄付で、関係人口として続いたかは不明","source_ids":["D-S37"]},
-    {"id":"D-X07","name":"京都府 メタバース共創プロジェクト（京都タワーNFTガチャ、鈴虫寺NFTなど）","region":"京都府京都市","operator":"京都府（実証の枠組み）、京阪ホテルズ＆リゾーツ、ビードリーム、SUSHI TOP MARKETING ほか","web3":true,"summary":"観光地でQRコードを読むとNFT（限定画像、おみくじ、祈祷済み画像、割引券など）がもらえる実証。","stage":"ended","stage_evidence":"京都タワーは2022-12-01〜20の期間限定（D-S32）","status_2026":"終了（期間限定の実証）。府のWeb3の取組はChain Up KYOTOに移っている","who_pays":"京都府の実証事業と参加企業（内訳は非公表）","results":"5,906名がNFTを受け取った（20日間）。鈴虫寺の説法動画NFTは70名（第三者のまとめ、D-S35）","lessons":"(推測) 配布数は測れても、その後の来訪や関係の継続の測定は示されていない。寺院の事例は宗教活動（説法）の体験の付与で、文化財の維持費とは別の話","source_ids":["D-S32","D-S35"]},
-    {"id":"D-X08","name":"Chain Up KYOTO ワーキンググループ","region":"京都府","operator":"京都府 デジタル政策推進課（京都ビッグデータ活用プラットフォーム）","web3":true,"summary":"Web3.0・XRなどで社会課題を解決するビジネスモデル作りに向けて、企業と府が情報を交換するワーキンググループ。","stage":"ongoing","stage_evidence":"2024-12、2025-03、2025-12に会合、2026-07-02にIVS2026のサイドイベント（D-S33）","status_2026":"継続（ページ更新2026-07-03）。ステーブルコイン活用事業を検討中","who_pays":"京都府（運営）。参加企業は各自の負担","results":"IVS2026サイドイベントに50名超","lessons":"(推測) 情報交換の場で、地域の負担を減らす実装に至ったかは未確認","source_ids":["D-S33"]},
-    {"id":"D-X09","name":"京都市『共創人口』施策（京都仕事探訪・共創人口パートナーシップ事業）","region":"京都府京都市","operator":"京都市 総合企画局人口戦略室、企画運営は京都移住計画（ツナグム）","web3":false,"summary":"市外の人を『共創人口』と位置づけ、1日仕事体験、交流イベント、企業・団体の登録とマッチングで関係人口とUIJターンを増やす。","stage":"pilot","stage_evidence":"2026-09-09に開始（D-S08）。令和8年度の委託事業（D-S09、D-S10）","status_2026":"実施中（体験の申込は2027-01-29まで、コアパートナーの募集は2026-10-30まで）","who_pays":"京都市（委託上限3,675,000円）、参加者（体験5,000円）、受入企業。提案事業は市が一部負担","results":"受入先5事業者でスタート（2026-09）。成果は未公表","lessons":"(推測) 受入企業と調整役に負担が集まりやすく（H2）、単年度の委託額は小さいため継続性は未知数","source_ids":["D-S08","D-S09","D-S10"]},
-    {"id":"D-X10","name":"文化財を守り伝える京都府基金（ふるさと納税）","region":"京都府","operator":"京都府 文化生活部","web3":false,"summary":"ふるさと納税の寄附の全額を府内の文化財の保存・修理・防災に限って使う基金。返礼品は寺社の特別拝観などの文化体験。","stage":"ongoing","stage_evidence":"2008年から継続。2026-10にも募集・特典の案内を更新（D-S13）","status_2026":"継続（2026-10-22更新）。京都銀行の定期預金による寄付の連携を2026-10-29に締結予定（D-S15）","who_pays":"寄附者（個人・法人）。2026年11月以降は京都銀行（預金総額の0.1％）も加わる","results":"累計3,665件・2億6,101万円余り（2024-12）、支出279件・2億3,456万円余り（2009〜2023年度）、令和5年度の寄附は約912万円","lessons":"(推測) 使途を文化財に限る仕組みは透明だが、年間の規模は小さい。返礼品で競う一般のふるさと納税とは集まり方が大きく違う（H1）","source_ids":["D-S13","D-S14","D-S15"]},
-    {"id":"D-X11","name":"寺DAO","region":"全国（京都に限らない）","operator":"フレームダブルオー株式会社、翠雲堂","web3":true,"summary":"会員NFTの購入で、寺院の定期的な修繕と伝統職人を支える共同資金を作る。使い道は会員が決める。","stage":"unknown","stage_evidence":"2022年6月開始と報道（D-S36）。その後の実績資料は見つからない","status_2026":"現況未確認","who_pays":"会員NFTの購入者","results":"公表された数値なし","lessons":"(推測) 建物・工芸の維持（文化資産）を目的にしており、宗教活動の支援とは分けて評価する必要がある","source_ids":["D-S36"]},
-    {"id":"D-X12","name":"京丹後市×楽天『集まれ！未来のふるさと住民2026』","region":"京都府京丹後市","operator":"京丹後市、楽天グループ","web3":false,"summary":"一次産業のスポットワーク情報を発信し、現地で活動・労働したふるさと住民に宿泊クーポンを出す。","stage":"pilot","stage_evidence":"2026-07-01に開始（D-S11）","status_2026":"実施中とみられる（終了日は未確認）","who_pays":"楽天（クーポン）、京丹後市","results":"未公表","lessons":"(推測) 担い手不足（宿泊業・一次産業）への労働の提供を条件にしており、ポイントを付けるだけの施策より負担の軽減に近い。ただし効果の検証はこれから","source_ids":["D-S11"]}
+    {
+      "id": "D-X01",
+      "name": "Nishikigoi NFT／山古志DAO（現 ネオ山古志村）",
+      "region": "新潟県長岡市山古志地域",
+      "operator": "山古志住民会議、株式会社クリプトヴィレッジ（2023年設立）。連携に株式会社TART",
+      "web3": true,
+      "summary": "錦鯉のジェネラティブアートNFTを『電子住民票』として販売し、保有者を『デジタル村民』とする。売上の一部をデジタル村民の投票（総選挙）で使途を決める予算にし、Discordなどで地域の住民と協働する。",
+      "stage": "ongoing",
+      "stage_evidence": "2025-02の報道（D-S23）で週1回の定例会など活動の継続が確認できる。一方、運営者は2022年に『NFT販売で経済的持続性は確立できていない』と述べており（D-S18）、financially_sustainedではない",
+      "status_2026": "継続（新潟日報2026-10-22：『仮想山古志プロジェクト』を2021年から続け、購入したデジタル村民は1800人を超え、移住者や闘牛のオーナーも出ている）。保有者数・予算執行の当事者による2025年後半以降の一次資料は見つからず",
+      "who_pays": "NFT購入者の初回購入代金（初回販売累計41.4ETH＝2022-12時点、party_claim）。二次流通のロイヤリティは小さい（List率2％）。立ち上げの令和3年度は総務省『過疎地域等集落ネットワーク圏形成支援事業』の交付金9,830千円を活用（D-S112）。住民会議の財源だった地域復興支援制度が2021年度末に終了したという話は一次資料で未確認",
+      "results": "保有者 1,032名（2022-11-28、D-S22）→約1,600人（2023-11、当事者）→約1,800人（2025-02、当事者）→1,800人超（2026-10、新潟日報）。発行量1,470（2022-12）、第3弾は7,530点の販売枠（2023-08、売れた数は非公表）、目標は10,000人。第1弾は購入者約350人・2022年3月時点で約400万円（Business Insider Japan）。総選挙予算は約3ETH（第1弾売上の約30％）。来訪は延べ約140名超（2022）、デジタル村民の約3割が訪問（2023-11、party_claim）",
+      "lessons": "(推測) 関係人口の『可視化』と一度きりの資金集めには効いたが、継続収入にはなっていない。住民とデジタル村民の調整、ウォレットの使い方の支援などの運営負荷が課題として当事者から繰り返し出ている（H2）。予算と人手の不足が今も続いている",
+      "source_ids": [
+        "D-S18",
+        "D-S19",
+        "D-S20",
+        "D-S21",
+        "D-S22",
+        "D-S23",
+        "D-S24",
+        "D-S25"
+      ],
+      "verification": {
+        "note": "段階ongoingは妥当。2026年の独立報道（新潟日報2026-10-22）で活動継続と購入者1,800人超を確認。立ち上げ年度は総務省の交付金（令和3年度9,830千円）を使っており、『長岡市の費用負担は確認できない』だけでは公費の関与を見落とす。地方自治研究機構（RILG）の令和6年度先進事例報告は2026-10-23もサイトが503で本文未読（検索結果の抜粋では2024年11月末に約3,000点）。売上総額の食い違いはD-C37参照。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X02",
+      "name": "e-加賀市民制度（e-加賀市民証NFT）",
+      "region": "石川県加賀市",
+      "operator": "加賀市",
+      "web3": true,
+      "summary": "NFTの電子市民証を発行し、保有者に市内の宿泊や店舗での特典を提供する。関係人口を増やし、産業を集めることを目指す。",
+      "stage": "ongoing",
+      "stage_evidence": "2025-03-16に新デザインの無料配布を開始（D-S26）。2025年の内閣府資料でも取得を呼びかけている（D-S27）",
+      "status_2026": "現況未確認（e-加賀市民サイトは2026-10-23時点で503。加賀市のスタートアップエコシステムのページは制度と取得サイトを引き続き案内し、2025-09のイベント報告あり）",
+      "who_pays": "加賀市（取得は2025年以降無料）。特典は協力店舗の負担とみられる（推測）",
+      "results": "1,200枚以上（本格実装から1年の時点、2025-03、party_claim）。2025年4月以降の数値は未公表。人口61,231人（2025-06-01）。保有者は国家戦略特区の特例（開業ワンストップセンター、スタートアップVISA等）を使えると市が案内",
+      "lessons": "(推測) 無料のデジタル市民証で登録数は伸ばせても、特典は観光割引が中心で、地域の維持管理の負担を減らす仕組みにはなっていない",
+      "source_ids": [
+        "D-S26",
+        "D-S27"
+      ],
+      "verification": {
+        "note": "2025年以降の発行数は見つからず。e-加賀市民サイトは2026-10-23も503（WebFetchも503）で、終了か一時障害か判断できない。加賀市デジタル推進課のページ（D-S118）は現在もe-加賀市民制度と取得サイトを案内し、2025-09-08のイベント報告を載せているため、終了と判断する材料はない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X03",
+      "name": "西粟倉村 地方創生ICO（Nishi Awakura Coin, NAC）",
+      "region": "岡山県西粟倉村",
+      "operator": "西粟倉村／一般社団法人西粟倉村トークンエコノミー協会（設立準備中と発表）",
+      "web3": true,
+      "summary": "トークンを発行して暗号資産で資金を集め、保有者がローカルベンチャーに投票する構想。",
+      "stage": "announced",
+      "stage_evidence": "2018-06-13の発表（D-S28）のみ。発行・調達の実績を示す一次資料は見つからない",
+      "status_2026": "現況未確認（実施された記録は見つからず）",
+      "who_pays": "計画では投資家（トークン購入者）",
+      "results": "確認できる実績なし",
+      "lessons": "(推測) 規制面（当時、金融庁がICO規制を検討中）と運営主体づくりの難しさで、発表段階から先に進んだ記録がない。発表だけで実績として扱わないよう注意",
+      "source_ids": [
+        "D-S28"
+      ],
+      "verification": {
+        "note": "変更なし。実施・中止を示す村の資料は今回も見つからない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X04",
+      "name": "Local Coop（奈良市月ヶ瀬・大和高原ほか）",
+      "region": "奈良県奈良市、三重県尾鷲市など",
+      "operator": "一般社団法人Next Commons Lab、株式会社paramita",
+      "web3": false,
+      "summary": "住民の共助と技術を組み合わせ、行政サービスの一部（コミュニティバス、資源回収、買い物）を地域の組織が担う『第二の自治』の構想。",
+      "stage": "ongoing",
+      "stage_evidence": "2024年から大和高原でバス運行・資源回収・買い物サービスを開始（D-S30）。奈良市は2022年に拠点施設を改修（D-S29）",
+      "status_2026": "現況未確認（最新の確認は2025-02の記事）",
+      "who_pays": "奈良市（施設改修27,049,000円、新型コロナ地方創生臨時交付金を活用）、企業（カーボンクレジット購入、企業版ふるさと納税）。委託額は非公開",
+      "results": "尾鷲で3年間に約1億1,000万円を調達、資源回収拠点を36か所から6か所に集約（party_claim、2025-02）",
+      "lessons": "(推測) 公共サービスを引き継ぐと安全・定時性の要求が重く、財源のないまま先行すると運営者が疲弊する（代表は『今が一番しんどい』）。H1・H2に関わる事例",
+      "source_ids": [
+        "D-S29",
+        "D-S30"
+      ],
+      "verification": {
+        "note": "2026年の状況は一次資料で確認できず（検索では2025年4月に奈良市・企業と包括連携協定の情報があるが未読）。記載はそのままでよい。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X05",
+      "name": "石高プロジェクト（お米ボード）",
+      "region": "福島県西会津町",
+      "operator": "石高プロジェクト（外部事業者）／西会津町 企画情報課が案内",
+      "web3": true,
+      "summary": "Web3・ブロックチェーン・NFTを使って米の販路と関係人口を広げる。購入者に米を届ける『米本位制』の構想。",
+      "stage": "ongoing",
+      "stage_evidence": "令和7年産の販売を2025-08-11に開始（D-S31）",
+      "status_2026": "現況未確認（令和8年産の募集は未確認）。西会津町は総務省ふるさと住民登録制度のモデル事業（個別市町村）に採択され、提案は『米と交換可能なNFT等の配付を行う独自アプリと本制度を連携』（D-S05）",
+      "who_pays": "購入者（米の代金。送料込み、カード払い）",
+      "results": "販売数・売上の公表なし",
+      "lessons": "(推測) 米という実物と交換するので年ごとに繰り返し販売できる。ただし採算は確認できない",
+      "source_ids": [
+        "D-S31",
+        "D-S05"
+      ],
+      "verification": {
+        "note": "令和8年産の販売は確認できず。西会津町のモデル事業提案は『地域貢献の度合いに応じ、米と交換可能なNFT等の配付を行う独自アプリと本制度を連携』（D-S05）で、Web3要素が国の制度と結びつく例として注記するとよい。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X06",
+      "name": "ふるさとCNP2022（NFTふるさと納税）",
+      "region": "京都府長岡京市・大阪府太子町",
+      "operator": "株式会社あるやうむ、CryptoNinja Partners、各自治体",
+      "web3": true,
+      "summary": "人気NFTキャラクターとのコラボNFTをふるさと納税の返礼品にする。来訪で絵柄が変わる、体験の権利などの特典を予定。",
+      "stage": "pilot",
+      "stage_evidence": "2022-11に限定数を販売（D-S37）。継続や再販の一次資料は確認できない",
+      "status_2026": "現況未確認",
+      "who_pays": "寄附者（寄附の一部が返礼品と仲介の費用）",
+      "results": "返礼品444個に約3〜4分で寄付が集まった（2022-11、party_claim）。寄附額は非公表",
+      "lessons": "(推測) NFTのファン層からの一度きりの寄付で、関係人口として続いたかは不明",
+      "source_ids": [
+        "D-S37"
+      ],
+      "verification": {
+        "note": "変更なし。長岡京市版の再販は確認できず（宮津市が2023年に同種の『ふるさとCNP2023』を出したと第三者まとめにあるが未確認）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X07",
+      "name": "京都府 メタバース共創プロジェクト（京都タワーNFTガチャ、鈴虫寺NFTなど）",
+      "region": "京都府京都市",
+      "operator": "京都府（実証の枠組み、ものづくり振興課）、京阪ホテルズ＆リゾーツ、ビードリーム、ディレクターズ・ユニブ、SUSHI TOP MARKETING ほか",
+      "web3": true,
+      "summary": "観光地でQRコードを読むとNFT（限定画像、おみくじ、祈祷済み画像、割引券など）がもらえる実証。",
+      "stage": "ended",
+      "stage_evidence": "京都タワーは2022-12-01〜20の期間限定（D-S32）",
+      "status_2026": "終了（期間限定の実証）。府のWeb3の取組はChain Up KYOTOに移っている",
+      "who_pays": "京都府の実証事業と参加企業（内訳は非公表）",
+      "results": "5,906名がNFTを受け取った（20日間）。鈴虫寺の説法動画NFTは70名（第三者のまとめ、D-S35）",
+      "lessons": "(推測) 配布数は測れても、その後の来訪や関係の継続の測定は示されていない。寺院の事例は宗教活動（説法）の体験の付与で、文化財の維持費とは別の話",
+      "source_ids": [
+        "D-S32",
+        "D-S35"
+      ],
+      "verification": {
+        "note": "京都タワーの主催は4社（ディレクターズ・ユニブを含む）。鈴虫寺の70名は第三者まとめの数字で、府資料（hannary.pdf）は未確認。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X08",
+      "name": "Chain Up KYOTO ワーキンググループ",
+      "region": "京都府",
+      "operator": "京都府 デジタル政策推進課（京都ビッグデータ活用プラットフォーム）",
+      "web3": true,
+      "summary": "Web3.0・XRなどで社会課題を解決するビジネスモデル作りに向けて、企業と府が情報を交換するワーキンググループ。",
+      "stage": "ongoing",
+      "stage_evidence": "2024-12、2025-03、2025-12に会合、2026-07-02にIVS2026のサイドイベント（D-S33）",
+      "status_2026": "継続（ページ更新2026-07-03）。ステーブルコイン活用事業を検討中",
+      "who_pays": "京都府（運営）。参加企業は各自の負担",
+      "results": "IVS2026サイドイベントに50名超",
+      "lessons": "(推測) 情報交換の場で、地域の負担を減らす実装に至ったかは未確認",
+      "source_ids": [
+        "D-S33"
+      ],
+      "verification": {
+        "note": "記載どおり。ステーブルコイン活用事業の公表資料は今回も見つからない。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X09",
+      "name": "京都市『共創人口』施策（京都仕事探訪・共創人口パートナーシップ事業）",
+      "region": "京都府京都市",
+      "operator": "京都市 総合企画局人口戦略室、企画運営は京都移住計画（ツナグム）",
+      "web3": false,
+      "summary": "市外の人を『共創人口』と位置づけ、1日仕事体験、交流イベント、企業・団体の登録とマッチングで関係人口とUIJターンを増やす。",
+      "stage": "pilot",
+      "stage_evidence": "2026-09-09に開始（D-S08）。令和8年度の委託事業（D-S09、D-S10）",
+      "status_2026": "実施中（体験の申込は2027-01-29まで、コアパートナーの募集は2026-10-30まで）",
+      "who_pays": "京都市（委託上限3,675,000円）、参加者（体験5,000円）、受入企業。提案事業は市が一部負担",
+      "results": "受入先5事業者でスタート（2026-09）。成果は未公表",
+      "lessons": "(推測) 受入企業と調整役に負担が集まりやすく（H2）、単年度の委託額は小さいため継続性は未知数",
+      "source_ids": [
+        "D-S08",
+        "D-S09",
+        "D-S10"
+      ],
+      "verification": {
+        "note": "記載どおり（受入先5事業者、参加費は一般5,000円／大学生等3,000円）。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X10",
+      "name": "文化財を守り伝える京都府基金（ふるさと納税）",
+      "region": "京都府",
+      "operator": "京都府 文化生活部",
+      "web3": false,
+      "summary": "ふるさと納税の寄附の全額を府内の文化財の保存・修理・防災に限って使う基金。返礼品は寺社の特別拝観などの文化体験。",
+      "stage": "ongoing",
+      "stage_evidence": "2008年から継続。2026-10にも募集・特典の案内を更新（D-S13）",
+      "status_2026": "継続（2026-10-22更新）。京都銀行との連携協定を2026-10-29に締結予定（D-S15）。2025-10〜2026-03にはP丸様。とのデジタルスタンプラリーを返礼品にした（D-S117）",
+      "who_pays": "寄附者（個人・法人）。2027年以降は京都銀行も預入残高の0.1％を府市に按分して寄付（府市合わせ年最大1,000万円）",
+      "results": "累計3,805件・2億7,061万円余り（2026-03）、支出289件・2億4,354万円余り（2009〜2024年度）、令和6年度の寄附は90件・約732万円（令和5年度は約912万円）",
+      "lessons": "(推測) 使途を文化財に限る仕組みは透明だが、年間の規模は小さい。返礼品で競う一般のふるさと納税とは集まり方が大きく違う（H1）",
+      "source_ids": [
+        "D-S13",
+        "D-S14",
+        "D-S15"
+      ],
+      "verification": {
+        "note": "実績を第17号と受入実績ページで更新。京都銀行の寄付には年最大1,000万円（府市合わせ）の上限がある。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X11",
+      "name": "寺DAO",
+      "region": "全国（京都に限らない）",
+      "operator": "フレームダブルオー株式会社、翠雲堂",
+      "web3": true,
+      "summary": "会員NFTの購入で、寺院の定期的な修繕と伝統職人を支える共同資金を作る。使い道は会員が決める。",
+      "stage": "unknown",
+      "stage_evidence": "2022年6月開始と報道（D-S36）。その後の実績資料は見つからない",
+      "status_2026": "現況未確認",
+      "who_pays": "会員NFTの購入者",
+      "results": "公表された数値なし",
+      "lessons": "(推測) 建物・工芸の維持（文化資産）を目的にしており、宗教活動の支援とは分けて評価する必要がある",
+      "source_ids": [
+        "D-S36"
+      ],
+      "verification": {
+        "note": "変更なし。",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "D-X12",
+      "name": "京丹後市×楽天『集まれ！未来のふるさと住民2026』",
+      "region": "京都府京丹後市",
+      "operator": "京丹後市、楽天グループ",
+      "web3": false,
+      "summary": "一次産業のスポットワーク情報を発信し、現地で活動・労働したふるさと住民に宿泊クーポンを出す。",
+      "stage": "pilot",
+      "stage_evidence": "2026-07-01に開始（D-S11）",
+      "status_2026": "実施中とみられる（終了日は未確認）",
+      "who_pays": "楽天（クーポン）、京丹後市",
+      "results": "未公表",
+      "lessons": "(推測) 担い手不足（宿泊業・一次産業）への労働の提供を条件にしており、ポイントを付けるだけの施策より負担の軽減に近い。ただし効果の検証はこれから",
+      "source_ids": [
+        "D-S11"
+      ],
+      "verification": {
+        "note": "記載どおり。京丹後市はモデル事業の採択団体ではない。",
+        "checked_on": "2026-10-23"
+      }
+    }
   ],
   "gaps": [
-    "山古志：地方自治研究機構（RILG）の令和6年度先進事例報告（2024年11月末に錦鯉NFT約3,000点・約1,800名とする記載が検索結果にある）はサイトのメンテナンス（503）で開けず、確認できない。2025年後半〜2026年の保有者数、総選挙の予算の執行実績、累計売上は一次資料で見つからない。山古志住民会議・クリプトヴィレッジ・長岡市山古志支所に確認が必要",
+    "山古志：地方自治研究機構（RILG）の報告は503で開けず。保有者は新潟日報（2026-10-22）が「1800人超」と報じるのみで、総選挙の予算の執行実績と累計売上は一次資料で見つからない",
     "山古志の住民会議の財源（地域復興支援制度が2021年度末に終了したという報道）は一次資料で確認していない。長岡市・新潟県（中越大震災復興基金の関連）に確認が必要",
     "加賀市：e-加賀市民証の2025年4月以降の発行数と、2026年の運用状況（サイトは503）は不明。加賀市の担当課（国家戦略特区関係）に確認が必要。『100万人』の目標は報道でしか見ておらず、未確認",
     "西粟倉村のNAC（ICO）の実施・中止の経緯を示す村の公式資料が見つからない。西粟倉村役場に確認が必要",
-    "京都市の令和7年度ふるさと納税の確定値（市の決算実績報告書・令和7年度版）はまだ確認していない。総務省の決算見込（13,258百万円）と市の当初予算（12,000百万円）の差は、確定値で確かめる必要がある",
     "京都府全体と府内市町村別のふるさと納税受入額・流出額（総務省の都道府県別ファイル）は未確認",
     "京都府の企業版ふるさと納税の受入実績（府・府内市町村）は確認していない。京都府地域創生課の地域再生計画の実績報告が手がかり",
     "Next Commons LabがLocal Coopでトークンやデジタル通貨を使っているかは確認できない。2026年時点の大和高原の事業継続と奈良市の委託額も不明",
@@ -118,7 +2287,6 @@
     "京都の寺社とNFT：仁和寺のクラウドファンディングNFTなど、第三者記事で触れられている事例の一次資料は見つからない。寺DAOの参加寺院に京都の寺院が含まれるかも不明",
     "京都府の『京都観光DAO』の構想は、府の観光総合戦略の資料では確認できない（報道の見出しのみ）",
     "京都府のステーブルコイン活用事業の検討内容（Chain Up KYOTO 2025-12-04）の詳細資料はない。京都府デジタル政策推進課に確認が必要",
-    "ふるさと住民登録制度のガイドラインPDFの本文は読んでいない（報道で確認）。総務省ふるさと住民登録制度推進室の資料で、プレミアム登録の要件と自治体の費用負担を確認する必要がある",
     "地域DAOの失敗・休止を体系的に調べた公的調査や査読論文は見つからない。神奈川県政策研究センターの『かながわ政策研究ジャーナルNo.17』（2024年3月、自治体のメタバース・Web3活用の課題整理）は本体の章のPDFを開けていない"
   ]
 }

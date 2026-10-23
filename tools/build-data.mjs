@@ -86,7 +86,10 @@ for (const p of seed.pilots) {
 }
 for (const q of seed.questions) {
   needAll('unknowns', q.unknown_ids, `question ${q.id}`);
-  if (q.answer || q.evidence || q.decision_change) errors.push(`question ${q.id}: 初期データに回答を入れない（ヒアリングを創作しない）`);
+  // 人に聞く問いの回答は初期データに入れない（ヒアリングを創作しない）。
+  // 公開資料で確かめる問いだけは、根拠に公開資料を明記した場合に限り入れてよい。
+  const fromPublic = /^公開資料/.test(q.to_role || '') && /^公開資料/.test(q.evidence || '');
+  if ((q.answer || q.evidence || q.decision_change) && !fromPublic) errors.push(`question ${q.id}: 初期データに回答を入れない（ヒアリングを創作しない）`);
 }
 for (const u of seed.unknowns) { needAll('issues', u.issue_ids, `unknown ${u.id}`); needAll('proposals', u.proposal_ids, `unknown ${u.id}`); }
 // 問いがひとつも付いていない未確認事項は、確認の手段が決まっていない

@@ -181,3 +181,8 @@ ul.plain { padding-left: 1rem; }
 .tag-verdict { white-space: normal; display: inline; line-height: 1.8; }
 .scroll-hint { display: none; }
 @media (max-width: 720px) { .scroll-hint { display: block; } }
+.tag-v-verified, .tag-v-corrected, .tag-v-added { color: var(--ok); border-color: var(--ok); }
+.tag-v-outdated, .tag-v-source_unavailable, .tag-v-none { color: var(--claim); border-color: var(--claim); }
+.tag-v-unsupported { color: var(--warn); border-color: var(--warn); }
+td .tag + select { display: block; margin-top: .25rem; }
+.tbl td .small .chip { margin-right: .15rem; }

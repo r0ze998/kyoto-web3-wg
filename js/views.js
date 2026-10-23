@@ -3,6 +3,7 @@
   'use strict';
   var esc = UI.esc, L = UI.LABELS;
 
+  var UNKNOWN_STATUS = ['未確認', '確認中', '一部解消', '解消', '確認不可'];
   function bind(c, id, field) { return 'data-bind="' + esc(c + '|' + id + '|' + field) + '"'; }
   function textarea(c, id, field, value, ph, rows) {
     return '<textarea ' + bind(c, id, field) + ' rows="' + (rows || 3) + '" placeholder="' + esc(ph || '') + '">' + esc(value || '') + '</textarea>';
@@ -47,8 +48,17 @@
       '<section class="panel"><h2>データの内訳</h2><div class="stats">' +
       stat(d.issues.length, '課題カード', '#/issues') + stat(d.claims.length, '主張', '#/claims') +
       stat(d.sources.length, '出典', '#/sources') + stat(d.cases.length, '事例', '#/cases') +
-      '</div><p class="small muted">主張は「事実／当事者の主張／推測」に分けています。色：' +
+      '</div>' + verifySummary(d) + '<p class="small muted">主張は「事実／当事者の主張／推測」に分けています。色：' +
       '<span class="chip chip-fact">事実</span> <span class="chip chip-party_claim">当事者の主張</span> <span class="chip chip-inference">推測</span></p></section>';
+  }
+  function verifySummary(d) {
+    var cnt = {};
+    d.claims.forEach(function (c) { var v = (c.verification && c.verification.verdict) || 'none'; cnt[v] = (cnt[v] || 0) + 1; });
+    var keys = Object.keys(L.verdict).filter(function (k) { return cnt[k]; });
+    var last = d.claims.reduce(function (m, c) { return c.verification && c.verification.checked_on > m ? c.verification.checked_on : m; }, '');
+    return '<p class="small">出典との照合' + (last ? '（最終 ' + esc(last) + '）' : '') + '：' + keys.map(function (k) {
+      return '<a href="#/claims?v=' + k + '">' + esc(L.verdict[k]) + ' ' + cnt[k] + '</a>';
+    }).join('　') + '</p>';
   }
   function stat(n, label, href) { return '<a class="stat" href="' + href + '"><b>' + n + '</b><span>' + esc(label) + '</span></a>'; }
 
@@ -210,8 +220,9 @@
         return '<tr class="' + (u.blocking ? 'blocking' : '') + '"><td>' + esc(u.id) + (u.blocking ? '<br><span class="tag tag-block">案の成否に影響</span>' : '') +
           '</td><td>' + esc(u.text) + '</td><td>' + esc(u.why) + '</td><td>' + esc(u.ask_whom) + '</td><td>' +
           st.qs.map(function (x) { return '<a href="#/interviews?q=' + esc(x.id) + '">' + esc(x.id) + '</a>' + (x.status === '回答あり' ? '✓' : ''); }).join(' ') +
-          '</td><td>' + UI.select('status', ['未確認', '確認中', '解消', '確認不可'], u.status, bind('unknowns', u.id, 'status')) +
-          (u.resolution ? '<div class="small">' + esc(u.resolution) + '</div>' : '') + '</td></tr>';
+          '</td><td>' + UI.select('status', UNKNOWN_STATUS, u.status, bind('unknowns', u.id, 'status')) +
+          (u.resolution ? '<div class="small">' + esc(u.resolution) + '</div>' : '') +
+          (u.claims && u.claims.length ? '<div class="small">' + UI.claimChips(u.claims) + '</div>' : '') + '</td></tr>';
       }).join('') + '</tbody></table></div>';
   }
   function unknowns(params) {
@@ -222,7 +233,7 @@
     });
     return '<section class="panel"><h1>未確認事項</h1><p class="small muted">課題カードと候補案から抜き出した「分からないこと」。状態を変えるとローカルに保存されます。回答の中身は「ヒアリング」画面で記録します。</p>' +
       '<form class="filters" data-filter="unknowns"><input type="search" name="q" value="' + esc(qq) + '" placeholder="検索" aria-label="検索">' +
-      UI.select('status', [['', '状態：すべて'], '未確認', '確認中', '解消', '確認不可'], st) +
+      UI.select('status', [['', '状態：すべて']].concat(UNKNOWN_STATUS), st) +
       UI.select('blocking', [['', '重要度：すべて'], ['1', '案の成否に影響'], ['0', 'その他']], bl) +
       UI.select('p', [['', '案：すべて']].concat(d.proposals.map(function (p) { return [p.id, p.id + ' ' + p.title]; })), pr) +
       '</form><p class="small muted">' + rows.length + ' 件</p>' + unknownTable(rows) +
@@ -306,21 +317,23 @@
 
   /* ---------- 主張 ---------- */
   function claims(params) {
-    var d = Store.data(), qq = q(params, 'q'), ty = q(params, 'type'), tag = q(params, 'tag');
+    var d = Store.data(), qq = q(params, 'q'), ty = q(params, 'type'), tag = q(params, 'tag'), vd = q(params, 'v');
     var tags = {}; d.claims.forEach(function (c) { (c.tags || []).forEach(function (t) { tags[t] = (tags[t] || 0) + 1; }); });
     var tagList = Object.keys(tags).sort(function (a, b) { return tags[b] - tags[a]; }).slice(0, 40);
-    var rows = d.claims.filter(function (c) { return (!ty || c.type === ty) && (!tag || (c.tags || []).indexOf(tag) >= 0) && UI.matchText(c, qq); });
+    var vOf = function (c) { return (c.verification && c.verification.verdict) || 'none'; };
+    var rows = d.claims.filter(function (c) { return (!ty || c.type === ty) && (!tag || (c.tags || []).indexOf(tag) >= 0) && (!vd || vOf(c) === vd) && UI.matchText(c, qq); });
     return '<section class="panel"><h1>主張</h1><p class="small muted">事実＝統計・公文書で確認できるもの。当事者の主張＝事業者・団体の自己申告。推測＝このツール作成時の推論（根拠付き）。</p>' +
       '<form class="filters" data-filter="claims"><input type="search" name="q" value="' + esc(qq) + '" placeholder="検索（IDも可）" aria-label="検索">' +
       UI.select('type', [['', '種類：すべて'], ['fact', '事実'], ['party_claim', '当事者の主張'], ['inference', '推測']], ty) +
-      UI.select('tag', [['', 'タグ：すべて']].concat(tagList.map(function (t) { return [t, t + '（' + tags[t] + '）']; })), tag) + '</form>' +
+      UI.select('tag', [['', 'タグ：すべて']].concat(tagList.map(function (t) { return [t, t + '（' + tags[t] + '）']; })), tag) +
+      UI.select('v', [['', '照合：すべて']].concat(Object.keys(L.verdict).map(function (k) { return [k, L.verdict[k]]; })), vd) + '</form>' +
       '<p class="small muted">' + rows.length + ' / ' + d.claims.length + ' 件</p>' +
-      '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>ID</th><th>内容</th><th>時点</th><th>出典</th><th>状態</th></tr></thead><tbody>' +
+      '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>ID</th><th>内容</th><th>時点</th><th>出典</th><th>照合・状態</th></tr></thead><tbody>' +
       rows.map(function (c) {
         return '<tr><td>' + UI.claimChip(c.id) + '<div class="small">' + esc(L.claimType[c.type] || c.type) + '</div></td><td>' + esc(c.text) +
           (c.number ? '<div class="small muted">数値：' + esc(c.number) + '</div>' : '') + '</td><td class="nowrap">' + esc(c.as_of) + '</td><td class="small">' +
           (c.source_ids || []).map(function (s) { var x = d.index.sources[s]; return x ? UI.sourceLink(x) + '（' + esc(x.published) + '）' : esc(s); }).join('<br>') +
-          '</td><td>' + UI.select('status', L.claimStatus, c.status || '有効', bind('claims', c.id, 'status')) + '</td></tr>';
+          '</td><td>' + UI.verdictTag(c) + UI.select('status', L.claimStatus, c.status || '有効', bind('claims', c.id, 'status')) + '</td></tr>';
       }).join('') + '</tbody></table></div></section>';
   }
 
@@ -337,7 +350,7 @@
       '<p class="small muted">' + rows.length + ' / ' + d.sources.length + ' 件</p>' +
       '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>ID</th><th>出典</th><th>公表</th><th>種類</th><th>使用</th><th>検証状態</th><th>最終確認日</th></tr></thead><tbody>' +
       rows.map(function (s) {
-        return '<tr><td class="nowrap">' + esc(s.id) + '</td><td>' + UI.sourceLink(s) + '<div class="small muted">' + esc(s.publisher) + (s.notes ? '／' + esc(s.notes) : '') + '</div></td><td class="nowrap">' +
+        return '<tr><td class="nowrap">' + esc(s.id) + '</td><td>' + UI.sourceLink(s) + '<div class="small muted">' + esc(s.publisher) + (s.notes ? '／' + esc(s.notes) : '') + '</div>' + (s.verification_note ? '<div class="small">照合：' + esc(s.verification_note) + '</div>' : '') + '</td><td class="nowrap">' +
           esc(s.published) + '</td><td>' + esc(s.kind) + '</td><td><a href="#/claims?q=' + esc(s.id) + '">' + (usage[s.id] || 0) + '</a></td><td>' +
           UI.select('status', L.sourceStatus, s.status || '取得時に確認', bind('sources', s.id, 'status')) + '</td><td><input type="date" ' + bind('sources', s.id, 'checked_on') +
           ' value="' + esc(s.checked_on || s.accessed || '') + '"></td></tr>';

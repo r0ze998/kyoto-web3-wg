@@ -44,7 +44,7 @@ try {
   for (const r of ROUTES) {
     await page.goto(base + '#/' + r);
     const txt = await page.locator('#app').innerText();
-    check(`画面 #/${r} が描画される`, txt.length > 50 && !/見つかりません|undefined|\[object Object\]|NaN/.test(txt),
+    check(`画面 #/${r} が描画される`, txt.length > 50 && !/^ページが見つかりません。$|^.{1,20} は見つかりません。$|undefined|\[object Object\]|NaN/m.test(txt),
       /undefined|\[object Object\]|NaN/.test(txt) ? '不正な文字列あり' : '');
   }
   await page.goto(base + '#/');

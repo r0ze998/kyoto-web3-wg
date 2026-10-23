@@ -1,112 +1,2214 @@
 {
   "topic": "C 公共財的資源の維持・市民の通報から対応まで・DePIN",
   "sources": [
-    {"id":"C-S01","title":"「みっけ隊アプリケーション」の運用開始について（市長記者会見資料）","publisher":"京都市建設局 土木管理部土木管理課","url":"https://www.city.kyoto.lg.jp/templates/shingikai_kekka/cmsfiles/contents/0000205/205989/Document2-1.pdf","published":"2016-05-11","accessed":"2026-10-23","kind":"自治体資料","notes":"PDFをダウンロードし pdftotext で本文を確認。対象施設の規模（道路約3,600km・河川340・公園906）、平成25年度の維持管理関連予算約46億円の記載あり"},
-    {"id":"C-S02","title":"道路路面や側溝ぶたなどの破損箇所の補修","publisher":"京都市建設局","url":"https://www.city.kyoto.lg.jp/kensetu/page/0000017121.html","published":"2023-05-08","accessed":"2026-10-23","kind":"自治体資料","notes":"区ごとの土木みどり事務所の電話番号と、みっけ隊アプリでの投稿の案内。LINEでの通報についての記載はない"},
-    {"id":"C-S03","title":"みっけ隊アプリについて（市民意見と京都市の回答）","publisher":"京都市","url":"https://www.city.kyoto.lg.jp/sogo/page/0000353821.html","published":"2026-04-30","accessed":"2026-10-23","kind":"自治体資料","notes":"回答日は令和8年4月9日。投稿件数の記載はない"},
-    {"id":"C-S04","title":"官民協働サービス 次世代型市民協働プラットフォーム「MyCity Report」","publisher":"総務省","url":"https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/local_support/ict/jirei/2020_006.html","published":"2021","accessed":"2026-10-23","kind":"政府資料","notes":"地域情報化の事例ページ。投稿数は2021/1/5時点。参加自治体数（1県10市）の時点は書かれていない"},
-    {"id":"C-S05","title":"My City Report 提案資料（官民連携・自治体課題解決）","publisher":"国土交通省（掲載）／MCRコンソーシアム","url":"https://www.mlit.go.jp/sogoseisaku/kanminrenkei/content/001600414.pdf","published":"不明（2022年度実績を記載）","accessed":"2026-10-23","kind":"事業者公式","notes":"提供側の提案資料で、効果は自己申告。PDFをダウンロードしてテキスト化して確認"},
-    {"id":"C-S06","title":"オープンガバメントへのチャレンジ ちばレポ（ちば市民協働レポート）資料4","publisher":"千葉市（総務省会議資料として掲載）","url":"https://www.soumu.go.jp/main_content/000592074.pdf","published":"2018-12","accessed":"2026-10-23","kind":"自治体資料","notes":"PDFをダウンロードしてテキスト化。レポートの状況はH30.3.31時点"},
-    {"id":"C-S07","title":"ちばレポ（My City Report）","publisher":"千葉市","url":"https://www.city.chiba.jp/sogoseisaku/shichokoshitsu/kohokocho/chibarepo.html","published":"2026-10-02","accessed":"2026-10-23","kind":"自治体資料","notes":"2026年5月20日に「かんたん投稿」を追加。ページに件数の記載はない"},
-    {"id":"C-S08","title":"My City Report 公式サイト","publisher":"MCRコンソーシアム","url":"https://www.mycityreport.jp/","published":"不明（最新投稿は2026-10-23）","accessed":"2026-10-23","kind":"団体公式","notes":"「直近30日の投稿」欄に21自治体・都県が並ぶ。料金は別ページ（未確認）"},
-    {"id":"C-S09","title":"日本全国の道路異状の通報がLINEアプリから可能となります","publisher":"国土交通省 道路局","url":"https://www.mlit.go.jp/report/press/road01_hh_001786.html","published":"2024-03-22","accessed":"2026-10-23","kind":"政府資料","notes":"2024年3月29日正午に運用開始"},
-    {"id":"C-S10","title":"LINEで通報すると道路が補修!国交省「道路緊急ダイヤル」が話題に","publisher":"J-CASTニュース","url":"https://www.j-cast.com/2024/12/14499497.html","published":"2024-12-14","accessed":"2026-10-23","kind":"報道","notes":"国交省の担当者への取材を含む"},
-    {"id":"C-S11","title":"The Effect of Bureaucratic Responsiveness on Citizen Participation (Sjoberg, Mellon, Peixoto)","publisher":"OIDP（論文紹介ページ）／原典はPublic Administration Review（DOI 10.1111/puar.12697）","url":"https://oidp.net/en/publication.php?id=1441","published":"2017","accessed":"2026-10-23","kind":"論文","notes":"本文は読めず、紹介ページと要旨で確認。掲載年はDOIによる"},
-    {"id":"C-S12","title":"Quantifying Spatial Under-reporting Disparities in Resident Crowdsourcing (Liu, Bhandaram, Garg)","publisher":"arXiv","url":"https://arxiv.org/abs/2204.08620","published":"2022-04-19（v4 2023-12-06）","accessed":"2026-10-23","kind":"論文","notes":"要旨ページのみ確認"},
-    {"id":"C-S13","title":"Crowdsourcing city complaints: Cornell Tech method improves equitability","publisher":"Cornell University（Newswise）","url":"https://www.newswise.com/articles/crowdsourcing-city-complaints-cornell-tech-method-improves-equitability","published":"2023-12-05","accessed":"2026-10-23","kind":"その他","notes":"大学の広報記事。原論文は Nature Computational Science"},
-    {"id":"C-S14","title":"「人の群マネ」の推進について（資料6）","publisher":"国土交通省","url":"https://www.mlit.go.jp/sogoseisaku/maintenance/_pdf/gunmane_kentou_keikaku07_06.pdf","published":"不明（令和6年4月1日時点のデータ）","accessed":"2026-10-23","kind":"政府資料","notes":"PDFをダウンロードしてテキスト化"},
-    {"id":"C-S15","title":"令和6年度 森林環境譲与税の使途に関する事項の公表（京都市）","publisher":"京都市","url":"https://www.city.kyoto.lg.jp/sankan/cmsfiles/contents/0000304/304961/R6sito.pdf","published":"2025-11-04","accessed":"2026-10-23","kind":"自治体資料","notes":"PDFをダウンロードしてテキスト化"},
-    {"id":"C-S16","title":"森林環境税及び森林環境譲与税","publisher":"林野庁","url":"https://www.rinya.maff.go.jp/j/keikaku/kankyouzei/kankyouzei_jouyozei.html","published":"不明","accessed":"2026-10-23","kind":"政府資料","notes":""},
-    {"id":"C-S17","title":"京都府豊かな森を育てる府民税","publisher":"京都府","url":"https://www.pref.kyoto.jp/shinrinhozen/tax.html","published":"不明","accessed":"2026-10-23","kind":"自治体資料","notes":"第3期（令和8〜12年度）の記載あり"},
-    {"id":"C-S18","title":"令和6年度 豊かな森を育てる府民税 事業成果及び評価結果","publisher":"京都府 農林水産部 林業振興課","url":"https://www.pref.kyoto.jp/rinmu/huminzei/documents/r6seika.pdf","published":"2025-10","accessed":"2026-10-23","kind":"自治体資料","notes":"PDFをダウンロードしてテキスト化"},
-    {"id":"C-S19","title":"京都府における野生鳥獣による農作物被害状況（令和7年暫定値）","publisher":"京都府","url":"https://www.pref.kyoto.jp/nosan/documents/r7higai_zantei.pdf","published":"2026-08","accessed":"2026-10-23","kind":"自治体資料","notes":"令和8年8月時点の暫定値。令和6年分のPDF（r6kyotochoujugai.pdf）は取得できず（HTMLが返った）"},
-    {"id":"C-S20","title":"京都府鴨川条例について","publisher":"京都府 建設交通部 京都土木事務所","url":"https://www.pref.kyoto.jp/kyotodoboku/f_kamogawa.html","published":"2023-03-08","accessed":"2026-10-23","kind":"自治体資料","notes":"このページには制定日が書かれていない"},
-    {"id":"C-S21","title":"団体紹介：鴨川を美しくする会","publisher":"国土交通省（掲載）","url":"https://www.mlit.go.jp/common/000021272.pdf","published":"不明（「40年以上」とあり2000年代後半とみられる）","accessed":"2026-10-23","kind":"政府資料","notes":"会員数などは古い時点の数字"},
-    {"id":"C-S22","title":"「鴨川四季の日」の実施結果と予定等について（第70回 鴨川府民会議 資料5）","publisher":"京都府","url":"https://www.pref.kyoto.jp/kamogawa/documents/09dai70kaikamogawahuminkaigishiryou5.pdf","published":"2025（令和7年度秋の実施結果）","accessed":"2026-10-23","kind":"自治体資料","notes":"PDFをダウンロードしてテキスト化"},
-    {"id":"C-S23","title":"京都市の上下水道事業の現状と課題 次期ビジョンの策定に向けて（資料2）","publisher":"京都市上下水道局","url":"https://www.city.kyoto.lg.jp/suido/cmsfiles/contents/0000344/344406/R7-1_05_shiryo2.pdf","published":"2025（令和7年度 第1回審議会）","accessed":"2026-10-23","kind":"自治体資料","notes":"PDFをダウンロードしてテキスト化"},
-    {"id":"C-S24","title":"非居住住宅利活用促進税について＜令和12年度課税開始予定＞","publisher":"京都市 行財政局","url":"https://www.city.kyoto.lg.jp/gyozai/page/0000296672.html","published":"2026-08-21","accessed":"2026-10-23","kind":"自治体資料","notes":""},
-    {"id":"C-S25","title":"京都市非居住住宅利活用促進税の新設について（同意に係る資料）","publisher":"総務省","url":"https://www.soumu.go.jp/main_content/000870841.pdf","published":"2023","accessed":"2026-10-23","kind":"政府資料","notes":"PDFをダウンロードしてテキスト化。収入見込額・徴税費用見込額・課税対象想定件数の記載あり"},
-    {"id":"C-S26","title":"令和5年住宅・土地統計調査の結果（空き家率、空き家数）について（資料3-1）","publisher":"京都市","url":"https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000337/337643/akiyasiryo0301.pdf","published":"2024以降（令和5年調査の結果）","accessed":"2026-10-23","kind":"自治体資料","notes":"PDFをダウンロードしてテキスト化"},
-    {"id":"C-S27","title":"京都市建設局所管の都市公園における公園愛護協力会取扱基準","publisher":"京都市建設局","url":"https://www.city.kyoto.lg.jp/kensetu/cmsfiles/contents/0000101/101135/aigokaiyoukou.pdf","published":"2025-01-17（最終改正の施行日）","accessed":"2026-10-23","kind":"自治体資料","notes":"報償金交付基準の別表を確認"},
-    {"id":"C-S28","title":"さわやかボランティア・ロード事業","publisher":"京都府 道路管理課","url":"https://www.pref.kyoto.jp/doroka/sawabora.html","published":"2026-02-19","accessed":"2026-10-23","kind":"自治体資料","notes":""},
-    {"id":"C-S29","title":"京都市建設局 公園ニュースレター 令和5年3月号","publisher":"京都市建設局","url":"https://www.city.kyoto.lg.jp/kensetu/cmsfiles/contents/0000252/252147/newsletter202303.pdf","published":"2023-03","accessed":"2026-10-23","kind":"自治体資料","notes":"土木みどり事務所の設置（令和5年5月8日）と表彰団体を記載"},
-    {"id":"C-S30","title":"Helium Network fees/revenue summary（DefiLlama API）","publisher":"DefiLlama","url":"https://api.llama.fi/summary/fees/helium-network","published":"不明（2026-10-23取得）","accessed":"2026-10-23","kind":"調査・統計","notes":"Webページ（defillama.com）は403のため、公開APIで取得。手法についての注記を含む"},
-    {"id":"C-S31","title":"Andrew Yang's upstart cell phone business acquires Helium Mobile","publisher":"Fortune","url":"https://fortune.com/2026/06/02/andrew-yang-business-acquires-helium-mobile/","published":"2026-06-02","accessed":"2026-10-23","kind":"報道","notes":""},
-    {"id":"C-S32","title":"Helium DePIN Case Study: From Hype to Fundamentals","publisher":"GridEcon","url":"https://www.gridecon.com/insights/heliumcasestudy","published":"2026（2026-01のデータを含む）","accessed":"2026-10-23","kind":"その他","notes":"第三者の分析ブログ。引用元の多くは当事者のX投稿など"},
-    {"id":"C-S33","title":"DePIN Tokens Lag, Revenues Rise as Sector Is 'Forced Into Fundamentals'","publisher":"Decrypt","url":"https://decrypt.co/356349/depin-tokens-lag-revenues-rise-fundamentals","published":"2026-01-29","accessed":"2026-10-23","kind":"報道","notes":"Messari『State of DePIN 2025』の紹介記事。Messari本体（messari.io）は403で開けなかった"},
-    {"id":"C-S34","title":"DePIN in 2025（年末回顧記事）","publisher":"ForkLog","url":"https://forklog.com/en/?p=92829","published":"2025-12-31","accessed":"2026-10-23","kind":"報道","notes":"Hivemapper と Helium Mobile のARRは第三者トラッカー（DePIN Pulse）の数字の引用"},
-    {"id":"C-S35","title":"Hivemapper 公式サイト","publisher":"Hivemapper","url":"https://hivemapper.com/","published":"不明","accessed":"2026-10-23","kind":"事業者公式","notes":"取得時、走行距離のカウンターは0と表示され、数値は読めなかった"},
-    {"id":"C-S36","title":"Lightspeed Faction leads $7.7 million Series A round for DePIN weather startup WeatherXM","publisher":"The Block","url":"https://www.theblock.co/post/295807/lightspeed-faction-leads-7-7-million-series-a-round-for-depin-weather-startup-weatherxm","published":"2024-05-22","accessed":"2026-10-23","kind":"報道","notes":""},
-    {"id":"C-S37","title":"WeatherXM 公式サイト","publisher":"WeatherXM","url":"https://www.weatherxm.com/","published":"不明（2026年8月時点の数値を掲載）","accessed":"2026-10-23","kind":"事業者公式","notes":""},
-    {"id":"C-S38","title":"DIMO 公式サイト","publisher":"DIMO","url":"https://dimo.org/","published":"不明","accessed":"2026-10-23","kind":"事業者公式","notes":"トークノミクスとドキュメントのページは404で開けなかった"},
-    {"id":"C-S39","title":"参加型社会貢献コンテンツ「PicTrée（ピクトレ）」の実証試験の実施について ～カラスの巣、ツル・ツタ巻き付きの早期発見の取り組み～","publisher":"株式会社Digital Entertainment Asset（PR TIMES）","url":"https://prtimes.jp/main/html/rd/p/000000299.000047612.html","published":"2026-02-09","accessed":"2026-10-23","kind":"事業者公式","notes":"東京電力パワーグリッドとの連携"},
-    {"id":"C-S40","title":"東電が「稼げるゲーム」仕掛けたワケ。電柱撮影で「数十万円」ゲットも","publisher":"Business Insider Japan","url":"https://www.businessinsider.jp/article/298271/","published":"2024-12-11","accessed":"2026-10-23","kind":"報道","notes":""},
-    {"id":"C-S41","title":"About Safecast","publisher":"Safecast","url":"https://safecast.org/about/","published":"不明","accessed":"2026-10-23","kind":"団体公式","notes":"このページに測定件数の記載はない"},
-    {"id":"C-S42","title":"令和7年 河川の水質現況 第二章4 住民参加による水質調査","publisher":"国土交通省 水管理・国土保全局","url":"https://www.mlit.go.jp/river/toukei_chousa/kankyo/kankyou/suisitu/pdf/r7_suisitu/chap2_4.pdf","published":"2026","accessed":"2026-10-23","kind":"政府資料","notes":"PDFをダウンロードしてテキスト化。国の機関（地整局等）が関わった調査だけを集計したもの"}
+    {
+      "id": "C-S01",
+      "title": "「みっけ隊アプリケーション」の運用開始について（市長記者会見資料）",
+      "publisher": "京都市建設局 土木管理部土木管理課",
+      "url": "https://www.city.kyoto.lg.jp/templates/shingikai_kekka/cmsfiles/contents/0000205/205989/Document2-1.pdf",
+      "published": "2016-05-11",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードし pdftotext で本文を確認。対象施設の規模（道路約3,600km・河川340・公園906）、平成25年度の維持管理関連予算約46億円の記載あり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDFを取得。平成28年5月11日の市長記者会見資料。担当は土木管理部土木管理課"
+    },
+    {
+      "id": "C-S02",
+      "title": "道路路面や側溝ぶたなどの破損箇所の補修",
+      "publisher": "京都市建設局",
+      "url": "https://www.city.kyoto.lg.jp/kensetu/page/0000017121.html",
+      "published": "2023-05-08",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "区ごとの土木みどり事務所の電話番号と、みっけ隊アプリでの投稿の案内。LINEでの通報についての記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ページ番号17121、2023年5月8日。タイトル・内容とも一致"
+    },
+    {
+      "id": "C-S03",
+      "title": "みっけ隊アプリについて（「市長への手紙」に寄せられた主なご意見等）",
+      "publisher": "京都市",
+      "url": "https://www.city.kyoto.lg.jp/sogo/page/0000353821.html",
+      "published": "2026-04-30",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "回答日は令和8年4月9日。投稿件数の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "ページ番号353821、2026年4月30日掲載、回答日 令和8年4月9日。「市長への手紙」に寄せられた主なご意見の一つ"
+    },
+    {
+      "id": "C-S04",
+      "title": "官民協働サービス 次世代型市民協働プラットフォーム「MyCity Report」",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/top/local_support/ict/jirei/2020_006.html",
+      "published": "2021",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "地域情報化の事例ページ。投稿数は2021/1/5時点。参加自治体数（1県10市）の時点は書かれていない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "総務省の地域情報化事例ページ。効果欄は事業実施団体（MCRコンソーシアム）の記載。ページに日付はない"
+    },
+    {
+      "id": "C-S05",
+      "title": "PPP／PFI手法に関するシーズ提案書 市民協働アプリ「My City Report for citizens」を活用した官民協働DX",
+      "publisher": "株式会社アーバンエックステクノロジーズ（国土交通省サイトに掲載）",
+      "url": "https://www.mlit.go.jp/sogoseisaku/kanminrenkei/content/001600414.pdf",
+      "published": "不明（2022年度実績を記載）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "提供側の提案資料で、効果は自己申告。PDFをダウンロードしてテキスト化して確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "国交省サイトに掲載された「PPP／PFI手法に関するシーズ提案書」。提案者は株式会社アーバンエックステクノロジーズ（MCR担当）"
+    },
+    {
+      "id": "C-S06",
+      "title": "オープンガバメントへのチャレンジ ちばレポ（ちば市民協働レポート）資料4",
+      "publisher": "千葉市（総務省会議資料として掲載）",
+      "url": "https://www.soumu.go.jp/main_content/000592074.pdf",
+      "published": "2018-12",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化。レポートの状況はH30.3.31時点",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2018年12月、千葉市「資料４」。p.12–13の表を確認"
+    },
+    {
+      "id": "C-S07",
+      "title": "ちばレポ（My City Report）",
+      "publisher": "千葉市",
+      "url": "https://www.city.chiba.jp/sogoseisaku/shichokoshitsu/kohokocho/chibarepo.html",
+      "published": "2026-10-02",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "2026年5月20日に「かんたん投稿」を追加。ページに件数の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "更新日2026年10月2日。かんたん投稿は2026年5月20日のお知らせ"
+    },
+    {
+      "id": "C-S08",
+      "title": "My City Report 公式サイト",
+      "publisher": "MCRコンソーシアム",
+      "url": "https://www.mycityreport.jp/",
+      "published": "不明（最新投稿は2026-10-23）",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "「直近30日の投稿」欄に21自治体・都県が並ぶ。料金は別ページ（未確認）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-10-23付の投稿を確認。パートナーの一覧もある（C-C110）"
+    },
+    {
+      "id": "C-S09",
+      "title": "日本全国の道路異状の通報がLINEアプリから可能となります",
+      "publisher": "国土交通省 道路局",
+      "url": "https://www.mlit.go.jp/report/press/road01_hh_001786.html",
+      "published": "2024-03-22",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "2024年3月29日正午に運用開始",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "令和6年3月22日の報道発表"
+    },
+    {
+      "id": "C-S10",
+      "title": "LINEで通報すると道路が補修!国交省「道路緊急ダイヤル」が話題に",
+      "publisher": "J-CASTニュース",
+      "url": "https://www.j-cast.com/2024/12/14499497.html",
+      "published": "2024-12-14",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "国交省の担当者への取材を含む",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2024-12-14 12:00配信。国交省担当者への取材は12日"
+    },
+    {
+      "id": "C-S11",
+      "title": "The Effect of Bureaucratic Responsiveness on Citizen Participation (Sjoberg, Mellon, Peixoto)",
+      "publisher": "OIDP（論文紹介ページ）／原典はPublic Administration Review（DOI 10.1111/puar.12697）",
+      "url": "https://oidp.net/en/publication.php?id=1441",
+      "published": "2017",
+      "accessed": "2026-10-23",
+      "kind": "論文",
+      "notes": "本文は読めず、紹介ページと要旨で確認。掲載年はDOIによる",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "OIDPの紹介ページで要旨のみ。本文はOIDP掲載のPDF（C-S115）で確認できた"
+    },
+    {
+      "id": "C-S12",
+      "title": "Quantifying Spatial Under-reporting Disparities in Resident Crowdsourcing (Liu, Bhandaram, Garg)",
+      "publisher": "arXiv",
+      "url": "https://arxiv.org/abs/2204.08620",
+      "published": "2022-04-19（v4 2023-12-06）",
+      "accessed": "2026-10-23",
+      "kind": "論文",
+      "notes": "要旨ページのみ確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "arXivの要旨ページ。v1 2022-04-19、v4 2023-12-06。関連DOI 10.1038/s43588-023-00572-6"
+    },
+    {
+      "id": "C-S13",
+      "title": "Crowdsourcing city complaints: Cornell Tech method improves equitability",
+      "publisher": "Cornell University（Newswise）",
+      "url": "https://www.newswise.com/articles/crowdsourcing-city-complaints-cornell-tech-method-improves-equitability",
+      "published": "2023-12-05",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "大学の広報記事。原論文は Nature Computational Science",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "Newswise、5-Dec-2023。原論文はNature Computational Science（2023-12-05）"
+    },
+    {
+      "id": "C-S14",
+      "title": "「人の群マネ」の推進について（資料6）",
+      "publisher": "国土交通省",
+      "url": "https://www.mlit.go.jp/sogoseisaku/maintenance/_pdf/gunmane_kentou_keikaku07_06.pdf",
+      "published": "不明（令和7年度。R7.4.1時点のデータを含む）",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFをダウンロードしてテキスト化",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDFを取得。グラフは2024年時点の値だが、同じ資料にR7.4.1時点の会員数があり、作成は令和7年度とみられる"
+    },
+    {
+      "id": "C-S15",
+      "title": "令和6年度 森林環境譲与税の使途に関する事項の公表（京都市）",
+      "publisher": "京都市",
+      "url": "https://www.city.kyoto.lg.jp/sankan/cmsfiles/contents/0000304/304961/R6sito.pdf",
+      "published": "2025-11-04",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "令和7年11月4日付。数値を確認"
+    },
+    {
+      "id": "C-S16",
+      "title": "森林環境税及び森林環境譲与税",
+      "publisher": "林野庁",
+      "url": "https://www.rinya.maff.go.jp/j/keikaku/kankyouzei/kankyouzei_jouyozei.html",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "林野庁のページ。629億円などを確認"
+    },
+    {
+      "id": "C-S17",
+      "title": "京都府豊かな森を育てる府民税",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/shinrinhozen/tax.html",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "第3期（令和8〜12年度）の記載あり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "第3期（令和8〜12年度）の延長可決の経緯を確認"
+    },
+    {
+      "id": "C-S18",
+      "title": "令和6年度 豊かな森を育てる府民税 事業成果及び評価結果",
+      "publisher": "京都府 農林水産部 林業振興課",
+      "url": "https://www.pref.kyoto.jp/rinmu/huminzei/documents/r6seika.pdf",
+      "published": "2025-10",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "令和7年10月。より新しい令和7年度版（C-S107）がある"
+    },
+    {
+      "id": "C-S19",
+      "title": "京都府における野生鳥獣による農作物被害状況（令和7年暫定値）",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/nosan/documents/r7higai_zantei.pdf",
+      "published": "2026-08",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "令和8年8月時点の暫定値。令和6年分のPDF（r6kyotochoujugai.pdf）は取得できず（HTMLが返った）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "令和8年8月現在の暫定値。r6kyotochoujugai.pdfは今回も404"
+    },
+    {
+      "id": "C-S20",
+      "title": "京都府鴨川条例について",
+      "publisher": "京都府 建設交通部 京都土木事務所",
+      "url": "https://www.pref.kyoto.jp/kyotodoboku/f_kamogawa.html",
+      "published": "2023-03-08",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "このページには制定日が書かれていない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "更新日2023年3月8日。府民会議の構成は書かれていないので、C-S117で補う"
+    },
+    {
+      "id": "C-S21",
+      "title": "団体紹介：鴨川を美しくする会",
+      "publisher": "国土交通省（掲載）",
+      "url": "https://www.mlit.go.jp/common/000021272.pdf",
+      "published": "不明（「40年以上」とあり2000年代後半とみられる）",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "会員数などは古い時点の数字",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "国交省掲載の団体紹介。日付はない（「40年以上」とあり2004年以降）"
+    },
+    {
+      "id": "C-S22",
+      "title": "「鴨川四季の日」の実施結果と予定等について（第70回 鴨川府民会議 資料5）",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/kamogawa/documents/09dai70kaikamogawahuminkaigishiryou5.pdf",
+      "published": "2026年初めごろ（令和7年度 第70回府民会議。令和7年秋の実施結果）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "第70回鴨川府民会議の資料5。令和8年3月までの予定を含むので、会議は2026年初めごろとみられる"
+    },
+    {
+      "id": "C-S23",
+      "title": "京都市の上下水道事業の現状と課題 次期ビジョンの策定に向けて（資料2）",
+      "publisher": "京都市上下水道局",
+      "url": "https://www.city.kyoto.lg.jp/suido/cmsfiles/contents/0000344/344406/R7-1_05_shiryo2.pdf",
+      "published": "2025（令和7年度 第1回審議会）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDFを取得。疏水の答申（R7.5.16）と自然流下の記載を確認"
+    },
+    {
+      "id": "C-S24",
+      "title": "非居住住宅利活用促進税について＜令和12年度課税開始予定＞",
+      "publisher": "京都市 行財政局",
+      "url": "https://www.city.kyoto.lg.jp/gyozai/page/0000296672.html",
+      "published": "2026-08-21",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026年8月21日更新。令和12年度課税開始予定が最新"
+    },
+    {
+      "id": "C-S25",
+      "title": "京都市非居住住宅利活用促進税の新設について（同意に係る資料）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_content/000870841.pdf",
+      "published": "2023",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFをダウンロードしてテキスト化。収入見込額・徴税費用見込額・課税対象想定件数の記載あり",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "総務省の同意資料（京都市協議書の抜粋を含む）"
+    },
+    {
+      "id": "C-S26",
+      "title": "令和5年住宅・土地統計調査の結果（空き家率、空き家数）について（資料3-1）",
+      "publisher": "京都市",
+      "url": "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000337/337643/akiyasiryo0301.pdf",
+      "published": "2024以降（令和5年調査の結果）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "京都市 資料3-1"
+    },
+    {
+      "id": "C-S27",
+      "title": "京都市建設局所管の都市公園における公園愛護協力会取扱基準",
+      "publisher": "京都市建設局",
+      "url": "https://www.city.kyoto.lg.jp/kensetu/cmsfiles/contents/0000101/101135/aigokaiyoukou.pdf",
+      "published": "2025-01-17（最終改正の施行日）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "報償金交付基準の別表を確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "最終改正の施行日は令和7年1月17日。別表を確認"
+    },
+    {
+      "id": "C-S28",
+      "title": "さわやかボランティア・ロード事業",
+      "publisher": "京都府 道路管理課",
+      "url": "https://www.pref.kyoto.jp/doroka/sawabora.html",
+      "published": "2026-02-19",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "更新日2026年2月19日。問い合わせ先に京都土木事務所（京都市域）はない"
+    },
+    {
+      "id": "C-S29",
+      "title": "京都市建設局 公園ニュースレター 令和5年3月号",
+      "publisher": "京都市建設局",
+      "url": "https://www.city.kyoto.lg.jp/kensetu/cmsfiles/contents/0000252/252147/newsletter202303.pdf",
+      "published": "2023-03",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "土木みどり事務所の設置（令和5年5月8日）と表彰団体を記載",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "令和5年3月号"
+    },
+    {
+      "id": "C-S30",
+      "title": "Helium Network fees/revenue summary（DefiLlama API）",
+      "publisher": "DefiLlama",
+      "url": "https://api.llama.fi/summary/fees/helium-network",
+      "published": "不明（2026-10-23取得）",
+      "accessed": "2026-10-23",
+      "kind": "調査・統計",
+      "notes": "Webページ（defillama.com）は403のため、公開APIで取得。手法についての注記を含む",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "API（2026-10-23取得）。HIP-149についての注記も含む。totalDataChartは2025-10-21〜12-31だけが0でない"
+    },
+    {
+      "id": "C-S31",
+      "title": "Andrew Yang's upstart cell phone business acquires Helium Mobile",
+      "publisher": "Fortune",
+      "url": "https://fortune.com/2026/06/02/andrew-yang-business-acquires-helium-mobile/",
+      "published": "2026-06-02",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2026-06-02、Jack Kubinec。買収の「発表」の記事"
+    },
+    {
+      "id": "C-S32",
+      "title": "Helium DePIN Case Study: From Hype to Fundamentals",
+      "publisher": "GridEcon",
+      "url": "https://www.gridecon.com/insights/heliumcasestudy",
+      "published": "2026（2026-01のデータを含む）",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "第三者の分析ブログ。引用元の多くは当事者のX投稿など",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "第三者の分析ブログ。2022年の月200万ドル・6,500ドルの出典の示し方があいまいで、一次の経緯はC-S112で確認した"
+    },
+    {
+      "id": "C-S33",
+      "title": "DePIN Tokens Lag, Revenues Rise as Sector Is 'Forced Into Fundamentals'",
+      "publisher": "Decrypt",
+      "url": "https://decrypt.co/356349/depin-tokens-lag-revenues-rise-fundamentals",
+      "published": "2026-01-29",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "Messari『State of DePIN 2025』の紹介記事。Messari本体（messari.io）は403で開けなかった",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "Decrypt 2026-01-29。Messariの一次レポートは2026-10-23に429で取得できず"
+    },
+    {
+      "id": "C-S34",
+      "title": "DePIN after the boom: revenue is king as energy and AI set the pace",
+      "publisher": "ForkLog",
+      "url": "https://forklog.com/en/depin-after-the-boom-revenue-is-king-as-energy-and-ai-set-the-pace/",
+      "published": "2025-12-31",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "Hivemapper と Helium Mobile のARRは第三者トラッカー（DePIN Pulse）の数字の引用",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "datePublished 2025-12-31。正式URLは別にある"
+    },
+    {
+      "id": "C-S35",
+      "title": "Hivemapper 公式サイト",
+      "publisher": "Hivemapper",
+      "url": "https://hivemapper.com/",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "取得時、走行距離のカウンターは0と表示され、数値は読めなかった",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "取得はできたが、カウンターは0表示（JavaScriptで描画）。数値の根拠には使えない"
+    },
+    {
+      "id": "C-S36",
+      "title": "Lightspeed Faction leads $7.7 million Series A round for DePIN weather startup WeatherXM",
+      "publisher": "The Block",
+      "url": "https://www.theblock.co/post/295807/lightspeed-faction-leads-7-7-million-series-a-round-for-depin-weather-startup-weatherxm",
+      "published": "2024-05-22",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "curlではCloudflareの確認画面になるが、WebFetchで本文を確認できた：2024-05-22、7.7百万ドルのシリーズA（Lightspeed Faction主導）、2022年6月に5百万ドルのシード。当時は販売7,000台のうち設置5,000台、80か国"
+    },
+    {
+      "id": "C-S37",
+      "title": "WeatherXM 公式サイト",
+      "publisher": "WeatherXM",
+      "url": "https://www.weatherxm.com/",
+      "published": "不明（2026年8月時点の数値を掲載）",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "「Backed by $13M+ across Seed and Series A Rounds」の記載もある"
+    },
+    {
+      "id": "C-S38",
+      "title": "DIMO 公式サイト",
+      "publisher": "DIMO",
+      "url": "https://dimo.org/",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "トークノミクスとドキュメントのページは404で開けなかった",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "トップページにはトークン報酬の記載がない。DIP-12（C-S113）で、運転者へのトークン発行は2026年8月に終わっている"
+    },
+    {
+      "id": "C-S39",
+      "title": "参加型社会貢献コンテンツ「PicTrée（ピクトレ）」の実証試験の実施について ～カラスの巣、ツル・ツタ巻き付きの早期発見の取り組み～",
+      "publisher": "株式会社Digital Entertainment Asset（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000000299.000047612.html",
+      "published": "2026-02-09",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "東京電力パワーグリッドとの連携",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PR TIMES 2026-02-09 11:00。発表者はDEA（日本法人、2026年1月設立）"
+    },
+    {
+      "id": "C-S40",
+      "title": "東電が「稼げるゲーム」仕掛けたワケ。電柱撮影で「数十万円」ゲットも",
+      "publisher": "Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/298271/",
+      "published": "2024-12-11",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "2024-12-11 6:40"
+    },
+    {
+      "id": "C-S41",
+      "title": "About Safecast",
+      "publisher": "Safecast",
+      "url": "https://safecast.org/about/",
+      "published": "不明",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "このページに測定件数の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "取得できた。主張の根拠には使われていない（測定件数の記載はない）"
+    },
+    {
+      "id": "C-S42",
+      "title": "令和7年 河川の水質現況 第二章4 住民参加による水質調査",
+      "publisher": "国土交通省 水管理・国土保全局",
+      "url": "https://www.mlit.go.jp/river/toukei_chousa/kankyo/kankyou/suisitu/pdf/r7_suisitu/chap2_4.pdf",
+      "published": "2026",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "PDFをダウンロードしてテキスト化。国の機関（地整局等）が関わった調査だけを集計したもの",
+      "status": "確認済み",
+      "checked_on": "2026-10-23",
+      "verification_note": "PDFを取得。令和7年の数値を確認"
+    },
+    {
+      "id": "C-S101",
+      "title": "【概要版】みんなで守る“みち・かわ・みどり”京のまち ～公共土木施設の維持管理に係る市民協働推進指針～",
+      "publisher": "京都市建設局 土木管理部土木管理課",
+      "url": "https://www.city.kyoto.lg.jp/kensetu/cmsfiles/contents/0000237/237973/gaiyou.pdf",
+      "published": "2017-05",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化。「平成２８年５月に…運用を開始してから，平成29年5月までの１年間の間に約1,500件ものご投稿」の記載あり。京都市印刷物第294189号",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S102",
+      "title": "「みんなで守る“みち・かわ・みどり”京のまち」～公共土木施設の維持管理に係る市民協働推進指針～について（広報資料）",
+      "publisher": "京都市建設局",
+      "url": "https://www.city.kyoto.lg.jp/kensetu/cmsfiles/contents/0000237/237973/kouhousiryo.pdf",
+      "published": "2017-05-17",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "指針の策定の発表。道路延長がH17年3,200km→H28年3,606km",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S103",
+      "title": "みっけ隊 〜美しい京のまちを守る応援隊〜（公式サイト）",
+      "publisher": "京都市",
+      "url": "https://mikketai.city.kyoto.lg.jp/",
+      "published": "2026-10-22（緊急停止のお知らせ）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "HTTP 503で、メンテナンスのページを表示。「システムの緊急メンテナンスのため、2026年10月22日 16時30分頃から、みっけ隊のアプリとWebサイトの機能を停止」「再開の時期が決まりましたら、このページでお知らせします」。停止の理由は書かれていない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S104",
+      "title": "土木施設に関する住民からの通報等システムについて",
+      "publisher": "国土交通省 総合政策局 公共事業企画調整課（内閣官房 デジタル行財政改革の会議資料として掲載）",
+      "url": "https://www.cas.go.jp/jp/seisaku/digital_gyozaikaikaku/kyotsu9/doboku_shiryou.pdf",
+      "published": "2025-07-25",
+      "accessed": "2026-10-23",
+      "kind": "政府資料",
+      "notes": "p.3「令和6年度通報件数＜全国＞」：電話 約37.4万（月平均 約31,100）、LINE 約4.1万（月平均 約3,400）。名古屋市・大阪府などの自治体のLINE通報の導入事例もある",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S105",
+      "title": "森林環境譲与税の使途の公表について",
+      "publisher": "京都市 産業観光局 農林振興室",
+      "url": "https://www.city.kyoto.lg.jp/sankan/page/0000304961.html",
+      "published": "2025-11-04（ページの表示日。令和7年度の譲与額とR7のPDFへのリンクも掲載）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "年度別の譲与額（R1 96,265／R2 204,564／R3 220,939／R4 285,850／R5 285,850／R6 346,773／R7 365,409千円）、私有人工林29,424ha、活用率は毎年上昇し2050年に100%の見込み",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S106",
+      "title": "令和７年度 森林環境譲与税の使途に関する事項の公表（京都市）",
+      "publisher": "京都市",
+      "url": "https://www.city.kyoto.lg.jp/sankan/cmsfiles/contents/0000304/304961/R7sito.pdf",
+      "published": "PDFの表記は令和8年11月2日（2026-10-23時点で既に掲載。PDFの作成日は2026-10-22）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "要再確認：日付が未来で、本文にも「令和６年度の…使途」「令和６年度までの活用状況」と年度の書き誤りがある。正式公表前の版の可能性がある。数値は内部で整合している（基金 1,005,483,311＋365,409,000＋4,680,399−142,009,563＝1,233,563,147）。2026-11-02以降に再確認すること",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S107",
+      "title": "令和７年度 豊かな森を育てる府民税 事業成果及び評価結果",
+      "publisher": "京都府 農林水産部 林業振興課",
+      "url": "https://www.pref.kyoto.jp/rinmu/huminzei/documents/r7seika.pdf",
+      "published": "2026-10",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "PDFをダウンロードしてテキスト化。計 736,986千円（当初予算 744,000千円）、山地災害防止対策 125,900、里山林保全活動推進 25,744、市町村交付金 199,967（京都市 76,346）",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S108",
+      "title": "国宝・重要文化財（建造物）の新指定について",
+      "publisher": "滋賀県",
+      "url": "https://www.pref.shiga.lg.jp/sd00/press-release/25143.html",
+      "published": "2025-08-28",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "令和7年8月27日発行の官報（号外193号）、文部科学省告示第六十八号・第六十九号。国宝は琵琶湖疏水の1件5所（第一〜第三隧道、インクライン、南禅寺水路閣）、重要文化財は1件16所4基4棟",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S109",
+      "title": "Helium's HIP 149 and the Realignment of Helium's Deployer Economics",
+      "publisher": "GridEcon",
+      "url": "https://www.gridecon.com/insights/heliums-hip-149-and-the-realignment-of-heliums-deployer-economics",
+      "published": "2026-07-08",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "第三者の分析。HIP-149は7月2日に可決。PoCを廃止して利用量連動の報酬へ。約1.41億HNTを36か月で追加発行し、実質の最大供給は約2.06億→約3.47億。Mobileの設置者の報酬は支払単価の半分（約$0.05/GB）を下限、3倍を上限とする。投票の集計は書かれていない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S110",
+      "title": "HIP-149: Helium Utility and Emissions Realignment（Helium Vote）",
+      "publisher": "Helium Vote",
+      "url": "https://heliumvote.com/hnt/proposals/4zLh9V1wiZJ3GffytCnqQA9FX1VQSM3kXxx22RpzPXWo",
+      "published": "2026-07-02（投票の終了）",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "JavaScriptで表示するため、本文と集計は取得できなかった。検索結果の抜粋では賛成93.73%だが、未確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S111",
+      "title": "Embattled crypto company Helium is attempting a second act as users flee and revenue tumbles",
+      "publisher": "Fortune",
+      "url": "https://fortune.com/2022/09/27/embattled-helium-attempting-crypto-powered-mobile-network/",
+      "published": "2022-09-27",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "「the entire Helium network has only received around $1,150 in revenue from IoT device demand over the past 30 days—a figure confirmed by the nonprofit Helium Foundation」",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S112",
+      "title": "Angel investor says Helium has no demand, returns are poor",
+      "publisher": "CryptoSlate",
+      "url": "https://cryptoslate.com/angel-investor-says-helium-has-no-demand-returns-are-poor/",
+      "published": "2022-07-27",
+      "accessed": "2026-10-23",
+      "kind": "報道",
+      "notes": "月6,500ドルは、Liron Shapira氏のX投稿（2022-07-26）の数字。Amir Haleem氏のX投稿が、設置手数料で月200万ドルと述べたことを紹介",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S113",
+      "title": "DIP-12: The Protocol Direction",
+      "publisher": "DIMO Foundation",
+      "url": "https://docs.dimo.foundation/governance/improvement-proposals/dip-12-the-protocol-direction",
+      "published": "2026-06（文書の日付）／2026-08に承認",
+      "accessed": "2026-10-23",
+      "kind": "団体公式",
+      "notes": "Status: Approved。「Baseline Issuance is discontinued as of the enactment of DIP-12」、財団の保有分から1.5億DIMOを焼却、200,000台超・4大陸、DIP-3の手数料は財団60%・ノード40%",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S114",
+      "title": "What Is DIMO? The Car Data Token Behind a Voted 150M Burn",
+      "publisher": "Phemex（取引所のブログ）",
+      "url": "https://phemex.com/blogs/what-is-dimo-car-data-token",
+      "published": "2026-10-01（更新日）",
+      "accessed": "2026-10-23",
+      "kind": "その他",
+      "notes": "二次情報。DIP-12の投票は2026-08-17〜24（Snapshot）、賛成47,274,250・反対0（5アドレス、1アドレスが82%）、9月30日時点で焼却は未実行と記載。Blockworksの開示ページは「焼却済み」としており、食い違いがある",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S115",
+      "title": "The Effect of Bureaucratic Responsiveness on Citizen Participation（本文PDF）",
+      "publisher": "Public Administration Review 77(3), 340–351（OIDPのリポジトリに掲載）",
+      "url": "https://www.oidp.net/docs/repo/doc381.pdf",
+      "published": "2017-05",
+      "accessed": "2026-10-23",
+      "kind": "論文",
+      "notes": "本文で、n=399,364件の通報、154,957人、2007-02-28〜2013-02-12、mySocietyからのデータ提供を確認",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S117",
+      "title": "鴨川府民会議開催要領",
+      "publisher": "京都府",
+      "url": "https://www.pref.kyoto.jp/kamogawa/documents/kaisaiyouryou.pdf",
+      "published": "2018-06-13（最終改正の施行日）",
+      "accessed": "2026-10-23",
+      "kind": "自治体資料",
+      "notes": "京都府鴨川条例（平成19年京都府条例第40号）第24条第1項にもとづく。メンバーは公募の府民・事業者、有識者、府職員、京都市職員で、30名以内",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    },
+    {
+      "id": "C-S118",
+      "title": "Helium Mobile is Being Acquired by Andrew Yang’s Noble Mobile",
+      "publisher": "Helium Mobile（公式ブログ）",
+      "url": "https://blog.heliummobile.com/noble/",
+      "published": "2026-06-02",
+      "accessed": "2026-10-23",
+      "kind": "事業者公式",
+      "notes": "本文は「being acquired」、FAQは「has acquired」。Noble MobileはHelium Networkを使うと約束。完了日の記載はない",
+      "status": "確認済み",
+      "checked_on": "2026-10-23"
+    }
   ],
   "claims": [
-    {"id":"C-C01","text":"京都市が管理する道路・河川・公園の損傷は、区ごとの土木みどり事務所への電話と、スマホアプリ「みっけ隊」で受け付けている。京都市の案内ページにLINEでの通報の記載はない。","type":"fact","source_ids":["C-S02"],"as_of":"2023-05-08（ページ更新日）","tags":["H3","通報","京都市"],"number":""},
-    {"id":"C-C02","text":"みっけ隊は2016年5月12日に全市で運用を始めた（前年度に中京・右京・伏見区で実証）。投稿は管轄の事務所が現地を確認し、緊急度や重要度で優先順位を付けて補修する。処理状況は「受付済み・調査済み・対応済み」として地図上に公開される。","type":"fact","source_ids":["C-S01"],"as_of":"2016-05-11","tags":["H3","通報","京都市","見える化"],"number":"2016-05-12 運用開始"},
-    {"id":"C-C03","text":"京都市が維持管理する公共土木施設は、道路約3,600km、河川340、公園906。これを8つの土木事務所と2つのみどり管理事務所が担っていた（2016年時点）。平成25年度の道路・河川・公園の維持管理関連予算は約46億円。","type":"fact","source_ids":["C-S01"],"as_of":"2016-05（予算は平成25年度）","tags":["京都市","維持管理費"],"number":"約46億円（H25）"},
-    {"id":"C-C04","text":"2026年4月、市民から、みっけ隊の「私たちでやりました」（自主清掃の報告）への投稿が少ないため機能を足してほしいという提案があった。京都市は「システム開発や維持管理に予算が伴うため直ちに対応することは困難」と回答しつつ、運用は続けるとした。","type":"fact","source_ids":["C-S03"],"as_of":"2026-04-09","tags":["H3","通報","京都市","予算制約"],"number":""},
-    {"id":"C-C05","text":"千葉市のちばレポでは、2014年9月16日〜2018年3月31日（1,292日間）の有効レポートが6,154件（1日約4.8件）で、処理状況は対応済82.3%、エスカレーション12.5%、受付済4.1%、対応中0.9%。受付までは平均約2.9日だった。","type":"fact","source_ids":["C-S06"],"as_of":"2018-03-31","tags":["H3","通報","対応率","My City Report"],"number":"対応済 82.3%（5,066/6,154件）"},
-    {"id":"C-C06","text":"同じ期間に千葉市の業務管理システムで扱った「個別案件」（ちばレポ以外も含む）は50,299件で、うち道路が99.8%（1日38.9件）。道路分野では7日以内の完了が49.3%、14日以内65.7%、30日以内79.4%だった。","type":"fact","source_ids":["C-S06"],"as_of":"2018-03-31","tags":["H3","対応期間","職員の処理能力"],"number":"個別案件 50,299件／30日以内完了 79.4%"},
-    {"id":"C-C07","text":"千葉市の数字では、アプリ経由の市民レポート（6,154件）は全案件（50,299件）の1割強にすぎない。通報の入口をアプリに変えても、補修現場の処理量の大部分は電話・パトロールなど従来の経路から来ている可能性が高い。","type":"inference","source_ids":["C-S06"],"as_of":"2018-03-31","tags":["H3","通報"],"number":"約12%"},
-    {"id":"C-C08","text":"My City Report（MCR）は導入費30万円、年会費6万円からとされる。ちばレポを改修してMCRに移ったことで、千葉市の年間利用料は538万円から380万円（地図オプション80万円を含む）に下がった。","type":"fact","source_ids":["C-S04"],"as_of":"2021頃（ページに日付なし）","tags":["費用分担","My City Report","自治体負担"],"number":"538万円→380万円／年"},
-    {"id":"C-C09","text":"MCR全体の市民投稿レポート数は、2019年8月末12,324件、2021年1月5日17,253件。","type":"fact","source_ids":["C-S04"],"as_of":"2021-01-05","tags":["通報","My City Report"],"number":"17,253件"},
-    {"id":"C-C10","text":"MCRの提供側は、導入が全国28自治体（2022年度実績）で、位置情報と写真で窓口・電話の対応時間が減り、現場に行かずに修繕の要否を判断できるので修繕対応件数が大幅に増えたとしている。初年度は入会金30万円が別に必要。","type":"party_claim","source_ids":["C-S05"],"as_of":"2022年度","tags":["H3","My City Report","費用分担"],"number":"28自治体"},
-    {"id":"C-C11","text":"MCRは2026年10月時点でも運用されている。公式サイトの「直近30日の投稿」には21の自治体・都県が並び、千葉市は2026年5月にアプリも登録も不要な「かんたん投稿」を追加した。","type":"fact","source_ids":["C-S07","C-S08"],"as_of":"2026-10","tags":["My City Report","継続運用"],"number":"21自治体・都県"},
-    {"id":"C-C12","text":"国土交通省は2024年3月29日から、全国の道路（高速道路・国道・都道府県道・市町村道）の異状をLINEで受け付ける道路緊急ダイヤル（#9910）の運用を始めた。","type":"fact","source_ids":["C-S09"],"as_of":"2024-03-29","tags":["通報","LINE"],"number":""},
-    {"id":"C-C13","text":"報道によると、LINE版#9910の通報は1日約87件、2024年12月には1日100件を超えた。位置情報から道路管理者を自動で特定して連絡するが、対応するかどうかは各道路管理者が判断し、必ず補修されるわけではないと注意書きされている。","type":"fact","source_ids":["C-S10"],"as_of":"2024-12-12","tags":["H3","通報","LINE"],"number":"約87件/日"},
-    {"id":"C-C14","text":"FixMyStreet（英国）の行動データ（n=399,364）を使った研究では、最初の通報が解決されると、2回目の通報をする確率が57%上がった。行政の応答性がその後の市民参加を左右するという結果。","type":"fact","source_ids":["C-S11"],"as_of":"2017","tags":["H3","FixMyStreet","参加の継続"],"number":"+57%"},
-    {"id":"C-C15","text":"NYCとシカゴの住民通報（計100万件超）を分析した研究では、事案の性質をそろえても、通報の速さに地域で最大3倍の差があった。NYCでは人口密度、大卒者の割合、所得、白人比率と通報率に正の相関があった。","type":"fact","source_ids":["C-S12","C-S13"],"as_of":"2023-12","tags":["H3","通報の偏り","311"],"number":"最大3倍"},
-    {"id":"C-C16","text":"通報データは「問題がある場所」ではなく「通報する人がいる場所」を映すので、通報を集めただけで対応の優先順位を決めると、通報の少ない地域が後回しになるおそれがある。","type":"inference","source_ids":["C-S12","C-S13"],"as_of":"2023-12","tags":["H3","通報の偏り"],"number":""},
-    {"id":"C-C17","text":"全国の市区町村の土木部門の職員数は、ピークの1996年から約30年で約26%減った（総職員の減少率は約16%）。技術系職員は約半数の市区町村で5人以下、25%の市区町村ではゼロ。","type":"fact","source_ids":["C-S14"],"as_of":"2024-04-01","tags":["H3","H2","職員の処理能力"],"number":"約26%減／25%が技術職ゼロ"},
-    {"id":"C-C18","text":"H3（情報は集まるのに対応につながらない）は、通報の仕組みよりも、補修する人手と予算の制約に原因がある可能性がある。京都市が機能改修を予算を理由に見送ったことや、全国で土木の技術職員が減っていることと整合する。ただし京都市の通報の未処理件数は確認できておらず、検証されていない。","type":"inference","source_ids":["C-S03","C-S14","C-S06"],"as_of":"2026","tags":["H3"],"number":""},
-    {"id":"C-C19","text":"国の森林環境税は2024年度から1人年1,000円。森林環境譲与税は2019年度から配られ、2024年度は総額629億円（市町村566億円、都道府県63億円）。私有林人工林面積・林業就業者数・人口で按分される。","type":"fact","source_ids":["C-S16"],"as_of":"2024年度","tags":["H1","森林","財源"],"number":"629億円（R6）"},
-    {"id":"C-C20","text":"京都市への森林環境譲与税は令和6年度346,773,000円、令和元〜5年度の累計1,093,468,000円。京都市は全額を森林経営管理基金に積み立てており、令和6年度の活用額は134,072,371円、令和6年度末の基金残高は1,005,483,311円。累計の活用率は約30%。","type":"fact","source_ids":["C-S15"],"as_of":"2025-03-31（令和6年度末）","tags":["H1","森林","京都市","財源"],"number":"R6譲与額 約3.47億円／基金残高 約10.05億円"},
-    {"id":"C-C21","text":"京都市は、2050年までに市内すべての人工林を適切に管理するという目標に多額の費用がかかる見込みのため、譲与税を将来の財源として基金に積んでいると説明している。","type":"party_claim","source_ids":["C-S15"],"as_of":"2025-11-04","tags":["森林","京都市"],"number":""},
-    {"id":"C-C22","text":"京都市が左京区大原・八瀬地域の私有人工林694ha（平成21年度以降に施業が確認できない森林）で行った経営管理意向調査では、現在の管理状況の回答で「管理も整備もしていない」が60%を占めた。","type":"fact","source_ids":["C-S15"],"as_of":"令和6年度","tags":["H1","森林","所有者不在"],"number":"60%"},
-    {"id":"C-C23","text":"京都府の「豊かな森を育てる府民税」は、個人府民税の均等割に年600円を上乗せする超過課税。平成28年度に導入され、税収は年約7億円。第3期（令和8〜12年度）の継続が決まっている。","type":"fact","source_ids":["C-S17"],"as_of":"2026","tags":["H1","森林","京都府","財源"],"number":"年600円／約7億円"},
-    {"id":"C-C24","text":"令和6年度の府民税事業の実績額は685,840千円（当初予算711,000千円）。主な内訳は、山地災害防止対策183,000千円、ふるさとの里山林保全活動推進25,120千円、市町村交付金199,988千円。市町村交付金のうち京都市への配分は76,335千円。","type":"fact","source_ids":["C-S18"],"as_of":"令和6年度（2025-10公表）","tags":["森林","里山","京都府","京都市"],"number":"685,840千円"},
-    {"id":"C-C25","text":"京都府内の野生鳥獣による農作物被害額（令和7年、暫定値）は合計268百万円。内訳は獣類235百万円（イノシシ107、シカ99、サル9）、鳥類33百万円。","type":"fact","source_ids":["C-S19"],"as_of":"2026-08（暫定値）","tags":["獣害","京都府"],"number":"268百万円"},
-    {"id":"C-C26","text":"京都府鴨川条例は鴨川と高野川が対象で、基本理念に「府民協働の推進」を掲げる。府・府民・事業者・京都市が意見を交わす場として鴨川府民会議を設けている。窓口は京都府京都土木事務所。","type":"fact","source_ids":["C-S20"],"as_of":"2023-03-08","tags":["水辺","鴨川","京都府"],"number":""},
-    {"id":"C-C27","text":"「鴨川を美しくする会」は1964年に地域住民が主体となってつくった団体。河川敷の清掃「鴨川クリーンハイク」を年4〜6回行い、秋の合同クリーンハイクには1,000〜1,500名が参加するとされる（資料作成時点）。","type":"fact","source_ids":["C-S21"],"as_of":"2000年代後半（資料の時点不明）","tags":["水辺","鴨川","市民活動"],"number":"1964年設立"},
-    {"id":"C-C28","text":"令和7年度も鴨川では、定例クリーンハイク（第3回は参加133名）や、府・信用金庫・同会によるオオバナミズキンバイの駆除（参加58名、駆除1,110kg）が行われた。","type":"fact","source_ids":["C-S22"],"as_of":"2025-09〜11","tags":["水辺","鴨川","継続運用"],"number":"1,110kg"},
-    {"id":"C-C29","text":"琵琶湖疏水の施設は京都市上下水道局が水道の施設として管理しており、水道水の原水を自然流下で浄水場へ送っている。2025年5月16日、国の文化審議会が疏水の施設を国宝（5か所）と重要文化財（24か所）に指定するよう答申した。","type":"fact","source_ids":["C-S23"],"as_of":"2025","tags":["H1","水辺","疏水","文化資産"],"number":"国宝5・重文24"},
-    {"id":"C-C30","text":"疏水の施設は水道事業として料金収入でまかなわれているとみられる。一方で、国宝指定や観光による恩恵は水道利用者以外にも広く及ぶため、H1（維持する人と恩恵を受ける人が違う）の候補例になる。負担の内訳は確認していない。","type":"inference","source_ids":["C-S23"],"as_of":"2025","tags":["H1","疏水"],"number":""},
-    {"id":"C-C31","text":"京都市の空き家は令和5年住宅・土地統計調査で105,300戸（空き家率12.5%）。前回より700戸減り、全国（13.8%）と京都府（13.1%）より低い。市場に流通していない空き家（「その他の住宅」）は44,300戸。","type":"fact","source_ids":["C-S26"],"as_of":"2023-10-01（調査時点）","tags":["空き家","京都市"],"number":"105,300戸／12.5%"},
-    {"id":"C-C32","text":"京都市の非居住住宅利活用促進税は、2022年3月25日に条例が議決され、2023年3月24日に総務大臣の同意を得た。課税開始は令和11年度の予定だったが、システム開発の影響で1年延び、令和12年度（令和12年1月1日時点の利用状況による）からの予定。2026年10月時点で課税は始まっていない。","type":"fact","source_ids":["C-S24"],"as_of":"2026-08-21","tags":["空き家","京都市","税"],"number":"令和12年度（2030年度）課税開始予定"},
-    {"id":"C-C33","text":"総務省の同意資料では、非居住住宅利活用促進税の収入見込みは初年度約8.6億円、平年度約9.5億円。徴税費用の見込みは導入前約4億円、年間約2億円。課税対象の想定は約1.5万件。","type":"fact","source_ids":["C-S25"],"as_of":"2023","tags":["空き家","税","費用"],"number":"平年度約9.5億円／徴税費 年約2億円"},
-    {"id":"C-C34","text":"京都市の公園愛護協力会（原則1公園1会、概ね5人以上）には、公園の面積に応じて年2万円（500㎡未満）から7万円（7,000㎡以上）の報償金が交付される。","type":"fact","source_ids":["C-S27"],"as_of":"2025-01-17施行","tags":["H2","アダプト","公園","京都市"],"number":"年2万〜7万円"},
-    {"id":"C-C35","text":"京都府の「さわやかボランティア・ロード事業」（府管理道路の美化活動、2002年4月公募開始）は、令和7年9月末時点で113団体・3,132人。府がサイン、清掃用具、ボランティア保険の費用を負担している。","type":"fact","source_ids":["C-S28"],"as_of":"2025-09-30","tags":["アダプト","道路","京都府","費用分担"],"number":"113団体・3,132人"},
-    {"id":"C-C36","text":"京都市は2023年5月8日、道路・公園などの維持管理を一元的に担う土木みどり事務所を設置し、公園愛護協力会や街路樹サポーターの窓口もそこに移した。","type":"fact","source_ids":["C-S29"],"as_of":"2023-05-08","tags":["京都市","維持管理体制"],"number":""},
-    {"id":"C-C37","text":"DefiLlamaは、Heliumのネットワーク利用で燃やされるData Creditを収益に数えていない。理由は、1GBあたり0.50ドルの固定価格で評価されているが、通信事業者が実際に払っているのは約0.10ドルだから。Helium Mobileの加入者収入による買い戻し・焼却は2026年1月2日に止まり、以降の計測値は0になっている。","type":"fact","source_ids":["C-S30"],"as_of":"2026-10-23","tags":["DePIN","Helium","収益の定義"],"number":"直近1年の計測収益 約221.6万ドル（買い戻し分のみ）"},
-    {"id":"C-C38","text":"Helium Mobileは2026年6月、Noble Mobile（Andrew Yang氏の会社）に売却された（金額は非公開）。累計申込は約60万件（解約者を含む）。Heliumの最高執行責任者は、Helium Mobileは黒字ではないと述べた。Nova Labsは大手通信事業者向けのデータオフロード事業に集中する。","type":"fact","source_ids":["C-S31"],"as_of":"2026-06-02","tags":["DePIN","Helium","採算"],"number":"累計申込 約60万"},
-    {"id":"C-C39","text":"Heliumは2022年7月時点で、収入が月約200万ドル（大半はホットスポット設置時の手数料）だったのに対し、データ転送からの収入は月約6,500ドルだった（創業者のX投稿として紹介）。","type":"party_claim","source_ids":["C-S32"],"as_of":"2022-07","tags":["DePIN","Helium","採算"],"number":"データ転送 約6,500ドル/月"},
-    {"id":"C-C40","text":"Messariの『State of DePIN 2025』（Decryptの紹介）によると、DePIN全体の流通時価総額は約100億ドル、2025年のオンチェーン収益は推定7,200万ドル。2018〜2022年に始まったトークンは最高値から94〜99%下がっている。","type":"fact","source_ids":["C-S33"],"as_of":"2025（2026-01-29報道）","tags":["DePIN","採算"],"number":"収益 推定7,200万ドル／トークン -94〜99%"},
-    {"id":"C-C41","text":"ForkLogは、DePINの収益の多くはオフチェーンで計上され、DePINとの関係が薄いサービスと一緒に集計されているため、検証が難しいと指摘している。第三者トラッカーの数字では、HivemapperのARRは2025年8月の約50万ドルから11月に約300万ドルまで増え、12月29日には約130万ドルだった。","type":"fact","source_ids":["C-S34"],"as_of":"2025-12","tags":["DePIN","Hivemapper","収益の検証"],"number":"ARR 約50万→300万→130万ドル"},
-    {"id":"C-C42","text":"WeatherXMは、設置済みの観測局は約9,500台（85か国以上）だが、稼働しているのは約5,900台（2026年8月時点）と自ら示している。DeepMindやPG&Eなどを顧客・パートナーとして挙げているが、データ販売の収益額は公表していない。","type":"party_claim","source_ids":["C-S37"],"as_of":"2026-08","tags":["DePIN","WeatherXM","継続性"],"number":"稼働率 約62%（5,900/9,500）"},
-    {"id":"C-C43","text":"東京電力パワーグリッドとDEAのピクトレは、2024年4〜6月の前橋での実証で、参加者約300名が対象区域のほぼ全域にあたる約2万本の電柱を撮影した。報酬は1本あたり約30円相当。東電PGが審査済みの画像を買い取り、その代金が報酬の原資になっている。ただし当時の1日の利用者は約100〜200人と報じられた。","type":"fact","source_ids":["C-S40"],"as_of":"2024-12-11","tags":["DePIN","日本","費用分担","インフラ点検"],"number":"約2万本・約300名・約30円/本"},
-    {"id":"C-C44","text":"ピクトレは2026年も実証を続けており、千葉県全域などでカラスの巣（1件300円相当）や、ツル・ツタの巻き付き（初回撮影20円相当、発見50円相当）の撮影を募った。報酬はギフト券や暗号資産DEAPcoinなど。","type":"fact","source_ids":["C-S39"],"as_of":"2026-02-09","tags":["DePIN","日本","インフラ点検"],"number":"対象 約125万本（ツル・ツタ）"},
-    {"id":"C-C45","text":"国の機関（地方整備局等）が関わった河川での住民参加の水質調査は、令和7年に84水系・268地点で行われ、大人2,009人・子供11,009人の計13,018人が参加した。水生生物による簡易調査は昭和59年度から続いている。","type":"fact","source_ids":["C-S42"],"as_of":"2025","tags":["市民科学","継続運用","非Web3"],"number":"13,018人"}
+    {
+      "id": "C-C01",
+      "text": "京都市が管理する道路・河川・公園の損傷は、区ごとの土木みどり事務所への電話と、スマホアプリ「みっけ隊」で受け付けている。京都市の案内ページにLINEでの通報の記載はない。",
+      "type": "fact",
+      "source_ids": [
+        "C-S02"
+      ],
+      "as_of": "2023-05-08（ページ更新日）",
+      "tags": [
+        "H3",
+        "通報",
+        "京都市"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S02（ページ番号17121、2023年5月8日）で、行政区ごとの土木みどり事務所8か所の電話番号と「道路・公園等の損傷箇所は、アプリでも投稿できます」の記載を確認。LINEの記載はない。ただし、みっけ隊は2026-10-22 16:30頃からアプリ・Webとも緊急停止中（C-C102、C-S103）。現況を書くときは停止に触れる必要がある",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C02",
+      "text": "みっけ隊は2016年5月12日に全市で運用を始めた（前年度に中京・右京・伏見区で実証）。投稿は管轄の事務所が現地を確認し、緊急度や重要度で優先順位を付けて補修する。処理状況は「受付済み・調査済み・対応済み」として地図上に公開される。",
+      "type": "fact",
+      "source_ids": [
+        "C-S01"
+      ],
+      "as_of": "2016-05-11",
+      "tags": [
+        "H3",
+        "通報",
+        "京都市",
+        "見える化"
+      ],
+      "number": "2016-05-12 運用開始",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S01（平成28年5月11日 市長記者会見資料）で確認：H28.5.12全市運用開始、前年度に中京・右京・伏見区で実証、土木事務所・みどり管理事務所が現地確認し緊急度・重要度で優先順位、地図の色分けが赤=受付済み・黄=調査済み・青=対応済み",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C03",
+      "text": "京都市が維持管理する公共土木施設は、道路約3,600km、河川340、公園906。これを8つの土木事務所と2つのみどり管理事務所が担っていた（2016年時点）。平成25年度の道路・河川・公園の維持管理関連予算は約46億円。",
+      "type": "fact",
+      "source_ids": [
+        "C-S01"
+      ],
+      "as_of": "2016-05（予算は平成25年度）",
+      "tags": [
+        "京都市",
+        "維持管理費"
+      ],
+      "number": "約46億円（H25）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S01本文で確認：約3,600kmの道路、340の河川、906の公園、8つの土木事務所と2つのみどり管理事務所。末尾の（参考）に「道路，河川，公園の維持管理関連予算 平成２５年度 約４６億円」",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C04",
+      "text": "2026年4月、「市長への手紙」で市民から、みっけ隊の「私たちでやりました」（自主清掃の報告）の投稿が少ないので、ビフォーアフター形式の投稿やランキングなどの機能を足してほしいという提案があった。京都市は「システム開発や維持管理に予算を伴うことから直ちに対応することは困難」と回答した。一方で、運用は続けるとした。",
+      "type": "fact",
+      "source_ids": [
+        "C-S03"
+      ],
+      "as_of": "2026-04-09",
+      "tags": [
+        "H3",
+        "通報",
+        "京都市",
+        "予算制約"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S03で確認。これは「市長への手紙」に寄せられた意見と回答の要旨（回答日 令和8年4月9日、掲載 2026-04-30）。かぎかっこの引用が原文と違う。原文は「システム開発や維持管理に予算を伴うことから直ちに対応することは困難」。提案には、ビフォーアフター投稿、ランキング、清掃の募集、期間での絞り込みが含まれる",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C05",
+      "text": "千葉市のちばレポでは、2014年9月16日〜2018年3月31日（1,292日間）の有効レポートが6,154件（1日約4.8件）で、処理状況は対応済82.3%、エスカレーション12.5%、受付済4.1%、対応中0.9%。受付までは平均約2.9日だった。",
+      "type": "fact",
+      "source_ids": [
+        "C-S06"
+      ],
+      "as_of": "2018-03-31",
+      "tags": [
+        "H3",
+        "通報",
+        "対応率",
+        "My City Report"
+      ],
+      "number": "対応済 82.3%（5,066/6,154件）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S06のp.13「レポートの状況（H30.3.31現在）」で確認：有効レポート6,154件（H26.9.16〜、1,292日間）。処理状況は対応済5,066件（82.3%）、エスカレ770件（12.5%）、受付済255件（4.1%）、対応中56件（0.9%）。「受付まで 約2.9日」。1日約4.8件は6,154÷1,292の計算値（分野別の平均の合計は4.7件）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C06",
+      "text": "同じ期間（H26.9.16〜H30.3.31）に、千葉市の業務管理システムで管理された「個別案件」は50,299件で、うち道路が50,216件（99.8%、1日38.9件）だった。資料は個別案件をちばレポ案件と分けて表記しており、電話・パトロールなど、ちばレポ以外の経路の案件とみられる（明記はない）。同じページに、完了までの日数として7日以内49.3%、14日以内65.7%、30日以内79.4%が示されている。ただし、どの範囲の案件を対象にした数字かは書かれていない。",
+      "type": "fact",
+      "source_ids": [
+        "C-S06"
+      ],
+      "as_of": "2018-03-31",
+      "tags": [
+        "H3",
+        "対応期間",
+        "職員の処理能力"
+      ],
+      "number": "個別案件 50,299件／30日以内完了 79.4%",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S06のp.12–13で確認。資料は「個別案件とちばレポ案件を対応完了までステータス管理」と、2つを分けて書いている。このため、個別案件が「ちばレポ以外も含む」（＝ちばレポを含む）とは言えない。ちばレポ以外の経路の案件とみるのが自然だが、明記はない。7日以内49.3%・14日以内65.7%・30日以内79.4%の数字は個別案件の表の横にあり、注記は「道路以外の分野については、道路部門からのエスカレーション」。どの案件を対象にした完了率か、資料からは断定できない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C07",
+      "text": "千葉市の数字では、アプリ経由の市民レポート（6,154件）は、業務管理システムの個別案件（50,299件）と合わせた件数の1割前後（約11〜12%）にとどまる。通報の入口をアプリに変えても、補修現場の処理量の大部分は、電話・パトロールなど従来の経路から来ている可能性が高い。",
+      "type": "inference",
+      "source_ids": [
+        "C-S06"
+      ],
+      "as_of": "2018-03-31",
+      "tags": [
+        "H3",
+        "通報"
+      ],
+      "number": "約11〜12%",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "個別案件がちばレポ案件を含まないなら、全体は6,154+50,299=56,453件で、アプリ経由は約10.9%になる。含むなら約12.2%。どちらでも「1割前後」であり、推論の方向は変わらない。数値の幅を明記する修正",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C08",
+      "text": "総務省の事例ページ（事業実施団体＝MCRコンソーシアムの記載）によると、My City Report（MCR）は導入費30万円、年会費6万円から。効果の欄には「千葉市：市民投稿システム利用料 年額538万円→380万円（商用地図オプション80万円を含む）」とある。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S04"
+      ],
+      "as_of": "2021頃（ページに日付なし）",
+      "tags": [
+        "費用分担",
+        "My City Report",
+        "自治体負担"
+      ],
+      "number": "538万円→380万円／年",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S04（総務省 地域情報化事例ページ）で、導入費「300千円」、運用費「年会費60千円より」、「千葉市：市民投稿システム利用料年額538万→380万（商用地図オプション80万含む）」を確認。ただし、このページの「効果」欄は事業実施団体（MCRコンソーシアム）が書いた実績で、自己申告にあたる。ページには「ちばレポを改修してMCRに移ったことで」という因果の説明もないため、表現を弱める",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C09",
+      "text": "総務省の事例ページ（事業実施団体の記載）によると、MCR全体の市民投稿レポート数は2019年8月末に12,324件、2021年1月5日に17,253件。市民参加者数は5,789人から9,008人に増えた。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S04"
+      ],
+      "as_of": "2021-01-05",
+      "tags": [
+        "通報",
+        "My City Report"
+      ],
+      "number": "17,253件",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S04で数値を確認：市民投稿レポート数 12,324（2019/8末）→17,253（2021/1/5）、市民参加者数 5,789→9,008。総務省のページだが、効果欄は事業実施団体の記載なので party_claim にする",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C10",
+      "text": "MCRの提供側は、導入が全国28自治体（2022年度実績）で、位置情報と写真で窓口・電話の対応時間が減り、現場に行かずに修繕の要否を判断できるので修繕対応件数が大幅に増えたとしている。初年度は入会金30万円が別に必要。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S05"
+      ],
+      "as_of": "2022年度",
+      "tags": [
+        "H3",
+        "My City Report",
+        "費用分担"
+      ],
+      "number": "28自治体",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S05で確認：「全国28自治体で利用されています ※2022年度実績」「位置情報や写真とテキストによる投稿で窓口・電話対応時間を削減」「現場に行かずに修繕要否を判断し、修繕対応件数が大幅増加」「初年度はMy City Reportコンソーシアムの入会金30万円が別途必要」。提案者は株式会社アーバンエックステクノロジーズで、出典の発行者欄を直す（C-S05を参照）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C11",
+      "text": "MCRは2026年10月時点でも運用されている。公式サイトの「直近30日の投稿」には21の自治体・都県が並び、千葉市は2026年5月にアプリも登録も不要な「かんたん投稿」を追加した。",
+      "type": "fact",
+      "source_ids": [
+        "C-S07",
+        "C-S08"
+      ],
+      "as_of": "2026-10",
+      "tags": [
+        "My City Report",
+        "継続運用"
+      ],
+      "number": "21自治体・都県",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S08の「直近30日の投稿を見る」に21団体（千葉市〜和歌山県）が並び、2026-10-23付の投稿があることを確認。C-S07（更新日2026年10月2日）に、2026年5月20日付で「アプリのインストールやユーザー登録をせずに、Webから投稿できる」かんたん投稿の追加を確認。利用団体の一覧はC-C110",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C12",
+      "text": "国土交通省は2024年3月29日から、全国の道路（高速道路・国道・都道府県道・市町村道）の異状をLINEで受け付ける道路緊急ダイヤル（#9910）の運用を始めた。",
+      "type": "fact",
+      "source_ids": [
+        "C-S09"
+      ],
+      "as_of": "2024-03-29",
+      "tags": [
+        "通報",
+        "LINE"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S09（令和6年3月22日）で確認：令和6年3月29日（金）正午から、全国の道路（高速道路、国道、都道府県道、市町村道など）を対象にLINE通報を開始。令和5年11月から関東甲信で先に運用していた",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C13",
+      "text": "国土交通省の資料によると、令和6年度の道路緊急ダイヤル（#9910）の通報件数（全国）は、電話が約37.4万件、LINEが約4.1万件だった（LINEは全体の約1割）。LINE版は、位置情報から道路管理者を自動で特定してメールで転送する。ただし、対応するかどうかは各道路管理者が判断し、必ず補修されるわけではないと注意書きされている。報道（2024年12月、国交省担当者への取材）では、LINE通報は開始から平均1日約87件で、2024年12月には1日100件を超えていた。",
+      "type": "fact",
+      "source_ids": [
+        "C-S104",
+        "C-S10"
+      ],
+      "as_of": "令和6年度（2025-07-25公表）",
+      "tags": [
+        "H3",
+        "通報",
+        "LINE"
+      ],
+      "number": "LINE 約4.1万件／電話 約37.4万件（R6年度）",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "C-S10（2024-12-14）で確認。道路局企画課評価室の担当者が12日の取材で「LINEでのサービス開始から1日あたり約87件」「12月に入ってからは1日100件を超えている」と答えている。87件は開始以来の平均。注意事項（管理者を特定できた場合のみ対応、必ず補修するものではない）も記事中にある。新しい公式の値として、国交省 総合政策局の資料（令和7年7月25日、C-S104）に、令和6年度の#9910の通報件数（全国）が電話約37.4万件、LINE約4.1万件（月平均 約31,100件・約3,400件）とある",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C14",
+      "text": "英国のFixMyStreetの行動データ（2007〜2013年、通報399,364件・利用者154,957人）を使った研究では、最初の通報が「解決済み」になった経験は、2回目の通報をする確率が57%高いことと関連していた。行政の応答性がその後の市民参加を左右することを示唆する結果。",
+      "type": "fact",
+      "source_ids": [
+        "C-S115",
+        "C-S11"
+      ],
+      "as_of": "2017",
+      "tags": [
+        "H3",
+        "FixMyStreet",
+        "参加の継続"
+      ],
+      "number": "+57%",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "論文本文（OIDP掲載のPDF、Public Administration Review 77巻3号 2017年5/6月号、pp.340–351、C-S115）で確認。n=399,364は通報件数で、利用者は154,957人、期間は2007-02-28〜2013-02-12。要旨は「A successful first experience ... is associated with a 57 percent increase」で、相関（関連）の表現。「解決された」は、自治体または他の利用者がfixedと報告したことを指す。因果のように読める「上がった」は弱める",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C15",
+      "text": "NYC（10万件超）とシカゴ（90万件超）の住民通報を分析した研究では、事案の性質をそろえても、他の地域より3倍速く通報する地域があった。NYCでは、人口密度、大卒者の割合、所得、白人比率が高いほど通報率が高かった。",
+      "type": "fact",
+      "source_ids": [
+        "C-S12",
+        "C-S13"
+      ],
+      "as_of": "2023-12",
+      "tags": [
+        "H3",
+        "通報の偏り",
+        "311"
+      ],
+      "number": "3倍",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S12（要旨：NYC 10万件超、シカゴ 90万件超）とC-S13（2023-12-05、Nature Computational Scienceに掲載）で確認。広報記事の表現は「事案の性質をそろえても、一部の地域は他より3倍速く通報していた」で、「最大」とは書いていない。NYCで通報率と正の相関があったのは、人口密度・大卒者の割合・所得・白人比率（記事で確認）。原論文のDOIは10.1038/s43588-023-00572-6（本文は未取得）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C16",
+      "text": "通報データは「問題がある場所」ではなく「通報する人がいる場所」を映すので、通報を集めただけで対応の優先順位を決めると、通報の少ない地域が後回しになるおそれがある。",
+      "type": "inference",
+      "source_ids": [
+        "C-S12",
+        "C-S13"
+      ],
+      "as_of": "2023-12",
+      "tags": [
+        "H3",
+        "通報の偏り"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "推論。C-C15の内容（通報の遅れに社会経済的な差がある）から論理的に言える範囲で、言い過ぎていない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C17",
+      "text": "全国の市区町村の土木部門の職員数は、ピークの1996年から約30年で約26%減った（総職員の減少率は約16%）。技術系職員は約半数の市区町村で5人以下、25%の市区町村ではゼロ。",
+      "type": "fact",
+      "source_ids": [
+        "C-S14"
+      ],
+      "as_of": "2024-04-01",
+      "tags": [
+        "H3",
+        "H2",
+        "職員の処理能力"
+      ],
+      "number": "約26%減／25%が技術職ゼロ",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S14の1枚目で確認：「市区町村における土木部門の職員数は、ピークの1996年と比べて、約30年で約26％減少（総職員の減少率は約16％…）」「技術系職員数は、約半数の市区町村では５人以下（25％の市区町村は技術系職員が０人）」。グラフは2024年時点",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C18",
+      "text": "H3（情報は集まるのに対応につながらない）は、通報の仕組みよりも、補修する人手と予算の制約に原因がある可能性がある。京都市が機能改修を予算を理由に見送ったことや、全国で土木の技術職員が減っていることと整合する。ただし京都市の通報の未処理件数は確認できておらず、検証されていない。",
+      "type": "inference",
+      "source_ids": [
+        "C-S03",
+        "C-S14",
+        "C-S06"
+      ],
+      "as_of": "2026",
+      "tags": [
+        "H3"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "推論。根拠（C-S03の予算を理由にした見送り、C-S14）と整合し、「検証されていない」と明記している。補強材料として、#9910でもLINEは全通報の約1割（C-C103）、千葉市でもアプリ経由は1割前後（C-C07）。根拠に加えてよい",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C19",
+      "text": "国の森林環境税は2024年度から1人年1,000円。森林環境譲与税は2019年度から配られ、2024年度は総額629億円（市町村566億円、都道府県63億円）。私有林人工林面積・林業就業者数・人口で按分される。",
+      "type": "fact",
+      "source_ids": [
+        "C-S16"
+      ],
+      "as_of": "2024年度",
+      "tags": [
+        "H1",
+        "森林",
+        "財源"
+      ],
+      "number": "629億円（R6）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S16で確認：令和6（2024）年度から国税として1人年額1,000円。譲与は令和元（2019）年度から。按分基準は私有林人工林面積・林業就業者数・人口。「令和6年度には、総額629億円（市町村566億円、都道府県63億円）」",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C20",
+      "text": "京都市への森林環境譲与税は令和6年度346,773,000円、令和元〜5年度の累計1,093,468,000円。京都市は全額を森林経営管理基金に積み立てており、令和6年度の活用額は134,072,371円、令和6年度末の基金残高は1,005,483,311円。累計の活用率は約30%。",
+      "type": "fact",
+      "source_ids": [
+        "C-S15"
+      ],
+      "as_of": "2025-03-31（令和6年度末）",
+      "tags": [
+        "H1",
+        "森林",
+        "京都市",
+        "財源"
+      ],
+      "number": "R6譲与額 約3.47億円／基金残高 約10.05億円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S15（令和7年11月4日付）の表で確認：R1〜R5の譲与税1,093,468,000円、R6は346,773,000円、R6活用額134,072,371円、R6末の基金残高1,005,483,311円、活用額累計436,175,405円で、基金総額（譲与税＋運用益 1,441,658,716円）の30%。「毎年度全額基金に積み立て」とも書かれている。R1〜R5の合計は市のページ（C-S105）の年度別の額（96,265／204,564／220,939／285,850／285,850千円）とも一致。令和7年度の譲与額は365,409千円（C-S105）。令和7年度版の使途PDF（C-S106）も既に掲載されているが、PDFの日付は令和8年11月2日（未来の日付）で、正式公表前の可能性がある。C-C104・C-C105を参照",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C21",
+      "text": "京都市は、2050年までに市内すべての人工林を適切に管理するという目標に多額の費用がかかる見込みのため、譲与税を将来の財源として基金に積んでいると説明している。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S15"
+      ],
+      "as_of": "2025-11-04",
+      "tags": [
+        "森林",
+        "京都市"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S15の「基金残高の活用方針」で確認：2050年までに市内すべての人工林を適切に管理する目標、多額の管理費用の見込み、将来の財源として基金に積み立てる。市のページ（C-S105）には、活用率は毎年上がり令和32年（2050年）に100%に達する見込みとの説明もある（C-C106）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C22",
+      "text": "京都市が左京区大原・八瀬地域の私有人工林694ha（平成21年度以降に施業が確認できない森林）で行った経営管理意向調査（回答面積594ha、86%）では、現在の管理状況について「管理も整備もしていない」が回答面積の60%を占めた。今後の意向では「市に預けたい」が回答面積の58%だった。",
+      "type": "fact",
+      "source_ids": [
+        "C-S15"
+      ],
+      "as_of": "令和6年度",
+      "tags": [
+        "H1",
+        "森林",
+        "所有者不在"
+      ],
+      "number": "60%（面積割合）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S15の別記1で確認。対象は左京区大原・八瀬地域の694haで、平成21年度以降に施業が確認できなかった私有人工林。回答面積は594ha（86%）。問4「現在の管理状況」で「管理も整備もしていない」が60%だが、これは回答の面積割合で、人数の割合ではない。問5（今後）では「市に預けたい」が58%（面積割合）、市に預けたい意向がある森林は343ha",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C23",
+      "text": "京都府の「豊かな森を育てる府民税」は、個人府民税の均等割に年600円を上乗せする超過課税。平成28年度に導入され、税収は年約7億円。第3期（令和8〜12年度）の継続が決まっている。",
+      "type": "fact",
+      "source_ids": [
+        "C-S17"
+      ],
+      "as_of": "2026",
+      "tags": [
+        "H1",
+        "森林",
+        "京都府",
+        "財源"
+      ],
+      "number": "年600円／約7億円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S17で確認：個人府民税均等割に年額600円を上乗せする超過課税、年間税収 約7億円、平成28年度から課税。令和7年9月定例会で第3期（令和8〜12年度）の延長条例を可決。第3期最終案（府PDF dai3kisaisyuan.pdf）でも、税額600円と現行制度の維持を確認",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C24",
+      "text": "令和7年度の府民税事業の実績額は736,986千円（当初予算744,000千円）。主な内訳は、山地災害防止対策125,900千円、ふるさとの里山林保全活動推進25,744千円、市町村交付金199,967千円。市町村交付金のうち京都市への配分は76,346千円。令和6年度は実績685,840千円、京都市への配分76,335千円だった。",
+      "type": "fact",
+      "source_ids": [
+        "C-S107",
+        "C-S18"
+      ],
+      "as_of": "令和7年度（2026-10公表）",
+      "tags": [
+        "森林",
+        "里山",
+        "京都府",
+        "京都市"
+      ],
+      "number": "736,986千円（R7）",
+      "status": "要更新",
+      "verification": {
+        "verdict": "outdated",
+        "note": "C-S18（令和7年10月）で、令和6年度の値はすべて一致することを確認（685,840千円、当初予算711,000千円、山地災害防止対策183,000、里山林保全活動推進25,120、市町村交付金199,988、京都市76,335）。その後、令和7年度版（令和8年10月、C-S107）が出ている。令和7年度の実績は736,986千円（当初予算744,000千円）、山地災害防止対策125,900千円、ふるさとの里山林保全活動推進25,744千円、市町村交付金199,967千円で、うち京都市76,346千円",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C25",
+      "text": "京都府内の野生鳥獣による農作物被害額（令和7年、暫定値）は合計268百万円。内訳は獣類235百万円（イノシシ107、シカ99、サル9）、鳥類33百万円。",
+      "type": "fact",
+      "source_ids": [
+        "C-S19"
+      ],
+      "as_of": "2026-08（暫定値）",
+      "tags": [
+        "獣害",
+        "京都府"
+      ],
+      "number": "268百万円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S19（令和8年8月現在の暫定値、PDFの作成日は2026-08-12）の被害金額表で確認：鳥類33、獣類235（イノシシ107、シカ99、サル9）、合計268（百万円）。注記に、四捨五入のため合計が一致しない場合があること、微修正の可能性があることが書かれている",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C26",
+      "text": "京都府鴨川条例（平成19年京都府条例第40号）は鴨川と高野川が対象で、基本理念に「府民協働の推進」を掲げる。条例第24条にもとづき鴨川府民会議を開いている。メンバーは公募の府民・事業者、有識者、府と京都市の職員で、30名以内。窓口は京都府京都土木事務所。",
+      "type": "fact",
+      "source_ids": [
+        "C-S20",
+        "C-S117"
+      ],
+      "as_of": "2023-03-08",
+      "tags": [
+        "水辺",
+        "鴨川",
+        "京都府"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S20では、基本理念の4項目（「府民協働の推進」を含む）、規制の対象が鴨川・高野川であること、問い合わせ先が京都土木事務所であることは確認できた。しかし、鴨川府民会議の構成（府・府民・事業者・京都市）はこのページに書かれていない。鴨川府民会議開催要領（C-S117）は、条例第24条第1項にもとづく会議で、メンバーを公募の府民・事業者、有識者、府職員、京都市職員（30名以内）と定めている。条例は平成19年京都府条例第40号",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C27",
+      "text": "「鴨川を美しくする会」は1964年に地域住民が主体となってつくった団体。河川敷の清掃「鴨川クリーンハイク」を年4〜6回行い、秋の合同クリーンハイクには1,000〜1,500名が参加するとされる（資料作成時点）。",
+      "type": "fact",
+      "source_ids": [
+        "C-S21"
+      ],
+      "as_of": "2000年代後半（資料の時点不明）",
+      "tags": [
+        "水辺",
+        "鴨川",
+        "市民活動"
+      ],
+      "number": "1964年設立",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S21で確認：昭和39年に地域住民が主体となって設立。定例清掃を年4〜6回、秋の合同クリーンハイクに1,000〜1,500名。資料には「40年以上」「委員及び会員登録数は84名、団体登録は約300団体」とあり、作成時期は2004年以降と推定",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C28",
+      "text": "令和7年度も鴨川では、定例クリーンハイク（第3回は参加133名）や、府・信用金庫・同会によるオオバナミズキンバイの駆除（参加58名、駆除1,110kg）が行われた。",
+      "type": "fact",
+      "source_ids": [
+        "C-S22"
+      ],
+      "as_of": "2025-09〜11",
+      "tags": [
+        "水辺",
+        "鴨川",
+        "継続運用"
+      ],
+      "number": "1,110kg",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S22で確認：第3回定例クリーンハイク（9月7日）の参加133名。オオバナミズキンバイ駆除（10月11日）は主催が京都中央信用金庫・鴨川を美しくする会・京都府で、参加58名、駆除1,110kg。ほかに第4回（11月2日）は265名",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C29",
+      "text": "琵琶湖疏水の施設は京都市上下水道局が水道の施設として管理しており、水道水の原水を自然流下で浄水場へ送っている。2025年5月16日に国の文化審議会が答申し、2025年8月27日付の官報告示で、疏水の施設が国宝（5か所）と重要文化財（京都市資料では24か所）に正式に指定された。",
+      "type": "fact",
+      "source_ids": [
+        "C-S23",
+        "C-S108"
+      ],
+      "as_of": "2025-08-27",
+      "tags": [
+        "H1",
+        "水辺",
+        "疏水",
+        "文化資産"
+      ],
+      "number": "国宝5・重文24",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S23で確認：水道水の原水は疏水を通して自然流下で浄水場へ送水。「国の文化審議会（R7.5.16）において…国宝（５か所）・重要文化財（２４か所）に新たに指定することについて答申」。その後、2025年8月27日発行の官報（号外193号、文部科学省告示第68号・第69号）で正式に指定された（滋賀県報道発表 2025-08-28、C-S108）。国宝は第一・第二・第三隧道、インクライン、南禅寺水路閣の5所",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C30",
+      "text": "疏水の施設は水道事業として料金収入でまかなわれているとみられる。一方で、国宝指定や観光による恩恵は水道利用者以外にも広く及ぶため、H1（維持する人と恩恵を受ける人が違う）の候補例になる。負担の内訳は確認していない。",
+      "type": "inference",
+      "source_ids": [
+        "C-S23"
+      ],
+      "as_of": "2025",
+      "tags": [
+        "H1",
+        "疏水"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "推論。「みられる」「負担の内訳は確認していない」と限定しており、根拠と整合する。C-S23には疏水維持作業の体制などの記載はあるが、疏水だけの費用の内訳はない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C31",
+      "text": "京都市の空き家は令和5年住宅・土地統計調査で105,300戸（空き家率12.5%）。前回より700戸減り、全国（13.8%）と京都府（13.1%）より低い。市場に流通していない空き家（「その他の住宅」）は44,300戸。",
+      "type": "fact",
+      "source_ids": [
+        "C-S26"
+      ],
+      "as_of": "2023-10-01（調査時点）",
+      "tags": [
+        "空き家",
+        "京都市"
+      ],
+      "number": "105,300戸／12.5%",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S26で確認：12.5%（105,300戸）、前回比－700戸・－0.4ポイント、京都府13.1%、全国13.8%。市場に流通していない空き家（その他の住宅）は44,300戸",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C32",
+      "text": "京都市の非居住住宅利活用促進税は、2022年3月25日に条例が議決され、2023年3月24日に総務大臣の同意を得た。課税開始は令和11年度の予定だったが、システム開発の影響で1年延び、令和12年度（令和12年1月1日時点の利用状況による）からの予定。2026年10月時点で課税は始まっていない。",
+      "type": "fact",
+      "source_ids": [
+        "C-S24"
+      ],
+      "as_of": "2026-08-21",
+      "tags": [
+        "空き家",
+        "京都市",
+        "税"
+      ],
+      "number": "令和12年度（2030年度）課税開始予定",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S24（ページ番号296672、2026年8月21日更新）で確認：令和4年2月市会に提案し、同年3月25日に付帯決議付きで原案可決。令和5年3月24日に総務大臣の同意、令和5年4月13日に条例公布。「令和12年度（令和12年1月1日の利用状況によるもの）から課税開始予定」「システム開発の影響で課税開始の予定を令和11年度から1年延期」。2026-10-23時点で、これより新しい公式発表は見つからなかった。2023年ごろの報道にある「2026年度以降」は古い情報",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C33",
+      "text": "総務省の同意資料では、非居住住宅利活用促進税の収入見込みは初年度約8.6億円、平年度約9.5億円。徴税費用の見込みは導入前約4億円、年間約2億円。課税対象の想定は約1.5万件。",
+      "type": "fact",
+      "source_ids": [
+        "C-S25"
+      ],
+      "as_of": "2023",
+      "tags": [
+        "空き家",
+        "税",
+        "費用"
+      ],
+      "number": "平年度約9.5億円／徴税費 年約2億円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S25で確認：収入見込額（初年度）約8.6億円・（平年度）約9.5億円、徴税費用見込額（導入前）約4億円・（年間）約2億円、課税対象想定件数 約1.5万件（市の調査）。いずれも京都市の協議書にもとづく見込み",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C34",
+      "text": "京都市の公園愛護協力会（原則1公園1会、概ね5人以上）には、公園の面積に応じて年2万円（500㎡未満）から7万円（7,000㎡以上）の報償金が交付される。",
+      "type": "fact",
+      "source_ids": [
+        "C-S27"
+      ],
+      "as_of": "2025-01-17施行",
+      "tags": [
+        "H2",
+        "アダプト",
+        "公園",
+        "京都市"
+      ],
+      "number": "年2万〜7万円",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S27で確認：第3条3項「概ね５人以上」、第4条「原則１公園につき１協力会」、別表の報償金交付基準は500㎡未満20,000円〜7,000㎡以上70,000円（年度単位で交付）。面積は「公園愛護作業対象面積」。最終改正の施行日は令和7年1月17日",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C35",
+      "text": "京都府の「さわやかボランティア・ロード事業」（府管理道路の美化活動、2002年4月公募開始）は、令和7年9月末時点で113団体・3,132人。府がサイン、清掃用具、ボランティア保険の費用を負担している。",
+      "type": "fact",
+      "source_ids": [
+        "C-S28"
+      ],
+      "as_of": "2025-09-30",
+      "tags": [
+        "アダプト",
+        "道路",
+        "京都府",
+        "費用分担"
+      ],
+      "number": "113団体・3,132人",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S28（更新日2026年2月19日）で確認：「平成14年4月から公募を開始し、令和7年9月末現在で、113団体3,132人」。府の負担は、サイン（看板）の設置、清掃用具等の貸与・支給（予算内）、ボランティア保険。なお、問い合わせ先の土木事務所の一覧に京都土木事務所（京都市域）は含まれておらず、京都市域は対象外とみられる。京都の事例として使うときは注意",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C36",
+      "text": "京都市は2023年5月8日、土木事務所とみどり管理事務所を統合して、道路・河川・公園・街路樹などの維持管理を一元的に担う土木みどり事務所を設置した。公園愛護協力会や街路樹サポーターへのボランティア袋の支給や物品の貸出も、土木みどり事務所で行うことにした。",
+      "type": "fact",
+      "source_ids": [
+        "C-S29",
+        "C-S02"
+      ],
+      "as_of": "2023-05-08",
+      "tags": [
+        "京都市",
+        "維持管理体制"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S29（令和5年3月号）で確認：令和5年5月8日から土木事務所とみどり管理事務所を統合して土木みどり事務所を設置し、街路樹の維持管理も移管。公園愛護協力会と街路樹サポーターについて書かれているのは「ボランティア袋の支給や物品の貸出」を土木みどり事務所で行うことで、窓口全体の移管とまでは書かれていない。設置の事実はC-S02の事務所一覧でも確認できる",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C37",
+      "text": "DefiLlamaは、Heliumのネットワーク利用で燃やされるData Creditを収益に数えていない。理由は、1GBあたり0.50ドルの固定価格で評価されているが、通信事業者が実際に払っているのは約0.10ドルだから。Helium Mobileの加入者収入による買い戻し・焼却は2026年1月2日に止まり、以降の計測値は0になっている。",
+      "type": "fact",
+      "source_ids": [
+        "C-S30"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "収益の定義"
+      ],
+      "number": "DefiLlamaの計測値：2025-10-21〜12-31の買い戻し分 計約221.6万ドル（2026年は0）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S30（DefiLlama API、2026-10-23取得）で確認。warningBannersとmethodologyに、Data Creditの焼却を収益から除くこと（$0.50/GBの基準で評価されるが、通信事業者が実際に払うのは約$0.10/GB）、焼却されるHNTが中央集権取引所のウォレットから来ていて検証できないことが書かれている。買い戻しは2026-01-02に停止し、以降は0。total1y=2,215,593ドル。日次データで0でないのは2025-10-21〜2025-12-31だけなので、「直近1年」の値は実質この約2か月半の買い戻し額で、時間がたつにつれて減っていく。収益の数字が何を指すかを明記する修正",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C38",
+      "text": "Fortune（2026年6月2日）によると、Andrew Yang氏のNoble MobileがHelium Mobileの買収を発表した（金額は非公開。完了日は確認できていない）。累計申込は約60万件で、解約者を含む（事業者の公開ダッシュボードの数字）。HeliumのCOOは取材に、Helium Mobileは黒字ではないと述べた。Nova Labsは、大手通信事業者向けのデータオフロード事業に集中する。",
+      "type": "fact",
+      "source_ids": [
+        "C-S31",
+        "C-S118"
+      ],
+      "as_of": "2026-06-02",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "採算"
+      ],
+      "number": "累計申込 約60万",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S31（Fortune、2026-06-02）で確認：Noble Mobileは同日、買収を「発表」し、条件は非公開。約60万件の累計申込（解約者を含む）は、Fortuneが「公開ダッシュボード」の数字として紹介したもので、事業者側のデータ。COOのFrank Mong氏は「Helium Mobileは黒字ではない」と発言。Nova Labsは大手通信事業者向けのデータオフロード事業を残し、トークンはHelium DAOの管理のまま。Helium Mobileの公式ブログ（C-S118、2026-06-02）は本文で「being acquired」、FAQで「has acquired」と書いており、完了日（クロージング）は確認できない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C39",
+      "text": "2022年7月、批判者（投資家Liron Shapira氏）が、Heliumのデータ転送への支払いは月約6,500ドルにすぎないと指摘した。共同創業者でCEOのAmir Haleem氏はX上でこれに応じ、ホットスポットの設置手数料で月約200万ドルあると述べた（CryptoSlateの報道）。Fortuneの独自分析（2022年9月）では、過去30日のIoTデバイス需要からの収入は約1,150ドルで、Helium Foundationもこの数字を確認した。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S112",
+        "C-S111",
+        "C-S32"
+      ],
+      "as_of": "2022-07",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "採算"
+      ],
+      "number": "データ転送 約6,500ドル/月（批判者の指摘）／IoT需要収入 約1,150ドル/30日（Fortune）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S32（GridEcon）は、「当時、ネットワークは月約200万ドル（大半はホットスポット設置手数料）、データ転送は月6,500ドル」と書いているが、出典の示し方があいまい。CryptoSlate（2022-07-27、C-S112）によると、「月6,500ドル」はエンジェル投資家Liron Shapira氏の批判的なX投稿（2022-07-26）の数字。これにHeliumのCEO Amir Haleem氏（共同創業者）がX投稿で反論し、設置手数料で月200万ドルあることを述べつつ「なぜデータへの支払いは6,500ドルしかないのか」と、少なさを認める形で答えた。つまり「創業者のX投稿として紹介」は不正確。第三者の値としては、Fortune（2022-09-27、C-S111）の独自分析がある。過去30日のIoTデバイス需要からの収入は約1,150ドルで、Helium Foundationも確認した",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C40",
+      "text": "Messariの『State of DePIN 2025』を紹介したDecryptの報道（2026年1月29日）によると、DePIN全体の流通時価総額は約100億ドル、2025年のオンチェーン収益は推定7,200万ドル。2018〜2022年に始まったトークンは最高値から94〜99%下がっている（Messariの一次レポートは未確認で、数値は二次報道による）。",
+      "type": "fact",
+      "source_ids": [
+        "C-S33"
+      ],
+      "as_of": "2025（2026-01-29報道）",
+      "tags": [
+        "DePIN",
+        "採算"
+      ],
+      "number": "収益 推定7,200万ドル／トークン -94〜99%",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S33（Decrypt、2026-01-29）で数値を確認：流通時価総額 約100億ドル、2025年のオンチェーン収益 推定7,200万ドル、2018〜2022年に始まったトークンは最高値から94〜99%下落、主要DePINは収益の10〜25倍で取引。Messariの一次レポートはmessari.ioが429（2026-10-23）で開けず、未確認。本文に、二次報道であることを明記する",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C41",
+      "text": "ForkLog（2025年12月31日）はMessariの見方として、DePINの収益の多くはオフチェーンで計上され、DePINとの関係が薄いサービスと一緒に集計されているため、検証がほぼ不可能だと紹介している。同じ記事で紹介された第三者トラッカー（DePIN Pulse）の数字では、HivemapperのARRは2025年8月の約50万ドルから11月に約300万ドルまで増え、12月29日時点の30日ベースのARRは130万ドル超だった。",
+      "type": "fact",
+      "source_ids": [
+        "C-S34"
+      ],
+      "as_of": "2025-12",
+      "tags": [
+        "DePIN",
+        "Hivemapper",
+        "収益の検証"
+      ],
+      "number": "ARR 約50万→約300万→130万ドル超（30日ベース）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S34で確認。「収益の多くはオフチェーンで計上され、DePINとの関係が薄いサービスと一緒に集計されるため検証がほぼ不可能」は、ForkLogがMessariの見方として紹介したもの（図の出典表記はSource: Messari）で、ForkLog自身の指摘ではない。HivemapperのARRは「According to DePIN Pulse」として、2025年8〜11月に50万ドルから約300万ドルに増え、12月29日の30日ベースARRは130万ドルを超えた、とある。記事の正式URLは https://forklog.com/en/depin-after-the-boom-revenue-is-king-as-energy-and-ai-set-the-pace/",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C42",
+      "text": "WeatherXMは、設置済みの観測局は約9,500台（85か国以上）だが、稼働しているのは約5,900台（2026年8月時点）と自ら示している。DeepMindやPG&Eなどを顧客・パートナーとして挙げているが、データ販売の収益額は公表していない。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S37"
+      ],
+      "as_of": "2026-08",
+      "tags": [
+        "DePIN",
+        "WeatherXM",
+        "継続性"
+      ],
+      "number": "稼働率 約62%（5,900/9,500）",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S37で確認：「9,500+ Deployed Stations」「85+ Countries」「Network snapshot: August 2026 · 5,900+ Active Stations · 4,300+ Synoptic Quality」「Used by Google DeepMind」「Used by PG&E」。収益額の記載はない。数値はすべて下限（+付き）の自己申告なので、稼働率約62%は目安。参考として、The Block（2024-05-22、C-S36）の時点では、販売7,000台のうち設置5,000台・80か国だった",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C43",
+      "text": "東京電力パワーグリッドとDEAのピクトレは、2024年4〜6月の前橋での実証で、対象区域のほぼ全域にあたる約2万本の電柱が撮影された（参加者は約300名）。報酬は1本あたり約30円相当。東電PGは審査済みの画像に対価を払っており、それが報酬の原資の一部にもなっている。ただし、2024年12月時点で毎日のアクティブユーザーは約100〜200人と報じられた（報道）。",
+      "type": "fact",
+      "source_ids": [
+        "C-S40"
+      ],
+      "as_of": "2024-12-11",
+      "tags": [
+        "DePIN",
+        "日本",
+        "費用分担",
+        "インフラ点検"
+      ],
+      "number": "約2万本・約300名・約30円/本",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S40（2024-12-11）で確認：前橋（2024年4〜6月）は1本約30円相当で、対象区域ほぼ全域分の約2万本を撮影。前橋の参加者は約300名。原文は「東電PGは、レビューを経た画像を保守管理に活用しており、その対価として一定の金額を支払っている。その費用が、ユーザーに支払われる報酬の原資にもなっている」で、原資の「すべて」とは書いていない。毎日のアクティブユーザー100〜200人は、記事時点（2024年12月、東京シーズンを含む）のアプリ全体の値",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C44",
+      "text": "ピクトレの運営会社の発表によると、2026年も実証として、千葉県全域などでカラスの巣の撮影（1件300円相当、3〜5月）を募った。千葉県全域と埼玉・茨城の一部では、ツル・ツタの巻き付きの撮影（初回撮影20円相当、発見50円相当、2026年4月11日〜10月4日の予定）も募った。報酬はギフト券や暗号資産DEAPcoinなど。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S39"
+      ],
+      "as_of": "2026-02-09",
+      "tags": [
+        "DePIN",
+        "日本",
+        "インフラ点検"
+      ],
+      "number": "対象 約125万本（ツル・ツタ）",
+      "status": "有効",
+      "verification": {
+        "verdict": "corrected",
+        "note": "C-S39（PR TIMES、DEA、2026-02-09）で内容を確認：カラスの巣は千葉県全域（3/7〜4/10）と佐野・館林・加須（3/7〜5/31）で、1つ300円相当。ツル・ツタ大作戦2026は千葉県全域と埼玉・茨城の一部で、2026-04-11〜2026-10-04（予定）。初回撮影20円相当、発見50円相当、対象は合計約125万本。報酬はギフト券や暗号資産DEAPcoin（DEP）など。事業者の発表なので type を party_claim にする。2026-10-23時点で、ツル・ツタ大作戦2026は予定の終了日を過ぎている",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C45",
+      "text": "国の機関（地方整備局等）が関わった河川での住民参加の水質調査は、令和7年に84水系・268地点で行われ、大人2,009人・子供11,009人の計13,018人が参加した。水生生物による簡易調査は昭和59年度から続いている。",
+      "type": "fact",
+      "source_ids": [
+        "C-S42"
+      ],
+      "as_of": "2025",
+      "tags": [
+        "市民科学",
+        "継続運用",
+        "非Web3"
+      ],
+      "number": "13,018人",
+      "status": "有効",
+      "verification": {
+        "verdict": "verified",
+        "note": "C-S42で確認：84水系・268地点、大人2,009人・子供11,009人・計13,018人（令和7年）。昭和59年度から国土交通省と環境省が実施。地方整備局などが関わった調査だけを集計したもの",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C101",
+      "text": "京都市の資料によると、みっけ隊には、2016年5月の運用開始から2017年5月までの1年間に約1,500件の投稿があった。その後の年間件数や対応率は、公開資料では見つからなかった。",
+      "type": "fact",
+      "source_ids": [
+        "C-S101"
+      ],
+      "as_of": "2017-05",
+      "tags": [
+        "H3",
+        "通報",
+        "京都市"
+      ],
+      "number": "約1,500件（初年度）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C102",
+      "text": "みっけ隊は、2026年10月22日16時30分頃から、システムの緊急メンテナンスのためにアプリとWebサイトの機能が停止しており、投稿も閲覧もできない。再開時期は未定（2026年10月23日時点）。",
+      "type": "fact",
+      "source_ids": [
+        "C-S103"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "H3",
+        "通報",
+        "京都市",
+        "継続性"
+      ],
+      "number": "",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C103",
+      "text": "道路緊急ダイヤル（#9910）の令和6年度の通報件数（全国）は、電話が約37.4万件、LINEが約4.1万件で、LINEは全体の約1割だった。LINE版は位置情報から道路管理者を自動で割り出し、自治体にメールで送る。",
+      "type": "fact",
+      "source_ids": [
+        "C-S104"
+      ],
+      "as_of": "令和6年度（2025-07-25公表）",
+      "tags": [
+        "H3",
+        "通報",
+        "LINE"
+      ],
+      "number": "LINE 約4.1万件／電話 約37.4万件",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C104",
+      "text": "京都市への森林環境譲与税は年々増えており、令和元年度96,265千円、令和4・5年度285,850千円、令和6年度346,773千円、令和7年度365,409千円。",
+      "type": "fact",
+      "source_ids": [
+        "C-S105"
+      ],
+      "as_of": "令和7年度",
+      "tags": [
+        "H1",
+        "森林",
+        "京都市",
+        "財源"
+      ],
+      "number": "365,409千円（R7）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C105",
+      "text": "京都市が掲載した令和7年度版の使途の公表資料（PDFの日付は令和8年11月2日、正式公表前の可能性あり）によると、令和7年度の活用額は142,009,563円、令和7年度末の森林経営管理基金の残高は1,233,563,147円。累計の活用率は約32%で、前年度の約30%からわずかに上がった。",
+      "type": "fact",
+      "source_ids": [
+        "C-S106"
+      ],
+      "as_of": "2026-03-31（令和7年度末）",
+      "tags": [
+        "H1",
+        "森林",
+        "京都市",
+        "財源",
+        "要再確認"
+      ],
+      "number": "基金残高 約12.34億円／活用率 約32%",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C106",
+      "text": "京都市は、私有人工林29,424haをすべて2050年までに適切に管理する目標を掲げている。管理する森林が増えるため、譲与税の活用率は毎年上がり、2050年に100%に達する見込みだと説明している。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S105"
+      ],
+      "as_of": "2025-11-04",
+      "tags": [
+        "H1",
+        "森林",
+        "京都市"
+      ],
+      "number": "29,424ha",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C107",
+      "text": "琵琶湖疏水の施設は、2025年8月27日付の官報（文部科学省告示）で国宝と重要文化財に正式に指定された。国宝は第一・第二・第三隧道、インクライン、南禅寺水路閣の5所。",
+      "type": "fact",
+      "source_ids": [
+        "C-S108"
+      ],
+      "as_of": "2025-08-27",
+      "tags": [
+        "H1",
+        "水辺",
+        "疏水",
+        "文化資産"
+      ],
+      "number": "国宝5所",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C108",
+      "text": "第三者の分析（GridEcon）によると、Heliumは2026年7月2日にHIP-149を可決した。主な内容は次のとおり。(1) MobileとIoTで、カバレッジ提供へのトークン報酬（Proof-of-Coverage）を廃止し、利用量連動の報酬に移す。(2) Mobileの設置者の報酬は、通信事業者の支払単価（約0.10ドル/GB）の半分（約0.05ドル/GB）を下限とする。(3) Nova Labsが運営する口座に、約1.41億HNTを36か月かけて追加発行する。",
+      "type": "fact",
+      "source_ids": [
+        "C-S109",
+        "C-S110"
+      ],
+      "as_of": "2026-07",
+      "tags": [
+        "DePIN",
+        "Helium",
+        "トークン設計",
+        "継続性"
+      ],
+      "number": "追加発行 約1.41億HNT",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C109",
+      "text": "DIMOは2026年8月、ガバナンス提案DIP-12で、車の所有者（運転者）へのトークンの毎週の発行を打ち切ることと、財団の保有分から1.5億DIMOを焼却することを承認した。DIP-12は、接続台数を20万台超（4大陸）としている。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S113",
+        "C-S114"
+      ],
+      "as_of": "2026-08",
+      "tags": [
+        "DePIN",
+        "DIMO",
+        "トークン設計",
+        "継続性"
+      ],
+      "number": "接続 20万台超（自己申告）",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-C110",
+      "text": "My City Reportの公式サイト（2026年10月）では、市民向けアプリを利用する団体として27団体（道路管理者向けと併用の7団体を含む）、道路管理者向けだけの団体として6団体が並んでいる。",
+      "type": "party_claim",
+      "source_ids": [
+        "C-S08"
+      ],
+      "as_of": "2026-10-23",
+      "tags": [
+        "My City Report",
+        "継続運用"
+      ],
+      "number": "市民向け 27団体",
+      "status": "有効",
+      "verification": {
+        "verdict": "added",
+        "note": "検証時に追加",
+        "checked_on": "2026-10-23"
+      }
+    }
   ],
   "cases": [
-    {"id":"C-X01","name":"みっけ隊（京都市 道路・河川・公園損傷投稿アプリ）","region":"京都市","operator":"京都市建設局 土木管理課","web3":false,"summary":"市民が写真と位置で損傷を投稿し、土木（みどり）事務所が現地確認・優先順位付けをして補修する。処理状況は地図で公開。自主清掃を報告する「私たちでやりました」機能もある","stage":"ongoing","stage_evidence":"2016年5月12日に全市で運用開始。2026年4月9日付の市の回答でも運用継続を明言している","status_2026":"運用中（2026-04時点）。機能改修は予算を理由に見送られている","who_pays":"京都市（一般財源とみられる。アプリの運用費は未確認）","results":"投稿件数・対応率は公開資料では見つからなかった。自主清掃の報告は少ないと市民が指摘（2026-04）","lessons":"仕組み自体は10年続いているが、改修予算が付かない。市民の自主活動の可視化はあまり使われていない（推測：補修の人手と予算が律速で、入口の改善だけでは効果が限られる）","source_ids":["C-S01","C-S02","C-S03"]},
-    {"id":"C-X02","name":"ちばレポ／My City Report","region":"千葉市ほか全国（約20〜28自治体）","operator":"千葉市／MCRコンソーシアム","web3":false,"summary":"市民通報アプリと庁内の案件管理を一体にし、担当課への自動振り分けと対応状況の公開を行う。複数の自治体で同じシステムを共有して費用を下げている","stage":"ongoing","stage_evidence":"千葉市で2014年から運用。MCRサイトに2026-10-23付の投稿があり、千葉市は2026-05に機能を追加している","status_2026":"運用中","who_pays":"導入自治体（入会金30万円、年会費は人口に応じて6万円から。千葉市は年380万円＝2021年頃）","results":"ちばレポ：有効レポート6,154件、対応済82.3%（2018-03-31）。MCR全体の投稿17,253件（2021-01-05）","lessons":"対応状況を公開し、自治体どうしで費用を分ける形で10年以上続いている。ただしアプリ経由は全案件の1割強で、補修の総量を決めるのは別の要因（推測）","source_ids":["C-S04","C-S05","C-S06","C-S07","C-S08"]},
-    {"id":"C-X03","name":"道路緊急ダイヤル（#9910）LINE通報","region":"全国","operator":"国土交通省","web3":false,"summary":"位置情報から道路管理者を自動で特定し、通報を転送する全国共通の窓口","stage":"ongoing","stage_evidence":"2024年3月29日に運用開始。2024年12月の報道で1日100件超","status_2026":"現況未確認（2026年の件数は確認していない）","who_pays":"国（窓口）。補修は各道路管理者の負担","results":"1日約87件、2024年12月には1日100件超（報道）","lessons":"入口を一本にしても、補修するかは各管理者の判断と予算による。市町村の受け手の体制が弱ければ、H3の構造はそのまま残る（推測）","source_ids":["C-S09","C-S10"]},
-    {"id":"C-X04","name":"Helium（IoT／Mobile）","region":"米国中心・世界","operator":"Nova Labs／Helium DAO","web3":true,"summary":"個人がホットスポットを設置してカバレッジを提供し、HNTトークンで報酬を得る分散型の無線ネットワーク。現在の収益の柱は携帯キャリア向けのデータオフロード","stage":"ongoing","stage_evidence":"ネットワークは運用中。ただし消費者向けのHelium Mobileは赤字のまま2026年6月に売却され、加入者収入による買い戻しは2026年1月に停止した","status_2026":"運用中。2026年6月にHelium MobileがNoble Mobileへ売却された","who_pays":"利用者（キャリア、Mobile加入者）とトークンの発行（インフレ報酬）。第三者の集計では、検証できる収益は限られる","results":"累計申込 約60万（解約含む、2026-06）。DefiLlamaの計測収益（買い戻し分）は直近1年で約221.6万ドル、2026年以降は0。2022年7月のデータ転送収入は月約6,500ドル（当事者の発言）","lessons":"利用料が報酬に見合わない時期が長く、持続性はトークン価格に依存していた。キャリア向けオフロードという法人顧客を得てから事業を絞り込んでいる。導入（ホットスポット数）と採算は別物","source_ids":["C-S30","C-S31","C-S32","C-S34"]},
-    {"id":"C-X05","name":"Hivemapper（Bee Maps）","region":"世界（東京を含む）","operator":"Hivemapper Inc.","web3":true,"summary":"ドライブレコーダーで道路を撮影した人にHONEYトークンを支払い、地図データを企業に販売する。データ利用料の一部でHONEYを焼却する","stage":"pilot","stage_evidence":"データ販売の収益は第三者トラッカーで年数十万〜数百万ドル規模が観測される一方、変動が大きく監査済みの開示はない。報酬はトークンの発行が中心とみられる","status_2026":"運用中（公式サイトで製品を販売中）。収益規模は現況未確認","who_pays":"地図データの購入企業（一部）と、トークンの発行による報酬","results":"第三者トラッカーのARR：約50万ドル（2025-08）→約300万ドル（2025-11）→約130万ドル（2025-12-29）","lessons":"データ販売の実績はあるが、報酬に見合う規模かは確認できない。持続性はトークン価格に依存する面が大きい（推測）","source_ids":["C-S34","C-S35"]},
-    {"id":"C-X06","name":"WeatherXM","region":"世界（85か国以上）","operator":"WeatherXM AG／WeatherXM Network Association","web3":true,"summary":"個人が気象観測局を購入・設置し、データの品質に応じてWXMトークンの報酬を得る。会社は観測データと予報を企業に販売する","stage":"ongoing","stage_evidence":"2026年8月時点の稼働局数を公表し、機器を販売中。資金調達は1,300万ドル超（自己申告）","status_2026":"運用中（約5,900台が稼働、2026-08、自己申告）","who_pays":"観測局の購入者（機器代）、データの購入企業、トークンの報酬","results":"設置約9,500台に対し稼働約5,900台（2026-08、自己申告）","lessons":"設置した台数の約4割が稼働していない。導入数と継続運用は分けて評価すべき。データ販売収益は非公開","source_ids":["C-S36","C-S37"]},
-    {"id":"C-X07","name":"DIMO","region":"米国中心","operator":"DIMO Foundation ほか","web3":true,"summary":"車の所有者の同意のもとで車両データを開発者にAPIで提供し、所有者にDIMOトークンで報酬を払う","stage":"unknown","stage_evidence":"公式サイトは同意つきのAPIと有料プランを前面に出しているが、接続台数や収益の開示が見つからない","status_2026":"運用中（公式サイトで提供中）。規模は現況未確認","who_pays":"API利用者（有料プラン）とトークンの報酬（比率は不明）","results":"確認できる第三者の数値なし","lessons":"公式サイトでトークンの役割が目立たなくなっている（観察）。収益の開示がなければ採算は判断できない","source_ids":["C-S38"]},
-    {"id":"C-X08","name":"PicTrée（ピクトレ）電柱撮影ゲーム","region":"群馬県前橋市、東京都心3区、秋田、千葉県ほか","operator":"Digital Entertainment Asset／Greenway Grid Global（Growth Ring Grid）／東京電力パワーグリッド","web3":true,"summary":"位置情報ゲームで市民が電柱やカラスの巣、ツタの巻き付きを撮影する。インフラ事業者が審査済みの画像を買い取り、ギフト券や暗号資産DEAPcoinなどで報酬を払う","stage":"pilot","stage_evidence":"2024年から各地で「実証試験」として行い、2026年も実証として実施している","status_2026":"実証継続中（2026年4月〜10月にツル・ツタ大作戦）","who_pays":"インフラ事業者（東電PG）が画像の対価を払い、それが報酬の原資になる","results":"前橋：約300名で約2万本（2024年4〜6月）。外部委託の点検費は年約20〜30億円（約600万本を約5年で一巡、報道）","lessons":"報酬の原資が、トークン価格ではなく点検業務の外注費の置き換えになっている点が他のDePINと違う。ただし利用者は少なく（1日約100〜200人）、継続性は未確認","source_ids":["C-S39","C-S40"]},
-    {"id":"C-X09","name":"鴨川を美しくする会・鴨川府民会議","region":"京都市（鴨川・高野川）","operator":"鴨川を美しくする会（市民団体）／京都府","web3":false,"summary":"市民団体による定例清掃（クリーンハイク）や外来植物の駆除と、条例に基づく府・市・府民の意見交換の場","stage":"ongoing","stage_evidence":"1964年設立。令和7年度も清掃と駆除の実績が府民会議に報告されている","status_2026":"活動継続（2025年秋の実績を確認）","who_pays":"会員・ボランティアの労力。企業の協賛と府の支援（府民会議の運営など）","results":"第3回定例クリーンハイク133名、外来植物の駆除1,110kg（2025）","lessons":"60年続く市民の維持活動の例。管理者の府と協働の場が条例で定められている","source_ids":["C-S20","C-S21","C-S22"]},
-    {"id":"C-X10","name":"京都府 豊かな森を育てる府民税","region":"京都府全域","operator":"京都府","web3":false,"summary":"府民1人年600円の超過課税（年約7億円）で、森林の防災整備、里山保全、木材利用、市町村への交付金をまかなう","stage":"financially_sustained","stage_evidence":"平成28年度から課税で財源が確保されており、第3期（令和8〜12年度）も継続","status_2026":"第3期（令和8年度〜）で課税中","who_pays":"府民（個人府民税の納税者）","results":"令和6年度の実績685,840千円、うち京都市への交付金76,335千円","lessons":"税で「恩恵を受ける府民全体」から集めて維持する仕組み（H1への制度的な答えの一つ）。ただし市民の担い手が増えるわけではない（推測）","source_ids":["C-S17","C-S18"]},
-    {"id":"C-X11","name":"京都市 非居住住宅利活用促進税（空き家税）","region":"京都市（市街化区域）","operator":"京都市","web3":false,"summary":"住民のいない住宅の所有者に課す法定外普通税。空き家の活用と流通を促すのが目的","stage":"announced","stage_evidence":"条例は成立し総務大臣も同意済みだが、課税開始は令和12年度に延びた","status_2026":"未施行（令和12年度から課税予定）","who_pays":"非居住住宅の所有者（想定約1.5万件）","results":"収入見込み 平年度約9.5億円、徴税費用 年約2億円（見込み）","lessons":"制度ができても施行までに長い時間がかかり、システム開発の都合で延期された。効果は未検証","source_ids":["C-S24","C-S25","C-S26"]},
-    {"id":"C-X12","name":"住民参加による河川水質調査（水生生物調査・身近な水環境の全国一斉調査）","region":"全国","operator":"国土交通省・環境省、市民団体（全国水環境マップ実行委員会）","web3":false,"summary":"市民や子どもが簡易な方法で河川の水質を調べ、行政が集計・公表する市民科学","stage":"ongoing","stage_evidence":"水生生物調査は昭和59年度から続き、令和7年の実績が国交省の報告書に載っている","status_2026":"継続（令和7年実績を確認）","who_pays":"国（集計・報告）と参加者の労力。教育の場として組み込まれている","results":"令和7年：84水系・268地点、13,018人（うち子供11,009人）","lessons":"トークンなしで40年続く例。学校教育や出前講座に組み込まれていることが継続の要因とみられる（推測）","source_ids":["C-S42"]}
+    {
+      "id": "C-X01",
+      "name": "みっけ隊（京都市 道路・河川・公園損傷投稿アプリ）",
+      "region": "京都市",
+      "operator": "京都市建設局 土木管理課",
+      "web3": false,
+      "summary": "市民が写真と位置で損傷を投稿し、土木（みどり）事務所が現地確認・優先順位付けをして補修する。処理状況は地図で公開。自主清掃を報告する「私たちでやりました」機能もある",
+      "stage": "ongoing",
+      "stage_evidence": "2016年5月12日に全市で運用開始。2026年4月9日付の市の回答でも運用継続を明言していた。ただし2026年10月22日から緊急停止中",
+      "status_2026": "2026年4月時点では運用中。2026年10月22日16:30頃から、システムの緊急メンテナンスのため、アプリとWebサイトの機能が停止中（再開時期は未定、2026-10-23確認）",
+      "who_pays": "京都市（一般財源とみられる。アプリの運用費は未確認）",
+      "results": "運用開始から1年間（H28.5〜H29.5）の投稿は約1,500件（市の指針概要版）。その後の件数・対応率は公開資料では見つからなかった。自主清掃の報告は少ないと市民が指摘（2026-04）",
+      "lessons": "仕組み自体は10年続いているが、改修予算が付かない。市民の自主活動の可視化はあまり使われていない（推測：補修の人手と予算が律速で、入口の改善だけでは効果が限られる）",
+      "source_ids": [
+        "C-S01",
+        "C-S02",
+        "C-S03"
+      ],
+      "verification": {
+        "note": "みっけ隊の公式サイト（mikketai.city.kyoto.lg.jp）が、2026年10月22日16時30分頃から「システムの緊急メンテナンスのため」アプリとWebサイトの機能を停止中で、再開時期は未定（2026-10-23確認、HTTP 503、お知らせ欄に掲示）。理由は書かれていない。投稿件数は、市の「公共土木施設の維持管理に係る市民協働推進指針」概要版（平成29年5月）に、運用開始からH29年5月までの1年間で約1,500件とあった。その後の年間件数・対応率は、市会資料・事務事業評価・オープンデータを検索しても見つからなかった。アプリはiOS/AndroidともASTEM（京都高度技術研究所）名義で配信されている（Google Playのパッケージ名から推定。運用費は未確認）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X02",
+      "name": "ちばレポ／My City Report",
+      "region": "千葉市ほか全国（2026年10月時点で市民向けアプリは27団体、MCRサイトの一覧）",
+      "operator": "千葉市／MCRコンソーシアム",
+      "web3": false,
+      "summary": "市民通報アプリと庁内の案件管理を一体にし、担当課への自動振り分けと対応状況の公開を行う。複数の自治体で同じシステムを共有して費用を下げている",
+      "stage": "ongoing",
+      "stage_evidence": "千葉市で2014年から運用。MCRサイトに2026-10-23付の投稿があり、千葉市は2026-05に機能を追加している",
+      "status_2026": "運用中",
+      "who_pays": "導入自治体（初年度の入会金30万円、年会費は人口に応じて6万円から。千葉市の利用料は年380万円＝総務省事例ページ掲載の事業者の記載、2021年頃）",
+      "results": "ちばレポ：有効レポート6,154件、対応済82.3%（2018-03-31）。MCR全体の投稿17,253件（2021-01-05）",
+      "lessons": "対応状況を公開し、自治体どうしで費用を分ける形で10年以上続いている。ただしアプリ経由は全案件の1割強で、補修の総量を決めるのは別の要因（推測）",
+      "source_ids": [
+        "C-S04",
+        "C-S05",
+        "C-S06",
+        "C-S07",
+        "C-S08"
+      ],
+      "verification": {
+        "note": "MCR公式サイト（2026-10-23）のパートナー一覧：市民向けと道路管理者向けの両方を使うのが7団体（東京都、港区、品川区、世田谷区、神奈川県、尼崎市、和歌山県）、市民向けだけが20団体、道路管理者向けだけが6団体（盛岡市、目黒区、渋谷区、調布市、大津市、熊本県）。市民向けアプリの利用は計27団体（自己申告）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X03",
+      "name": "道路緊急ダイヤル（#9910）LINE通報",
+      "region": "全国",
+      "operator": "国土交通省",
+      "web3": false,
+      "summary": "位置情報から道路管理者を自動で特定し、通報を転送する全国共通の窓口",
+      "stage": "ongoing",
+      "stage_evidence": "2024年3月29日に運用開始。2024年12月の報道で1日100件超",
+      "status_2026": "運用中（2025年8月に政府広報で案内。2026年の件数は未確認）",
+      "who_pays": "国（窓口）。補修は各道路管理者の負担",
+      "results": "令和6年度の通報件数（全国）：電話 約37.4万件、LINE 約4.1万件（国交省資料）。LINEは報道で、開始から平均1日約87件、2024年12月に1日100件超",
+      "lessons": "入口を一本にしても、補修するかは各管理者の判断と予算による。市町村の受け手の体制が弱ければ、H3の構造はそのまま残る（推測）",
+      "source_ids": [
+        "C-S09",
+        "C-S10"
+      ],
+      "verification": {
+        "note": "国交省 総合政策局の資料（令和7年7月25日）に、令和6年度の#9910の通報件数（全国）が電話約37.4万件、LINE約4.1万件とある。2025年8月にも政府広報でLINE通報を案内しており、運用は継続している",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X04",
+      "name": "Helium（IoT／Mobile）",
+      "region": "米国中心・世界",
+      "operator": "Nova Labs／Helium DAO",
+      "web3": true,
+      "summary": "個人がホットスポットを設置してカバレッジを提供し、HNTトークンで報酬を得る分散型の無線ネットワーク。現在の収益の柱は携帯キャリア向けのデータオフロード",
+      "stage": "ongoing",
+      "stage_evidence": "ネットワークは運用中。ただし消費者向けのHelium Mobileは赤字で、2026年6月にNoble Mobileが買収を発表した。加入者収入による買い戻しは2026年1月に停止。2026年7月にはHIP-149の可決で、カバレッジ提供へのトークン報酬（Proof-of-Coverage）が廃止され、利用量連動の報酬に移った",
+      "status_2026": "運用中。2026年6月にHelium MobileのNoble Mobileへの売却を発表。2026年7月、HIP-149でトークン報酬の仕組みを変更（PoCの廃止、Nova Labs管理の約1.41億HNTの追加発行）",
+      "who_pays": "利用者（キャリア、Mobile加入者）とトークンの発行（インフレ報酬）。第三者の集計では、検証できる収益は限られる",
+      "results": "累計申込 約60万（解約を含む、事業者の公開ダッシュボード、2026-06）。DefiLlamaの計測収益（買い戻し分）は2025年10〜12月で約221.6万ドル、2026年は0。2022年のデータ転送の支払いは、批判者の指摘で月約6,500ドル、Fortuneの分析ではIoT需要収入が30日で約1,150ドル",
+      "lessons": "利用料が報酬に見合わない時期が長く、持続性はトークン価格に依存していたとみられる（推測：2022年のデータ収入の少なさとHNTの大幅な下落による）。キャリア向けのオフロードという法人顧客を得てから事業を絞り込み、2026年にはカバレッジへのトークン報酬を廃止して、利用量連動に移った。導入（ホットスポット数）と採算は別物",
+      "source_ids": [
+        "C-S30",
+        "C-S31",
+        "C-S32",
+        "C-S34",
+        "C-S109",
+        "C-S111",
+        "C-S112",
+        "C-S118"
+      ],
+      "verification": {
+        "note": "2026年の状況：(1) Helium Mobileは、2026-06-02にNoble Mobileが買収を発表（事業者の公式ブログのFAQは「acquired」と書くが、完了日は不明）。(2) HIP-149が2026-07-02に可決（GridEconの分析とHeliumGeekによる。投票集計はheliumvote.comがJavaScript表示のため本文を取得できず、未確認）。内容は、MobileとIoTのProof-of-Coverage報酬（カバレッジ提供への報酬）の廃止、Mobileの設置者の報酬を通信事業者の支払単価（約$0.10/GB）の50%（約$0.05/GB）を下限にした利用量連動型に改めること、Nova Labsが運営するvaultへの約1.41億HNTの追加発行（36か月）。(3) 共同創業者のAmir Haleem氏がNova LabsのCEOを退き、会長になった（The Defiant。日付は未確認で、主張の根拠には使わない）。lessonsの「持続性はトークン価格に依存していた」は評価なので、推測として明記する",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X05",
+      "name": "Hivemapper（Bee Maps）",
+      "region": "世界（東京を含む）",
+      "operator": "Hivemapper Inc.",
+      "web3": true,
+      "summary": "ドライブレコーダーで道路を撮影した人にHONEYトークンを支払い、地図データを企業に販売する。データ利用料の一部でHONEYを焼却する",
+      "stage": "ongoing",
+      "stage_evidence": "地図データを企業に販売しながら運用を続けている。第三者トラッカーではデータ販売のARRが年数十万〜数百万ドル規模で観測されるが、変動が大きく、監査済みの開示はない。報酬はトークンの発行が中心とみられる（推測）",
+      "status_2026": "運用中（公式サイトで製品を販売中）。収益規模は現況未確認",
+      "who_pays": "地図データの購入企業（一部）と、トークンの発行による報酬",
+      "results": "第三者トラッカーのARR：約50万ドル（2025-08）→約300万ドル（2025-11）→約130万ドル（2025-12-29）",
+      "lessons": "データ販売の実績はあるが、報酬に見合う規模かは確認できない。持続性はトークン価格に依存する面が大きい（推測）",
+      "source_ids": [
+        "C-S34",
+        "C-S35"
+      ],
+      "verification": {
+        "note": "2022年から有料の顧客にデータを販売しており（ForkLogの記事にもある）、段階は「実証」より「継続運用」が妥当。ただし採算は未確認。2026年の収益額は見つからなかった。lessonsの「トークン価格に依存する面が大きい（推測）」は推測と明記済み",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X06",
+      "name": "WeatherXM",
+      "region": "世界（85か国以上）",
+      "operator": "WeatherXM AG／WeatherXM Network Association",
+      "web3": true,
+      "summary": "個人が気象観測局を購入・設置し、データの品質に応じてWXMトークンの報酬を得る。会社は観測データと予報を企業に販売する",
+      "stage": "ongoing",
+      "stage_evidence": "2026年8月時点の稼働局数を公表し、機器を販売中。資金調達は1,300万ドル超（自己申告）",
+      "status_2026": "運用中（約5,900台が稼働、2026-08、自己申告）",
+      "who_pays": "観測局の購入者（機器代）、データの購入企業、トークンの報酬",
+      "results": "設置 約9,500台以上に対し、稼働 約5,900台以上（2026-08、自己申告）。2024年5月時点は、販売7,000台のうち設置5,000台（The Block）",
+      "lessons": "自己申告の下限の値で比べると、設置した台数の約4割が稼働していない（2026-08）。導入数と継続運用は分けて評価すべき。データ販売の収益は非公開",
+      "source_ids": [
+        "C-S36",
+        "C-S37"
+      ],
+      "verification": {
+        "note": "数値はすべて自己申告の下限（9,500+、5,900+）。The Block（2024-05）の時点では、販売7,000台のうち設置5,000台・80か国だった。トークン価格への依存について、事例の本文に記述はない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X07",
+      "name": "DIMO",
+      "region": "米国中心",
+      "operator": "DIMO Foundation ほか",
+      "web3": true,
+      "summary": "車の所有者の同意のもとで、車両データを開発者にAPIで提供する。当初は所有者にDIMOトークンを毎週発行して報酬にしていたが、2026年8月のDIP-12でこの発行を打ち切った",
+      "stage": "unknown",
+      "stage_evidence": "公式サイトは、同意つきのAPIと有料プランを前面に出している。2026年8月のガバナンス投票（DIP-12）で、運転者へのトークン発行の終了と1.5億DIMOの焼却を承認した。収益額の開示は見つからない",
+      "status_2026": "運用中（APIを提供中）。2026年8月末に運転者へのトークン発行を終了（DIP-12）。接続台数は200,000台超（DIP-12、自己申告）",
+      "who_pays": "API利用者（有料プラン）。2026年8月まではトークンの発行で運転者に報酬を払っていた",
+      "results": "接続台数 200,000台超（DIP-12、自己申告）。第三者の数値は確認できない",
+      "lessons": "トークンの発行による報酬を、ガバナンス投票で打ち切った例。持続性をトークン価格に頼る設計から離れつつあるとみられる（推測）。収益の開示がなければ、採算は判断できない",
+      "source_ids": [
+        "C-S38",
+        "C-S113",
+        "C-S114"
+      ],
+      "verification": {
+        "note": "重大な更新：DIMOのガバナンス提案DIP-12「The Protocol Direction」（Approved）。運転者へのトークン発行（Baseline Issuance）を打ち切り、財団の保有分から1.5億DIMOを焼却する内容。投票はSnapshotで2026年8月17〜24日（Phemexの解説による）。DIP-12の本文に「Baseline Issuance is discontinued as of the enactment of DIP-12」とある。焼却が実行されたかは、情報源によって食い違いがある。DIP-12は接続台数を「200,000台超、4大陸」としている（自己申告）。summaryの「所有者にDIMOトークンで報酬を払う」は、2026年8月以降は当てはまらない",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X08",
+      "name": "PicTrée（ピクトレ）電柱撮影ゲーム",
+      "region": "群馬県前橋市、東京都心3区、秋田、千葉県ほか",
+      "operator": "Digital Entertainment Asset／Greenway Grid Global（Growth Ring Grid）／東京電力パワーグリッド",
+      "web3": true,
+      "summary": "位置情報ゲームで市民が電柱やカラスの巣、ツタの巻き付きを撮影する。インフラ事業者が審査済みの画像を買い取り、ギフト券や暗号資産DEAPcoinなどで報酬を払う",
+      "stage": "pilot",
+      "stage_evidence": "2024年から各地で「実証試験」として行い、2026年も実証として実施している",
+      "status_2026": "実証として実施（カラスの巣は2026年3〜5月、ツル・ツタ大作戦2026は4月11日〜10月4日の予定）。10月4日以降の企画は未確認",
+      "who_pays": "インフラ事業者（東電PG）が画像の対価を払い、それが報酬の原資になる",
+      "results": "前橋：約2万本を撮影、参加者約300名（2024年4〜6月、報道）。参考：東電PGの管内の電柱は約600万本、点検の外部委託費は年約20〜30億円（東電PG側の発言、報道）",
+      "lessons": "報酬の原資の一部が、インフラ事業者による画像の買い取り（点検業務の外部委託費の一部を取り込むという設計）で、トークン価格だけに頼らない点が他のDePINと違う。ただし報酬の一部は暗号資産DEPで、その価値は価格に左右される。外注費が実際に減ったかは未確認。利用者は少なく（2024年12月時点で1日約100〜200人）、継続性は未確認",
+      "source_ids": [
+        "C-S39",
+        "C-S40"
+      ],
+      "verification": {
+        "note": "ツル・ツタ大作戦2026は、予定では2026-10-04に終了。それ以降の企画と、2025〜2026年の集計結果は見つからなかった（2025年に「1万基を超えるツル・ツタの発見報告」とする事業者の発表があるが、配信元のページを開けず未確認）。20〜30億円は、東電PG側の点検外部委託費（当事者の発言、報道）で、ピクトレの成果ではない。lessonsの「外注費の置き換え」は言い過ぎ。報道では「外部委託する点検費用の一部を経済圏として取り込む」という仮説と、東電PGが画像の対価を払っていることまでしか確認できず、外注費が削減されたかは未確認。報酬の一部は暗号資産DEPで払われるため、その価値はトークン価格の影響を受ける",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X09",
+      "name": "鴨川を美しくする会・鴨川府民会議",
+      "region": "京都市（鴨川・高野川）",
+      "operator": "鴨川を美しくする会（市民団体）／京都府",
+      "web3": false,
+      "summary": "市民団体による定例清掃（クリーンハイク）や外来植物の駆除と、条例に基づく府・市・府民の意見交換の場",
+      "stage": "ongoing",
+      "stage_evidence": "1964年設立。令和7年度も清掃と駆除の実績が府民会議に報告されている",
+      "status_2026": "活動継続（2025年秋の実績を確認）",
+      "who_pays": "会員・ボランティアの労力。企業の協賛と府の支援（府民会議の運営など）",
+      "results": "第3回定例クリーンハイク133名、外来植物の駆除1,110kg（2025）",
+      "lessons": "60年続く市民の維持活動の例。管理者の府と協働の場が条例で定められている",
+      "source_ids": [
+        "C-S20",
+        "C-S21",
+        "C-S22",
+        "C-S117"
+      ],
+      "verification": {
+        "note": "確認済み。第4回の定例クリーンハイク（2025-11-02）は265名。府民会議の根拠は、条例第24条と開催要領（C-S117）",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X10",
+      "name": "京都府 豊かな森を育てる府民税",
+      "region": "京都府全域",
+      "operator": "京都府",
+      "web3": false,
+      "summary": "府民1人年600円の超過課税（年約7億円）で、森林の防災整備、里山保全、木材利用、市町村への交付金をまかなう",
+      "stage": "financially_sustained",
+      "stage_evidence": "平成28年度から課税で財源が確保されており、第3期（令和8〜12年度）も継続",
+      "status_2026": "第3期（令和8年度〜）で課税中",
+      "who_pays": "府民（個人府民税の納税者）",
+      "results": "令和7年度の実績は736,986千円（当初予算744,000千円）、うち京都市への交付金76,346千円（2026-10公表）。令和6年度は685,840千円・76,335千円",
+      "lessons": "税で「恩恵を受ける府民全体」から集めて維持する仕組み（H1への制度的な答えの一つ）。ただし市民の担い手が増えるわけではない（推測）",
+      "source_ids": [
+        "C-S17",
+        "C-S18",
+        "C-S107"
+      ],
+      "verification": {
+        "note": "令和7年度の成果報告（2026-10公表）が出ている。実績は736,986千円、京都市への交付金は76,346千円",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X11",
+      "name": "京都市 非居住住宅利活用促進税（空き家税）",
+      "region": "京都市（市街化区域）",
+      "operator": "京都市",
+      "web3": false,
+      "summary": "住民のいない住宅の所有者に課す法定外普通税。空き家の活用と流通を促すのが目的",
+      "stage": "announced",
+      "stage_evidence": "条例は成立し総務大臣も同意済みだが、課税開始は令和12年度に延びた",
+      "status_2026": "未施行（令和12年度から課税予定）",
+      "who_pays": "非居住住宅の所有者（想定約1.5万件）",
+      "results": "収入見込み 平年度約9.5億円、徴税費用 年約2億円（見込み）",
+      "lessons": "制度ができても施行までに長い時間がかかり、システム開発の都合で延期された。効果は未検証",
+      "source_ids": [
+        "C-S24",
+        "C-S25",
+        "C-S26"
+      ],
+      "verification": {
+        "note": "確認済み。2026年8月21日更新の市のページで、令和12年度課税開始予定が最新。段階 announced（制度成立・未施行）は妥当",
+        "checked_on": "2026-10-23"
+      }
+    },
+    {
+      "id": "C-X12",
+      "name": "住民参加による河川水質調査（水生生物調査・身近な水環境の全国一斉調査）",
+      "region": "全国",
+      "operator": "国土交通省・環境省、市民団体（全国水環境マップ実行委員会）",
+      "web3": false,
+      "summary": "市民や子どもが簡易な方法で河川の水質を調べ、行政が集計・公表する市民科学",
+      "stage": "ongoing",
+      "stage_evidence": "水生生物調査は昭和59年度から続き、令和7年の実績が国交省の報告書に載っている",
+      "status_2026": "継続（令和7年実績を確認）",
+      "who_pays": "国（集計・報告）と参加者の労力。教育の場として組み込まれている",
+      "results": "令和7年：84水系・268地点、13,018人（うち子供11,009人）",
+      "lessons": "トークンなしで40年続く例。学校教育や出前講座に組み込まれていることが継続の要因とみられる（推測）",
+      "source_ids": [
+        "C-S42"
+      ],
+      "verification": {
+        "note": "確認済み。lessonsの要因の部分は（推測）と明記されている",
+        "checked_on": "2026-10-23"
+      }
+    }
   ],
   "gaps": [
-    "みっけ隊の累計・年間の投稿件数、対応済の割合、平均対応日数、アプリの運用費：京都市建設局 土木管理部土木管理課（075-222-3568）に確認",
+    "みっけ隊の年間投稿件数・対応済の割合・平均対応日数・運用費（確認できたのは運用開始1年で約1,500件、登録者9,546名＝2026年3月末のみ。2026-10-22から緊急メンテナンスで停止中）：京都市建設局 土木管理課",
     "京都市の道路・公園補修の要望の未処理件数（バックログ）と、土木みどり事務所の職員数の推移：京都市建設局、または市会の決算特別委員会の資料",
     "京都市の不法投棄の通報件数と対応の流れ（環境政策局・まち美化事務所）：京都市環境政策局",
     "京都いつでもコールの年間受付件数と、道路・公園関連の内訳：京都市 総合企画局（広報担当）",
@@ -117,7 +2219,7 @@
     "琵琶湖疏水の年間維持管理費と財源の内訳（水道料金と観光・文化財の補助）：京都市上下水道局",
     "My City Reportの現在の料金表と導入自治体数（2026年）、全体の対応率：MCRコンソーシアム（公式サイトの価格情報ページ）",
     "Messari『State of Helium』の最新版とHNTの年間発行額（報酬の金額）：Messariは403で開けなかった。Helium Foundationの開示またはDuneのダッシュボード",
-    "HIP-149（2026年7月に可決とされる）の正式な内容と投票結果：heliumvote.com（未確認）",
+    "HIP-149（2026-07-02可決とされる）の投票集計の一次資料：heliumvote.com はJavaScript表示で未確認",
     "Hivemapper・WeatherXM・DIMOの監査済み収益とトークン報酬の金額の比較：各社の開示、Duneのダッシュボード",
     "ピクトレの2025〜2026年の撮影実績と、東電PGの点検費用の削減効果：東京電力パワーグリッド、DEA",
     "DMM CryptoとHivemapperの日本での実証（2024年8月発表、JETRO補助事業）の結果と現況：DMM Crypto、JETRO",
