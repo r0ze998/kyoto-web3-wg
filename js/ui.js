@@ -20,8 +20,8 @@
     qStatus: ['未確認', '回答あり', '一部回答', '確認不可'],
     strength: { strong: '強', medium: '中', weak: '弱', none: '根拠なし', unknown: '未確認' },
     verdict: {
-      verified: '照合済み', corrected: '訂正済み', outdated: '古い情報', unsupported: '裏付けなし',
-      source_unavailable: '出典を開けず', added: '検証時に追加', none: '未照合'
+      verified: '照合済み', corrected: '訂正済み', outdated: '更新済み', unsupported: '裏付けなし',
+      source_unavailable: '出典を開けず', added: '追加（照合前）', none: '未照合'
     }
   };
 

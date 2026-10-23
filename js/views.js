@@ -258,7 +258,8 @@
           '<p class="qtext">' + esc(x.question) + '</p>' +
           '<dl class="kv small"><dt>なぜ聞くか</dt><dd>' + esc(x.why) + '</dd><dt>「はい」なら</dt><dd>' + esc(x.if_yes) + '</dd><dt>「いいえ」なら</dt><dd>' + esc(x.if_no) + '</dd></dl>' +
           '<div class="grid2"><label>状態' + UI.select('status', L.qStatus, x.status, bind('questions', x.id, 'status')) + '</label>' +
-          '<label>確認日<input type="date" ' + bind('questions', x.id, 'asked_on') + ' value="' + esc(x.asked_on || '') + '"></label></div>' +
+          '<label>聞いた日<input type="date" ' + bind('questions', x.id, 'asked_on') + ' value="' + esc(x.asked_on || '') + '"></label></div>' +
+          (x.checked_on ? '<p class="small"><span class="tag">公開資料で確認 ' + esc(x.checked_on) + '</span></p>' : '') +
           '<label>回答' + textarea('questions', x.id, 'answer', x.answer, '聞いた内容（要約）。聞いていなければ空のまま') + '</label>' +
           '<label>根拠（誰から・いつ・どの資料）' + textarea('questions', x.id, 'evidence', x.evidence, '例：○○課の担当者に口頭で（日付）／公開資料URL', 2) + '</label>' +
           '<label>判断の変化' + textarea('questions', x.id, 'decision_change', x.decision_change, 'この回答で、どの案・前提がどう変わったか', 2) + '</label>' +

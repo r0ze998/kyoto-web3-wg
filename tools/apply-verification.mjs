@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECKED_ON = process.env.CHECKED_ON || new Date().toISOString().slice(0, 10);
+// outdated は fix で新しい値に差し替えた場合は有効、fix がなければ要更新
 const VERDICT_STATUS = { verified: '有効', corrected: '有効', outdated: '要更新', unsupported: '反証あり', source_unavailable: '要更新' };
 const CLAIM_FIELDS = ['text', 'type', 'number', 'as_of', 'source_ids', 'tags'];
 const SOURCE_FIELDS = ['title', 'publisher', 'url', 'published', 'kind', 'notes'];
@@ -31,6 +32,7 @@ for (const patchPath of process.argv.slice(2)) {
     if (!c) { log.missing.push(p.id); continue; }
     Object.assign(c, pick(p.fix, CLAIM_FIELDS));
     c.status = VERDICT_STATUS[p.verdict] || '要更新';
+    if (p.verdict === 'outdated' && p.fix && p.fix.text) c.status = '有効';
     c.verification = { verdict: p.verdict, note: p.note || '', checked_on: CHECKED_ON };
     log.claims[p.verdict] = (log.claims[p.verdict] || 0) + 1;
   }
