@@ -1,0 +1,13 @@
+{
+  "topic": "補足：実証案の費用試算に使う基準値",
+  "sources": [
+    {"id": "F-S01", "title": "最低賃金・家内労働（京都府最低賃金の改正）", "publisher": "京都労働局", "url": "https://jsite.mhlw.go.jp/kyoto-roudoukyoku/hourei_seido_tetsuzuki/tingin_kanairoudou.html", "published": "2026-09-18", "accessed": "2026-10-23", "kind": "政府資料", "notes": "「京都府最低賃金は令和8年11月16日から時間額1,180円に」と掲載"},
+    {"id": "F-S02", "title": "京都府最低賃金の改正決定（官報公示）", "publisher": "京都労働局", "url": "https://jsite.mhlw.go.jp/kyoto-roudoukyoku/content/contents/002816483.pdf", "published": "2026-09-18", "accessed": "2026-10-23", "kind": "政府資料", "notes": ""}
+  ],
+  "claims": [
+    {"id": "F-C01", "text": "京都府最低賃金は2026年11月16日から時間額1,180円（58円引上げ）。それまでの額は1,122円（2025年11月21日発効）。", "type": "fact", "source_ids": ["F-S01", "F-S02"], "as_of": "2026-09-18公示", "tags": ["試算の基準", "人件費"], "number": "1,180円/時"},
+    {"id": "F-C02", "text": "このツールの実証案では、作業謝礼と調整役の時間を、京都府最低賃金1,180円/時で換算して試算する。実際の謝礼額・委託額ではなく、規模感を比べるための下限の仮定である。", "type": "inference", "source_ids": ["F-S01"], "as_of": "2026-10-23", "tags": ["試算の基準"], "number": ""}
+  ],
+  "cases": [],
+  "gaps": []
+}
