@@ -1,0 +1,71 @@
+{
+ "file": "I",
+ "claims": [
+  {
+   "id": "I-C101",
+   "verdict": "verified",
+   "note": "I-S03（Blockworks TTF filing）の本文「Onchain supply of the HNT mint was 194,024,144 HNT on 2026-10-06」、I-S103（HeliumGeek 9月2日コール）「Marc Nijdam ... the 36-month operations and growth supplement is active」、I-S01（Q2レポート）「Circulating supply declined to 182.2M HNT」「the current ~182.5M onchain supply」を確認。194.02M−182.5M≈1,150万（+6.3%）で一致。補足：Q2の値は流通量（182.2M）とオンチェーン供給（約182.5M）の両方が出ており、本文はオンチェーン同士の比較として成り立つ。増加分には通常の発行・焼却も含まれ、追加発行だけの額ではない。開始時期は、HIP-150 が flat window の終わりを2027-07-31としていること（12か月の flat 期間）と整合する"
+  },
+  {
+   "id": "I-C102",
+   "verdict": "verified",
+   "note": "I-S105（HIP 150、status: Approved、start-date 2026-08-18）と vote summary（gist）で確認：目標最低額を支払額の50%から80%へ、1年間（2年目は事前承認）。$0.10/GB で $0.080。Nova Labs の Service Provider Rewards（24%）を Deployer Data Reward Pool に回し、Mobile の data bucket は70%→94%、2027-07-31まで（Novaは1年延長できる）。拠点ごとの倍率は1〜5。I-S102 に「HIP 150 voting was open and scheduled to close August 31 at 18:11 UTC」。一致"
+  },
+  {
+   "id": "I-C103",
+   "verdict": "verified",
+   "note": "I-S102（HeliumGeek 8月28日）の「Measured Mobile Traffic Share, July 30-August 28, 2026 UTC」で、Rewardable traffic は T-Mobile 47.29%・AT&T 52.43%・Other 0.28%。「Mario estimated an approximately 30% reduction in daily active users and later referred to almost one million people disconnecting」。I-S103 に「The current sales pitch is based on one active U.S. carrier」。一致。HeliumGeek はコミュニティのAI補助の記録なので、party_claim で妥当"
+  },
+  {
+   "id": "I-C104",
+   "verdict": "verified",
+   "note": "I-S35（CoinGecko market_chart 365日）を2026-10-23に再取得：8月中旬の00:00値は0.168〜0.189ドル（8/19が最安0.168）、2026-08-31 00:00（=8/30の終値）0.7663、2026-10-23 00:00 0.4084、同日15:44 0.4129、simple/price 0.41323。I-S102 にも「CoinGecko's UTC daily close rose from $0.1909 on August 24 to $0.7663 on August 30」。一致"
+  },
+  {
+   "id": "I-C105",
+   "verdict": "corrected",
+   "note": "I-S05（Light Reading、Mike Dano、2024-11-06）で確認：「Beirith said that, on average, Xnet hotspot operators are earning around $4 in Xnet tokens for every GB that is offloaded」「For Nova Labs' Helium that number is around $0.50 for every GB」。$0.50 は Helium の設置者が得る額で、本文の「Heliumの単価」（支払単価と読める）は不正確。また「トークン報酬は、通信事業者が払う額とは別に決まっていた」は記事に書かれていない推測（記事は、顧客がXNETに1GBあたりで支払い、XNETが設置者に自社トークンで報酬を出す、とだけ書いている）。削るか、推測として別にする",
+   "fix": {
+    "text": "Light Reading（2024年11月）によると、XNET幹部は、XNETのホットスポット運営者がオフロードされた1GBあたり平均約4ドル相当のXNETトークンを得ていると説明した。同じ記事は、Heliumでは同じ数字（設置者が1GBあたりに得る額）が約0.50ドルだとしている。記事によれば、XNETの顧客（5G事業者とMVNO）はXNETに1GBあたりで支払い、XNETは運営者に自社トークンで報酬を出していた。"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "I-S01",
+   "status": "確認済み",
+   "note": "2026-10-23に再取得（11.8MB）。「Circulating supply declined to 182.2M HNT」、HIP-149の説明に「the current ~182.5M onchain supply」"
+  },
+  {
+   "id": "I-S03",
+   "status": "確認済み",
+   "note": "200で取得。本文に「Onchain supply of the HNT mint was 194,024,144 HNT on 2026-10-06」。Blockworksが公開情報から作成し、事業者提供の情報は検証しない旨の記載あり"
+  },
+  {
+   "id": "I-S05",
+   "status": "確認済み",
+   "note": "200で取得。Mike Dano、November 6, 2024。$4/GB と $0.50/GB の文言を確認"
+  },
+  {
+   "id": "I-S102",
+   "status": "確認済み",
+   "note": "200で取得。トラフィックの比率、30%・約100万人、HIP 150 の投票締切（8月31日 18:11 UTC）を確認"
+  },
+  {
+   "id": "I-S103",
+   "status": "確認済み",
+   "note": "200で取得。「36-month operations and growth supplement is active」「one active U.S. carrier」「essentially complete」を確認"
+  },
+  {
+   "id": "I-S105",
+   "status": "確認済み",
+   "note": "raw.githubusercontent.com で取得。status: Approved、start-date 2026-08-18。vote summary（gist.githubusercontent.com/hiptron/…/HIP-150-Vote-Summary.md）も200で取得。2027-07-31・1〜5倍・70%→94%を確認"
+  },
+  {
+   "id": "I-S35",
+   "status": "確認済み",
+   "note": "2026-10-23に helium の market_chart と simple/price を再取得。系列は2025-10-24 00:00 UTC から"
+  }
+ ],
+ "summary": "I の追加主張5件を照合。4件 verified、1件 corrected。I-C105：Light Reading の0.50ドル/GBは Helium の設置者が得る額で、「単価」ではない。「トークン報酬は通信事業者の支払額とは別に決まっていた」は記事にない推測なので削った。HNT の供給（194,024,144 HNT、2026-10-06）、HIP-150 の内容、T-Mobile と AT&T の比率、CoinGecko の価格はすべて出典と一致した。I-C101 は note に補足を入れた：供給の増加分には通常の発行と焼却も含まれ、追加発行だけの額ではない。"
+}

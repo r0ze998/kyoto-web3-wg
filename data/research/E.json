@@ -155,7 +155,7 @@
       "notes": "導入時の地元の反対意見を補助的に参照。年度別の税収実績は本文になし",
       "status": "確認済み",
       "checked_on": "2026-10-23",
-      "verification_note": "200で取得（全5ページ）。掲載日2026年1月19日、筆者は伏見学。p2に「年間約4億円の財源が確保」、p4に「観光関連の行政コストは年間8億円ほど…不足分は一般財源で補填」（いずれも市長談話ベース）"
+      "verification_note": "p1・p2・p4を200で取得。p2「年間約4億円の財源が確保」は記者の地の文、p4「観光関連の行政コストは年間8億円ほど…不足分は一般財源で補填」は市長の問題意識を記者が説明する文で、直接引用ではない"
     },
     {
       "id": "E-S13",
@@ -569,7 +569,8 @@
       "kind": "政府資料",
       "notes": "令和7年9月16日の地方財政審議会（S103）の資料として掲載。京都市協議書より：税収は令和元年度42億円、令和5年度決算は過去最高の52億円、令和元〜5年度の通算申告率99.12％、施策の財政需要は宿泊税充当額の概算で約130億円程度",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "200で取得（5頁）。京都市協議書の抜粋と概要。E-S103の議事要旨ページから /main_content/001074683.pdf にリンクされている。公表日はPDF・ページとも明記なし（審議会は2025-09-16）"
     },
     {
       "id": "E-S103",
@@ -581,7 +582,8 @@
       "kind": "政府資料",
       "notes": "議題は京都市宿泊税の変更。Shift_JISのページ",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "200で取得（Shift_JIS）。2025-09-16（火）11:00〜12:00の議事要旨。「了承した」とその理由・付言を確認"
     },
     {
       "id": "E-S104",
@@ -593,7 +595,8 @@
       "kind": "自治体資料",
       "notes": "歳入 市税 宿泊税：予算現額5,811,000,000円、調定額6,176,273,188円、収入済額6,164,592,377円",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "200で取得。報第2号、宿泊税の行の数値を確認"
     },
     {
       "id": "E-S105",
@@ -605,19 +608,21 @@
       "kind": "自治体資料",
       "notes": "他自治体事例として宮島訪問税の歳入380,000千円（令和7年度予算）、使途（令和5年度実績）を紹介。廿日市市の一次資料ではない",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "200で取得。令和7年9月16日（火）資料2、第2回出雲市新たな観光財源検討委員会。宮島訪問税の歳入380,000千円（令和7年度予算）を確認"
     },
     {
       "id": "E-S106",
       "title": "National Trust Annual Report 2025–2026",
       "publisher": "National Trust",
       "url": "https://nt.global.ssl.fastly.net/binaries/content/assets/website/national/pdf/who-we-are/annual-report-2025-26.pdf",
-      "published": "2026",
+      "published": "2026-09",
       "accessed": "2026-10-23",
       "kind": "団体公式",
       "notes": "2025年3月〜2026年2月末。連結SOFA（p80）に前年度列あり。2024–25の年次報告書は https://docs.nationaltrust.org.uk/national-trust-annual-report-2024-25/p/1 （ビューア形式、未精査）。公表月は不明",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "200で取得（148頁）。PDF作成日2026-09-03・更新2026-09-04で、公表は2026年9月ごろ"
     },
     {
       "id": "E-S107",
@@ -629,7 +634,8 @@
       "kind": "団体公式",
       "notes": "Gitcoin全体で年約100万ドルの収入に対し年約300万ドルを支出と記載",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "Discourse JSON（/t/20333.json）で取得。投稿者deltajuliet、2025-04-25T13:25Z。該当文言を確認"
     },
     {
       "id": "E-S108",
@@ -653,7 +659,8 @@
       "kind": "団体公式",
       "notes": "マッチングプールの資金源の歴史（イーサリアム財団、Funders League、DAO）。創業者の振り返りなので自己申告",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "Discourse JSON（/t/25366.json）で取得。投稿者owocki、2026-08-31T06:30Z"
     },
     {
       "id": "E-S110",
@@ -665,7 +672,8 @@
       "kind": "団体公式",
       "notes": "「501 builders…have been allocated a portion of 30M OP」",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "200で取得（optimism.io にリダイレクト）。January 11, 2024、501件・30M OPを確認"
     },
     {
       "id": "E-S111",
@@ -677,7 +685,8 @@
       "kind": "団体公式",
       "notes": "Season 8のRetro Funding予算は最大5M OP（Season 7の16M OPから69%減）",
       "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "checked_on": "2026-10-23",
+      "verification_note": "Discourse JSON（/t/10097.json）で取得。投稿者ccerv1、作成2025-07-07。本文はその後編集され、Appendixに2025-07-14の更新版がある"
     },
     {
       "id": "E-S112",
@@ -707,13 +716,14 @@
       "id": "E-S114",
       "title": "さるぼぼコイン 公式サイト",
       "publisher": "飛騨信用組合",
-      "url": "https://sarubobocoin.com/",
+      "url": "https://www.hidashin.co.jp/coin/",
       "published": "不明",
       "accessed": "2026-10-23",
       "kind": "事業者公式",
       "notes": "加盟店約2,000店舗と表示。飛騨信用組合トップ（https://www.hidashin.co.jp/）のお知らせ欄に2026-10-23付の「さるぼぼコイン」のお知らせあり",
-      "status": "確認済み",
-      "checked_on": "2026-10-23"
+      "status": "要再確認",
+      "checked_on": "2026-10-23",
+      "verification_note": "https://sarubobocoin.com/ は https://www.hidashin.co.jp/coin/ に転送される（2026-10-23）。内容（約2,000店舗）は確認。URLを転送先に更新するのが望ましい"
     }
   ],
   "claims": [
@@ -1733,8 +1743,8 @@
       "number": "令和5年度決算52億円、財政需要約130億円",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S102（総務省PDF、5頁）の「１．変更の理由［京都市協議書より抜粋］」で確認：税収は令和元年度42億円、コロナで著しく減少、令和5年度決算で過去最高の52億円、令和元〜5年度の通算申告率99.12％、施策の財政需要は宿泊税充当額の概算で約130億円程度。数値・主語（京都市の協議書の説明）とも一致。市の自己説明なのでparty_claimで妥当",
         "checked_on": "2026-10-23"
       }
     },
@@ -1753,8 +1763,8 @@
       "number": "6,164,592,377円（令和6年度）",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S104（令和6年度一般会計歳入歳出決算 報第2号）の歳入表「8 宿泊税」行で、予算現額5,811,000,000円、調定額6,176,273,188円、収入済額6,164,592,377円、予算現額との比較+353,592,377円を確認。一致（本文の「予算額」は表では「予算現額」）",
         "checked_on": "2026-10-23"
       }
     },
@@ -1774,14 +1784,14 @@
       "number": "",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S103（総務省 令和7年度地方財政審議会 9月16日議事要旨）の「京都市宿泊税の変更について」で、「説明を受け、審議の上、これを了承した」、他団体と比べ高いが「住民の負担が著しく過重」とは言えず不同意要件に該当しない、税率が相当に高い水準であることは事実なので税率引上げの必要性や税収の使途等についてさらなる説明を行うなど理解を得る努力を続けることが必要、の記載を確認。一致",
         "checked_on": "2026-10-23"
       }
     },
     {
       "id": "E-C104",
-      "text": "出雲市の観光財源の検討資料（2025年9月）は、宮島訪問税の歳入を380,000千円（令和7年度予算）と紹介している。現代ビジネスの記事（2026年1月）によれば、廿日市市長は訪問税で年約4億円の財源を得たが、観光関連の行政コストは年約8億円で、不足分は一般財源で補っていると話している。",
+      "text": "出雲市の観光財源の検討資料（2025年9月）は、宮島訪問税（廿日市市）の歳入を380,000千円（令和7年度予算）と紹介している。現代ビジネスの記事（2026年1月）は、導入後に年間約4億円の財源が確保されたと書き、廿日市市長の見方として、観光関連の行政コストは年間8億円ほどで訪問税だけでは賄えず、不足分を一般財源で補っていると伝えている（行政コスト8億円は記事の記述で、市の公表資料では未確認）。",
       "type": "party_claim",
       "source_ids": [
         "E-S105",
@@ -1795,8 +1805,8 @@
       "number": "令和7年度予算3.8億円、行政コスト約8億円（市長談）",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "corrected",
+        "note": "E-S105（出雲市 資料2、2025-09-16）「②宮島訪問税（広島県 廿日市市）【歳入】380,000千円（令和7年度予算）」を確認、一致。E-S12（現代ビジネス、2026-01-19、伏見学）では、p2の「年間約4億円の財源が確保され」は記者の地の文で、p4の「観光関連の行政コストは年間8億円ほどで訪問税だけでは賄いきれていない。不足分は一般財源で補填」も市長の直接引用ではなく、市長の問題意識を記者が説明する文脈。本文の「市長は…と話している」は断定がやや強いので、記事の記述として書き直す",
         "checked_on": "2026-10-23"
       }
     },
@@ -1816,8 +1826,8 @@
       "number": "会費収入3.242億ポンド、262万会員権",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S106（National Trust Annual Report 2025–26、148頁、PDF作成2026-09-03）で確認：Total income £796.2 million、membership income £324.2 million、Membership numbers 2.62m・retention 83.6%、individual members 5.29 million、Legacy income £57.1 million（前年比-£5.7m）、Sustainable Future Programmeで「overall reduction of 4% of staff」「The cost of the programme was £16.4 million in 2025–26」、28 February 2026終了年度。すべて一致",
         "checked_on": "2026-10-23"
       }
     },
@@ -1837,14 +1847,14 @@
       "number": "収入約100万ドル/年、支出約300万ドル/年",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S107（Gitcoin Governance Forum、deltajuliet、2025-04-25）本文「Gitcoin as a whole is currently generating on the order of ~$1M/year in revenue, but Gitcoin is spending around ~$3M/year」「We always knew we'd need to either greatly increase revenue or decrease costs to survive long-term」を確認。終了したのはGrants Labs business unit（Grants Stack）。一致。自己申告でparty_claim妥当",
         "checked_on": "2026-10-23"
       }
     },
     {
       "id": "E-C109",
-      "text": "Gitcoin創業者のOwocki氏の振り返りによると、マッチング資金は第1ラウンド（2019年）がイーサリアム財団の2.5万ドルと少額寄付1.3万ドル、第1〜6ラウンドはイーサリアム財団、第7〜10ラウンドはyearn・Synthetix・Chainlinkなどのスポンサー（Funders League）が出した。2021年5月にGitcoin DAOが発足し、GTCが配分の承認権を持つようになった。",
+      "text": "Gitcoin創業者のOwocki氏の振り返りによると、第1ラウンド（2019年）は2.5万ドルのマッチングプールに約200人が計1.3万ドルを寄付した。第1〜6ラウンドの資金はイーサリアム財団と少額寄付、第7〜10ラウンドはyearn・Synthetix・Chainlinkなどのスポンサー（Funders League）が出した。2021年5月にGitcoin DAOが発足し、GTCが公共財資金のキャンペーンに対するガバナンス上の管理権を持つようになった。",
       "type": "party_claim",
       "source_ids": [
         "E-S109"
@@ -1858,8 +1868,8 @@
       "number": "第1ラウンドのマッチング2.5万ドル",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "corrected",
+        "note": "E-S109（owocki、2026-08-31）で確認：「round 1 was a $25k matching pool that inspired 200 donors to add another $13k」「rounds 1 through 6 came from the EF plus small donors」「rounds 7 through 10 pulled in yearn, synthetix, chainlink, three arrows, defiance, and dozens of others」「in may 2021, gitcoin dao launched, with GTC given specific governance control over the public goods funding campaigns」。第1〜6ラウンドは「EFと少額寄付」で、本文の「イーサリアム財団」だけでは不正確。GTCの権限も原文は「公共財資金キャンペーンに対する特定のガバナンス上の管理権」で「配分の承認権」はやや踏み込み",
         "checked_on": "2026-10-23"
       }
     },
@@ -1878,8 +1888,8 @@
       "number": "3,000万OP・501件",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S110（Optimism blog、2024-01-11）「501 builders, writers, creators, educators, and contributors ... have been allocated a portion of 30M OP!」を確認。一致。期間「2023年秋〜2024年1月」は本出典には明記なし（発表日のみ）だが、配分の結果は一致",
         "checked_on": "2026-10-23"
       }
     },
@@ -1899,8 +1909,8 @@
       "number": "最大500万OP（前期比-69%）",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S111（gov.optimism.io/t/10097、ccerv1、作成2025-07-07）の本文「We recommend a maximum budget of 5M OP for Retro Funding over Season 8 ... a 69% decrease from Season 7's budget of 16M OP. The rationale ... the macro picture remains challenging and there is still work to be done to demonstrate Retro Funding's effectiveness over the long run」を確認。一致。なお初回投稿は後に編集されており、Appendix A に2025-07-14の更新版がある（総額5M OPは同じ）",
         "checked_on": "2026-10-23"
       }
     },
@@ -1918,8 +1928,8 @@
       "number": "加盟店約2,000店舗",
       "status": "有効",
       "verification": {
-        "verdict": "added",
-        "note": "検証時に追加",
+        "verdict": "verified",
+        "note": "E-S114 の URL https://sarubobocoin.com/ は https://www.hidashin.co.jp/coin/ にリダイレクトされ、「飛騨地域の約2,000店舗が加盟店」を確認（時点の記載なし）。飛騨信用組合トップ（https://www.hidashin.co.jp/）に「高山市・飛騨市のふるさと納税の返礼品に『ふるさと納税ポイント』が採用されました！ さるぼぼコインアプリで利用可能なポイントの一種」とあり、お知らせ欄に2026.10.23付「【復旧】『さるぼぼコイン』各種メール配信の正常化について」がある。サービス継続と一致",
         "checked_on": "2026-10-23"
       }
     }

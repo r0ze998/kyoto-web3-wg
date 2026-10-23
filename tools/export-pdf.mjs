@@ -19,7 +19,7 @@ if (!existsSync(join(root, 'data', 'bundle.js'))) throw new Error('data/bundle.j
 const browser = await playwright.chromium.launch();
 try {
   const page = await (await browser.newContext()).newPage();
-  for (const [route, file] of [['summary', 'kyoto-wg-summary.pdf'], ['detail', 'kyoto-wg-detail.pdf']]) {
+  for (const [route, file] of [['reading', 'kyoto-wg-reading.pdf'], ['summary', 'kyoto-wg-summary.pdf'], ['detail', 'kyoto-wg-detail.pdf']]) {
     await page.goto(`${index}#/print/${route}`);
     const text = await page.locator('.report').innerText();
     if (/E2E|テスト用/.test(text)) throw new Error(`テスト用のデータが ${route} に混じっています`);

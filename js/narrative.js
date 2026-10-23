@@ -47,7 +47,9 @@
   var VERDICT_ORDER = ['採用（候補比較へ）', '検討を続ける', '保留（条件待ち）', '見送り'];
   function ideaCard(x) {
     var c = x.chain || {}, b = x.buyer_evidence || {};
-    return '<article class="idea" id="idea-' + esc(x.id) + '"><header><span class="tag tag-verdict">' + esc(x.verdict) + '</span> <span class="tag">' + esc(x.domain) + '</span> <span class="tag">' + esc(x.archetype) + '</span></header>' +
+    return '<article class="idea" id="idea-' + esc(x.id) + '"><header><span class="tag tag-verdict">' + esc(x.verdict) + '</span> ' +
+      (x.proposal ? '<a class="tag tag-h" href="#/flow?p=' + esc(x.proposal) + '">候補比較 ' + esc(x.proposal) + '</a> ' : '') +
+      '<span class="tag">' + esc(x.domain) + '</span> <span class="tag">' + esc(x.archetype) + '</span></header>' +
       '<h3>' + esc(x.id) + '. ' + esc(x.title) + '</h3><p class="lead">' + rich(x.one_liner) + '</p>' +
       '<dl class="kv"><dt>誰の負担が減るか</dt><dd>' + rich(x.whose_burden) + '</dd>' +
       '<dt>仕組み</dt><dd>' + rich(x.mechanism) + '</dd>' +
@@ -67,10 +69,10 @@
     var rows = list.filter(function (x) { return !v || x.verdict === v; });
     var summary = '<section class="panel" id="sec-list"><h2>一覧（' + list.length + '案）</h2>' +
       '<form class="filters" data-filter="ideas">' + UI.select('v', [['', '判定：すべて']].concat(VERDICT_ORDER), v) + '</form>' +
-      '<div class="tbl-wrap"><table class="tbl doc-tbl"><thead><tr><th>案</th><th>誰が払うか</th><th>買い手の根拠</th><th>ブロックチェーン</th><th>判定</th></tr></thead><tbody>' +
+      '<div class="tbl-wrap"><table class="tbl doc-tbl"><thead><tr><th>案</th><th>誰が払うか</th><th>買い手の根拠</th><th>ブロックチェーン</th><th>判定</th><th>候補比較</th></tr></thead><tbody>' +
       rows.map(function (x) {
         return '<tr><th><a href="#/ideas?s=idea-' + esc(x.id) + '" data-jump="idea-' + esc(x.id) + '">' + esc(x.id) + '. ' + esc(x.title) + '</a></th><td>' + esc(plainNoRefs(x.buyer)) + '</td><td>' +
-          esc(UI.LABELS.strength[(x.buyer_evidence || {}).strength] || '未確認') + '</td><td>' + esc((x.chain || {}).need || '') + '</td><td>' + esc(x.verdict) + '</td></tr>';
+          esc(UI.LABELS.strength[(x.buyer_evidence || {}).strength] || '未確認') + '</td><td>' + esc((x.chain || {}).need || '') + '</td><td>' + esc(x.verdict) + '</td><td>' + esc(x.proposal || '—') + '</td></tr>';
       }).join('') + '</tbody></table></div></section>';
     var cards = '<section class="panel" id="sec-cards"><h2>各案の中身</h2>' + rows.map(ideaCard).join('') + '</section>';
     return docHtml('ideas', { after: summary + cards, tocExtra: '<li><a href="#/ideas?s=sec-list" data-jump="sec-list">一覧</a></li><li><a href="#/ideas?s=sec-cards" data-jump="sec-cards">各案の中身</a></li>' });
@@ -94,10 +96,10 @@
     if (id === 'ideas') {
       var list = (Store.data().ideas || {}).ideas || [];
       B.push({ h: 2, t: '一覧' });
-      B.push({ table: { head: ['案', '誰が払うか', '買い手の根拠', 'ブロックチェーン', '判定'], rows: list.map(function (x) { return [x.id + '. ' + x.title, plainNoRefs(x.buyer), UI.LABELS.strength[(x.buyer_evidence || {}).strength] || '未確認', (x.chain || {}).need || '', x.verdict]; }) } });
+      B.push({ table: { head: ['案', '誰が払うか', '買い手の根拠', 'ブロックチェーン', '判定', '候補比較'], rows: list.map(function (x) { return [x.id + '. ' + x.title, plainNoRefs(x.buyer), UI.LABELS.strength[(x.buyer_evidence || {}).strength] || '未確認', (x.chain || {}).need || '', x.verdict, x.proposal || '—']; }) } });
       list.forEach(function (x) {
         var c = x.chain || {}, b = x.buyer_evidence || {};
-        B.push({ h: 3, t: x.id + '. ' + x.title + '（' + x.verdict + '）' });
+        B.push({ h: 3, t: x.id + '. ' + x.title + '（' + x.verdict + (x.proposal ? '／候補比較 ' + x.proposal : '') + '）' });
         [x.one_liner, x.whose_burden, x.mechanism, x.buyer, x.why_pay, b.text, c.reason, x.boundaries, x.risks, x.verdict_reason, x.next_check].forEach(function (t) { collectRefs(t, used); });
         B.push({ p: plain(x.one_liner) });
         B.push({ ul: ['誰の負担が減るか：' + plain(x.whose_burden), '仕組み：' + plain(x.mechanism), '誰が払うか：' + plain(x.buyer), '払う理由：' + plain(x.why_pay),
